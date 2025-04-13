@@ -1,4 +1,6 @@
 {
+  "schemaVersion": 1,
+  "repositoryType": "meta",
   "repositories": [
     { "url": "https://love.puni.sh/ment.json" },
     { "url": "https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json" },
