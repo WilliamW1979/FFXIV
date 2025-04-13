@@ -29,7 +29,7 @@ jobs:
       - name: Ensure repo.json exists
         run: |
           if [ ! -f repo.json ]; then
-            echo '{"Plugins": []}' > repo.json
+            echo '[]' > repo.json
           fi
 
       - name: Commit and push changes
