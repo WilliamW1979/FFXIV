@@ -27,7 +27,12 @@ jobs:
         run: |
           npm install  # Assuming you have a package.json for the required modules
 
-      # Step 4: Combine JSON files into Repository.json
+      # Step 4: Run CloneRepos.js to clone the repositories
+      - name: Clone Repositories
+        run: |
+          node CloneRepos.js  # This will execute CloneRepos.js script
+
+      # Step 5: Combine Plugin JSON Files
       - name: Combine Plugin JSON Files
         run: |
           # Install jq to process JSON files
@@ -47,7 +52,7 @@ jobs:
           # Save the combined result to Repository.json
           echo "$combined_json" > Repository.json
 
-      # Step 5: Commit and push changes to the repository
+      # Step 6: Commit and Push Changes
       - name: Commit and Push Changes
         uses: EndBug/add-and-commit@v9
         with:
