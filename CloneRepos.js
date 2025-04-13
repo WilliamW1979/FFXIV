@@ -1,56 +1,40 @@
 const fs = require('fs');
 const path = require('path');
-const { exec } = require('child_process');
 
-// Path to the RepoList.txt file
-const repoListPath = path.join(__dirname, 'RepoList.txt');
-
-// Function to read the repo list
-function readRepoList() {
-    return new Promise((resolve, reject) => {
-        fs.readFile(repoListPath, 'utf8', (err, data) => {
-            if (err) {
-                reject(err);
-            } else {
-                // Split the content into an array of repository URLs
-                resolve(data.split('\n').map(line => line.trim()).filter(line => line !== ''));
-            }
-        });
-    });
+// Function to read and parse a JSON file
+function readJsonFile(filePath) {
+  try {
+    const data = fs.readFileSync(filePath, 'utf8');
+    // Remove surrounding brackets and parse JSON
+    const jsonData = JSON.parse(data.replace(/^\[|\]$/g, ''));
+    return jsonData;
+  } catch (err) {
+    console.error(`Error reading or parsing file ${filePath}:`, err);
+    return [];
+  }
 }
 
-// Function to clone each repository from the list
-function cloneRepos(repos) {
-    repos.forEach((repo, index) => {
-        console.log(`Cloning repo ${index + 1}: ${repo}`);
-        
-        // Run the git clone command
-        exec(`git clone ${repo}`, (err, stdout, stderr) => {
-            if (err) {
-                console.error(`Error cloning repo ${repo}: ${err.message}`);
-                return;
-            }
-            if (stderr) {
-                console.error(`stderr: ${stderr}`);
-            }
-            console.log(`stdout: ${stdout}`);
-        });
-    });
-}
+// Function to merge multiple JSON files into one array
+function mergeJsonFiles(directory) {
+  const mergedData = [];
+  const files = fs.readdirSync(directory);
 
-// Main function to run the script
-async function main() {
-    try {
-        const repos = await readRepoList();
-        if (repos.length === 0) {
-            console.log('No repositories found in RepoList.txt.');
-        } else {
-            cloneRepos(repos);
-        }
-    } catch (err) {
-        console.error('Error reading RepoList.txt:', err.message);
+  files.forEach(file => {
+    const filePath = path.join(directory, file);
+    if (fs.statSync(filePath).isFile() && filePath.endsWith('.json')) {
+      const jsonData = readJsonFile(filePath);
+      mergedData.push(...jsonData);
     }
+  });
+
+  return mergedData;
 }
 
-// Execute the main function
-main();
+// Specify the directory containing your JSON files
+const jsonDirectory = './jsonFiles';
+
+// Merge the JSON files
+const mergedJson = mergeJsonFiles(jsonDirectory);
+
+// Output the merged JSON array
+console.log(JSON.stringify(mergedJson, null, 2));
