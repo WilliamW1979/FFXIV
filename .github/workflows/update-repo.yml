@@ -28,14 +28,14 @@ jobs:
 
       - name: Ensure repo.json exists
         run: |
-          if [ ! -f repo.json ]; then
-            echo '[]' > repo.json
+          if [ ! -f repository.json ]; then
+            echo '[]' > repository.json
           fi
 
       - name: Commit and push changes
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add repo.json
-          git commit -m "Automated update of repo.json" || echo "No changes to commit"
+          git add repository.json
+          git commit -m "Automated update of repository.json" || echo "No changes to commit"
           git push
