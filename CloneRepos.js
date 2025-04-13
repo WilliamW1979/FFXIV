@@ -1,69 +1,62 @@
 const fs = require('fs');
-const https = require('https');
 const path = require('path');
+const https = require('https');
+const http = require('http');
 
-// Function to fetch JSON content from a URL
-function fetchJson(url) {
-  return new Promise((resolve, reject) => {
-    https.get(url, (res) => {
-      let data = '';
+const urls = [
+    'https://love.puni.sh/ment.json',
+    'https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json',
+    'https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/repo.json',
+    'https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json',
+    'https://raw.githubusercontent.com/InitialDet/MyDalamudPlugins/main/pluginmaster.json',
+    'https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/pluginmaster.json',
+    'https://raw.githubusercontent.com/LeonBlade/DalamudPlugins/main/repo.json',
+    'https://raw.githubusercontent.com/Chalkos/Marketbuddy/main/repo.json',
+    'https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json',
+    'https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json',
+    'https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json',
+    'https://puni.sh/api/repository/veyn',
+    'https://plugins.carvel.li/',
+    'https://puni.sh/api/repository/herc',
+    'https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json',
+    'https://puni.sh/api/repository/croizat',
+    'https://raw.githubusercontent.com/KangasZ/DalamudPluginRepository/main/plugin_repository.json',
+    'https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json',
+    'https://github.com/zhouhuichen741/dalamud-plugins/raw/master/repo.json',
+    'https://github.com/ffxivcode/DalamudPlugins/raw/main/repojson',
+    'https://github.com/UnknownX7/DalamudPluginRepo/raw/master/pluginmaster.json',
+    'https://github.com/emyxiv/Dresser/raw/master/repo.json',
+    'https://github.com/Milesnocte/GambaGames/raw/main/repo.json',
+    'https://github.com/ryon5541/dalamud-repo-up/raw/main/ffxiv_custom_repojson',
+    'https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json',
+    'https://github.com/huntsffxiv/repo/raw/main/repo.json',
+    'https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json',
+    'https://github.com/WilliamW1979/Repo/raw/main/ffxiv.json',
+    'https://raw.githubusercontent.com/Haselnussbomber/MyDalamudPlugins/main/repo.json',
+    'https://raw.githubusercontent.com/Ottermandias/Glamourer/main/repo.json'
+];
 
-      // Accumulate data chunks
-      res.on('data', (chunk) => {
-        data += chunk;
-      });
+if (!fs.existsSync('./repos')) fs.mkdirSync('./repos');
 
-      // On end, parse JSON
-      res.on('end', () => {
-        try {
-          const json = JSON.parse(data);
-          resolve(json);
-        } catch (err) {
-          reject(`Error parsing JSON from ${url}: ${err}`);
+urls.forEach((url, index) => {
+    const protocol = url.startsWith('https') ? https : http;
+    const fileName = path.join('./repos', `repo_${index + 1}.json`);
+
+    protocol.get(url, (res) => {
+        if (res.statusCode !== 200) {
+            console.error(`Failed to download ${url}: ${res.statusCode}`);
+            res.resume();
+            return;
         }
-      });
+
+        const fileStream = fs.createWriteStream(fileName);
+        res.pipe(fileStream);
+
+        fileStream.on('finish', () => {
+            fileStream.close();
+            console.log(`Downloaded: ${url} -> ${fileName}`);
+        });
     }).on('error', (err) => {
-      reject(`Error fetching ${url}: ${err}`);
+        console.error(`Error downloading ${url}: ${err.message}`);
     });
-  });
-}
-
-// Main function to read URLs and combine JSON files
-async function combineJsonFiles() {
-  try {
-    const repoListPath = path.join(__dirname, 'RepoList.txt');
-
-    // Read the RepoList.txt file
-    const urls = fs.readFileSync(repoListPath, 'utf8')
-      .split('\n')
-      .map(line => line.trim())
-      .filter(line => line.length > 0);
-
-    const combinedData = [];
-
-    for (const url of urls) {
-      try {
-        const jsonData = await fetchJson(url);
-
-        // If the fetched JSON is an array, concatenate it
-        if (Array.isArray(jsonData)) {
-          combinedData.push(...jsonData);
-        } else {
-          combinedData.push(jsonData);
-        }
-      } catch (err) {
-        console.error(err);
-      }
-    }
-
-    // Write the combined JSON array to a file
-    const outputPath = path.join(__dirname, 'combined.json');
-    fs.writeFileSync(outputPath, JSON.stringify(combinedData, null, 2));
-    console.log(`Combined JSON written to ${outputPath}`);
-  } catch (err) {
-    console.error(`Error: ${err}`);
-  }
-}
-
-// Execute the main function
-combineJsonFiles();
+});
