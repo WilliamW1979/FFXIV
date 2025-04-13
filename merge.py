@@ -40,12 +40,23 @@ merged_plugins = []
 for url in manifest_urls:
     try:
         response = requests.get(url)
-        response.raise_for_status()
-        data = response.json()
-        plugins = data.get("Plugins", [])
-        merged_plugins.extend(plugins)
-    except Exception as e:
-        print(f"Error fetching {url}: {e}")
+        response.raise_for_status()  # Raises HTTPError for bad responses (4xx or 5xx)
 
-with open("repo.json", "w", encoding="utf-8") as f:
-    json.dump({"Plugins": merged_plugins}, f, ensure_ascii=False, indent=2)
+        try:
+            data = response.json()  # Attempt to parse JSON
+            plugins = data.get("Plugins", [])
+            merged_plugins.extend(plugins)
+        except json.JSONDecodeError as e:
+            print(f"Invalid JSON in response from {url}: {e}")
+        except Exception as e:
+            print(f"Error processing JSON from {url}: {e}")
+
+    except requests.exceptions.RequestException as e:
+        print(f"Network error while fetching {url}: {e}")
+
+# Save the merged plugins to 'repo.json'
+try:
+    with open("repo.json", "w", encoding="utf-8") as f:
+        json.dump({"Plugins": merged_plugins}, f, ensure_ascii=False, indent=2)
+except IOError as e:
+    print(f"Error writing to repo.json: {e}")
