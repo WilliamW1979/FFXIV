@@ -2,20 +2,16 @@ import os
 import json
 import urllib.request
 
-# Function to check if a file exists and create it if it doesn't
-def ensure_file_exists(file_path):
-    if not os.path.exists(file_path):
-        with open(file_path, 'w', encoding='utf-8') as file:
-            # Initialize the file with an empty list
-            json.dump([], file, ensure_ascii=False, indent=4)
-        print(f"File '{file_path}' did not exist and has been created.")
-    else:
-        print(f"File '{file_path}' already exists.")
-
 # Read repository URLs from RepoList.txt
-repo_urls = []
-with open('RepoList.txt', 'r', encoding='utf-8') as file:
-    repo_urls = [line.strip() for line in file.readlines()]
+repo_file = 'RepoList.txt'
+if not os.path.exists(repo_file):
+    with open(repo_file, 'w') as f:
+        f.write("# Add one repository URL per line\n")
+    print(f"{repo_file} created. Please add repository URLs to it.")
+    exit(1)
+
+with open(repo_file, 'r') as file:
+    repo_urls = [line.strip() for line in file if line.strip() and not line.startswith('#')]
 
 # Directory to save the downloaded JSON files
 download_dir = "downloaded_repos"
@@ -34,8 +30,11 @@ def process_repo(url):
                 if isinstance(data, list):
                     all_plugins.extend(data)
                 elif isinstance(data, dict):
-                    plugins = data.get('plugins', [])
-                    all_plugins.extend(plugins)
+                    plugins = data.get('plugins')
+                    if isinstance(plugins, list):
+                        all_plugins.extend(plugins)
+                    else:
+                        print(f"Warning: 'plugins' key in {url} is not a list.")
                 else:
                     print(f"Warning: Data from {url} is neither a list nor a dictionary.")
             else:
@@ -44,7 +43,7 @@ def process_repo(url):
         if e.code == 404:
             print(f"Warning: 404 Not Found for {url}")
         else:
-            print(f"HTTP error occurred: {e}")
+            print(f"HTTP error occurred while fetching {url}: {e}")
     except Exception as e:
         print(f"Error processing {url}: {e}")
 
@@ -53,13 +52,10 @@ for url in repo_urls:
     process_repo(url)
 
 # Remove duplicates based on the 'Name' field
-unique_plugins = {plugin['Name']: plugin for plugin in all_plugins}.values()
+unique_plugins = {plugin['Name']: plugin for plugin in all_plugins if 'Name' in plugin}.values()
 
-# Ensure the output file exists
+# Save the merged plugins to a JSON file
 output_file = "repository.json"
-ensure_file_exists(output_file)
-
-# Save the merged plugins to the JSON file
 with open(output_file, "w", encoding="utf-8") as f:
     json.dump(list(unique_plugins), f, ensure_ascii=False, indent=4)
 
