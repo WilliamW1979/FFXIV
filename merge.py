@@ -1,5 +1,6 @@
 import requests
 import json
+import os
 
 # List of plugin manifest URLs
 manifest_urls = [
@@ -35,40 +36,34 @@ manifest_urls = [
     "https://raw.githubusercontent.com/Ottermandias/Glamourer/main/repo.json"
 ]
 
-import requests
-import json
-
-# List of plugin manifest URLs
-manifest_urls = [
-    "https://raw.githubusercontent.com/LeonBlade/DalamudPlugins/main/repo.json"
-    # Add other URLs as needed
-]
-
 merged_plugins = []
 
 for url in manifest_urls:
     try:
         response = requests.get(url)
-        response.raise_for_status()  # Raises HTTPError for bad responses (4xx or 5xx)
+        response.raise_for_status()
+        data = response.json()
 
-        try:
-            data = response.json()  # Attempt to parse JSON
-            if isinstance(data, list):
-                # Extend merged_plugins with the list of plugins
-                merged_plugins.extend(data)
-            else:
-                print(f"Unexpected JSON structure in response from {url}")
-        except json.JSONDecodeError as e:
-            print(f"Invalid JSON in response from {url}: {e}")
-        except Exception as e:
-            print(f"Error processing JSON from {url}: {e}")
+        # Check if the data is a dictionary and contains the "Plugins" key
+        if isinstance(data, dict) and "Plugins" in data:
+            plugins = data["Plugins"]
+        # Check if the data is a list
+        elif isinstance(data, list):
+            plugins = data
+        else:
+            print(f"Skipping {url}: Unexpected data format")
+            continue
 
-    except requests.exceptions.RequestException as e:
-        print(f"Network error while fetching {url}: {e}")
+        merged_plugins.extend(plugins)
 
-# Save the merged plugins to 'repo.json'
-try:
-    with open("repo.json", "w", encoding="utf-8") as f:
-        json.dump(merged_plugins, f, ensure_ascii=False, indent=2)
-except IOError as e:
-    print(f"Error writing to repo.json: {e}")
+    except Exception as e:
+        print(f"Error processing JSON from {url}: {e}")
+
+# Ensure the repository.json file exists
+if not os.path.exists("repository.json"):
+    with open("repository.json", "w", encoding="utf-8") as f:
+        json.dump({"Plugins": []}, f, ensure_ascii=False, indent=2)
+
+# Write the merged plugins to repository.json
+with open("repository.json", "w", encoding="utf-8") as f:
+    json.dump({"Plugins": merged_plugins}, f, ensure_ascii=False, indent=2)
