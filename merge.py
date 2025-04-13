@@ -44,8 +44,11 @@ for url in manifest_urls:
 
         try:
             data = response.json()  # Attempt to parse JSON
-            plugins = data.get("Plugins", [])
-            merged_plugins.extend(plugins)
+            if isinstance(data, list):
+                # Extend merged_plugins with the list of plugins
+                merged_plugins.extend(data)
+            else:
+                print(f"Unexpected JSON structure in response from {url}")
         except json.JSONDecodeError as e:
             print(f"Invalid JSON in response from {url}: {e}")
         except Exception as e:
@@ -56,7 +59,7 @@ for url in manifest_urls:
 
 # Save the merged plugins to 'repo.json'
 try:
-    with open("repo.json", "w", encoding="utf-8") as f:
-        json.dump({"Plugins": merged_plugins}, f, ensure_ascii=False, indent=2)
+    with open("repopitory.json", "w", encoding="utf-8") as f:
+        json.dump(merged_plugins, f, ensure_ascii=False, indent=2)
 except IOError as e:
-    print(f"Error writing to repo.json: {e}")
+    print(f"Error writing to repopitory.json: {e}")
