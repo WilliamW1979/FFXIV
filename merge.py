@@ -35,6 +35,15 @@ manifest_urls = [
     "https://raw.githubusercontent.com/Ottermandias/Glamourer/main/repo.json"
 ]
 
+import requests
+import json
+
+# List of plugin manifest URLs
+manifest_urls = [
+    "https://raw.githubusercontent.com/LeonBlade/DalamudPlugins/main/repo.json"
+    # Add other URLs as needed
+]
+
 merged_plugins = []
 
 for url in manifest_urls:
@@ -59,7 +68,7 @@ for url in manifest_urls:
 
 # Save the merged plugins to 'repo.json'
 try:
-    with open("repopitory.json", "w", encoding="utf-8") as f:
+    with open("repo.json", "w", encoding="utf-8") as f:
         json.dump(merged_plugins, f, ensure_ascii=False, indent=2)
 except IOError as e:
-    print(f"Error writing to repopitory.json: {e}")
+    print(f"Error writing to repo.json: {e}")
