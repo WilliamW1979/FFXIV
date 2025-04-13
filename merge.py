@@ -2,9 +2,19 @@ import os
 import json
 import urllib.request
 
+# Function to check if a file exists and create it if it doesn't
+def ensure_file_exists(file_path):
+    if not os.path.exists(file_path):
+        with open(file_path, 'w', encoding='utf-8') as file:
+            # Initialize the file with an empty list
+            json.dump([], file, ensure_ascii=False, indent=4)
+        print(f"File '{file_path}' did not exist and has been created.")
+    else:
+        print(f"File '{file_path}' already exists.")
+
 # Read repository URLs from RepoList.txt
 repo_urls = []
-with open('RepoList.txt', 'r') as file:
+with open('RepoList.txt', 'r', encoding='utf-8') as file:
     repo_urls = [line.strip() for line in file.readlines()]
 
 # Directory to save the downloaded JSON files
@@ -45,8 +55,11 @@ for url in repo_urls:
 # Remove duplicates based on the 'Name' field
 unique_plugins = {plugin['Name']: plugin for plugin in all_plugins}.values()
 
-# Save the merged plugins to a JSON file
+# Ensure the output file exists
 output_file = "repository.json"
+ensure_file_exists(output_file)
+
+# Save the merged plugins to the JSON file
 with open(output_file, "w", encoding="utf-8") as f:
     json.dump(list(unique_plugins), f, ensure_ascii=False, indent=4)
 
