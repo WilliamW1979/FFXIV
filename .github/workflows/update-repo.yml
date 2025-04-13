@@ -1,41 +1,56 @@
-name: Update Dalamud Plugin Repository
+name: Update Repository JSON
 
 on:
   schedule:
-    - cron: '*/10 * * * *'
-  workflow_dispatch:
+    - cron: '*/10 * * * *'  # Run every 10 minutes
+  push:
+    branches:
+      - main  # Trigger if there's a push to main branch
 
 jobs:
-  update-repo:
+  update-repository-json:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      # Step 1: Checkout the repository
+      - name: Checkout Repository
+        uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v2
+      # Step 2: Install Node.js (if you need to use Node for processing)
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
-          python-version: '3.x'
+          node-version: '16'  # Specify the version of Node.js to use
 
+      # Step 3: Install dependencies (if you use them)
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install requests
+          npm install  # Assuming you have a package.json for the required modules
 
-      - name: Fetch and merge plugin manifests
+      # Step 4: Combine JSON files into Repository.json
+      - name: Combine Plugin JSON Files
         run: |
-          python merge.py
+          # Install jq to process JSON files
+          sudo apt-get install jq
 
-      - name: Ensure repo.json exists
-        run: |
-          if [ ! -f repository.json ]; then
-            echo '[]' > repository.json
-          fi
+          # Initialize an empty array for combined data
+          combined_json="[]"
 
-      - name: Commit and push changes
-        run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-          git add repository.json
-          git commit -m "Automated update of repository.json" || echo "No changes to commit"
-          git push
+          # Process each plugin JSON file in the directory (assuming they're in a folder like "plugins/")
+          for file in plugins/*.json; do
+            if [ -f "$file" ]; then
+              plugin_json=$(cat "$file")
+              combined_json=$(echo "$combined_json" | jq ". += [$plugin_json]")
+            fi
+          done
+
+          # Save the combined result to Repository.json
+          echo "$combined_json" > Repository.json
+
+      # Step 5: Commit and push changes to the repository
+      - name: Commit and Push Changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: 'GitHub Actions'
+          author_email: 'github-actions@github.com'
+          message: 'Update Repository.json with new plugins'
