@@ -29,5 +29,5 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add repo.json
-          git commit -m "Automated update of repo.json"
+          git commit -m "Automated update of repository.json"
           git push
