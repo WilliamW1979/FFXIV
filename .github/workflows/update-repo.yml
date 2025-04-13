@@ -22,17 +22,12 @@ jobs:
         with:
           node-version: '16'  # Specify the version of Node.js to use
 
-      # Step 3: Install dependencies (if you use them)
-      - name: Install dependencies
-        run: |
-          npm install  # Assuming you have a package.json for the required modules
-
-      # Step 4: Run CloneRepos.js to clone the repositories
+      # Step 3: Run CloneRepos.js to clone the repositories
       - name: Clone Repositories
         run: |
           node CloneRepos.js  # This will execute CloneRepos.js script
 
-      # Step 5: Combine Plugin JSON Files
+      # Step 4: Combine Plugin JSON Files
       - name: Combine Plugin JSON Files
         run: |
           # Install jq to process JSON files
@@ -52,7 +47,7 @@ jobs:
           # Save the combined result to Repository.json
           echo "$combined_json" > Repository.json
 
-      # Step 6: Commit and Push Changes
+      # Step 5: Commit and Push Changes
       - name: Commit and Push Changes
         uses: EndBug/add-and-commit@v9
         with:
