@@ -3,7 +3,5 @@
   "repositoryType": "meta",
   "repositories": [
     { "url": "https://github.com/WilliamW1979/Repo/raw/main/ffxiv.json" },
-    { "url": "https://raw.githubusercontent.com/Haselnussbomber/MyDalamudPlugins/main/repo.json" },
-    { "url": "https://raw.githubusercontent.com/Ottermandias/Glamourer/main/repo.json" }
   ]
 }
