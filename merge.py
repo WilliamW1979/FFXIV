@@ -1,6 +1,6 @@
 import os
 import json
-import requests
+import urllib.request
 
 # List of repository URLs
 repo_urls = [
@@ -47,25 +47,25 @@ all_plugins = []
 def process_repo(url):
     try:
         print(f"Processing {url}...")
-        response = requests.get(url)
-        response.raise_for_status()
-        data = response.json()
-        if isinstance(data, list):
-            all_plugins.extend(data)
-        else:
-            print(f"Warning: Data from {url} is not a list.")
-    except requests.exceptions.RequestException as e:
-        print(f"Error fetching {url}: {e}")
-    except ValueError as e:
-        print(f"Error processing JSON from {url}: {e}")
+        with urllib.request.urlopen(url) as response:
+            data = json.load(response)
+            if isinstance(data, list):
+                all_plugins.extend(data)
+            else:
+                print(f"Warning: Data from {url} is not a list.")
+    except Exception as e:
+        print(f"Error processing {url}: {e}")
 
 # Process each repository
 for url in repo_urls:
     process_repo(url)
 
+# Remove duplicates based on the 'Name' field
+unique_plugins = {plugin['Name']: plugin for plugin in all_plugins}.values()
+
 # Save the merged plugins to a JSON file
-output_file = "merged_plugins.json"
+output_file = "repository.json"
 with open(output_file, "w", encoding="utf-8") as f:
-    json.dump(all_plugins, f, ensure_ascii=False, indent=4)
+    json.dump(list(unique_plugins), f, ensure_ascii=False, indent=4)
 
 print(f"Merged plugins have been saved to {output_file}")
