@@ -18,16 +18,24 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install requests
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
 
       - name: Fetch and merge plugin manifests
         run: |
           python merge.py
 
+      - name: Ensure repo.json exists
+        run: |
+          if [ ! -f repo.json ]; then
+            echo '{"Plugins": []}' > repo.json
+          fi
+
       - name: Commit and push changes
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add repository.json
-          git commit -m "Automated update of repository.json"
+          git add repo.json
+          git commit -m "Automated update of repo.json" || echo "No changes to commit"
           git push
