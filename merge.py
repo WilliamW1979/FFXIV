@@ -2,15 +2,10 @@ import os
 import json
 import urllib.request
 
-# Function to read URLs from a text file
-def read_repo_urls(file_path):
-    try:
-        with open(file_path, 'r') as file:
-            urls = file.read().splitlines()
-        return [url for url in urls if url]  # Remove any empty lines
-    except Exception as e:
-        print(f"Error reading {file_path}: {e}")
-        return []
+# Read repository URLs from RepoList.txt
+repo_urls = []
+with open('RepoList.txt', 'r') as file:
+    repo_urls = [line.strip() for line in file.readlines()]
 
 # Directory to save the downloaded JSON files
 download_dir = "downloaded_repos"
@@ -24,16 +19,24 @@ def process_repo(url):
     try:
         print(f"Processing {url}...")
         with urllib.request.urlopen(url) as response:
-            data = json.load(response)
-            if isinstance(data, list):
-                all_plugins.extend(data)
+            if response.status == 200:
+                data = json.load(response)
+                if isinstance(data, list):
+                    all_plugins.extend(data)
+                elif isinstance(data, dict):
+                    plugins = data.get('plugins', [])
+                    all_plugins.extend(plugins)
+                else:
+                    print(f"Warning: Data from {url} is neither a list nor a dictionary.")
             else:
-                print(f"Warning: Data from {url} is not a list.")
+                print(f"Warning: Received status code {response.status} for {url}")
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            print(f"Warning: 404 Not Found for {url}")
+        else:
+            print(f"HTTP error occurred: {e}")
     except Exception as e:
         print(f"Error processing {url}: {e}")
-
-# Read repository URLs from RepoList.txt
-repo_urls = read_repo_urls("RepoList.txt")
 
 # Process each repository
 for url in repo_urls:
