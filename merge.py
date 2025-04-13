@@ -1,6 +1,7 @@
 import os
 import json
 import urllib.request
+from urllib.error import URLError, HTTPError
 
 # List of repository URLs
 repo_urls = [
@@ -48,13 +49,18 @@ def process_repo(url):
     try:
         print(f"Processing {url}...")
         with urllib.request.urlopen(url) as response:
-            data = json.load(response)
+            # Decode the byte response and parse JSON
+            data = json.loads(response.read().decode('utf-8'))
             if isinstance(data, list):
                 all_plugins.extend(data)
             else:
                 print(f"Warning: Data from {url} is not a list.")
+    except HTTPError as e:
+        print(f"HTTP error occurred while processing {url}: {e.code} {e.reason}")
+    except URLError as e:
+        print(f"URL error occurred while processing {url}: {e.reason}")
     except Exception as e:
-        print(f"Error processing {url}: {e}")
+        print(f"An error occurred while processing {url}: {e}")
 
 # Process each repository
 for url in repo_urls:
@@ -69,3 +75,4 @@ with open(output_file, "w", encoding="utf-8") as f:
     json.dump(list(unique_plugins), f, ensure_ascii=False, indent=4)
 
 print(f"Merged plugins have been saved to {output_file}")
+
