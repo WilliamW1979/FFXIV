@@ -1,7 +1,6 @@
+import requests
 import os
 import json
-import urllib.request
-from urllib.error import HTTPError, URLError
 
 def read_repo_urls(file_path):
     try:
@@ -12,50 +11,41 @@ def read_repo_urls(file_path):
         return []
 
 repo_urls = read_repo_urls('RepoList.txt')
-
-download_dir = "downloaded_repos"
-os.makedirs(download_dir, exist_ok=True)
-
+os.makedirs("downloaded_repos", exist_ok=True)
 all_plugins = []
 
 def process_repo(url):
     try:
         print(f"Processing {url}...")
-        with urllib.request.urlopen(url) as response:
-            if response.status == 200:
-                data = json.loads(response.read().decode('utf-8'))
-                if isinstance(data, list):
-                    count = len(data)
-                    print(f"Found {count} plugins in raw list from {url}")
-                    all_plugins.extend(data)
-                elif isinstance(data, dict):
-                    plugins = data.get('plugins') or data.get('Plugins') or []
-                    if isinstance(plugins, list):
-                        count = len(plugins)
-                        print(f"Found {count} plugins in dictionary from {url}")
-                        all_plugins.extend(plugins)
-                    else:
-                        print(f"Warning: The 'plugins' key in {url} is not a list.")
-                else:
-                    print(f"Warning: Data from {url} is neither a list nor a dictionary.")
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+        data = response.json()
+        if isinstance(data, list):
+            all_plugins.extend(data)
+            print(f"Found {len(data)} plugins in list from {url}")
+        elif isinstance(data, dict):
+            plugins = data.get('plugins') or data.get('Plugins')
+            if isinstance(plugins, list):
+                all_plugins.extend(plugins)
+                print(f"Found {len(plugins)} plugins in dictionary from {url}")
             else:
-                print(f"Warning: Received status code {response.status} for {url}")
-    except HTTPError as e:
-        print(f"Warning: {e.code} for {url}" if e.code == 404 else f"HTTP error from {url}: {e}")
-    except URLError as e:
-        print(f"URL error from {url}: {e}")
-    except Exception as e:
-        print(f"Unhandled error from {url}: {e}")
+                print(f"Warning: 'plugins' key not a list in {url}")
+        else:
+            print(f"Warning: Unexpected JSON format from {url}")
+    except requests.exceptions.HTTPError as e:
+        print(f"HTTP error for {url}: {e}")
+    except requests.exceptions.RequestException as e:
+        print(f"Request error for {url}: {e}")
+    except json.JSONDecodeError:
+        print(f"Invalid JSON from {url}")
 
 for url in repo_urls:
     process_repo(url)
 
 print(f"Total plugins found before deduplication: {len(all_plugins)}")
+unique_plugins = {p.get('Name'): p for p in all_plugins if p.get('Name')}.values()
 
-unique_plugins = {plugin.get('Name'): plugin for plugin in all_plugins if plugin.get('Name')}.values()
-
-output_file = "repository.json"
-with open(output_file, "w", encoding="utf-8") as f:
+with open("repository.json", "w", encoding="utf-8") as f:
     json.dump(list(unique_plugins), f, ensure_ascii=False, indent=4)
 
-print(f"Merged plugins have been saved to {output_file}")
+print("Merged plugins saved to repository.json")
