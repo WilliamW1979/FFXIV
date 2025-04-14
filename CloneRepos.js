@@ -36,6 +36,7 @@ async function fetchData(url) {
             CategoryTags: plugin.categoryTags || [],
             InternalName: plugin.internalName || repoName,
             AssemblyVersion: release.tag_name || '0.0.0',
+            DalamudApiLevel: 12, // Explicitly set the API level
             RepoUrl: `https://git.carvel.li/liza/${repoName}`,
             DownloadLinkInstall: release.assets?.[0]?.browser_download_url || '',
             DownloadLinkTesting: release.assets?.[0]?.browser_download_url || '',
