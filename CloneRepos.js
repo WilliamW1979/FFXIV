@@ -1,59 +1,57 @@
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
+const cheerio = require('cheerio');
 
 // Read the list of repositories from 'RepoList.txt'
-const repoList = fs.readFileSync('RepoList.txt', 'utf-8').split('\n').filter(url => url.trim());
+const repoList = fs.readFileSync('RepoList.txt', 'utf-8')
+  .split('\n')
+  .map(url => url.trim())
+  .filter(url => url);
 
+// Function to fetch data from a given URL
 async function fetchData(url) {
   try {
-    if (url.trim().endsWith('.json')) {
+    if (url.endsWith('.json')) {
+      // Direct JSON URL
       const response = await axios.get(url);
       return response.data;
     } else if (url === 'https://plugins.carvel.li/') {
-      // Fetch the plugin configuration
-      const configUrl = 'https://git.carvel.li/liza/plugin-repo/raw/branch/master/_config.json';
-      const configResponse = await axios.get(configUrl);
-      const pluginList = configResponse.data.plugins || [];
-
+      // Handle Carvel plugin repository (HTML page)
+      const response = await axios.get(url);
+      const $ = cheerio.load(response.data);
       const plugins = [];
 
-      for (const plugin of pluginList) {
-        const repoName = plugin.repo;
-        const apiUrl = `https://git.carvel.li/api/v1/repos/liza/${repoName}/releases/latest`;
+      $('h4').each((i, element) => {
+        const pluginName = $(element).find('a').text().trim();
+        const downloadLink = $(element).find('a').attr('href');
+        const iconUrl = $(element).find('img').attr('src');
 
-        try {
-          const releaseResponse = await axios.get(apiUrl);
-          const release = releaseResponse.data;
+        const plugin = {
+          Author: 'Unknown',
+          Name: pluginName,
+          Punchline: '',
+          Description: '',
+          Tags: [],
+          CategoryTags: [],
+          InternalName: pluginName.replace(/\s+/g, ''),
+          AssemblyVersion: '0.0.0',
+          DalamudApiLevel: 12, // Explicitly set the API level
+          RepoUrl: url,
+          DownloadLinkInstall: downloadLink,
+          DownloadLinkTesting: downloadLink,
+          DownloadLinkUpdate: downloadLink,
+          ApplicableVersion: 'any',
+          IconUrl: iconUrl || ''
+        };
 
-          // Construct the plugin metadata
-          const pluginData = {
-            Author: plugin.author || 'Unknown',
-            Name: plugin.name || repoName,
-            Punchline: plugin.punchline || '',
-            Description: plugin.description || '',
-            Tags: plugin.tags || [],
-            CategoryTags: plugin.categoryTags || [],
-            InternalName: plugin.internalName || repoName,
-            AssemblyVersion: release.tag_name || '0.0.0',
-            DalamudApiLevel: 12, // Explicitly set the API level
-            RepoUrl: `https://git.carvel.li/liza/${repoName}`,
-            DownloadLinkInstall: release.assets?.[0]?.browser_download_url || '',
-            DownloadLinkTesting: release.assets?.[0]?.browser_download_url || '',
-            DownloadLinkUpdate: release.assets?.[0]?.browser_download_url || '',
-            ApplicableVersion: 'any',
-            IconUrl: plugin.icon || ''
-          };
-
-          plugins.push(pluginData);
-        } catch (releaseError) {
-          console.error(`Error fetching release data for ${repoName}: ${releaseError.message}`);
-        }
-      }
+        plugins.push(plugin);
+      });
 
       return plugins;
     } else {
-      const baseUrl = url.trim().endsWith('/') ? url.trim() : `${url.trim()}/`;
+      // Default case for other URLs
+      const baseUrl = url.endsWith('/') ? url : `${url}/`;
       const jsonUrl = `${baseUrl}pluginmaster.json`;
       const response = await axios.get(jsonUrl);
       return response.data;
@@ -64,6 +62,7 @@ async function fetchData(url) {
   }
 }
 
+// Function to fetch fallback data if primary fetch fails
 async function fetchFallbackData(repoName) {
   const fallbackUrls = [
     `https://puni.sh/api/repository/${repoName}`,
@@ -85,6 +84,7 @@ async function fetchFallbackData(repoName) {
   return null;
 }
 
+// Main function to merge data from all repositories
 async function mergeData() {
   let mergedData = [];
 
@@ -92,7 +92,7 @@ async function mergeData() {
     let data = await fetchData(url);
 
     if (!data) {
-      const repoName = url.trim().split('/').pop();
+      const repoName = url.split('/').pop();
       console.log(`Primary data fetch failed for ${repoName}, attempting fallback.`);
       data = await fetchFallbackData(repoName);
     }
@@ -122,4 +122,5 @@ async function mergeData() {
   }
 }
 
+// Execute the merge process
 mergeData();
