@@ -43,15 +43,20 @@ async function fetchData(url) {
             const assets = latestRelease.assets.links || [];
 
             let jsonUrl = '', zipUrl = '';
-
+            
             for (const asset of assets) {
               console.log(`Processing asset: ${JSON.stringify(asset)}`);
-              if (asset.name.toLowerCase().includes('json')) {
+              const assetNameLower = asset.name.toLowerCase();
+            
+              if (assetNameLower.includes('json')) {
                 jsonUrl = asset.url;
-              } else if (asset.name.toLowerCase().includes('zip')) {
+                console.log(`Identified JSON asset: ${asset.name}`);
+              } else if (assetNameLower.endsWith('.zip')) {
                 zipUrl = asset.url;
+                console.log(`Identified ZIP asset: ${asset.name}`);
               }
             }
+
 
             if (jsonUrl && zipUrl) {
               console.log(`Fetching metadata from: ${jsonUrl}`);
