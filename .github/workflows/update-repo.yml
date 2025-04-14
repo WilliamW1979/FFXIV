@@ -1,70 +1,32 @@
-name: Download and Combine JSON Repos
+name: Clone and Merge Repositories
 
 on:
   push:
     branches:
-      - main
-  pull_request:
-    branches:
-      - main
+      - main  # This triggers on a push to the `main` branch
 
 jobs:
-  download_and_combine:
-    runs-on: ubuntu-latest
-    
+  clone-and-merge:
+    runs-on: ubuntu-latest  # We use the latest Ubuntu runner
+
     steps:
-    
-    # Step 1: Check out the repository
-    - name: Checkout code
-      uses: actions/checkout@v2
-    
-    # Step 2: Set up Node.js
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '14'
-    
-    # Step 3: Install dependencies for CloneRepos.js (if required)
-    - name: Install dependencies
-      run: |
-        npm install
-    
-    # Step 4: Run CloneRepos.js to download the JSON files
-    - name: Run CloneRepos.js to Download JSON Files
-      run: |
-        # Make sure CloneRepos.js is part of the repo, or download it if necessary
-        node CloneRepos.js
-        
-    # Step 5: Combine all JSON files into Repository.json
-    - name: Combine JSON Files
-      run: |
-        # Initialize an empty array for the final Repository JSON
-        Repository_json="[]"
-        
-        # Loop through all downloaded JSON files in the plugin_repos directory
-        for file in plugin_repos/*.json; do
-          if [ -f "$file" ]; then
-            plugin_json=$(cat "$file")
-            
-            # Validate JSON format before combining
-            if echo "$plugin_json" | jq empty; then
-              # Merge the JSON files correctly using jq
-              Repository_json=$(echo "$Repository_json" | jq ". += $plugin_json")
-              echo "Successfully processed $file"
-            else
-              echo "Invalid JSON in $file, skipping..."
-            fi
-          fi
-        done
-        
-        # Save the final combined JSON to Repository.json
-        echo "$Repository_json" > Repository.json
-    
-    # Step 6: Commit and Push Changes
-    - name: Commit and Push Changes
-      uses: EndBug/add-and-commit@v9
-      with:
-        author_name: 'GitHub Actions'
-        author_email: 'github-actions@github.com'
-        message: 'Update Repository.json with new plugins'
-        add: 'Repository.json'
+      # Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v3  # This checks out your repository to the runner
+
+      # Set up Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v3  # This sets up Node.js
+        with:
+          node-version: '16'  # Set your desired Node.js version
+
+      # Install dependencies
+      - name: Install dependencies
+        run: |
+          npm init -y  # Initialize a new Node.js project (package.json)
+          npm install axios  # Install axios to make HTTP requests
+
+      # Run CloneRepos.js script
+      - name: Run CloneRepos.js
+        run: |
+          node CloneRepos.js  # Execute your script
