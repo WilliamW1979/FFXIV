@@ -12,65 +12,70 @@ const repoList = fs.readFileSync('RepoList.txt', 'utf-8')
 async function fetchData(url) {
   try {
     if (url === 'https://plugins.carvel.li/') {
-      console.log('Fetching plugin list from Carvel repository...');
-      const configUrl = 'https://git.carvel.li/liza/plugin-repo/raw/branch/master/_config.json';
-      const configResponse = await axios.get(configUrl);
-      const pluginList = configResponse.data.plugins;
+      // Fetch the configuration file listing all plugins
+      const configResponse = await axios.get('https://git.carvel.li/liza/plugin-repo/raw/branch/master/_config.json');
+      const pluginList = configResponse.data.Plugins;
 
       if (!pluginList || pluginList.length === 0) {
-        console.warn('No plugins found in _config.json.');
+        console.warn('No plugins found in the Carvel config.');
         return [];
       }
 
-      console.log(`Found ${pluginList.length} plugins in _config.json.`);
-
       const plugins = [];
 
-      for (const pluginName of pluginList) {
-        try {
-          const releaseUrl = `https://git.carvel.li/liza/${pluginName}/releases/latest`;
-          console.log(`Fetching release page for plugin: ${pluginName}`);
-          const releaseResponse = await axios.get(releaseUrl);
-          const $ = cheerio.load(releaseResponse.data);
+      for (const pluginEntry of pluginList) {
+        const pluginName = pluginEntry.Name;
+        const releasesUrl = `https://git.carvel.li/liza/${pluginName}/-/releases`;
 
-          const jsonLink = $('a[href$=".json"]').attr('href');
-          const zipLink = $('a[href$=".zip"]').attr('href');
+        // Fetch the releases page
+        const releasesPage = await axios.get(releasesUrl);
+        const $ = cheerio.load(releasesPage.data);
 
-          if (!jsonLink || !zipLink) {
-            console.warn(`Missing JSON or ZIP file for plugin: ${pluginName}`);
-            continue;
-          }
+        // Find the latest release section
+        const latestRelease = $('.release').first();
 
-          const jsonUrl = new URL(jsonLink, releaseUrl).href;
-          const zipUrl = new URL(zipLink, releaseUrl).href;
-
-          console.log(`Fetching JSON manifest for plugin: ${pluginName}`);
-          const jsonResponse = await axios.get(jsonUrl);
-          const pluginData = jsonResponse.data;
-
-          // Add download links
-          pluginData.DownloadLinkInstall = zipUrl;
-          pluginData.DownloadLinkTesting = zipUrl;
-          pluginData.DownloadLinkUpdate = zipUrl;
-
-          // Ensure required fields are present
-          pluginData.Author = pluginData.Author || 'Liza Carvelli';
-          pluginData.DalamudApiLevel = pluginData.DalamudApiLevel || 12;
-          pluginData.RepoUrl = `https://git.carvel.li/liza/${pluginName}`;
-          pluginData.IconUrl = pluginData.IconUrl || `https://plugins.carvel.li/icons/${pluginName}.png`;
-
-          plugins.push(pluginData);
-        } catch (pluginError) {
-          console.error(`Error processing plugin ${pluginName}: ${pluginError.message}`);
+        if (!latestRelease) {
+          console.warn(`No releases found for plugin: ${pluginName}`);
+          continue;
         }
+
+        // Extract links to the JSON and ZIP files
+        const assetLinks = latestRelease.find('.release-assets a');
+        let jsonLink = '';
+        let zipLink = '';
+
+        assetLinks.each((i, elem) => {
+          const href = $(elem).attr('href');
+          if (href.endsWith('.json')) {
+            jsonLink = `https://git.carvel.li${href}`;
+          } else if (href.endsWith('.zip')) {
+            zipLink = `https://git.carvel.li${href}`;
+          }
+        });
+
+        if (!jsonLink || !zipLink) {
+          console.warn(`Missing assets for plugin: ${pluginName}`);
+          continue;
+        }
+
+        // Fetch the plugin's JSON metadata
+        const pluginMetaResponse = await axios.get(jsonLink);
+        const pluginMeta = pluginMetaResponse.data;
+
+        // Add download links to the plugin metadata
+        pluginMeta.DownloadLinkInstall = zipLink;
+        pluginMeta.DownloadLinkUpdate = zipLink;
+        pluginMeta.DownloadLinkTesting = zipLink;
+
+        // Add the processed plugin to the list
+        plugins.push(pluginMeta);
       }
 
       return plugins;
     } else {
-      // Handle other URLs
+      // Default case for other URLs
       const baseUrl = url.endsWith('/') ? url : `${url}/`;
       const jsonUrl = `${baseUrl}pluginmaster.json`;
-      console.log(`Fetching plugin data from: ${jsonUrl}`);
       const response = await axios.get(jsonUrl);
       return response.data;
     }
