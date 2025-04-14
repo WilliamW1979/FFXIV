@@ -12,23 +12,21 @@ const repoList = fs.readFileSync('RepoList.txt', 'utf-8')
 // Function to fetch data from a given URL
 async function fetchData(url) {
   try {
-    if (url.endsWith('.json')) {
-      // Direct JSON URL
-      const response = await axios.get(url);
-      return response.data;
-    } else if (url === 'https://plugins.carvel.li/') {
+    if (url === 'https://plugins.carvel.li/') {
       // Handle Carvel plugin repository (HTML page)
       const response = await axios.get(url);
       const $ = cheerio.load(response.data);
       const plugins = [];
 
+      // Iterate over each plugin entry
       $('h4').each((i, element) => {
         const pluginName = $(element).find('a').text().trim();
         const downloadLink = $(element).find('a').attr('href');
         const iconUrl = $(element).find('img').attr('src');
 
+        // Construct the plugin object
         const plugin = {
-          Author: 'Unknown',
+          Author: 'Liza Carvelli',
           Name: pluginName,
           Punchline: '',
           Description: '',
