@@ -60,7 +60,7 @@ async function fetchData(url) {
 
           plugins.push(pluginMeta);
         } catch (err) {
-          console.error(`Error processing plugin ${pluginName}: ${err.message}`);
+     //     console.error(`Error processing plugin ${pluginName}: ${err.message}`);
         }
       }
 
@@ -73,7 +73,7 @@ async function fetchData(url) {
       return response.data;
     }
   } catch (error) {
-    console.error(`Error fetching data from ${url}: ${error.message}`);
+  //  console.error(`Error fetching data from ${url}: ${error.message}`);
     return null;
   }
 }
