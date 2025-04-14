@@ -10,41 +10,61 @@ const repoList = fs.readFileSync('RepoList.txt', 'utf-8')
   .filter(url => url);
 
 // Function to fetch data from a given URL
+const axios = require('axios');
+const cheerio = require('cheerio');
+
 async function fetchData(url) {
   try {
     if (url === 'https://plugins.carvel.li/') {
-      // Handle Carvel plugin repository (HTML page)
-      const response = await axios.get(url);
-      const $ = cheerio.load(response.data);
+      // Step 1: Fetch the list of plugins from _config.json
+      const configUrl = 'https://git.carvel.li/liza/plugin-repo/raw/branch/master/_config.json';
+      const configResponse = await axios.get(configUrl);
+      const pluginNames = configResponse.data.plugins; // Assuming the JSON has a "plugins" array
+
       const plugins = [];
 
-      // Iterate over each plugin entry
-      $('h4').each((i, element) => {
-        const pluginName = $(element).find('a').text().trim();
-        const downloadLink = $(element).find('a').attr('href');
-        const iconUrl = $(element).find('img').attr('src');
+      for (const pluginName of pluginNames) {
+        try {
+          // Step 2: Fetch the latest release page for the plugin
+          const releasesUrl = `https://git.carvel.li/liza/${pluginName}/releases`;
+          const releasesResponse = await axios.get(releasesUrl);
+          const $ = cheerio.load(releasesResponse.data);
 
-        // Construct the plugin object
-        const plugin = {
-          Author: 'Liza Carvelli',
-          Name: pluginName,
-          Punchline: '',
-          Description: '',
-          Tags: [],
-          CategoryTags: [],
-          InternalName: pluginName.replace(/\s+/g, ''),
-          AssemblyVersion: '0.0.0',
-          DalamudApiLevel: 12, // Explicitly set the API level
-          RepoUrl: url,
-          DownloadLinkInstall: downloadLink,
-          DownloadLinkTesting: downloadLink,
-          DownloadLinkUpdate: downloadLink,
-          ApplicableVersion: 'any',
-          IconUrl: iconUrl || ''
-        };
+          // Step 3: Find the latest release section
+          const latestReleaseSection = $('.release').first();
 
-        plugins.push(plugin);
-      });
+          // Step 4: Find the JSON and ZIP asset links
+          let jsonUrl = '';
+          let zipUrl = '';
+
+          latestReleaseSection.find('a').each((i, element) => {
+            const href = $(element).attr('href');
+            if (href.endsWith('.json')) {
+              jsonUrl = `https://git.carvel.li${href}`;
+            } else if (href.endsWith('.zip')) {
+              zipUrl = `https://git.carvel.li${href}`;
+            }
+          });
+
+          if (!jsonUrl || !zipUrl) {
+            console.error(`Could not find JSON or ZIP asset for plugin: ${pluginName}`);
+            continue;
+          }
+
+          // Step 5: Fetch the plugin's JSON metadata
+          const jsonResponse = await axios.get(jsonUrl);
+          const pluginData = jsonResponse.data;
+
+          // Step 6: Add the download links to the plugin data
+          pluginData.DownloadLinkInstall = zipUrl;
+          pluginData.DownloadLinkUpdate = zipUrl;
+          pluginData.DownloadLinkTesting = zipUrl;
+
+          plugins.push(pluginData);
+        } catch (pluginError) {
+          console.error(`Error processing plugin ${pluginName}: ${pluginError.message}`);
+        }
+      }
 
       return plugins;
     } else {
