@@ -10,7 +10,10 @@ const repoList = fs.readFileSync('RepoList.txt', 'utf-8')
 
 async function fetchData(url) {
   try {
+    console.log(`Fetching data from: ${url}`);
+
     if (url === 'https://plugins.carvel.li/') {
+      console.log('Fetching Carvel plugin list...');
       const configResponse = await axios.get('https://git.carvel.li/liza/plugin-repo/raw/branch/master/_config.json');
       const pluginList = configResponse.data.Plugins;
 
@@ -23,6 +26,7 @@ async function fetchData(url) {
 
       for (const { Name: pluginName } of pluginList) {
         try {
+          console.log(`Fetching latest release for plugin: ${pluginName}`);
           const releaseApi = `https://git.carvel.li/api/v4/projects/liza%2F${encodeURIComponent(pluginName)}/releases`;
           const releasesResponse = await axios.get(releaseApi);
           const latest = releasesResponse.data[0];
@@ -44,6 +48,7 @@ async function fetchData(url) {
             continue;
           }
 
+          console.log(`Fetching metadata from: ${jsonUrl}`);
           const pluginMetaResponse = await axios.get(jsonUrl);
           const pluginMeta = pluginMetaResponse.data;
 
@@ -61,6 +66,7 @@ async function fetchData(url) {
 
       return plugins;
     } else {
+      console.log(`Fetching data from: ${url}`);
       const baseUrl = url.endsWith('/') ? url : `${url}/`;
       const jsonUrl = `${baseUrl}pluginmaster.json`;
       const response = await axios.get(jsonUrl);
@@ -80,6 +86,7 @@ async function fetchFallbackData(repoName) {
 
   for (const fallbackUrl of fallbackUrls) {
     try {
+      console.log(`Attempting fallback fetch from: ${fallbackUrl}`);
       const response = await axios.get(fallbackUrl);
       if (response.status === 200) {
         console.log(`Successfully fetched data from fallback URL: ${fallbackUrl}`);
@@ -127,6 +134,7 @@ async function mergeData() {
   if (mergedData.length > 0) {
     const filePath = path.resolve('repository.json');
     try {
+      console.log(`Writing merged data to: ${filePath}`);
       fs.writeFileSync(filePath, JSON.stringify(mergedData, null, 2));
       console.log('Merged data written to repository.json successfully.');
     } catch (err) {
