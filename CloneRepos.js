@@ -2,11 +2,14 @@ const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
 
+// Define the repository you're troubleshooting
+const troubledRepo = 'https://plugins.carvel.li/';
+
 // Read the list of repositories from 'RepoList.txt'
 const repoList = fs.readFileSync('RepoList.txt', 'utf-8')
   .split('\n')
   .map(url => url.trim())
-  .filter(url => url);
+  .filter(url => url === troubledRepo); // Only include the troubled repo
 
 async function fetchData(url) {
   try {
@@ -15,6 +18,8 @@ async function fetchData(url) {
     if (url === 'https://plugins.carvel.li/') {
       console.log('Fetching Carvel plugin list...');
       const configResponse = await axios.get('https://git.carvel.li/liza/plugin-repo/raw/branch/master/_config.json');
+      console.log('Received config response:', configResponse.data);
+
       const pluginList = configResponse.data.Plugins;
 
       if (!pluginList || pluginList.length === 0) {
@@ -28,7 +33,11 @@ async function fetchData(url) {
         try {
           console.log(`Fetching latest release for plugin: ${pluginName}`);
           const releaseApi = `https://git.carvel.li/api/v4/projects/liza%2F${encodeURIComponent(pluginName)}/releases`;
+          console.log(`Release API URL: ${releaseApi}`);
+
           const releasesResponse = await axios.get(releaseApi);
+          console.log(`Received releases response for ${pluginName}:`, releasesResponse.data);
+
           const latest = releasesResponse.data[0];
 
           if (!latest || !latest.assets || !latest.assets.links) {
@@ -39,6 +48,7 @@ async function fetchData(url) {
           let jsonUrl = '', zipUrl = '';
 
           for (const asset of latest.assets.links) {
+            console.log(`Processing asset: ${JSON.stringify(asset)}`);
             if (asset.name.endsWith('.json')) jsonUrl = asset.url;
             else if (asset.name.endsWith('.zip')) zipUrl = asset.url;
           }
@@ -50,6 +60,8 @@ async function fetchData(url) {
 
           console.log(`Fetching metadata from: ${jsonUrl}`);
           const pluginMetaResponse = await axios.get(jsonUrl);
+          console.log(`Received plugin metadata for ${pluginName}:`, pluginMetaResponse.data);
+
           const pluginMeta = pluginMetaResponse.data;
 
           pluginMeta.DownloadLinkInstall = zipUrl;
@@ -60,7 +72,7 @@ async function fetchData(url) {
 
           plugins.push(pluginMeta);
         } catch (err) {
-     //     console.error(`Error processing plugin ${pluginName}: ${err.message}`);
+          console.error(`Error processing plugin ${pluginName}: ${err.message}`);
         }
       }
 
@@ -69,11 +81,15 @@ async function fetchData(url) {
       console.log(`Fetching data from: ${url}`);
       const baseUrl = url.endsWith('/') ? url : `${url}/`;
       const jsonUrl = `${baseUrl}pluginmaster.json`;
+      console.log(`JSON URL: ${jsonUrl}`);
+
       const response = await axios.get(jsonUrl);
+      console.log(`Received JSON response:`, response.data);
+
       return response.data;
     }
   } catch (error) {
-  //  console.error(`Error fetching data from ${url}: ${error.message}`);
+    console.error(`Error fetching data from ${url}: ${error.message}`);
     return null;
   }
 }
@@ -88,6 +104,8 @@ async function fetchFallbackData(repoName) {
     try {
       console.log(`Attempting fallback fetch from: ${fallbackUrl}`);
       const response = await axios.get(fallbackUrl);
+      console.log(`Received fallback response from ${fallbackUrl}:`, response.data);
+
       if (response.status === 200) {
         console.log(`Successfully fetched data from fallback URL: ${fallbackUrl}`);
         return response.data;
