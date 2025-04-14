@@ -26,12 +26,13 @@ jobs:
     
     # Step 3: Install dependencies for CloneRepos.js (if required)
     - name: Install dependencies
-      run: npm install
+      run: |
+        npm install
     
     # Step 4: Run CloneRepos.js to download the JSON files
-    - name: Download JSON Files
+    - name: Run CloneRepos.js to Download JSON Files
       run: |
-        mkdir -p plugin_repos
+        # Make sure CloneRepos.js is part of the repo, or download it if necessary
         node CloneRepos.js
         
     # Step 5: Combine all JSON files into Repository.json
