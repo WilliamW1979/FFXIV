@@ -1,47 +1,41 @@
 name: Clone and Merge Repositories
 
 on:
-  push:
-    branches:
-      - main  # This triggers on a push to the `main` branch
+  schedule:
+    - cron: '*/5 * * * *'  # Run every 5 minutes
+  workflow_dispatch:       # Allows manual trigger from the GitHub UI
 
 jobs:
   clone-and-merge:
-    runs-on: ubuntu-latest  # We use the latest Ubuntu runner
+    runs-on: ubuntu-latest
 
     steps:
-      # Checkout the repository
       - name: Checkout repository
-        uses: actions/checkout@v3  # This checks out your repository to the runner
+        uses: actions/checkout@v3
 
-      # Set up Node.js
       - name: Set up Node.js
-        uses: actions/setup-node@v3  # This sets up Node.js
+        uses: actions/setup-node@v3
         with:
-          node-version: '16'  # Set your desired Node.js version
+          node-version: '16'
 
-      # Install dependencies
       - name: Install dependencies
         run: |
-          npm init -y  # Initialize a new Node.js project (package.json)
-          npm install axios  # Install axios to make HTTP requests
+          npm init -y
+          npm install axios
 
-      # Run CloneRepos.js script
       - name: Run CloneRepos.js
         run: |
-          node CloneRepos.js  # Execute your script
+          node CloneRepos.js
 
-      # Configure Git
       - name: Configure Git
         run: |
           git config --global user.name "Your GitHub Actions Bot"
           git config --global user.email "your-email@example.com"
 
-      # Commit and push changes to Repository.json
       - name: Commit and push changes
         run: |
-          git add Repository.json  # Add the updated file
-          git commit -m "Update Repository.json with new plugins"  # Commit the changes
-          git push  # Push the changes back to the repository
+          git add Repository.json
+          git commit -m "Update Repository.json with new plugins" || echo "No changes to commit"
+          git push
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use the GitHub token for authentication
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
