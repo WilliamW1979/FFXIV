@@ -2,7 +2,7 @@ name: Update Repository JSON
 
 on:
   schedule:
-    - cron: '*/10 * * * *'  # Run every 10 minutes
+    - cron: '*/2 * * * *'  # Run every 10 minutes
   push:
     branches:
       - main  # Trigger if there's a push to main branch
