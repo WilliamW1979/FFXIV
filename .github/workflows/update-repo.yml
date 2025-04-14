@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: |
           npm init -y
-          npm install axios
+          npm install axios cheerio  # Make sure cheerio is installed
 
       - name: Run CloneRepos.js
         run: |
