@@ -1,0 +1,16 @@
+[
+	{
+		"Author": "emyxiv",
+		"Name": "Dresser Anywhere",
+		"Punchline": "Improve glamour dresser",
+		"Description": "Use dresser outside of inns. Search items in other inventories or cheap at vendors. Try on your own character. Browse modded items.",
+		"Tags": ["Glamour", "Dresser", "Organize", "Search", "Items"],
+		"InternalName": "Dresser",
+		"AssemblyVersion": "0.5.0.34",
+		"RepoUrl": "https://github.com/emyxiv/Dresser",
+		"ApplicableVersion": "any",
+		"DalamudApiLevel": 12,
+		"DownloadCount": 1002,
+		"DownloadLinkInstall": "https://github.com/emyxiv/Dresser/releases/download/v0.5.0.34/latest.zip"
+	}
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "Author": "Chalkos",
+        "Name": "Marketbuddy",
+        "Punchline": "Less clicks, more gil!",
+        "Description": "Helper for your day-to-day market operations.",
+        "InternalName": "Marketbuddy",
+        "AssemblyVersion": "0.2.3.4",
+        "RepoUrl": "https://github.com/chalkos/Marketbuddy",
+        "ApplicableVersion": "any",
+        "DownloadLinkInstall": "https://github.com/chalkos/Marketbuddy/raw/main/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://github.com/chalkos/Marketbuddy/raw/main/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/chalkos/Marketbuddy/raw/main/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdated": "1737889082",
+        "Changelog": "- update for 7.2 (thanks Limiana)"
+    }
+]

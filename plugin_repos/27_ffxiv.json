@@ -1,0 +1,18 @@
+[
+	{
+		"Author": "WillWolf76 & The Redheaded Witch",
+		"Name": "Fashion Report",
+		"Punchline": "Calculates your points prior to speaking with Masked Rose for the Gold Saucer mini game while also giving you the proper themed pieces that would work!",
+		"Description": "Fashion Report with point calculation system.\nOnce you check in to see the fashion report for the week, the window will check your gear and tell you how many points you will earn based on what you are wearing. Clicking on a theme will show you the gear for that theme in that slot.\nThis includes Dyes!!!\n\n/fr - opens up main window.\n/fashionreport - Main Window\n\nThis project was made possible by a woman who took the time to figure out the proper pointing system and organize the fashion report data for me. She is the heart of this project. Her data made dye calculation possible.\n\nFuture Updates:\nAutomatic teleporting and moving to NPCs that sell pieces.",
+		"Tags": ["Fashion Report", "Gold Saucer", "Mini Game", "Masked Rose", "Glamour", "MGP"],
+		"CategoryTags": ["Utility", "UI"],
+		"InternalName": "FashionReport",
+		"AssemblyVersion": "0.4.9",
+		"RepoUrl": "https://github.com/WilliamW1979/FashionReport",
+		"DownloadLinkInstall": "https://github.com/WilliamW1979/FashionReport/releases/download/v0.4.9/latest.zip",
+		"DownloadLinkTesting": "https://github.com/WilliamW1979/FashionReport/releases/download/v0.4.9/latest.zip",
+		"DownloadLinkUpdate":  "https://github.com/WilliamW1979/FashionReport/releases/download/v0.4.9/latest.zip",
+		"ApplicableVersion": "any",
+    		"IconUrl": "https://github.com/WilliamW1979/FashionReport/raw/master/FashionReport/images/icon.png"
+	}
+]

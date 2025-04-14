@@ -1,0 +1,24 @@
+[
+    {
+        "Author": "GiR-Zippo, Meowchestra",
+        "Name": "HypnotoadPlugin",
+        "InternalName": "HypnotoadPlugin",
+        "AssemblyVersion": "0.0.1.49",
+        "Description": "LightAmp companion for enhanced functionality.",
+        "ApplicableVersion": "any",
+        "RepoUrl": "https://github.com//GiR-Zippo/Hypnotoad-Plugin",
+        "CategoryTags": [
+            "utility",
+            "other"
+        ],
+        "LoadPriority": 0,
+        "IconUrl": "https://raw.githubusercontent.com/GiR-Zippo/Hypnotoad-Plugin/master/Data/icon.png",
+        "Punchline": "Companion plugin for enhanced functionality.",
+        "IsHide": "False",
+        "IsTestingExclusive": "False",
+        "LastUpdate": "1743582144",
+        "DownloadLinkInstall": "https://github.com//GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.1.49/latest.zip",
+        "DownloadLinkTesting": "https://github.com//GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.1.49/latest.zip",
+        "DownloadLinkUpdate": "https://github.com//GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.1.49/latest.zip"
+    }
+]
