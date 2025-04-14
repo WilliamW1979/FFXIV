@@ -14,14 +14,17 @@ fs.readFile('RepoList.txt', 'utf8', async (err, data) => {
     // Initialize an empty array to hold the merged data
     let mergedData = [];
 
+    console.log('Processing the following URLs:', urls);  // Debugging: Log URLs being processed
+
     // Process each URL asynchronously
     for (let url of urls) {
         try {
-            // Fetch the data from the URL
+            console.log(`Fetching data from: ${url}`);  // Debugging: Log each URL being fetched
             const response = await axios.get(url.trim());
 
             // Check if the response contains JSON data
             if (response.data) {
+                console.log(`Fetched ${response.data.length} items from ${url}`);  // Debugging: Log number of items fetched
                 mergedData = mergedData.concat(response.data);  // Merge the data into the array
             } else {
                 console.error(`No data found at ${url}`);
@@ -32,11 +35,15 @@ fs.readFile('RepoList.txt', 'utf8', async (err, data) => {
     }
 
     // After all URLs are processed, write the merged data into Repository.json
-    fs.writeFile('Repository.json', JSON.stringify(mergedData, null, 2), (err) => {
-        if (err) {
-            console.error('Error writing to Repository.json:', err);
-        } else {
-            console.log('Merged data written to Repository.json successfully.');
-        }
-    });
+    if (mergedData.length > 0) {
+        fs.writeFile('Repository.json', JSON.stringify(mergedData, null, 2), (err) => {
+            if (err) {
+                console.error('Error writing to Repository.json:', err);
+            } else {
+                console.log('Merged data written to Repository.json successfully.');
+            }
+        });
+    } else {
+        console.log('No data to write to Repository.json. Please check the fetched URLs.');
+    }
 });
