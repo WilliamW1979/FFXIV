@@ -27,16 +27,16 @@ async function mergeData() {
   }
 
   if (mergedData.length > 0) {
-    const filePath = path.resolve('Repository.json');
+    const filePath = path.resolve('repository.json');
     
     try {
       fs.writeFileSync(filePath, JSON.stringify(mergedData, null, 2));
-      console.log('Merged data written to Repository.json successfully.');
+      console.log('Merged data written to repository.json successfully.');
     } catch (err) {
-      console.error('Error writing to Repository.json:', err.message);
+      console.error('Error writing to repository.json:', err.message);
     }
   } else {
-    console.log('No valid data to write to Repository.json.');
+    console.log('No valid data to write to repository.json.');
   }
 }
 
