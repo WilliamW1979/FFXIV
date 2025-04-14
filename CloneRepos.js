@@ -1,51 +1,142 @@
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
+const cheerio = require('cheerio');
 
-// Function to fetch the latest release manifest from GitHub
-async function fetchLatestManifest(owner, repo, assetExtension) {
+// Read the list of repositories from 'RepoList.txt'
+const repoList = fs.readFileSync('RepoList.txt', 'utf-8')
+  .split('\n')
+  .map(url => url.trim())
+  .filter(url => url);
+
+// Function to fetch data from a given URL
+async function fetchData(url) {
   try {
-    const apiUrl = `https://api.github.com/repos/${owner}/${repo}/releases/latest`;
-    const response = await axios.get(apiUrl, {
-      headers: { 'Accept': 'application/vnd.github+json' }
-    });
+    if (url.endsWith('.json')) {
+      // Direct JSON URL
+      const response = await axios.get(url);
+      return response.data;
+    } else if (url === 'https://plugins.carvel.li/') {
+      // Handle Carvel plugin repository (HTML page)
+      const response = await axios.get(url);
+      const $ = cheerio.load(response.data);
+      const plugins = [];
 
-    const assets = response.data.assets;
-    const manifestAsset = assets.find(asset => asset.name.endsWith(assetExtension));
+      $('h4').each((i, element) => {
+        const pluginName = $(element).find('a').text().trim();
+        const downloadLink = $(element).find('a').attr('href');
+        const iconUrl = $(element).find('img').attr('src');
 
-    if (!manifestAsset) {
-      throw new Error(`No asset ending with '${assetExtension}' found in the latest release.`);
+        const plugin = {
+          Author: 'Unknown',
+          Name: pluginName,
+          Punchline: '',
+          Description: '',
+          Tags: [],
+          CategoryTags: [],
+          InternalName: pluginName.replace(/\s+/g, ''),
+          AssemblyVersion: '0.0.0',
+          DalamudApiLevel: 12, // Explicitly set the API level
+          RepoUrl: url,
+          DownloadLinkInstall: downloadLink,
+          DownloadLinkTesting: downloadLink,
+          DownloadLinkUpdate: downloadLink,
+          ApplicableVersion: 'any',
+          IconUrl: iconUrl || ''
+        };
+
+        plugins.push(plugin);
+      });
+
+      return plugins;
+    } else {
+      // Default case for other URLs
+      const baseUrl = url.endsWith('/') ? url : `${url}/`;
+      const jsonUrl = `${baseUrl}pluginmaster.json`;
+      const response = await axios.get(jsonUrl);
+      return response.data;
     }
-
-    const manifestResponse = await axios.get(manifestAsset.browser_download_url);
-    return manifestResponse.data;
   } catch (error) {
-    console.error(`Error fetching manifest for ${owner}/${repo}: ${error.message}`);
+    console.error(`Error fetching data from ${url}: ${error.message}`);
     return null;
   }
 }
 
-// Function to merge plugin data into repository.json
-async function mergeData() {
-  const plugins = [];
+// Function to fetch fallback data if primary fetch fails
+async function fetchFallbackData(repoName) {
+  const fallbackUrls = [
+    `https://puni.sh/api/repository/${repoName}`,
+    `https://love.puni.sh/ment.json`
+  ];
 
-  // Example: Fetching the 'Questionable' plugin manifest
-  const owner = 'liza';
-  const repo = 'Questionable';
-  const assetExtension = '.json.d12';
-
-  const pluginData = await fetchLatestManifest(owner, repo, assetExtension);
-  if (pluginData) {
-    plugins.push(pluginData);
+  for (const fallbackUrl of fallbackUrls) {
+    try {
+      const response = await axios.get(fallbackUrl);
+      if (response.status === 200) {
+        console.log(`Successfully fetched data from fallback URL: ${fallbackUrl}`);
+        return response.data;
+      }
+    } catch (error) {
+      console.error(`Error fetching data from fallback URL ${fallbackUrl}: ${error.message}`);
+    }
   }
 
-  // Write the merged data to repository.json
-  const filePath = path.resolve('repository.json');
-  try {
-    fs.writeFileSync(filePath, JSON.stringify(plugins, null, 2));
-    console.log('Merged data written to repository.json successfully.');
-  } catch (err) {
-    console.error('Error writing to repository.json:', err.message);
+  return null;
+}
+
+// Main function to merge data from all repositories
+async function mergeData() {
+  let mergedData = [];
+
+  for (const url of repoList) {
+    let data = await fetchData(url);
+
+    if (!data) {
+      const repoName = url.split('/').pop();
+      console.log(`Primary data fetch failed for ${repoName}, attempting fallback.`);
+      data = await fetchFallbackData(repoName);
+    }
+
+    if (data) {
+      let plugins = [];
+
+      if (Array.isArray(data)) {
+        plugins = data;
+      } else if (data.items && Array.isArray(data.items)) {
+        plugins = data.items;
+      } else if (data.plugins && Array.isArray(data.plugins)) {
+        plugins = data.plugins;
+      }
+
+      // Process each plugin entry
+      for (const plugin of plugins) {
+        // Ensure DalamudApiLevel is set to 12 for plugins from plugins.carvel.li
+        if (url === 'https://plugins.carvel.li/') {
+          plugin.DalamudApiLevel = 12;
+        }
+
+        // Ensure Author is not missing
+        if (!plugin.Author || plugin.Author.trim() === '') {
+          plugin.Author = 'Unknown';
+        }
+
+        // Add the processed plugin to the merged data
+        mergedData.push(plugin);
+      }
+    }
+  }
+
+  if (mergedData.length > 0) {
+    const filePath = path.resolve('repository.json');
+
+    try {
+      fs.writeFileSync(filePath, JSON.stringify(mergedData, null, 2));
+      console.log('Merged data written to repository.json successfully.');
+    } catch (err) {
+      console.error('Error writing to repository.json:', err.message);
+    }
+  } else {
+    console.log('No valid data to write to repository.json.');
   }
 }
 
