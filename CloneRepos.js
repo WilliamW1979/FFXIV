@@ -1,33 +1,57 @@
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
-const cheerio = require('cheerio'); // For parsing HTML content
 
 // Read the list of repositories from 'RepoList.txt'
 const repoList = fs.readFileSync('RepoList.txt', 'utf-8').split('\n').filter(url => url.trim());
 
 async function fetchData(url) {
   try {
-    // Check if the URL ends with '.json'
     if (url.trim().endsWith('.json')) {
       const response = await axios.get(url);
       return response.data;
     } else if (url === 'https://plugins.carvel.li/') {
-      // Handle Carvel plugin repository (HTML page)
-      const response = await axios.get(url);
-      const $ = cheerio.load(response.data);
+      // Fetch the plugin configuration
+      const configUrl = 'https://git.carvel.li/liza/plugin-repo/raw/branch/master/_config.json';
+      const configResponse = await axios.get(configUrl);
+      const pluginList = configResponse.data.plugins || [];
+
       const plugins = [];
-      $('h4').each((i, element) => {
-        const plugin = {
-          Name: $(element).find('a').text(),
-          IconUrl: $(element).find('img').attr('src'),
-          DownloadLinkInstall: $(element).find('a').attr('href'),
-        };
-        plugins.push(plugin);
-      });
+
+      for (const plugin of pluginList) {
+        const repoName = plugin.repo;
+        const apiUrl = `https://git.carvel.li/api/v1/repos/liza/${repoName}/releases/latest`;
+
+        try {
+          const releaseResponse = await axios.get(apiUrl);
+          const release = releaseResponse.data;
+
+          // Construct the plugin metadata
+          const pluginData = {
+            Author: plugin.author || 'Unknown',
+            Name: plugin.name || repoName,
+            Punchline: plugin.punchline || '',
+            Description: plugin.description || '',
+            Tags: plugin.tags || [],
+            CategoryTags: plugin.categoryTags || [],
+            InternalName: plugin.internalName || repoName,
+            AssemblyVersion: release.tag_name || '0.0.0',
+            RepoUrl: `https://git.carvel.li/liza/${repoName}`,
+            DownloadLinkInstall: release.assets?.[0]?.browser_download_url || '',
+            DownloadLinkTesting: release.assets?.[0]?.browser_download_url || '',
+            DownloadLinkUpdate: release.assets?.[0]?.browser_download_url || '',
+            ApplicableVersion: 'any',
+            IconUrl: plugin.icon || ''
+          };
+
+          plugins.push(pluginData);
+        } catch (releaseError) {
+          console.error(`Error fetching release data for ${repoName}: ${releaseError.message}`);
+        }
+      }
+
       return plugins;
     } else {
-      // Default case for other URLs
       const baseUrl = url.trim().endsWith('/') ? url.trim() : `${url.trim()}/`;
       const jsonUrl = `${baseUrl}pluginmaster.json`;
       const response = await axios.get(jsonUrl);
