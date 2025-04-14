@@ -17,11 +17,9 @@ https://puni.sh/api/repository/croizat
 https://raw.githubusercontent.com/KangasZ/DalamudPluginRepository/main/plugin_repository.json
 https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json
 https://github.com/zhouhuichen741/dalamud-plugins/raw/master/repo.json
-https://github.com/ffxivcode/DalamudPlugins/raw/main/repojson
 https://github.com/UnknownX7/DalamudPluginRepo/raw/master/pluginmaster.json
 https://github.com/emyxiv/Dresser/raw/master/repo.json
 https://github.com/Milesnocte/GambaGames/raw/main/repo.json
-https://github.com/ryon5541/dalamud-repo-up/raw/main/ffxiv_custom_repojson
 https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json
 https://github.com/huntsffxiv/repo/raw/main/repo.json
 https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json
