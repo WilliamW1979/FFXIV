@@ -10,7 +10,7 @@ https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaste
 https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json
 https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json
 https://puni.sh/api/repository/veyn
-https://plugins.carvel.li/dist/pluginmaster.json
+https://plugins.carvel.li/
 https://puni.sh/api/repository/herc
 https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json
 https://puni.sh/api/repository/croizat
