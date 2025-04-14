@@ -1,8 +1,9 @@
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
+const cheerio = require('cheerio'); // For parsing HTML content
 
-// Read the list of repositories
+// Read the list of repositories from 'RepoList.txt'
 const repoList = fs.readFileSync('RepoList.txt', 'utf-8').split('\n').filter(url => url.trim());
 
 async function fetchData(url) {
@@ -11,22 +12,20 @@ async function fetchData(url) {
     if (url.trim().endsWith('.json')) {
       const response = await axios.get(url);
       return response.data;
-    } else if (url.includes('github.com')) {
-      // Handle GitHub raw content URLs
-      const baseUrl = url.trim().endsWith('/') ? url.trim() : `${url.trim()}/`;
-      const jsonUrl = `${baseUrl}raw/main/repojson`; // Adjust as needed
-      const response = await axios.get(jsonUrl);
-      return response.data;
-    } else if (url.includes('puni.sh')) {
-      // Handle puni.sh API endpoints
+    } else if (url === 'https://plugins.carvel.li/') {
+      // Handle Carvel plugin repository (HTML page)
       const response = await axios.get(url);
-      return response.data;
-    } else if (url.includes('plugins.carvel.li')) {
-      // Handle carvel.li HTML pages
-      const response = await axios.get(url);
-      // Parse HTML to extract JSON data if necessary
-      // Implement HTML parsing logic here
-      return parsedData;
+      const $ = cheerio.load(response.data);
+      const plugins = [];
+      $('h4').each((i, element) => {
+        const plugin = {
+          Name: $(element).find('a').text(),
+          IconUrl: $(element).find('img').attr('src'),
+          DownloadLinkInstall: $(element).find('a').attr('href'),
+        };
+        plugins.push(plugin);
+      });
+      return plugins;
     } else {
       // Default case for other URLs
       const baseUrl = url.trim().endsWith('/') ? url.trim() : `${url.trim()}/`;
@@ -35,8 +34,8 @@ async function fetchData(url) {
       return response.data;
     }
   } catch (error) {
-    console.error(`Error fetching data from ${url}: ${error.response ? error.response.status : error.message}`);
-    return null; // Return null to indicate an error
+    console.error(`Error fetching data from ${url}: ${error.message}`);
+    return null;
   }
 }
 
