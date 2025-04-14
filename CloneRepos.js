@@ -1,49 +1,41 @@
-const fs = require('fs');
 const axios = require('axios');
+const fs = require('fs');
 
-// Read the list of URLs from the RepoList.txt file
-fs.readFile('RepoList.txt', 'utf8', async (err, data) => {
-    if (err) {
-        console.error('Error reading RepoList.txt:', err);
-        process.exit(1);
-    }
+// Read the list of repositories
+const repoList = fs.readFileSync('RepoList.txt', 'utf-8').split('\n').filter(url => url.trim());
 
-    // Split the content of RepoList.txt into an array of URLs
-    const urls = data.split('\n').filter(url => url.trim() !== '');
+async function fetchData(url) {
+  try {
+    const response = await axios.get(url);
+    console.log(`Fetched data from: ${url}`);
+    console.log('Fetched data:', response.data); // Log the fetched data
+    return response.data; // Return the fetched data
+  } catch (error) {
+    console.error(`Error fetching data from ${url}: ${error.message}`);
+    return []; // Return an empty array if there's an error
+  }
+}
 
-    // Initialize an empty array to hold the merged data
-    let mergedData = [];
+async function mergeData() {
+  let mergedData = [];
 
-    console.log('Processing the following URLs:', urls);  // Debugging: Log URLs being processed
+  for (const url of repoList) {
+    console.log(`Fetching data from: ${url}`);
+    const data = await fetchData(url);
 
-    // Process each URL asynchronously
-    for (let url of urls) {
-        try {
-            console.log(`Fetching data from: ${url}`);  // Debugging: Log each URL being fetched
-            const response = await axios.get(url.trim());
-
-            // Check if the response contains JSON data
-            if (response.data) {
-                console.log(`Fetched ${response.data.length} items from ${url}`);  // Debugging: Log number of items fetched
-                mergedData = mergedData.concat(response.data);  // Merge the data into the array
-            } else {
-                console.error(`No data found at ${url}`);
-            }
-        } catch (error) {
-            console.error(`Error fetching data from ${url}:`, error.message);
-        }
-    }
-
-    // After all URLs are processed, write the merged data into Repository.json
-    if (mergedData.length > 0) {
-        fs.writeFile('Repository.json', JSON.stringify(mergedData, null, 2), (err) => {
-            if (err) {
-                console.error('Error writing to Repository.json:', err);
-            } else {
-                console.log('Merged data written to Repository.json successfully.');
-            }
-        });
+    // If the data is an array, merge it; if it's an object with an array, extract and merge
+    if (Array.isArray(data)) {
+      mergedData = mergedData.concat(data);
+    } else if (data && Array.isArray(data.items)) {
+      mergedData = mergedData.concat(data.items); // If the data has an 'items' array
     } else {
-        console.log('No data to write to Repository.json. Please check the fetched URLs.');
+      console.log(`Skipping URL (unexpected structure): ${url}`);
     }
-});
+  }
+
+  // Write the merged data to Repository.json
+  fs.writeFileSync('Repository.json', JSON.stringify(mergedData, null, 2));
+  console.log('Merged data written to Repository.json successfully.');
+}
+
+mergeData();
