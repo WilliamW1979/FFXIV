@@ -9,7 +9,6 @@ const troubledRepo = 'https://plugins.carvel.li/';
 const repoList = fs.readFileSync('RepoList.txt', 'utf-8')
   .split('\n')
   .map(url => url.trim())
-  .filter(url => url === troubledRepo); // Only include the troubled repo
 
 async function fetchData(url) {
   try {
