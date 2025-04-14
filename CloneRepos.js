@@ -9,10 +9,6 @@ const repoList = fs.readFileSync('RepoList.txt', 'utf-8')
   .map(url => url.trim())
   .filter(url => url);
 
-// Function to fetch data from a given URL
-const axios = require('axios');
-const cheerio = require('cheerio');
-
 async function fetchData(url) {
   try {
     if (url === 'https://plugins.carvel.li/') {
