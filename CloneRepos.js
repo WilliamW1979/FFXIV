@@ -32,7 +32,7 @@ async function fetchData(url) {
       for (const { Name: pluginName } of pluginList) {
         try {
           console.log(`Fetching latest release for plugin: ${pluginName}`);
-          const releaseApi = `https://git.carvel.li/api/v4/projects/liza/${encodeURIComponent(pluginName)}/releases`;
+          const releaseApi = `https://git.carvel.li/liza/${encodeURIComponent(pluginName)}/releases/latest`;
           console.log(`Release API URL: ${releaseApi}`);
 
           const releasesResponse = await axios.get(releaseApi);
