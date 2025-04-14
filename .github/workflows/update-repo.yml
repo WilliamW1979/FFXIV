@@ -2,52 +2,52 @@ name: Update Repository JSON
 
 on:
   schedule:
-    - cron: '*/2 * * * *'  # Run every 10 minutes
+    - cron: '*/2 * * * *'  # Run every 2 minutes
   push:
     branches:
-      - main  # Trigger if there's a push to main branch
+      - main  # Trigger on push to main
 
 jobs:
   update-repository-json:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout the repository
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      # Step 2: Install Node.js (if you need to use Node for processing)
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'  # Specify the version of Node.js to use
+          node-version: '16'
 
-      # Step 3: Run CloneRepos.js to clone the repositories
-      - name: Clone Repositories
+      - name: Run CloneRepos.js to Download Plugin JSONs
         run: |
-          node CloneRepos.js  # This will execute CloneRepos.js script
+          node CloneRepos.js
 
-      # Step 4: Combine Plugin JSON Files
-      - name: Combine Plugin JSON Files
+      - name: Combine Plugin JSON Files into Repository.json
         run: |
-          # Install jq to process JSON files
-          sudo apt-get install jq
+          sudo apt-get update
+          sudo apt-get install -y jq
 
-          # Initialize an empty array for combined data
+          echo "Checking downloaded files:"
+          ls -la plugin_repos
+
           Repository_json="[]"
 
-          # Process each plugin JSON file in the directory (assuming they're in a folder like "plugins/")
-          for file in plugins/*.json; do
+          for file in plugin_repos/*.json; do
             if [ -f "$file" ]; then
-              plugin_json=$(cat "$file")
-              Repository_json=$(echo "$Repository_json" | jq ". += [$plugin_json]")
+              echo "Processing: $file"
+              if jq empty "$file" 2>/dev/null; then
+                plugin_json=$(cat "$file")
+                Repository_json=$(echo "$Repository_json" | jq ". += [$plugin_json]")
+              else
+                echo "Skipping invalid JSON: $file"
+              fi
             fi
           done
 
-          # Save the Repository result to Repository.json
           echo "$Repository_json" > Repository.json
 
-      # Step 5: Commit and Push Changes
       - name: Commit and Push Changes
         uses: EndBug/add-and-commit@v9
         with:
