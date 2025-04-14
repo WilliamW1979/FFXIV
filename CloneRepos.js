@@ -9,6 +9,7 @@ const repoList = fs.readFileSync('RepoList.txt', 'utf-8')
   .map(url => url.trim())
   .filter(url => url);
 
+// Function to fetch data from a given URL
 async function fetchData(url) {
   try {
     if (url === 'https://plugins.carvel.li/') {
@@ -27,48 +28,61 @@ async function fetchData(url) {
         const pluginName = pluginEntry.Name;
         const releasesUrl = `https://git.carvel.li/liza/${pluginName}/-/releases`;
 
-        // Fetch the releases page
-        const releasesPage = await axios.get(releasesUrl);
-        const $ = cheerio.load(releasesPage.data);
+        try {
+          // Fetch the releases page
+          const releasesPage = await axios.get(releasesUrl);
+          const $ = cheerio.load(releasesPage.data);
 
-        // Find the latest release section
-        const latestRelease = $('.release').first();
+          // Find the latest release section
+          const latestRelease = $('.release').first();
 
-        if (!latestRelease) {
-          console.warn(`No releases found for plugin: ${pluginName}`);
-          continue;
-        }
-
-        // Extract links to the JSON and ZIP files
-        const assetLinks = latestRelease.find('.release-assets a');
-        let jsonLink = '';
-        let zipLink = '';
-
-        assetLinks.each((i, elem) => {
-          const href = $(elem).attr('href');
-          if (href.endsWith('.json')) {
-            jsonLink = `https://git.carvel.li${href}`;
-          } else if (href.endsWith('.zip')) {
-            zipLink = `https://git.carvel.li${href}`;
+          if (!latestRelease || latestRelease.length === 0) {
+            console.warn(`No releases found for plugin: ${pluginName}`);
+            continue;
           }
-        });
 
-        if (!jsonLink || !zipLink) {
-          console.warn(`Missing assets for plugin: ${pluginName}`);
+          // Extract links to the JSON and ZIP files
+          const assetLinks = latestRelease.find('.release-assets a');
+          let jsonLink = '';
+          let zipLink = '';
+
+          assetLinks.each((i, elem) => {
+            const href = $(elem).attr('href');
+            if (href.endsWith('.json')) {
+              jsonLink = `https://git.carvel.li${href}`;
+            } else if (href.endsWith('.zip')) {
+              zipLink = `https://git.carvel.li${href}`;
+            }
+          });
+
+          if (!jsonLink || !zipLink) {
+            console.warn(`Missing assets for plugin: ${pluginName}`);
+            continue;
+          }
+
+          // Fetch the plugin's JSON metadata
+          const pluginMetaResponse = await axios.get(jsonLink);
+          const pluginMeta = pluginMetaResponse.data;
+
+          // Add download links to the plugin metadata
+          pluginMeta.DownloadLinkInstall = zipLink;
+          pluginMeta.DownloadLinkUpdate = zipLink;
+          pluginMeta.DownloadLinkTesting = zipLink;
+
+          // Ensure DalamudApiLevel is set to 12
+          pluginMeta.DalamudApiLevel = 12;
+
+          // Ensure Author is not missing
+          if (!pluginMeta.Author || pluginMeta.Author.trim() === '') {
+            pluginMeta.Author = 'Unknown';
+          }
+
+          // Add the processed plugin to the list
+          plugins.push(pluginMeta);
+        } catch (error) {
+          console.error(`Error processing plugin ${pluginName}: ${error.message}`);
           continue;
         }
-
-        // Fetch the plugin's JSON metadata
-        const pluginMetaResponse = await axios.get(jsonLink);
-        const pluginMeta = pluginMetaResponse.data;
-
-        // Add download links to the plugin metadata
-        pluginMeta.DownloadLinkInstall = zipLink;
-        pluginMeta.DownloadLinkUpdate = zipLink;
-        pluginMeta.DownloadLinkTesting = zipLink;
-
-        // Add the processed plugin to the list
-        plugins.push(pluginMeta);
       }
 
       return plugins;
