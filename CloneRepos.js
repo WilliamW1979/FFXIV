@@ -1,76 +1,40 @@
-const fs = require("fs")
-const https = require("https")
-const path = require("path")
-const pluginDir = "plugin_repos"
+const fs = require('fs');
+const axios = require('axios');
 
-if (!fs.existsSync(pluginDir)) fs.mkdirSync(pluginDir)
-
-const pluginUrls = [
-  "https://raw.githubusercontent.com/kalildev/PluginHosting/main/pluginmaster.json",
-  "https://raw.githubusercontent.com/Caraxi/DalamudPluginRepo/master/repo.json",
-  "https://raw.githubusercontent.com/unknownskl/xivplugins/main/pluginmaster.json",
-  "https://raw.githubusercontent.com/Critical-Impact/TestingRepo/master/pluginmaster.json",
-  "https://raw.githubusercontent.com/Bluefissure/FFXIV_ACT_Plugin/master/OverlayPlugin/OverlayPlugin.Common/Resources/pluginmaster.json",
-  "https://raw.githubusercontent.com/UnknownX7/NoClippy/master/repo.json",
-  "https://raw.githubusercontent.com/daemitus/MyDalamudPlugins/main/pluginmaster.json",
-  "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
-  "https://raw.githubusercontent.com/Sebane1/DalamudPluginRepo/main/pluginmaster.json",
-  "https://raw.githubusercontent.com/LeonBlade/DalamudPlugins/main/repo.json",
-  "https://raw.githubusercontent.com/nyaami/NyaamiPluginRepo/main/Repository.json",
-  "https://raw.githubusercontent.com/Aireil/PluginDist/main/Repository.json",
-  "https://raw.githubusercontent.com/HawtSticks/FFXIV-PluginRepo/main/pluginmaster.json",
-  "https://raw.githubusercontent.com/Athiee/MyDalamudPlugins/main/plugin_repository.json",
-  "https://raw.githubusercontent.com/KazWolfe/ffxiv-PluginRepo/main/pluginmaster.json",
-  "https://raw.githubusercontent.com/ryon5541/dalamud-repo-up/main/ffxiv_custom_repojson",
-  "https://raw.githubusercontent.com/AtmoOmen/FFXIVDalamudPlugins/main/repo.json",
-  "https://raw.githubusercontent.com/AsteriskAmpersand/ffxiv-repo-index/main/repo.json",
-  "https://raw.githubusercontent.com/Sebane1/DalamudPlugins/main/ffxiv.json"
-]
-
-function downloadFile(url, dest) {
-  return new Promise((resolve, reject) => {
-    https.get(url, res => {
-      if (res.statusCode !== 200) return reject(new Error(`Failed to download ${url}: HTTP ${res.statusCode}`))
-      const file = fs.createWriteStream(dest)
-      res.pipe(file)
-      file.on("finish", () => file.close(resolve))
-    }).on("error", reject)
-  })
-}
-
-(async () => {
-  for (let i = 0; i < pluginUrls.length; i++) {
-    const url = pluginUrls[i]
-    const filename = String(i).padStart(2, "0") + "_" + path.basename(url)
-    const filePath = path.join(pluginDir, filename)
-    try {
-      await downloadFile(url, filePath)
-      console.log(`Downloaded ${filename}`)
-    } catch (err) {
-      console.warn(`Failed to download ${url}: ${err.message}`)
-    }
+// Read the RepoList.txt file which contains the list of JSON URLs
+fs.readFile('RepoList.txt', 'utf8', async (err, data) => {
+  if (err) {
+    console.error('Error reading RepoList.txt:', err);
+    return;
   }
 
-  let Repository_json = []
-  const files = fs.readdirSync(pluginDir)
+  // Split the file content by new lines to get the individual URLs
+  const urls = data.split('\n').map(url => url.trim()).filter(url => url.length > 0);
+  
+  let combinedJson = [];
 
-  for (const file of files) {
-    const filePath = path.join(pluginDir, file)
+  // Fetch and process each URL
+  for (const url of urls) {
     try {
-      const content = fs.readFileSync(filePath, "utf8")
-      const parsed = JSON.parse(content)
-      const type = typeof parsed
-      if (type === "object") {
-        Repository_json.push(parsed)
-        console.log(`Processed: ${file}`)
+      console.log(`Fetching data from: ${url}`);
+      const response = await axios.get(url);
+
+      // Assuming the response is JSON, merge it with the combinedJson array
+      if (response.data) {
+        combinedJson = [...combinedJson, ...response.data];
       } else {
-        console.log(`Skipping ${file}: root is not a valid object or array`)
+        console.warn(`No valid JSON data found at: ${url}`);
       }
     } catch (err) {
-      console.log(`Skipping ${file}: invalid JSON (${err.message})`)
+      console.error(`Error fetching data from ${url}:`, err);
     }
   }
 
-  fs.writeFileSync("Repository.json", JSON.stringify(Repository_json, null, 2))
-  console.log("Repository.json written")
-})()
+  // Write the combined JSON data to Repository.json
+  try {
+    fs.writeFileSync('Repository.json', JSON.stringify(combinedJson, null, 2));
+    console.log('Repository.json has been updated with combined data.');
+  } catch (err) {
+    console.error('Error writing Repository.json:', err);
+  }
+});
