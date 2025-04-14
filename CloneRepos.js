@@ -1,7 +1,6 @@
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
-const cheerio = require('cheerio');
 
 // Read the list of repositories from 'RepoList.txt'
 const repoList = fs.readFileSync('RepoList.txt', 'utf-8')
@@ -9,11 +8,9 @@ const repoList = fs.readFileSync('RepoList.txt', 'utf-8')
   .map(url => url.trim())
   .filter(url => url);
 
-// Function to fetch data from a given URL
 async function fetchData(url) {
   try {
     if (url === 'https://plugins.carvel.li/') {
-      // Fetch the configuration file listing all plugins
       const configResponse = await axios.get('https://git.carvel.li/liza/plugin-repo/raw/branch/master/_config.json');
       const pluginList = configResponse.data.Plugins;
 
@@ -24,70 +21,46 @@ async function fetchData(url) {
 
       const plugins = [];
 
-      for (const pluginEntry of pluginList) {
-        const pluginName = pluginEntry.Name;
-        const releasesUrl = `https://git.carvel.li/liza/${pluginName}/-/releases`;
-
+      for (const { Name: pluginName } of pluginList) {
         try {
-          // Fetch the releases page
-          const releasesPage = await axios.get(releasesUrl);
-          const $ = cheerio.load(releasesPage.data);
+          const releaseApi = `https://git.carvel.li/api/v4/projects/liza%2F${encodeURIComponent(pluginName)}/releases`;
+          const releasesResponse = await axios.get(releaseApi);
+          const latest = releasesResponse.data[0];
 
-          // Find the latest release section
-          const latestRelease = $('.release').first();
-
-          if (!latestRelease || latestRelease.length === 0) {
-            console.warn(`No releases found for plugin: ${pluginName}`);
+          if (!latest || !latest.assets || !latest.assets.links) {
+            console.warn(`No valid assets for plugin: ${pluginName}`);
             continue;
           }
 
-          // Extract links to the JSON and ZIP files
-          const assetLinks = latestRelease.find('.release-assets a');
-          let jsonLink = '';
-          let zipLink = '';
+          let jsonUrl = '', zipUrl = '';
 
-          assetLinks.each((i, elem) => {
-            const href = $(elem).attr('href');
-            if (href.endsWith('.json')) {
-              jsonLink = `https://git.carvel.li${href}`;
-            } else if (href.endsWith('.zip')) {
-              zipLink = `https://git.carvel.li${href}`;
-            }
-          });
+          for (const asset of latest.assets.links) {
+            if (asset.name.endsWith('.json')) jsonUrl = asset.url;
+            else if (asset.name.endsWith('.zip')) zipUrl = asset.url;
+          }
 
-          if (!jsonLink || !zipLink) {
-            console.warn(`Missing assets for plugin: ${pluginName}`);
+          if (!jsonUrl || !zipUrl) {
+            console.warn(`Missing required assets for plugin: ${pluginName}`);
             continue;
           }
 
-          // Fetch the plugin's JSON metadata
-          const pluginMetaResponse = await axios.get(jsonLink);
+          const pluginMetaResponse = await axios.get(jsonUrl);
           const pluginMeta = pluginMetaResponse.data;
 
-          // Add download links to the plugin metadata
-          pluginMeta.DownloadLinkInstall = zipLink;
-          pluginMeta.DownloadLinkUpdate = zipLink;
-          pluginMeta.DownloadLinkTesting = zipLink;
-
-          // Ensure DalamudApiLevel is set to 12
+          pluginMeta.DownloadLinkInstall = zipUrl;
+          pluginMeta.DownloadLinkUpdate = zipUrl;
+          pluginMeta.DownloadLinkTesting = zipUrl;
           pluginMeta.DalamudApiLevel = 12;
+          if (!pluginMeta.Author || pluginMeta.Author.trim() === '') pluginMeta.Author = 'Unknown';
 
-          // Ensure Author is not missing
-          if (!pluginMeta.Author || pluginMeta.Author.trim() === '') {
-            pluginMeta.Author = 'Unknown';
-          }
-
-          // Add the processed plugin to the list
           plugins.push(pluginMeta);
-        } catch (error) {
-          console.error(`Error processing plugin ${pluginName}: ${error.message}`);
-          continue;
+        } catch (err) {
+          console.error(`Error processing plugin ${pluginName}: ${err.message}`);
         }
       }
 
       return plugins;
     } else {
-      // Default case for other URLs
       const baseUrl = url.endsWith('/') ? url : `${url}/`;
       const jsonUrl = `${baseUrl}pluginmaster.json`;
       const response = await axios.get(jsonUrl);
@@ -99,7 +72,6 @@ async function fetchData(url) {
   }
 }
 
-// Function to fetch fallback data if primary fetch fails
 async function fetchFallbackData(repoName) {
   const fallbackUrls = [
     `https://puni.sh/api/repository/${repoName}`,
@@ -121,7 +93,6 @@ async function fetchFallbackData(repoName) {
   return null;
 }
 
-// Main function to merge data from all repositories
 async function mergeData() {
   let mergedData = [];
 
@@ -145,19 +116,9 @@ async function mergeData() {
         plugins = data.plugins;
       }
 
-      // Process each plugin entry
       for (const plugin of plugins) {
-        // Ensure DalamudApiLevel is set to 12 for plugins from plugins.carvel.li
-        if (url === 'https://plugins.carvel.li/') {
-          plugin.DalamudApiLevel = 12;
-        }
-
-        // Ensure Author is not missing
-        if (!plugin.Author || plugin.Author.trim() === '') {
-          plugin.Author = 'Unknown';
-        }
-
-        // Add the processed plugin to the merged data
+        if (url === 'https://plugins.carvel.li/') plugin.DalamudApiLevel = 12;
+        if (!plugin.Author || plugin.Author.trim() === '') plugin.Author = 'Unknown';
         mergedData.push(plugin);
       }
     }
@@ -165,7 +126,6 @@ async function mergeData() {
 
   if (mergedData.length > 0) {
     const filePath = path.resolve('repository.json');
-
     try {
       fs.writeFileSync(filePath, JSON.stringify(mergedData, null, 2));
       console.log('Merged data written to repository.json successfully.');
@@ -177,5 +137,5 @@ async function mergeData() {
   }
 }
 
-// Execute the merge process
+// Run the data merge
 mergeData();
