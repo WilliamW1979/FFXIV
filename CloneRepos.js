@@ -46,9 +46,9 @@ async function fetchData(url) {
 
             for (const asset of assets) {
               console.log(`Processing asset: ${JSON.stringify(asset)}`);
-              if (asset.name.endsWith('.json')) {
+              if (asset.name.toLowerCase().includes('json')) {
                 jsonUrl = asset.url;
-              } else if (asset.name.endsWith('.zip')) {
+              } else if (asset.name.toLowerCase().includes('zip')) {
                 zipUrl = asset.url;
               }
             }
