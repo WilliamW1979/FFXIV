@@ -34,18 +34,18 @@ jobs:
           sudo apt-get install jq
 
           # Initialize an empty array for combined data
-          combined_json="[]"
+          Repository_json="[]"
 
           # Process each plugin JSON file in the directory (assuming they're in a folder like "plugins/")
           for file in plugins/*.json; do
             if [ -f "$file" ]; then
               plugin_json=$(cat "$file")
-              combined_json=$(echo "$combined_json" | jq ". += [$plugin_json]")
+              Repository_json=$(echo "$Repository_json" | jq ". += [$plugin_json]")
             fi
           done
 
-          # Save the combined result to Repository.json
-          echo "$combined_json" > Repository.json
+          # Save the Repository result to Repository.json
+          echo "$Repository_json" > Repository.json
 
       # Step 5: Commit and Push Changes
       - name: Commit and Push Changes
