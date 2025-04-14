@@ -1,5 +1,6 @@
 const axios = require('axios');
 const fs = require('fs');
+const path = require('path');
 
 // Read the list of repositories
 const repoList = fs.readFileSync('RepoList.txt', 'utf-8').split('\n').filter(url => url.trim());
@@ -33,9 +34,27 @@ async function mergeData() {
     }
   }
 
-  // Write the merged data to Repository.json
-  fs.writeFileSync('Repository.json', JSON.stringify(mergedData, null, 2));
-  console.log('Merged data written to Repository.json successfully.');
+  // Log the merged data before writing to the file
+  console.log('Merged Data:', mergedData);
+
+  // Check if mergedData is valid and contains items
+  if (mergedData.length > 0) {
+    const filePath = path.resolve('Repository.json'); // Ensure absolute path to the file
+    console.log(`Writing merged data to: ${filePath}`); // Log the full path being used
+    
+    try {
+      // Log the JSON data being written to ensure correctness
+      console.log('Data to be written:', JSON.stringify(mergedData, null, 2));
+
+      // Write the merged data to Repository.json
+      fs.writeFileSync(filePath, JSON.stringify(mergedData, null, 2));
+      console.log('Merged data written to Repository.json successfully.');
+    } catch (err) {
+      console.error('Error writing to Repository.json:', err.message);
+    }
+  } else {
+    console.log('No valid data to write to Repository.json.');
+  }
 }
 
 mergeData();
