@@ -1,72 +1,76 @@
-const fs = require('fs');
-const https = require('https');
-const http = require('http');
-const path = require('path');
-const { URL } = require('url');
+const fs = require("fs")
+const https = require("https")
+const path = require("path")
+const pluginDir = "plugin_repos"
 
-const urls = [
-  'https://love.puni.sh/ment.json',
-  'https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json',
-  'https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/repo.json',
-  'https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json',
-  'https://raw.githubusercontent.com/InitialDet/MyDalamudPlugins/main/pluginmaster.json',
-  'https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/pluginmaster.json',
-  'https://raw.githubusercontent.com/LeonBlade/DalamudPlugins/main/repo.json',
-  'https://raw.githubusercontent.com/Chalkos/Marketbuddy/main/repo.json',
-  'https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json',
-  'https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json',
-  'https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json',
-  'https://puni.sh/api/repository/veyn',
-  'https://plugins.carvel.li/',
-  'https://puni.sh/api/repository/herc',
-  'https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json',
-  'https://puni.sh/api/repository/croizat',
-  'https://raw.githubusercontent.com/KangasZ/DalamudPluginRepository/main/plugin_repository.json',
-  'https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json',
-  'https://github.com/zhouhuichen741/dalamud-plugins/raw/master/repo.json',
-  'https://github.com/ffxivcode/DalamudPlugins/raw/main/repojson',
-  'https://github.com/UnknownX7/DalamudPluginRepo/raw/master/pluginmaster.json',
-  'https://github.com/emyxiv/Dresser/raw/master/repo.json',
-  'https://github.com/Milesnocte/GambaGames/raw/main/repo.json',
-  'https://github.com/ryon5541/dalamud-repo-up/raw/main/ffxiv_custom_repojson',
-  'https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json',
-  'https://github.com/huntsffxiv/repo/raw/main/repo.json',
-  'https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json',
-  'https://github.com/WilliamW1979/Repo/raw/main/ffxiv.json',
-  'https://raw.githubusercontent.com/Haselnussbomber/MyDalamudPlugins/main/repo.json',
-  'https://raw.githubusercontent.com/Ottermandias/Glamourer/main/repo.json'
-];
+if (!fs.existsSync(pluginDir)) fs.mkdirSync(pluginDir)
 
-const destFolder = path.join(__dirname, 'plugin_repos');
-if (!fs.existsSync(destFolder)) fs.mkdirSync(destFolder);
+const pluginUrls = [
+  "https://raw.githubusercontent.com/kalildev/PluginHosting/main/pluginmaster.json",
+  "https://raw.githubusercontent.com/Caraxi/DalamudPluginRepo/master/repo.json",
+  "https://raw.githubusercontent.com/unknownskl/xivplugins/main/pluginmaster.json",
+  "https://raw.githubusercontent.com/Critical-Impact/TestingRepo/master/pluginmaster.json",
+  "https://raw.githubusercontent.com/Bluefissure/FFXIV_ACT_Plugin/master/OverlayPlugin/OverlayPlugin.Common/Resources/pluginmaster.json",
+  "https://raw.githubusercontent.com/UnknownX7/NoClippy/master/repo.json",
+  "https://raw.githubusercontent.com/daemitus/MyDalamudPlugins/main/pluginmaster.json",
+  "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
+  "https://raw.githubusercontent.com/Sebane1/DalamudPluginRepo/main/pluginmaster.json",
+  "https://raw.githubusercontent.com/LeonBlade/DalamudPlugins/main/repo.json",
+  "https://raw.githubusercontent.com/nyaami/NyaamiPluginRepo/main/Repository.json",
+  "https://raw.githubusercontent.com/Aireil/PluginDist/main/Repository.json",
+  "https://raw.githubusercontent.com/HawtSticks/FFXIV-PluginRepo/main/pluginmaster.json",
+  "https://raw.githubusercontent.com/Athiee/MyDalamudPlugins/main/plugin_repository.json",
+  "https://raw.githubusercontent.com/KazWolfe/ffxiv-PluginRepo/main/pluginmaster.json",
+  "https://raw.githubusercontent.com/ryon5541/dalamud-repo-up/main/ffxiv_custom_repojson",
+  "https://raw.githubusercontent.com/AtmoOmen/FFXIVDalamudPlugins/main/repo.json",
+  "https://raw.githubusercontent.com/AsteriskAmpersand/ffxiv-repo-index/main/repo.json",
+  "https://raw.githubusercontent.com/Sebane1/DalamudPlugins/main/ffxiv.json"
+]
 
-function downloadFile(url, index) {
-  const parsedUrl = new URL(url);
-  const protocol = parsedUrl.protocol === 'https:' ? https : http;
-
-  const filename = `${index.toString().padStart(2, '0')}_${path.basename(parsedUrl.pathname).split('?')[0] || 'Repository.json'}`;
-  const destPath = path.join(destFolder, filename);
-
-  protocol.get(url, res => {
-    if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-      // Follow redirect
-      return downloadFile(res.headers.location, index);
-    }
-
-    if (res.statusCode !== 200) {
-      console.error(`Failed to download ${url}: HTTP ${res.statusCode}`);
-      return;
-    }
-
-    const fileStream = fs.createWriteStream(destPath);
-    res.pipe(fileStream);
-    fileStream.on('finish', () => {
-      fileStream.close();
-      console.log(`Downloaded ${filename}`);
-    });
-  }).on('error', err => {
-    console.error(`Error downloading ${url}: ${err.message}`);
-  });
+function downloadFile(url, dest) {
+  return new Promise((resolve, reject) => {
+    https.get(url, res => {
+      if (res.statusCode !== 200) return reject(new Error(`Failed to download ${url}: HTTP ${res.statusCode}`))
+      const file = fs.createWriteStream(dest)
+      res.pipe(file)
+      file.on("finish", () => file.close(resolve))
+    }).on("error", reject)
+  })
 }
 
-urls.forEach((url, index) => downloadFile(url, index));
+(async () => {
+  for (let i = 0; i < pluginUrls.length; i++) {
+    const url = pluginUrls[i]
+    const filename = String(i).padStart(2, "0") + "_" + path.basename(url)
+    const filePath = path.join(pluginDir, filename)
+    try {
+      await downloadFile(url, filePath)
+      console.log(`Downloaded ${filename}`)
+    } catch (err) {
+      console.warn(`Failed to download ${url}: ${err.message}`)
+    }
+  }
+
+  let Repository_json = []
+  const files = fs.readdirSync(pluginDir)
+
+  for (const file of files) {
+    const filePath = path.join(pluginDir, file)
+    try {
+      const content = fs.readFileSync(filePath, "utf8")
+      const parsed = JSON.parse(content)
+      const type = typeof parsed
+      if (type === "object") {
+        Repository_json.push(parsed)
+        console.log(`Processed: ${file}`)
+      } else {
+        console.log(`Skipping ${file}: root is not a valid object or array`)
+      }
+    } catch (err) {
+      console.log(`Skipping ${file}: invalid JSON (${err.message})`)
+    }
+  }
+
+  fs.writeFileSync("Repository.json", JSON.stringify(Repository_json, null, 2))
+  console.log("Repository.json written")
+})()
