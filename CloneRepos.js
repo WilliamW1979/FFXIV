@@ -9,8 +9,8 @@ async function fetchData(url) {
   try {
     const response = await axios.get(url);
     return response.data;
-  } catch (error) {
-    return []; // Return empty array if fetch fails
+  } catch {
+    return [];
   }
 }
 
@@ -19,25 +19,25 @@ async function mergeData() {
 
   for (const url of repoList) {
     const data = await fetchData(url);
-    if (Array.isArray(data)) {
+
+    if (Array.isArray(data))
       mergedData = mergedData.concat(data);
-    } else if (data && Array.isArray(data.items)) {
+    else if (data && Array.isArray(data.items))
       mergedData = mergedData.concat(data.items);
-    }
+    else if (data && Array.isArray(data.plugins))
+      mergedData = mergedData.concat(data.plugins);
   }
 
   if (mergedData.length > 0) {
     const filePath = path.resolve('repository.json');
-    
+
     try {
       fs.writeFileSync(filePath, JSON.stringify(mergedData, null, 2));
       console.log('Merged data written to repository.json successfully.');
     } catch (err) {
       console.error('Error writing to repository.json:', err.message);
     }
-  } else {
-    console.log('No valid data to write to repository.json.');
-  }
+  } else console.log('No valid data to write to repository.json.');
 }
 
 mergeData();
