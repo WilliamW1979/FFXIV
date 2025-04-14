@@ -34,8 +34,8 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git add Repository.json
-          git commit -m "Update Repository.json with new plugins" || echo "No changes to commit"
+          git add repository.json
+          git commit -m "Update repository.json with new plugins" || echo "No changes to commit"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
