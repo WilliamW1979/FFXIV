@@ -7,7 +7,6 @@ https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/pluginmaster.j
 https://raw.githubusercontent.com/LeonBlade/DalamudPlugins/main/repo.json
 https://raw.githubusercontent.com/Chalkos/Marketbuddy/main/repo.json
 https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json
-https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json
 https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json
 https://puni.sh/api/repository/veyn
 https://plugins.carvel.li/
