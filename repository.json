@@ -11,7 +11,7 @@
     ],
     "InternalName": "Saucy",
     "RepoUrl": "https://github.com/PunishXIV/Saucy",
-    "DownloadCount": 295638,
+    "DownloadCount": 295641,
     "LastUpdate": 1743147483957,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/7/Saucy/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/7/Saucy/versions/latest.zip",
@@ -99,7 +99,7 @@
     ],
     "InternalName": "AutoHook",
     "RepoUrl": "https://github.com/PunishXIV/AutoHook",
-    "DownloadCount": 544849,
+    "DownloadCount": 544854,
     "LastUpdate": 1744162549230,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/latest.zip",
@@ -120,7 +120,7 @@
     ],
     "InternalName": "PandorasBox",
     "RepoUrl": "https://github.com/PunishXIV/PandorasBox",
-    "DownloadCount": 649671,
+    "DownloadCount": 649675,
     "LastUpdate": 1743354051531,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/latest.zip",
@@ -141,7 +141,7 @@
     "Tags": [],
     "InternalName": "AutoRetainer",
     "RepoUrl": "https://github.com/PunishXIV/AutoRetainer",
-    "DownloadCount": 1126651,
+    "DownloadCount": 1126655,
     "LastUpdate": 1743454910894,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/latest.zip",
@@ -164,7 +164,7 @@
     ],
     "InternalName": "Artisan",
     "RepoUrl": "https://github.com/PunishXIV/Artisan",
-    "DownloadCount": 2275584,
+    "DownloadCount": 2275663,
     "LastUpdate": 1744526257524,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/latest.zip",
@@ -188,7 +188,7 @@
     ],
     "InternalName": "Splatoon",
     "RepoUrl": "https://github.com/PunishXIV/Splatoon",
-    "DownloadCount": 877431,
+    "DownloadCount": 877502,
     "LastUpdate": 1744575277647,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/10/Splatoon/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/10/Splatoon/versions/latest.zip",
@@ -209,7 +209,7 @@
     "Tags": [],
     "InternalName": "YesAlready",
     "RepoUrl": "https://github.com/PunishXIV/YesAlready",
-    "DownloadCount": 606940,
+    "DownloadCount": 606947,
     "LastUpdate": 1744099978999,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/26/YesAlready/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/26/YesAlready/versions/latest.zip",
@@ -227,7 +227,7 @@
     "Tags": [],
     "InternalName": "WrathCombo",
     "RepoUrl": "https://github.com/PunishXIV/WrathCombo",
-    "DownloadCount": 163846,
+    "DownloadCount": 163887,
     "LastUpdate": 1744569738554,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/latest.zip",
@@ -1383,7 +1383,7 @@
     "Tags": [],
     "InternalName": "vsatisfy",
     "RepoUrl": null,
-    "DownloadCount": 33551,
+    "DownloadCount": 33552,
     "LastUpdate": 1743321822076,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/58/vsatisfy/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/58/vsatisfy/versions/latest.zip",
@@ -1392,6 +1392,24 @@
     "DalamudApiLevel": "12",
     "Changelog": "",
     "IconUrl": "https://s3.puni.sh/media/plugin/58/icon-hffi2ft0zlg.png"
+  },
+  {
+    "Author": "veyn, xan_0",
+    "Name": "vnavmesh",
+    "Punchline": "Move around!",
+    "Description": "Utility to automatically move the character around in the world, skilfully avoiding any obstacles.",
+    "Tags": [],
+    "InternalName": "vnavmesh",
+    "RepoUrl": null,
+    "DownloadCount": 386816,
+    "LastUpdate": 1743955973483,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/latest.zip",
+    "AssemblyVersion": "0.2.2.1",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "12",
+    "Changelog": "",
+    "IconUrl": "https://s3.puni.sh/media/plugin/48/icon-ylwecng2h0n.png"
   },
   {
     "Author": "veyn",
@@ -1412,6 +1430,24 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/29/icon-3vysu0z0eem.png"
   },
   {
+    "Author": "veyn, croizat",
+    "Name": "V(ery) Island",
+    "Punchline": "Automate island sanctuary activities",
+    "Description": "Automate gathering, workshop assignments, etc.",
+    "Tags": [],
+    "InternalName": "visland",
+    "RepoUrl": "https://github.com/awgil/ffxiv_visland",
+    "DownloadCount": 591688,
+    "LastUpdate": 1743087945417,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/28/visland/versions/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/28/visland/versions/latest.zip",
+    "AssemblyVersion": "0.0.0.134",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "12",
+    "Changelog": "",
+    "IconUrl": "https://s3.puni.sh/media/plugin/28/icon-lruwx4y549.png"
+  },
+  {
     "Author": "veyn, xan_0",
     "Name": "Boss Mod",
     "Punchline": "Don't fail at raid mechanics anymore",
@@ -1419,7 +1455,7 @@
     "Tags": [],
     "InternalName": "BossMod",
     "RepoUrl": "https://github.com/awgil/ffxiv_bossmod",
-    "DownloadCount": 757109,
+    "DownloadCount": 757116,
     "LastUpdate": 1744388746664,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/30/BossMod/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/30/BossMod/versions/latest.zip",
@@ -1433,42 +1469,6 @@
       "https://s3.puni.sh/media/plugin/30/image-nc231jzj2gb.png",
       "https://s3.puni.sh/media/plugin/30/image-3nufuhgwbhl.png"
     ]
-  },
-  {
-    "Author": "veyn, croizat",
-    "Name": "V(ery) Island",
-    "Punchline": "Automate island sanctuary activities",
-    "Description": "Automate gathering, workshop assignments, etc.",
-    "Tags": [],
-    "InternalName": "visland",
-    "RepoUrl": "https://github.com/awgil/ffxiv_visland",
-    "DownloadCount": 591686,
-    "LastUpdate": 1743087945417,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/28/visland/versions/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/28/visland/versions/latest.zip",
-    "AssemblyVersion": "0.0.0.134",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "12",
-    "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/28/icon-lruwx4y549.png"
-  },
-  {
-    "Author": "veyn, xan_0",
-    "Name": "vnavmesh",
-    "Punchline": "Move around!",
-    "Description": "Utility to automatically move the character around in the world, skilfully avoiding any obstacles.",
-    "Tags": [],
-    "InternalName": "vnavmesh",
-    "RepoUrl": null,
-    "DownloadCount": 386806,
-    "LastUpdate": 1743955973483,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/latest.zip",
-    "AssemblyVersion": "0.2.2.1",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "12",
-    "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/48/icon-ylwecng2h0n.png"
   },
   {
     "Author": "veyn",
@@ -1489,61 +1489,6 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/41/icon-ky2vlcaen2q.png"
   },
   {
-    "Name": "Questionable",
-    "IconUrl": "https://plugins.carvel.li/icons/Questionable.png",
-    "DownloadLinkInstall": "https://git.carvel.li/liza/Questionable"
-  },
-  {
-    "Name": "Deliveroo",
-    "IconUrl": "https://plugins.carvel.li/icons/Deliveroo.png",
-    "DownloadLinkInstall": "https://git.carvel.li/liza/Deliveroo"
-  },
-  {
-    "Name": "Gearsetter",
-    "IconUrl": "https://plugins.carvel.li/icons/Gearsetter.png",
-    "DownloadLinkInstall": "https://git.carvel.li/liza/Gearsetter"
-  },
-  {
-    "Name": "ARC",
-    "IconUrl": "https://plugins.carvel.li/icons/ARControl.png",
-    "DownloadLinkInstall": "https://git.carvel.li/liza/ARControl"
-  },
-  {
-    "Name": "Workshoppa",
-    "IconUrl": "https://plugins.carvel.li/icons/Workshoppa.png",
-    "DownloadLinkInstall": "https://git.carvel.li/liza/Workshoppa"
-  },
-  {
-    "Name": "Discard Helper",
-    "IconUrl": "https://plugins.carvel.li/icons/ARDiscard.png",
-    "DownloadLinkInstall": "https://git.carvel.li/liza/ARDiscard"
-  },
-  {
-    "Name": "KitchenSink",
-    "IconUrl": "https://plugins.carvel.li/icons/KitchenSink.png",
-    "DownloadLinkInstall": "https://git.carvel.li/liza/KitchenSink"
-  },
-  {
-    "Name": "Squadronista",
-    "IconUrl": "https://plugins.carvel.li/icons/Squadronista.png",
-    "DownloadLinkInstall": "https://git.carvel.li/liza/Squadronista"
-  },
-  {
-    "Name": "RetainerTrack",
-    "IconUrl": "https://plugins.carvel.li/icons/RetainerTrack.png",
-    "DownloadLinkInstall": "https://git.carvel.li/liza/RetainerTrack"
-  },
-  {
-    "Name": "Fish Notify",
-    "IconUrl": "https://plugins.carvel.li/icons/FishNotify.png",
-    "DownloadLinkInstall": "https://git.carvel.li/liza/FishNotify"
-  },
-  {
-    "Name": "Influx",
-    "IconUrl": "https://plugins.carvel.li/icons/Influx.png",
-    "DownloadLinkInstall": "https://git.carvel.li/liza/Influx"
-  },
-  {
     "Author": "Herculezz, James, erdelf",
     "Name": "AutoDuty",
     "Punchline": "AutoDuty",
@@ -1551,7 +1496,7 @@
     "Tags": [],
     "InternalName": "AutoDuty",
     "RepoUrl": "https://github.com/ffxivcode/AutoDuty",
-    "DownloadCount": 517406,
+    "DownloadCount": 517411,
     "LastUpdate": 1743631079897,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/latest.zip",
@@ -1625,7 +1570,7 @@
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/RotationSolverReborn/releases/download/7.1.5.62/RotationSolver.zip",
     "TestingAssemblyVersion": "7.1.5.62",
     "Changelog": "## What's Changed\r\n* Heal using Eukrasian Action by @fireisreder in https://github.com/FFXIV-CombatReborn/RotationSolverReborn/pull/662\r\n* VPR will try to use all rattling coils stack. before the boss died by @fireisreder in https://github.com/FFXIV-CombatReborn/RotationSolverReborn/pull/664\r\n* SAM fixes and misc work by @LTS-FFXIV in https://github.com/FFXIV-CombatReborn/RotationSolverReborn/pull/665\r\n\r\n## New Contributors\r\n* @fireisreder made their first contribution in https://github.com/FFXIV-CombatReborn/RotationSolverReborn/pull/662\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/RotationSolverReborn/compare/7.2.0.26...7.2.0.27",
-    "DownloadCount": 838108
+    "DownloadCount": 838497
   },
   {
     "Author": "The Combat Reborn Team",
@@ -1658,7 +1603,7 @@
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/BossmodReborn/releases/download/1.0.2.1/BossMod.zip",
     "TestingAssemblyVersion": "1.0.2.1",
     "Changelog": "## What's Changed\r\n* D09CuttersCry - D103Isgebind by @Chuggalo in https://github.com/FFXIV-CombatReborn/BossmodReborn/pull/728\r\n* added remaining stuff to M8S module by @CarnifexOptimus in https://github.com/FFXIV-CombatReborn/BossmodReborn/pull/729\r\n* revert isgebind change by @CarnifexOptimus in https://github.com/FFXIV-CombatReborn/BossmodReborn/pull/730\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/BossmodReborn/compare/7.2.0.382...7.2.0.383",
-    "DownloadCount": 1188323
+    "DownloadCount": 1188514
   },
   {
     "Author": "The Combat Reborn Team",
@@ -1715,7 +1660,7 @@
     "AssemblyVersion": "7.2.0.0",
     "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/EasyZoomReborn/releases/download/7.2.0.0/EasyZoomReborn.zip",
     "Changelog": "## What's Changed\r\n* 7.2 update by @BrakusTapus in https://github.com/FFXIV-CombatReborn/EasyZoomReborn/pull/8\r\n* Refactor project configuration and update dependencies by @LTS-FFXIV in https://github.com/FFXIV-CombatReborn/EasyZoomReborn/pull/9\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/EasyZoomReborn/compare/7.1.0.2...7.2.0.0",
-    "DownloadCount": 20447
+    "DownloadCount": 20448
   },
   {
     "Author": "The Combat Reborn Team",
@@ -1753,7 +1698,7 @@
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/releases/download/7.2.2.40/GatherbuddyReborn.zip",
     "TestingAssemblyVersion": "7.2.2.40",
     "Changelog": "## What's Changed\r\n* Fixed overcap check using Allagan Tools by @NostraThomas99 in https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/pull/341\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/compare/7.2.2.41...7.2.2.42",
-    "DownloadCount": 250398
+    "DownloadCount": 250751
   },
   {
     "Author": "The Combat Reborn Team",
@@ -1779,7 +1724,7 @@
     "AssemblyVersion": "7.2.0.1",
     "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/RebornToolbox/releases/download/7.2.0.1/RebornToolbox.zip",
     "Changelog": "## What's Changed\r\n* Deprecate Supermarket Sweep by @NostraThomas99 in https://github.com/FFXIV-CombatReborn/RebornToolbox/pull/14\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/RebornToolbox/compare/7.2.0.0...7.2.0.1",
-    "DownloadCount": 16030
+    "DownloadCount": 16031
   },
   {
     "Author": "croizat",
@@ -1789,7 +1734,7 @@
     "Tags": [],
     "InternalName": "SomethingNeedDoing",
     "RepoUrl": "https://github.com/Jaksuhn/SomethingNeedDoing",
-    "DownloadCount": 401444,
+    "DownloadCount": 401445,
     "LastUpdate": 1743086963165,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/latest.zip",
@@ -1814,7 +1759,7 @@
     ],
     "InternalName": "Automaton",
     "RepoUrl": "https://github.com/Jaksuhn/Automaton",
-    "DownloadCount": 150908,
+    "DownloadCount": 150909,
     "LastUpdate": 1744273401646,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/34/Automaton/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/34/Automaton/versions/latest.zip",
