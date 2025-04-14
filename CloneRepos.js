@@ -11,16 +11,32 @@ async function fetchData(url) {
     if (url.trim().endsWith('.json')) {
       const response = await axios.get(url);
       return response.data;
+    } else if (url.includes('github.com')) {
+      // Handle GitHub raw content URLs
+      const baseUrl = url.trim().endsWith('/') ? url.trim() : `${url.trim()}/`;
+      const jsonUrl = `${baseUrl}raw/main/repojson`; // Adjust as needed
+      const response = await axios.get(jsonUrl);
+      return response.data;
+    } else if (url.includes('puni.sh')) {
+      // Handle puni.sh API endpoints
+      const response = await axios.get(url);
+      return response.data;
+    } else if (url.includes('plugins.carvel.li')) {
+      // Handle carvel.li HTML pages
+      const response = await axios.get(url);
+      // Parse HTML to extract JSON data if necessary
+      // Implement HTML parsing logic here
+      return parsedData;
     } else {
-      // Attempt to fetch 'pluginmaster.json' from the repository's base URL
+      // Default case for other URLs
       const baseUrl = url.trim().endsWith('/') ? url.trim() : `${url.trim()}/`;
       const jsonUrl = `${baseUrl}pluginmaster.json`;
       const response = await axios.get(jsonUrl);
       return response.data;
     }
   } catch (error) {
-    console.error(`Error fetching data from ${url}:`, error.message);
-    return [];
+    console.error(`Error fetching data from ${url}: ${error.response ? error.response.status : error.message}`);
+    return null; // Return null to indicate an error
   }
 }
 
@@ -30,12 +46,14 @@ async function mergeData() {
   for (const url of repoList) {
     const data = await fetchData(url);
 
-    if (Array.isArray(data)) {
-      mergedData = mergedData.concat(data);
-    } else if (data && Array.isArray(data.items)) {
-      mergedData = mergedData.concat(data.items);
-    } else if (data && Array.isArray(data.plugins)) {
-      mergedData = mergedData.concat(data.plugins);
+    if (data) {
+      if (Array.isArray(data)) {
+        mergedData = mergedData.concat(data);
+      } else if (data.items && Array.isArray(data.items)) {
+        mergedData = mergedData.concat(data.items);
+      } else if (data.plugins && Array.isArray(data.plugins)) {
+        mergedData = mergedData.concat(data.plugins);
+      }
     }
   }
 
