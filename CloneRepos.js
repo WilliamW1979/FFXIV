@@ -44,7 +44,7 @@ function downloadFile(url, index) {
   const parsedUrl = new URL(url);
   const protocol = parsedUrl.protocol === 'https:' ? https : http;
 
-  const filename = `${index.toString().padStart(2, '0')}_${path.basename(parsedUrl.pathname).split('?')[0] || 'repo.json'}`;
+  const filename = `${index.toString().padStart(2, '0')}_${path.basename(parsedUrl.pathname).split('?')[0] || 'Repository.json'}`;
   const destPath = path.join(destFolder, filename);
 
   protocol.get(url, res => {
