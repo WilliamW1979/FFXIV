@@ -1,6 +1,7 @@
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
+const cheerio = require('cheerio');
 
 // Define the repository you're troubleshooting
 const troubledRepo = 'https://plugins.carvel.li/';
@@ -31,53 +32,59 @@ async function fetchData(url) {
 
       for (const { Name: pluginName } of pluginList) {
         try {
-          console.log(`Fetching releases for plugin: ${pluginName}`);
-          const releaseApi = `https://git.carvel.li/liza/${encodeURIComponent(pluginName)}/releases/latest`;
-          console.log(`Release API URL: ${releaseApi}`);
+          console.log(`\nProcessing plugin: ${pluginName}`);
+          const releasesPageUrl = `https://git.carvel.li/liza/${encodeURIComponent(pluginName)}/releases`;
+          console.log(`Releases page URL: ${releasesPageUrl}`);
 
-          const releasesResponse = await axios.get(releaseApi);
-          console.log(`Received releases response for ${pluginName}.`);
+          // Fetch the releases page HTML
+          const releasesPageResponse = await axios.get(releasesPageUrl);
+          console.log(`Fetched releases page for ${pluginName}.`);
 
-          if (releasesResponse.data && releasesResponse.data.length > 0) {
-            const latestRelease = releasesResponse.data[0];
-            const assets = latestRelease.assets.links || [];
+          // Parse the HTML to extract download links
+          const $ = cheerio.load(releasesPageResponse.data);
+          const downloadLinks = [];
 
-            let jsonUrl = '', zipUrl = '';
-            
-            for (const asset of assets) {
-              console.log(`Processing asset: ${JSON.stringify(asset)}`);
-              const assetNameLower = asset.name.toLowerCase();
-            
-              if (assetNameLower.includes('json')) {
-                jsonUrl = asset.url;
-                console.log(`Identified JSON asset: ${asset.name}`);
-              } else if (assetNameLower.endsWith('.zip')) {
-                zipUrl = asset.url;
-                console.log(`Identified ZIP asset: ${asset.name}`);
-              }
+          $('a').each((index, element) => {
+            const href = $(element).attr('href');
+            if (href && href.includes(`/liza/${pluginName}/releases/download/`)) {
+              const fullUrl = `https://git.carvel.li${href}`;
+              downloadLinks.push(fullUrl);
+              console.log(`Found download link: ${fullUrl}`);
+            }
+          });
+
+          // Identify JSON and ZIP files from the download links
+          let jsonUrl = '';
+          let zipUrl = '';
+
+          for (const link of downloadLinks) {
+            const linkLower = link.toLowerCase();
+            if (linkLower.includes('json') && !jsonUrl) {
+              jsonUrl = link;
+              console.log(`Identified JSON asset: ${link}`);
+            } else if (linkLower.endsWith('.zip') && !zipUrl) {
+              zipUrl = link;
+              console.log(`Identified ZIP asset: ${link}`);
+            }
+          }
+
+          if (jsonUrl && zipUrl) {
+            console.log(`Fetching metadata from: ${jsonUrl}`);
+            const pluginMetaResponse = await axios.get(jsonUrl);
+            console.log(`Received plugin metadata for ${pluginName}.`);
+
+            const pluginMeta = pluginMetaResponse.data;
+            pluginMeta.DownloadLinkInstall = zipUrl;
+            pluginMeta.DownloadLinkUpdate = zipUrl;
+            pluginMeta.DownloadLinkTesting = zipUrl;
+            pluginMeta.DalamudApiLevel = 12;
+            if (!pluginMeta.Author || pluginMeta.Author.trim() === '') {
+              pluginMeta.Author = 'Unknown';
             }
 
-
-            if (jsonUrl && zipUrl) {
-              console.log(`Fetching metadata from: ${jsonUrl}`);
-              const pluginMetaResponse = await axios.get(jsonUrl);
-              console.log(`Received plugin metadata for ${pluginName}.`);
-
-              const pluginMeta = pluginMetaResponse.data;
-              pluginMeta.DownloadLinkInstall = zipUrl;
-              pluginMeta.DownloadLinkUpdate = zipUrl;
-              pluginMeta.DownloadLinkTesting = zipUrl;
-              pluginMeta.DalamudApiLevel = 12;
-              if (!pluginMeta.Author || pluginMeta.Author.trim() === '') {
-                pluginMeta.Author = 'Unknown';
-              }
-
-              plugins.push(pluginMeta);
-            } else {
-              console.warn(`Missing JSON or ZIP asset URLs for plugin: ${pluginName}`);
-            }
+            plugins.push(pluginMeta);
           } else {
-            console.warn(`No releases found for plugin: ${pluginName}`);
+            console.warn(`Missing JSON or ZIP asset URLs for plugin: ${pluginName}`);
           }
         } catch (err) {
           console.error(`Error processing plugin ${pluginName}: ${err.message}`);
