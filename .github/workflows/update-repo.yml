@@ -1,56 +1,69 @@
-name: Update Repository JSON
+name: Download and Combine JSON Repos
 
 on:
-  schedule:
-    - cron: '*/2 * * * *'  # Run every 2 minutes
   push:
     branches:
-      - main  # Trigger on push to main
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
-  update-repository-json:
+  download_and_combine:
     runs-on: ubuntu-latest
-
+    
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16'
-
-      - name: Run CloneRepos.js to Download Plugin JSONs
-        run: |
-          node CloneRepos.js
-
-      - name: Combine Plugin JSON Files into Repository.json
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y jq
-
-          echo "Checking downloaded files:"
-          ls -la plugin_repos
-
-          Repository_json="[]"
-
-          for file in plugin_repos/*.json; do
-            if [ -f "$file" ]; then
-              echo "Processing: $file"
-              if jq empty "$file" 2>/dev/null; then
-                plugin_json=$(cat "$file")
-                Repository_json=$(echo "$Repository_json" | jq ". += [$plugin_json]")
-              else
-                echo "Skipping invalid JSON: $file"
-              fi
+    
+    # Step 1: Check out the repository
+    - name: Checkout code
+      uses: actions/checkout@v2
+    
+    # Step 2: Set up Node.js
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    
+    # Step 3: Install dependencies for CloneRepos.js (if required)
+    - name: Install dependencies
+      run: npm install
+    
+    # Step 4: Run CloneRepos.js to download the JSON files
+    - name: Download JSON Files
+      run: |
+        mkdir -p plugin_repos
+        node CloneRepos.js
+        
+    # Step 5: Combine all JSON files into Repository.json
+    - name: Combine JSON Files
+      run: |
+        # Initialize an empty array for the final Repository JSON
+        Repository_json="[]"
+        
+        # Loop through all downloaded JSON files in the plugin_repos directory
+        for file in plugin_repos/*.json; do
+          if [ -f "$file" ]; then
+            plugin_json=$(cat "$file")
+            
+            # Validate JSON format before combining
+            if echo "$plugin_json" | jq empty; then
+              # Merge the JSON files correctly using jq
+              Repository_json=$(echo "$Repository_json" | jq ". += $plugin_json")
+              echo "Successfully processed $file"
+            else
+              echo "Invalid JSON in $file, skipping..."
             fi
-          done
-
-          echo "$Repository_json" > Repository.json
-
-      - name: Commit and Push Changes
-        uses: EndBug/add-and-commit@v9
-        with:
-          author_name: 'GitHub Actions'
-          author_email: 'github-actions@github.com'
-          message: 'Update Repository.json with new plugins'
+          fi
+        done
+        
+        # Save the final combined JSON to Repository.json
+        echo "$Repository_json" > Repository.json
+    
+    # Step 6: Commit and Push Changes
+    - name: Commit and Push Changes
+      uses: EndBug/add-and-commit@v9
+      with:
+        author_name: 'GitHub Actions'
+        author_email: 'github-actions@github.com'
+        message: 'Update Repository.json with new plugins'
+        add: 'Repository.json'
