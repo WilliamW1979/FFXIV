@@ -27,6 +27,13 @@ jobs:
         run: |
           node CloneRepos.js
 
+      - name: Check if repository.json exists
+        run: |
+          if [ ! -f repository.json ]; then
+            echo "repository.json not found, skipping commit."
+            exit 1
+          fi
+
       - name: Configure Git
         run: |
           git config --global user.name "Your GitHub Actions Bot"
