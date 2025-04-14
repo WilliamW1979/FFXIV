@@ -18,29 +18,6 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/58/icon-hffi2ft0zlg.png"
   },
   {
-    "Author": "veyn, xan_0",
-    "Name": "Boss Mod",
-    "Punchline": "Don't fail at raid mechanics anymore",
-    "Description": "A bunch of utilities to simplify bosses. Currently supports endwalker content.",
-    "Tags": [],
-    "InternalName": "BossMod",
-    "RepoUrl": "https://github.com/awgil/ffxiv_bossmod",
-    "DownloadCount": 756902,
-    "LastUpdate": 1744388746664,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/30/BossMod/versions/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/30/BossMod/versions/latest.zip",
-    "AssemblyVersion": "0.1.2.4",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "12",
-    "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/30/icon-1x16xz3evsu.png",
-    "ImageUrls": [
-      "https://s3.puni.sh/media/plugin/30/image-4mbxiq5k4pl.png",
-      "https://s3.puni.sh/media/plugin/30/image-nc231jzj2gb.png",
-      "https://s3.puni.sh/media/plugin/30/image-3nufuhgwbhl.png"
-    ]
-  },
-  {
     "Author": "veyn",
     "Name": "Easier Faux Hollows",
     "Punchline": "Faux Hollows solver based on known patterns",
@@ -66,7 +43,7 @@
     "Tags": [],
     "InternalName": "vnavmesh",
     "RepoUrl": null,
-    "DownloadCount": 386695,
+    "DownloadCount": 386696,
     "LastUpdate": 1743955973483,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/latest.zip",
@@ -93,6 +70,29 @@
     "DalamudApiLevel": "12",
     "Changelog": "",
     "IconUrl": "https://s3.puni.sh/media/plugin/28/icon-lruwx4y549.png"
+  },
+  {
+    "Author": "veyn, xan_0",
+    "Name": "Boss Mod",
+    "Punchline": "Don't fail at raid mechanics anymore",
+    "Description": "A bunch of utilities to simplify bosses. Currently supports endwalker content.",
+    "Tags": [],
+    "InternalName": "BossMod",
+    "RepoUrl": "https://github.com/awgil/ffxiv_bossmod",
+    "DownloadCount": 756905,
+    "LastUpdate": 1744388746664,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/30/BossMod/versions/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/30/BossMod/versions/latest.zip",
+    "AssemblyVersion": "0.1.2.4",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "12",
+    "Changelog": "",
+    "IconUrl": "https://s3.puni.sh/media/plugin/30/icon-1x16xz3evsu.png",
+    "ImageUrls": [
+      "https://s3.puni.sh/media/plugin/30/image-4mbxiq5k4pl.png",
+      "https://s3.puni.sh/media/plugin/30/image-nc231jzj2gb.png",
+      "https://s3.puni.sh/media/plugin/30/image-3nufuhgwbhl.png"
+    ]
   },
   {
     "Author": "veyn",
