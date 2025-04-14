@@ -11,6 +11,7 @@ https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel
 https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json
 https://puni.sh/api/repository/veyn
 https://plugins.carvel.li/
+https://plugins.carvel.li/dist/pluginmaster.json
 https://puni.sh/api/repository/herc
 https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json
 https://puni.sh/api/repository/croizat
