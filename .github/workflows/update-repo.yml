@@ -30,3 +30,18 @@ jobs:
       - name: Run CloneRepos.js
         run: |
           node CloneRepos.js  # Execute your script
+
+      # Configure Git
+      - name: Configure Git
+        run: |
+          git config --global user.name "Your GitHub Actions Bot"
+          git config --global user.email "your-email@example.com"
+
+      # Commit and push changes to Repository.json
+      - name: Commit and push changes
+        run: |
+          git add Repository.json  # Add the updated file
+          git commit -m "Update Repository.json with new plugins"  # Commit the changes
+          git push  # Push the changes back to the repository
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use the GitHub token for authentication
