@@ -1,7 +1,6 @@
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
-const cheerio = require('cheerio');
 
 // Define the repository you're troubleshooting
 const troubledRepo = 'https://plugins.carvel.li/';
@@ -32,39 +31,32 @@ async function fetchData(url) {
 
       for (const { Name: pluginName } of pluginList) {
         try {
-          console.log(`\nProcessing plugin: ${pluginName}`);
-          const releasesPageUrl = `https://git.carvel.li/liza/${encodeURIComponent(pluginName)}/releases`;
-          console.log(`Releases page URL: ${releasesPageUrl}`);
+          console.log(`Fetching latest release for plugin: ${pluginName}`);
+          const releaseApi = `https://git.carvel.li/api/v1/repos/liza/${encodeURIComponent(pluginName)}/releases/latest`;
+          console.log(`Release API URL: ${releaseApi}`);
 
-          // Fetch the releases page HTML
-          const releasesPageResponse = await axios.get(releasesPageUrl);
-          console.log(`Fetched releases page for ${pluginName}.`);
+          const releaseResponse = await axios.get(releaseApi);
+          console.log(`Received release response for ${pluginName}.`);
 
-          // Parse the HTML to extract download links
-          const $ = cheerio.load(releasesPageResponse.data);
-          const downloadLinks = [];
+          const assets = releaseResponse.data.assets || [];
 
-          $('a').each((index, element) => {
-            const href = $(element).attr('href');
-            if (href && href.includes(`/liza/${pluginName}/releases/download/`)) {
-              const fullUrl = `https://git.carvel.li${href}`;
-              downloadLinks.push(fullUrl);
-              console.log(`Found download link: ${fullUrl}`);
-            }
-          });
+          if (!assets || assets.length === 0) {
+            console.warn(`No assets found for plugin: ${pluginName}`);
+            continue;
+          }
 
-          // Identify JSON and ZIP files from the download links
-          let jsonUrl = '';
-          let zipUrl = '';
+          let jsonUrl = '', zipUrl = '';
 
-          for (const link of downloadLinks) {
-            const linkLower = link.toLowerCase();
-            if (linkLower.includes('json') && !jsonUrl) {
-              jsonUrl = link;
-              console.log(`Identified JSON asset: ${link}`);
-            } else if (linkLower.endsWith('.zip') && !zipUrl) {
-              zipUrl = link;
-              console.log(`Identified ZIP asset: ${link}`);
+          for (const asset of assets) {
+            console.log(`Processing asset: ${JSON.stringify(asset)}`);
+            const assetNameLower = asset.name.toLowerCase();
+
+            if (assetNameLower.includes('json')) {
+              jsonUrl = asset.browser_download_url;
+              console.log(`Identified JSON asset: ${asset.name}`);
+            } else if (assetNameLower.endsWith('.zip')) {
+              zipUrl = asset.browser_download_url;
+              console.log(`Identified ZIP asset: ${asset.name}`);
             }
           }
 
