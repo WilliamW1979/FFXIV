@@ -1,126 +1,124 @@
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
-const cheerio = require('cheerio');
 
-// Read the list of repositories from 'RepoList.txt'
-const repoList = fs.readFileSync('RepoList.txt', 'utf-8')
-  .split('\n')
-  .map(url => url.trim())
-  .filter(url => url);
+// List of repository URLs
+const repoList = [
+  'https://plugins.carvel.li/',
+  // Add other repository URLs as needed
+];
 
-// Function to fetch data from a given URL
-async function fetchData(url) {
+// Function to fetch JSON data from a URL
+async function fetchJson(url) {
   try {
-    if (url.endsWith('.json')) {
-      // Direct JSON URL
-      const response = await axios.get(url);
-      return response.data;
-    } else if (url === 'https://plugins.carvel.li/') {
-      // Handle Carvel plugin repository (HTML page)
-      const response = await axios.get(url);
-      const $ = cheerio.load(response.data);
-      const plugins = [];
-
-      $('h4').each((i, element) => {
-        const pluginName = $(element).find('a').text().trim();
-        const downloadLink = $(element).find('a').attr('href');
-        const iconUrl = $(element).find('img').attr('src');
-
-        const plugin = {
-          Author: 'Unknown',
-          Name: pluginName,
-          Punchline: '',
-          Description: '',
-          Tags: [],
-          CategoryTags: [],
-          InternalName: pluginName.replace(/\s+/g, ''),
-          AssemblyVersion: '0.0.0',
-          DalamudApiLevel: 12, // Explicitly set the API level
-          RepoUrl: url,
-          DownloadLinkInstall: downloadLink,
-          DownloadLinkTesting: downloadLink,
-          DownloadLinkUpdate: downloadLink,
-          ApplicableVersion: 'any',
-          IconUrl: iconUrl || ''
-        };
-
-        plugins.push(plugin);
-      });
-
-      return plugins;
-    } else {
-      // Default case for other URLs
-      const baseUrl = url.endsWith('/') ? url : `${url}/`;
-      const jsonUrl = `${baseUrl}pluginmaster.json`;
-      const response = await axios.get(jsonUrl);
-      return response.data;
-    }
+    const response = await axios.get(url, { headers: { 'Accept': 'application/json' } });
+    return response.data;
   } catch (error) {
-    console.error(`Error fetching data from ${url}: ${error.message}`);
+    console.error(`Error fetching JSON from ${url}: ${error.message}`);
     return null;
   }
 }
 
-// Function to fetch fallback data if primary fetch fails
-async function fetchFallbackData(repoName) {
-  const fallbackUrls = [
-    `https://puni.sh/api/repository/${repoName}`,
-    `https://love.puni.sh/ment.json`
-  ];
-
-  for (const fallbackUrl of fallbackUrls) {
-    try {
-      const response = await axios.get(fallbackUrl);
-      if (response.status === 200) {
-        console.log(`Successfully fetched data from fallback URL: ${fallbackUrl}`);
-        return response.data;
-      }
-    } catch (error) {
-      console.error(`Error fetching data from fallback URL ${fallbackUrl}: ${error.message}`);
-    }
-  }
-
-  return null;
-}
-
-// Main function to merge data from all repositories
-async function mergeData() {
-  let mergedData = [];
-
-  for (const url of repoList) {
-    let data = await fetchData(url);
-
-    if (!data) {
-      const repoName = url.split('/').pop();
-      console.log(`Primary data fetch failed for ${repoName}, attempting fallback.`);
-      data = await fetchFallbackData(repoName);
-    }
-
-    if (data) {
-      if (Array.isArray(data)) {
-        mergedData = mergedData.concat(data);
-      } else if (data.items && Array.isArray(data.items)) {
-        mergedData = mergedData.concat(data.items);
-      } else if (data.plugins && Array.isArray(data.plugins)) {
-        mergedData = mergedData.concat(data.plugins);
-      }
-    }
-  }
-
-  if (mergedData.length > 0) {
-    const filePath = path.resolve('repository.json');
-
-    try {
-      fs.writeFileSync(filePath, JSON.stringify(mergedData, null, 2));
-      console.log('Merged data written to repository.json successfully.');
-    } catch (err) {
-      console.error('Error writing to repository.json:', err.message);
-    }
-  } else {
-    console.log('No valid data to write to repository.json.');
+// Function to fetch text data from a URL
+async function fetchText(url) {
+  try {
+    const response = await axios.get(url, { headers: { 'Accept': 'text/plain' } });
+    return response.data;
+  } catch (error) {
+    console.error(`Error fetching text from ${url}: ${error.message}`);
+    return null;
   }
 }
 
-// Execute the merge process
-mergeData();
+// Function to process the plugins.carvel.li repository
+async function processCarvelRepo() {
+  const baseRepoUrl = 'https://git.carvel.li/liza/plugin-repo';
+  const rawBaseUrl = 'https://git.carvel.li/api/v1/repos/liza/plugin-repo/raw';
+  const configUrl = `${rawBaseUrl}/_config.json?ref=master`;
+
+  const configData = await fetchJson(configUrl);
+  if (!configData || !configData.plugins) {
+    console.error('Failed to fetch or parse _config.json from plugins.carvel.li');
+    return [];
+  }
+
+  const plugins = [];
+
+  for (const plugin of configData.plugins) {
+    const pluginName = plugin.name;
+    const pluginRepo = plugin.repo;
+
+    // Fetch the list of releases for the plugin
+    const releasesUrl = `https://git.carvel.li/api/v1/repos/liza/${pluginRepo}/releases`;
+    const releases = await fetchJson(releasesUrl);
+    if (!releases || releases.length === 0) {
+      console.warn(`No releases found for plugin ${pluginName}`);
+      continue;
+    }
+
+    // Get the latest release
+    const latestRelease = releases[0];
+    const releaseTag = latestRelease.tag_name;
+
+    // Fetch the list of assets for the latest release
+    const assetsUrl = `https://git.carvel.li/api/v1/repos/liza/${pluginRepo}/releases/${releaseTag}/assets`;
+    const assets = await fetchJson(assetsUrl);
+    if (!assets || assets.length === 0) {
+      console.warn(`No assets found for plugin ${pluginName} release ${releaseTag}`);
+      continue;
+    }
+
+    // Find the asset that contains the plugin manifest (ends with .json)
+    const manifestAsset = assets.find(asset => asset.name.endsWith('.json'));
+    if (!manifestAsset) {
+      console.warn(`No manifest (.json) asset found for plugin ${pluginName} release ${releaseTag}`);
+      continue;
+    }
+
+    // Fetch the manifest content
+    const manifestUrl = manifestAsset.browser_download_url;
+    const manifest = await fetchJson(manifestUrl);
+    if (!manifest) {
+      console.warn(`Failed to fetch manifest for plugin ${pluginName}`);
+      continue;
+    }
+
+    plugins.push(manifest);
+  }
+
+  return plugins;
+}
+
+// Function to process other repositories (placeholder)
+async function processOtherRepo(url) {
+  // Implement processing for other repositories as needed
+  console.warn(`Processing for repository ${url} is not implemented.`);
+  return [];
+}
+
+// Main function to process all repositories
+async function processRepositories() {
+  const allPlugins = [];
+
+  for (const repoUrl of repoList) {
+    if (repoUrl === 'https://plugins.carvel.li/') {
+      const carvelPlugins = await processCarvelRepo();
+      allPlugins.push(...carvelPlugins);
+    } else {
+      const otherPlugins = await processOtherRepo(repoUrl);
+      allPlugins.push(...otherPlugins);
+    }
+  }
+
+  // Write the consolidated repository.json
+  const outputPath = path.resolve(__dirname, 'repository.json');
+  try {
+    fs.writeFileSync(outputPath, JSON.stringify(allPlugins, null, 2));
+    console.log(`Successfully wrote ${allPlugins.length} plugins to repository.json`);
+  } catch (error) {
+    console.error(`Error writing to repository.json: ${error.message}`);
+  }
+}
+
+// Execute the script
+processRepositories();
