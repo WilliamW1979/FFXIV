@@ -39,11 +39,38 @@ async function fetchData(url) {
   }
 }
 
+async function fetchFallbackData(repoName) {
+  const fallbackUrls = [
+    `https://puni.sh/api/repository/${repoName}`,
+    `https://love.puni.sh/ment.json`
+  ];
+
+  for (const fallbackUrl of fallbackUrls) {
+    try {
+      const response = await axios.get(fallbackUrl);
+      if (response.status === 200) {
+        console.log(`Successfully fetched data from fallback URL: ${fallbackUrl}`);
+        return response.data;
+      }
+    } catch (error) {
+      console.error(`Error fetching data from fallback URL ${fallbackUrl}: ${error.message}`);
+    }
+  }
+
+  return null;
+}
+
 async function mergeData() {
   let mergedData = [];
 
   for (const url of repoList) {
-    const data = await fetchData(url);
+    let data = await fetchData(url);
+
+    if (!data) {
+      const repoName = url.trim().split('/').pop();
+      console.log(`Primary data fetch failed for ${repoName}, attempting fallback.`);
+      data = await fetchFallbackData(repoName);
+    }
 
     if (data) {
       if (Array.isArray(data)) {
