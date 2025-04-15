@@ -138,21 +138,22 @@ async function mergeData() {
 
     if (data) {
       let plugins = [];
-
+      
       if (Array.isArray(data)) {
         plugins = data;
       } else if (data.items && Array.isArray(data.items)) {
         plugins = data.items;
       } else if (data.plugins && Array.isArray(data.plugins)) {
         plugins = data.plugins;
-      } else if (data.plugins && data.plugins.InternalName) {
-        plugins = [data.plugins]; // Single plugin wrapped in `plugins` object
+      } else if (data.plugins && typeof data.plugins === 'object') {
+        plugins = [data.plugins];
       } else if (data.InternalName) {
-        plugins = [data]; // Single plugin object
+        plugins = [data]; // ← this handles the case you're talking about
       } else {
-        console.warn(`Unrecognized data structure from: ${url}`);
+        console.warn(`Unrecognized or empty plugin format from ${url}`);
         continue;
       }
+
 
       for (const plugin of plugins) {
         if (url === 'https://plugins.carvel.li/') plugin.DalamudApiLevel = 12;
