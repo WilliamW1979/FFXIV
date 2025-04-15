@@ -16,7 +16,6 @@ https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/plugi
 https://puni.sh/api/repository/croizat
 https://raw.githubusercontent.com/KangasZ/DalamudPluginRepository/main/plugin_repository.json
 https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json
-https://github.com/UnknownX7/DalamudPluginRepo/raw/master/pluginmaster.json
 https://github.com/emyxiv/Dresser/raw/master/repo.json
 https://github.com/Milesnocte/GambaGames/raw/main/repo.json
 https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json
@@ -25,3 +24,15 @@ https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.
 https://github.com/WilliamW1979/Repo/raw/main/ffxiv.json
 https://raw.githubusercontent.com/Haselnussbomber/MyDalamudPlugins/main/repo.json
 https://raw.githubusercontent.com/Ottermandias/Glamourer/main/repo.json
+https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json
+https://raw.githubusercontent.com/xivdev/Penumbra/master/repo.json
+https://raw.githubusercontent.com/jawslouis/MakePlacePlugin/master/MakePlacePlugin.json
+https://raw.githubusercontent.com/a03831/Dalamud.SkipCutscene/dist/repo.json
+https://raw.githubusercontent.com/BardToolbox/BardToolbox-Release/master/pluginmaster.json
+https://raw.githubusercontent.com/WilliamW1979/Repo/raw/main/ffxiv.json
+https://raw.githubusercontent.com/Etheirys/Brio/main/repo.json
+https://raw.githubusercontent.com/Project-GagSpeak/repo/main/projectgagspeak.json
+https://raw.githubusercontent.com/dodingdaga/DalamudPlugins/main/PuppetMaster.json
+https://raw.githubusercontent.com/SoyaX/SoyaPlugins/main/repo.json
+https://raw.githubusercontent.com/ryoniive/Dalamud-Darkness-Repo/raw/main/ffxiv_custom_repo.json
+https://raw.githubusercontent.com/Milestonee/GambaGames/main/repo.json
