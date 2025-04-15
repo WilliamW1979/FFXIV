@@ -49,6 +49,7 @@ async function fetchData(url) {
             if (!pluginMeta.Author || pluginMeta.Author.trim() === '') {
               pluginMeta.Author = 'Unknown';
             }
+            pluginMeta.RepoUrl = url;
 
             plugins.push(pluginMeta);
           }
@@ -119,6 +120,7 @@ async function mergeData() {
       for (const plugin of plugins) {
         if (url === troubledRepo) plugin.DalamudApiLevel = 12;
         if (!plugin.Author || plugin.Author.trim() === '') plugin.Author = 'Unknown';
+        plugin.RepoUrl = url;
         mergedData.push(plugin);
       }
     }
