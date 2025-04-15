@@ -155,11 +155,16 @@ async function mergeData() {
     }
   }
 
-  if (mergedData.length > 0) {
+  // Remove duplicates based on InternalName
+  const uniquePlugins = mergedData.filter((plugin, index, self) =>
+    index === self.findIndex((p) => p.InternalName === plugin.InternalName)
+  );
+
+  if (uniquePlugins.length > 0) {
     const filePath = path.resolve('repository.json');
     try {
       console.log(`Writing merged data to: ${filePath}`);
-      fs.writeFileSync(filePath, JSON.stringify(mergedData, null, 2));
+      fs.writeFileSync(filePath, JSON.stringify(uniquePlugins, null, 2));
       console.log('Merged data written to repository.json successfully.');
     } catch (err) {
       console.error('Error writing to repository.json:', err.message);
@@ -168,6 +173,4 @@ async function mergeData() {
     console.log('No valid data to write to repository.json.');
   }
 }
-
-// Run the data merge
 mergeData();
