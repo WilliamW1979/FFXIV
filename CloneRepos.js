@@ -145,6 +145,13 @@ async function mergeData() {
         plugins = data.items;
       } else if (data.plugins && Array.isArray(data.plugins)) {
         plugins = data.plugins;
+      } else if (data.plugins && data.plugins.InternalName) {
+        plugins = [data.plugins]; // Single plugin wrapped in `plugins` object
+      } else if (data.InternalName) {
+        plugins = [data]; // Single plugin object
+      } else {
+        console.warn(`Unrecognized data structure from: ${url}`);
+        continue;
       }
 
       for (const plugin of plugins) {
