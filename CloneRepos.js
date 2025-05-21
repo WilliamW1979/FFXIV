@@ -45,7 +45,7 @@ async function fetchData(url) {
             pluginMeta.DownloadLinkInstall = zipUrl;
             pluginMeta.DownloadLinkUpdate = zipUrl;
             pluginMeta.DownloadLinkTesting = zipUrl;
-            pluginMeta.DalamudApiLevel = 12;
+//            pluginMeta.DalamudApiLevel = 12;
             if (!pluginMeta.Author || pluginMeta.Author.trim() === '') {
               pluginMeta.Author = 'Unknown';
             }
