@@ -157,27 +157,6 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/32/icon-vrl2a8dqi3h.png"
   },
   {
-    "Author": "kawaii, NightmareXIV",
-    "Name": "AutoRetainer",
-    "Punchline": "Collect and assign ventures to your retainers from the comfort of your bed.",
-    "Description": "Collect and assign ventures to your retainers from the comfort of your bed.",
-    "Tags": [],
-    "InternalName": "AutoRetainer",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 1208398,
-    "LastUpdate": 1747259183173,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/latest.zip",
-    "AssemblyVersion": "4.5.0.4",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "12",
-    "Changelog": "- Fixed a possible configuration issue",
-    "TestingAssemblyVersion": "4.5.0.3",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/testing.zip",
-    "TestingDalamudApiLevel": "12",
-    "IconUrl": "https://s3.puni.sh/media/plugin/24/icon-drb6aywk5m9.png"
-  },
-  {
     "Author": "Team Wrath",
     "Name": "Wrath Combo",
     "Punchline": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
@@ -215,6 +194,27 @@
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/26/YesAlready/versions/testing.zip",
     "TestingDalamudApiLevel": "12",
     "IconUrl": "https://s3.puni.sh/media/plugin/26/icon-v1pvonkr6r.png"
+  },
+  {
+    "Author": "kawaii, NightmareXIV",
+    "Name": "AutoRetainer",
+    "Punchline": "Collect and assign ventures to your retainers from the comfort of your bed.",
+    "Description": "Collect and assign ventures to your retainers from the comfort of your bed.",
+    "Tags": [],
+    "InternalName": "AutoRetainer",
+    "RepoUrl": "https://love.puni.sh/ment.json",
+    "DownloadCount": 1208399,
+    "LastUpdate": 1747259183173,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/latest.zip",
+    "AssemblyVersion": "4.5.0.4",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "12",
+    "Changelog": "- Fixed a possible configuration issue",
+    "TestingAssemblyVersion": "4.5.0.3",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/testing.zip",
+    "TestingDalamudApiLevel": "12",
+    "IconUrl": "https://s3.puni.sh/media/plugin/24/icon-drb6aywk5m9.png"
   },
   {
     "Author": "NightmareXIV, Xenosys",
@@ -1401,6 +1401,24 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/58/icon-hffi2ft0zlg.png"
   },
   {
+    "Author": "veyn, xan_0",
+    "Name": "vnavmesh",
+    "Punchline": "Move around!",
+    "Description": "Utility to automatically move the character around in the world, skilfully avoiding any obstacles.",
+    "Tags": [],
+    "InternalName": "vnavmesh",
+    "RepoUrl": "https://puni.sh/api/repository/veyn",
+    "DownloadCount": 459184,
+    "LastUpdate": 1746125970767,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/latest.zip",
+    "AssemblyVersion": "0.2.2.5",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "12",
+    "Changelog": "",
+    "IconUrl": "https://s3.puni.sh/media/plugin/48/icon-ylwecng2h0n.png"
+  },
+  {
     "Author": "veyn",
     "Name": "Easier Faux Hollows",
     "Punchline": "Faux Hollows solver based on known patterns",
@@ -1419,22 +1437,22 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/29/icon-3vysu0z0eem.png"
   },
   {
-    "Author": "veyn, xan_0",
-    "Name": "vnavmesh",
-    "Punchline": "Move around!",
-    "Description": "Utility to automatically move the character around in the world, skilfully avoiding any obstacles.",
+    "Author": "veyn, croizat",
+    "Name": "V(ery) Island",
+    "Punchline": "Automate island sanctuary activities",
+    "Description": "Automate gathering, workshop assignments, etc.",
     "Tags": [],
-    "InternalName": "vnavmesh",
+    "InternalName": "visland",
     "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 459181,
-    "LastUpdate": 1746125970767,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/latest.zip",
-    "AssemblyVersion": "0.2.2.5",
+    "DownloadCount": 614328,
+    "LastUpdate": 1745607508614,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/28/visland/versions/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/28/visland/versions/latest.zip",
+    "AssemblyVersion": "0.0.0.135",
     "ApplicableVersion": "any",
     "DalamudApiLevel": "12",
     "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/48/icon-ylwecng2h0n.png"
+    "IconUrl": "https://s3.puni.sh/media/plugin/28/icon-lruwx4y549.png"
   },
   {
     "Author": "veyn, xan_0",
@@ -1458,24 +1476,6 @@
       "https://s3.puni.sh/media/plugin/30/image-nc231jzj2gb.png",
       "https://s3.puni.sh/media/plugin/30/image-3nufuhgwbhl.png"
     ]
-  },
-  {
-    "Author": "veyn, croizat",
-    "Name": "V(ery) Island",
-    "Punchline": "Automate island sanctuary activities",
-    "Description": "Automate gathering, workshop assignments, etc.",
-    "Tags": [],
-    "InternalName": "visland",
-    "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 614327,
-    "LastUpdate": 1745607508614,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/28/visland/versions/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/28/visland/versions/latest.zip",
-    "AssemblyVersion": "0.0.0.135",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "12",
-    "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/28/icon-lruwx4y549.png"
   },
   {
     "Author": "veyn",
@@ -1503,7 +1503,7 @@
     "Tags": [],
     "InternalName": "AutoDuty",
     "RepoUrl": "https://puni.sh/api/repository/herc",
-    "DownloadCount": 631348,
+    "DownloadCount": 631352,
     "LastUpdate": 1748148102476,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/latest.zip",
@@ -1577,7 +1577,7 @@
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/RotationSolverReborn/releases/download/7.2.1.55/RotationSolver.zip",
     "TestingAssemblyVersion": "7.2.1.55",
     "Changelog": "## What's Changed\r\n* Temporarily roll back WAR changes by @LTS-FFXIV in https://github.com/FFXIV-CombatReborn/RotationSolverReborn/pull/754\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/RotationSolverReborn/compare/7.2.1.64...7.2.1.65",
-    "DownloadCount": 1044830,
+    "DownloadCount": 1044835,
     "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
@@ -1611,7 +1611,7 @@
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/BossmodReborn/releases/download/1.0.2.1/BossMod.zip",
     "TestingAssemblyVersion": "1.0.2.1",
     "Changelog": "## What's Changed\r\n* Bozja/Zadnor WIP by @CarnifexOptimus in https://github.com/FFXIV-CombatReborn/BossmodReborn/pull/797\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/BossmodReborn/compare/7.2.1.41...7.2.1.42",
-    "DownloadCount": 1429923,
+    "DownloadCount": 1429925,
     "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
