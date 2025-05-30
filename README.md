@@ -1,3 +1,5 @@
+Repo: https://raw.githubusercontent.com/WilliamW1979/FFXIV/main/repository.json
+
 This repository was created because like most of you, we are tired of adding tons of repositories to Dalamud. So the intent here was one repository to access all the plugins.
 
 Now to respect all the plugin users, a special link was encoded in the master repository to tell everyone where the informatino was read from. This way people can verify it for themselves to be 100% accurate.
