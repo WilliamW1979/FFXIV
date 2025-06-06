@@ -7,7 +7,7 @@
     "Tags": [],
     "InternalName": "Orbwalker",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 47329,
+    "DownloadCount": 47330,
     "LastUpdate": 1744951207517,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/12/Orbwalker/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/12/Orbwalker/versions/latest.zip",
@@ -28,7 +28,7 @@
     ],
     "InternalName": "PandorasBox",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 717915,
+    "DownloadCount": 717946,
     "LastUpdate": 1749106325146,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/latest.zip",
@@ -68,6 +68,49 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/9/icon-zjun2qgmfbe.png"
   },
   {
+    "Author": "kawaii, jukka",
+    "Name": "Palace Pal",
+    "Punchline": "Shows possible trap & Accursed Hoard locations in Palace of The Dead, Heaven on High, and Eureka Orthos.",
+    "Description": "Shows possible trap & Accursed Hoard locations in Palace of The Dead, Heaven on High, and Eureka Orthos.\n\nThis plugin requires Splatoon in order to render various draws on the screen.",
+    "Tags": [
+      "potd",
+      "hoh",
+      "splatoon",
+      "palace"
+    ],
+    "InternalName": "PalacePal",
+    "RepoUrl": "https://love.puni.sh/ment.json",
+    "DownloadCount": 128389,
+    "LastUpdate": 1743091529916,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/32/PalacePal/versions/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/32/PalacePal/versions/latest.zip",
+    "AssemblyVersion": "4.12.0.0",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "12",
+    "Changelog": "",
+    "IconUrl": "https://s3.puni.sh/media/plugin/32/icon-vrl2a8dqi3h.png"
+  },
+  {
+    "Author": "kawaii, NightmareXIV",
+    "Name": "Avarice",
+    "Punchline": "Positional feedback with pixel perfect rear/flank tracking, range indicators, and more.",
+    "Description": "Positional feedback with pixel perfect rear/flank tracking, range indicators, and more.",
+    "Tags": [
+      "combat"
+    ],
+    "InternalName": "Avarice",
+    "RepoUrl": "https://love.puni.sh/ment.json",
+    "DownloadCount": 188651,
+    "LastUpdate": 1743097010005,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/11/Avarice/versions/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/11/Avarice/versions/latest.zip",
+    "AssemblyVersion": "2.1.1.2",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "12",
+    "Changelog": "- Preliminary 7.2 update",
+    "IconUrl": "https://s3.puni.sh/media/plugin/11/icon-d95r9462spc.png"
+  },
+  {
     "Author": "Taurenkey",
     "Name": "Saucy",
     "Punchline": "When working for MGP is too much effort.",
@@ -79,7 +122,7 @@
     ],
     "InternalName": "Saucy",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 324569,
+    "DownloadCount": 324574,
     "LastUpdate": 1748238035414,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/7/Saucy/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/7/Saucy/versions/latest.zip",
@@ -103,7 +146,7 @@
     ],
     "InternalName": "AutoHook",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 647769,
+    "DownloadCount": 647772,
     "LastUpdate": 1746757651287,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/latest.zip",
@@ -114,49 +157,6 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/47/icon-k1slevjorpo.png"
   },
   {
-    "Author": "kawaii, NightmareXIV",
-    "Name": "Avarice",
-    "Punchline": "Positional feedback with pixel perfect rear/flank tracking, range indicators, and more.",
-    "Description": "Positional feedback with pixel perfect rear/flank tracking, range indicators, and more.",
-    "Tags": [
-      "combat"
-    ],
-    "InternalName": "Avarice",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 188649,
-    "LastUpdate": 1743097010005,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/11/Avarice/versions/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/11/Avarice/versions/latest.zip",
-    "AssemblyVersion": "2.1.1.2",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "12",
-    "Changelog": "- Preliminary 7.2 update",
-    "IconUrl": "https://s3.puni.sh/media/plugin/11/icon-d95r9462spc.png"
-  },
-  {
-    "Author": "kawaii, jukka",
-    "Name": "Palace Pal",
-    "Punchline": "Shows possible trap & Accursed Hoard locations in Palace of The Dead, Heaven on High, and Eureka Orthos.",
-    "Description": "Shows possible trap & Accursed Hoard locations in Palace of The Dead, Heaven on High, and Eureka Orthos.\n\nThis plugin requires Splatoon in order to render various draws on the screen.",
-    "Tags": [
-      "potd",
-      "hoh",
-      "splatoon",
-      "palace"
-    ],
-    "InternalName": "PalacePal",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 128388,
-    "LastUpdate": 1743091529916,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/32/PalacePal/versions/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/32/PalacePal/versions/latest.zip",
-    "AssemblyVersion": "4.12.0.0",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "12",
-    "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/32/icon-vrl2a8dqi3h.png"
-  },
-  {
     "Author": "Team Wrath",
     "Name": "Wrath Combo",
     "Punchline": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
@@ -164,7 +164,7 @@
     "Tags": [],
     "InternalName": "WrathCombo",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 234389,
+    "DownloadCount": 234395,
     "LastUpdate": 1748774453715,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/latest.zip",
@@ -182,7 +182,7 @@
     "Tags": [],
     "InternalName": "AutoRetainer",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 1214897,
+    "DownloadCount": 1214899,
     "LastUpdate": 1747259183173,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/latest.zip",
@@ -203,7 +203,7 @@
     "Tags": [],
     "InternalName": "YesAlready",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 681265,
+    "DownloadCount": 681269,
     "LastUpdate": 1748535051645,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/26/YesAlready/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/26/YesAlready/versions/latest.zip",
@@ -226,7 +226,7 @@
     ],
     "InternalName": "Artisan",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 2785115,
+    "DownloadCount": 2785120,
     "LastUpdate": 1747156641794,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/latest.zip",
@@ -250,7 +250,7 @@
     ],
     "InternalName": "Splatoon",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 990147,
+    "DownloadCount": 990156,
     "LastUpdate": 1748589737039,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/10/Splatoon/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/10/Splatoon/versions/latest.zip",
@@ -1401,6 +1401,29 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/58/icon-hffi2ft0zlg.png"
   },
   {
+    "Author": "veyn, xan_0",
+    "Name": "Boss Mod",
+    "Punchline": "Don't fail at raid mechanics anymore",
+    "Description": "A bunch of utilities to simplify bosses. Currently supports endwalker content.",
+    "Tags": [],
+    "InternalName": "BossMod",
+    "RepoUrl": "https://puni.sh/api/repository/veyn",
+    "DownloadCount": 922789,
+    "LastUpdate": 1749144911018,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/30/BossMod/versions/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/30/BossMod/versions/latest.zip",
+    "AssemblyVersion": "0.2.9.5",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "12",
+    "Changelog": "",
+    "IconUrl": "https://s3.puni.sh/media/plugin/30/icon-1x16xz3evsu.png",
+    "ImageUrls": [
+      "https://s3.puni.sh/media/plugin/30/image-4mbxiq5k4pl.png",
+      "https://s3.puni.sh/media/plugin/30/image-nc231jzj2gb.png",
+      "https://s3.puni.sh/media/plugin/30/image-3nufuhgwbhl.png"
+    ]
+  },
+  {
     "Author": "veyn, croizat",
     "Name": "V(ery) Island",
     "Punchline": "Automate island sanctuary activities",
@@ -1444,7 +1467,7 @@
     "Tags": [],
     "InternalName": "vnavmesh",
     "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 463696,
+    "DownloadCount": 463700,
     "LastUpdate": 1746125970767,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/latest.zip",
@@ -1453,29 +1476,6 @@
     "DalamudApiLevel": "12",
     "Changelog": "",
     "IconUrl": "https://s3.puni.sh/media/plugin/48/icon-ylwecng2h0n.png"
-  },
-  {
-    "Author": "veyn, xan_0",
-    "Name": "Boss Mod",
-    "Punchline": "Don't fail at raid mechanics anymore",
-    "Description": "A bunch of utilities to simplify bosses. Currently supports endwalker content.",
-    "Tags": [],
-    "InternalName": "BossMod",
-    "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 922762,
-    "LastUpdate": 1749144911018,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/30/BossMod/versions/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/30/BossMod/versions/latest.zip",
-    "AssemblyVersion": "0.2.9.5",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "12",
-    "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/30/icon-1x16xz3evsu.png",
-    "ImageUrls": [
-      "https://s3.puni.sh/media/plugin/30/image-4mbxiq5k4pl.png",
-      "https://s3.puni.sh/media/plugin/30/image-nc231jzj2gb.png",
-      "https://s3.puni.sh/media/plugin/30/image-3nufuhgwbhl.png"
-    ]
   },
   {
     "Author": "veyn",
@@ -1503,7 +1503,7 @@
     "Tags": [],
     "InternalName": "AutoDuty",
     "RepoUrl": "https://puni.sh/api/repository/herc",
-    "DownloadCount": 663688,
+    "DownloadCount": 663695,
     "LastUpdate": 1748762704092,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/latest.zip",
@@ -1577,7 +1577,7 @@
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/RotationSolverReborn/releases/download/7.2.5.32/RotationSolver.zip",
     "TestingAssemblyVersion": "7.2.5.32",
     "Changelog": "## What's Changed\r\n* Performance Fixes with RSR Config open by @arcwowdev in https://github.com/FFXIV-CombatReborn/RotationSolverReborn/pull/809\r\n* Remove LB Macro from state macro list. by @arcwowdev in https://github.com/FFXIV-CombatReborn/RotationSolverReborn/pull/810\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/RotationSolverReborn/compare/7.2.5.45...7.2.5.46",
-    "DownloadCount": 1123410,
+    "DownloadCount": 1123701,
     "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
@@ -1611,7 +1611,7 @@
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/BossmodReborn/releases/download/1.0.2.1/BossMod.zip",
     "TestingAssemblyVersion": "1.0.2.1",
     "Changelog": "## What's Changed\r\n* Hotfix for StayCloseToTarget jitter when used with RSR by @LTS-FFXIV in https://github.com/FFXIV-CombatReborn/BossmodReborn/pull/828\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/BossmodReborn/compare/7.2.5.24...7.2.5.25",
-    "DownloadCount": 1517654,
+    "DownloadCount": 1518020,
     "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
@@ -1670,7 +1670,7 @@
     "AssemblyVersion": "7.2.0.0",
     "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/EasyZoomReborn/releases/download/7.2.0.0/EasyZoomReborn.zip",
     "Changelog": "## What's Changed\r\n* 7.2 update by @BrakusTapus in https://github.com/FFXIV-CombatReborn/EasyZoomReborn/pull/8\r\n* Refactor project configuration and update dependencies by @LTS-FFXIV in https://github.com/FFXIV-CombatReborn/EasyZoomReborn/pull/9\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/EasyZoomReborn/compare/7.1.0.2...7.2.0.0",
-    "DownloadCount": 22664,
+    "DownloadCount": 22665,
     "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
@@ -1709,7 +1709,7 @@
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/releases/download/7.2.2.60/GatherbuddyReborn.zip",
     "TestingAssemblyVersion": "7.2.2.60",
     "Changelog": "## What's Changed\r\n* Allow mounting up while moving by @garypwn in https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/pull/371\r\n* Upstream merge by @NostraThomas99 in https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/pull/372\r\n* Upstream sync 2 by @CritoCantCode in https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/pull/374\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/compare/7.2.2.55...7.2.2.56",
-    "DownloadCount": 325157,
+    "DownloadCount": 325166,
     "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
@@ -1736,7 +1736,7 @@
     "AssemblyVersion": "7.2.0.1",
     "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/RebornToolbox/releases/download/7.2.0.1/RebornToolbox.zip",
     "Changelog": "## What's Changed\r\n* Deprecate Supermarket Sweep by @NostraThomas99 in https://github.com/FFXIV-CombatReborn/RebornToolbox/pull/14\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/RebornToolbox/compare/7.2.0.0...7.2.0.1",
-    "DownloadCount": 18364,
+    "DownloadCount": 18365,
     "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
@@ -1747,7 +1747,7 @@
     "Tags": [],
     "InternalName": "SomethingNeedDoing",
     "RepoUrl": "https://puni.sh/api/repository/croizat",
-    "DownloadCount": 408138,
+    "DownloadCount": 408139,
     "LastUpdate": 1743086963165,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/latest.zip",
@@ -1772,7 +1772,7 @@
     ],
     "InternalName": "Automaton",
     "RepoUrl": "https://puni.sh/api/repository/croizat",
-    "DownloadCount": 174822,
+    "DownloadCount": 174855,
     "LastUpdate": 1749212418019,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/34/Automaton/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/34/Automaton/versions/latest.zip",
