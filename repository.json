@@ -10,7 +10,7 @@
     ],
     "InternalName": "PandorasBox",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 728038,
+    "DownloadCount": 728039,
     "LastUpdate": 1749106325146,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/latest.zip",
@@ -54,7 +54,7 @@
     ],
     "InternalName": "LazyLoot",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 140459,
+    "DownloadCount": 140460,
     "LastUpdate": 1743145378663,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/9/LazyLoot/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/9/LazyLoot/versions/latest.zip",
@@ -66,6 +66,27 @@
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/9/LazyLoot/versions/testing.zip",
     "TestingDalamudApiLevel": "9",
     "IconUrl": "https://s3.puni.sh/media/plugin/9/icon-zjun2qgmfbe.png"
+  },
+  {
+    "Author": "Det, Taurenkey",
+    "Name": "AutoHook",
+    "Punchline": "Makes fishing less (or more) boring",
+    "Description": "It hooks the fish for you, can you believe it?\n\nCN API 10: Enable testing version or use\nhttps://puni.sh/api/repository/det",
+    "Tags": [
+      "Gathering",
+      "Fishing"
+    ],
+    "InternalName": "AutoHook",
+    "RepoUrl": "https://love.puni.sh/ment.json",
+    "DownloadCount": 649593,
+    "LastUpdate": 1746757651287,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/latest.zip",
+    "AssemblyVersion": "4.3.4.1",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "12",
+    "Changelog": "",
+    "IconUrl": "https://s3.puni.sh/media/plugin/47/icon-k1slevjorpo.png"
   },
   {
     "Author": "kawaii, NightmareXIV",
@@ -86,27 +107,6 @@
     "DalamudApiLevel": "12",
     "Changelog": "- Preliminary 7.2 update",
     "IconUrl": "https://s3.puni.sh/media/plugin/11/icon-d95r9462spc.png"
-  },
-  {
-    "Author": "Det, Taurenkey",
-    "Name": "AutoHook",
-    "Punchline": "Makes fishing less (or more) boring",
-    "Description": "It hooks the fish for you, can you believe it?\n\nCN API 10: Enable testing version or use\nhttps://puni.sh/api/repository/det",
-    "Tags": [
-      "Gathering",
-      "Fishing"
-    ],
-    "InternalName": "AutoHook",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 649592,
-    "LastUpdate": 1746757651287,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/latest.zip",
-    "AssemblyVersion": "4.3.4.1",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "12",
-    "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/47/icon-k1slevjorpo.png"
   },
   {
     "Author": "kawaii, jukka",
@@ -157,6 +157,24 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/7/icon-bl3wub19h2u.png"
   },
   {
+    "Author": "Team Wrath",
+    "Name": "Wrath Combo",
+    "Punchline": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
+    "Description": "Turns one action into many! Similar to how PvP actions work, we take an action and build a whole combo out of it. Sometimes it's as simple as a 1-2-3 combo, other times it's a full job rotation. Either way, you'll find something suited for your rotation needs.",
+    "Tags": [],
+    "InternalName": "WrathCombo",
+    "RepoUrl": "https://love.puni.sh/ment.json",
+    "DownloadCount": 245799,
+    "LastUpdate": 1749399042056,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/latest.zip",
+    "AssemblyVersion": "1.0.1.9",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "12",
+    "Changelog": "Please check the project's GitHub or Discord for a full changelog.",
+    "IconUrl": "https://s3.puni.sh/media/plugin/60/icon-2bwhkn3zf1f.png"
+  },
+  {
     "Author": "kawaii, NightmareXIV",
     "Name": "AutoRetainer",
     "Punchline": "Collect and assign ventures to your retainers from the comfort of your bed.",
@@ -178,24 +196,6 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/24/icon-drb6aywk5m9.png"
   },
   {
-    "Author": "Team Wrath",
-    "Name": "Wrath Combo",
-    "Punchline": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
-    "Description": "Turns one action into many! Similar to how PvP actions work, we take an action and build a whole combo out of it. Sometimes it's as simple as a 1-2-3 combo, other times it's a full job rotation. Either way, you'll find something suited for your rotation needs.",
-    "Tags": [],
-    "InternalName": "WrathCombo",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 245798,
-    "LastUpdate": 1749399042056,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/latest.zip",
-    "AssemblyVersion": "1.0.1.9",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "12",
-    "Changelog": "Please check the project's GitHub or Discord for a full changelog.",
-    "IconUrl": "https://s3.puni.sh/media/plugin/60/icon-2bwhkn3zf1f.png"
-  },
-  {
     "Author": "daemitus, kawaii",
     "Name": "Yes Already",
     "Punchline": "Clicks Yes in various dialogs you've specified.",
@@ -203,7 +203,7 @@
     "Tags": [],
     "InternalName": "YesAlready",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 684287,
+    "DownloadCount": 684289,
     "LastUpdate": 1748535051645,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/26/YesAlready/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/26/YesAlready/versions/latest.zip",
@@ -226,7 +226,7 @@
     ],
     "InternalName": "Artisan",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 2813407,
+    "DownloadCount": 2813432,
     "LastUpdate": 1749828282064,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/latest.zip",
@@ -250,7 +250,7 @@
     ],
     "InternalName": "Splatoon",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 994758,
+    "DownloadCount": 994759,
     "LastUpdate": 1748589737039,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/10/Splatoon/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/10/Splatoon/versions/latest.zip",
@@ -1401,6 +1401,29 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/58/icon-hffi2ft0zlg.png"
   },
   {
+    "Author": "veyn, xan_0",
+    "Name": "Boss Mod",
+    "Punchline": "Don't fail at raid mechanics anymore",
+    "Description": "A bunch of utilities to simplify bosses. Currently supports endwalker content.",
+    "Tags": [],
+    "InternalName": "BossMod",
+    "RepoUrl": "https://puni.sh/api/repository/veyn",
+    "DownloadCount": 947310,
+    "LastUpdate": 1749793978436,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/30/BossMod/versions/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/30/BossMod/versions/latest.zip",
+    "AssemblyVersion": "0.2.9.9",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "12",
+    "Changelog": "",
+    "IconUrl": "https://s3.puni.sh/media/plugin/30/icon-1x16xz3evsu.png",
+    "ImageUrls": [
+      "https://s3.puni.sh/media/plugin/30/image-4mbxiq5k4pl.png",
+      "https://s3.puni.sh/media/plugin/30/image-nc231jzj2gb.png",
+      "https://s3.puni.sh/media/plugin/30/image-3nufuhgwbhl.png"
+    ]
+  },
+  {
     "Author": "veyn",
     "Name": "Easier Faux Hollows",
     "Punchline": "Faux Hollows solver based on known patterns",
@@ -1426,7 +1449,7 @@
     "Tags": [],
     "InternalName": "vnavmesh",
     "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 466275,
+    "DownloadCount": 466276,
     "LastUpdate": 1746125970767,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/latest.zip",
@@ -1435,29 +1458,6 @@
     "DalamudApiLevel": "12",
     "Changelog": "",
     "IconUrl": "https://s3.puni.sh/media/plugin/48/icon-ylwecng2h0n.png"
-  },
-  {
-    "Author": "veyn, xan_0",
-    "Name": "Boss Mod",
-    "Punchline": "Don't fail at raid mechanics anymore",
-    "Description": "A bunch of utilities to simplify bosses. Currently supports endwalker content.",
-    "Tags": [],
-    "InternalName": "BossMod",
-    "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 947304,
-    "LastUpdate": 1749793978436,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/30/BossMod/versions/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/30/BossMod/versions/latest.zip",
-    "AssemblyVersion": "0.2.9.9",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "12",
-    "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/30/icon-1x16xz3evsu.png",
-    "ImageUrls": [
-      "https://s3.puni.sh/media/plugin/30/image-4mbxiq5k4pl.png",
-      "https://s3.puni.sh/media/plugin/30/image-nc231jzj2gb.png",
-      "https://s3.puni.sh/media/plugin/30/image-3nufuhgwbhl.png"
-    ]
   },
   {
     "Author": "veyn, croizat",
@@ -1503,7 +1503,7 @@
     "Tags": [],
     "InternalName": "AutoDuty",
     "RepoUrl": "https://puni.sh/api/repository/herc",
-    "DownloadCount": 667628,
+    "DownloadCount": 667630,
     "LastUpdate": 1748762704092,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/latest.zip",
