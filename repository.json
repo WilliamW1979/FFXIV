@@ -10,7 +10,7 @@
     ],
     "InternalName": "PandorasBox",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 777236,
+    "DownloadCount": 777243,
     "LastUpdate": 1751960861602,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/latest.zip",
@@ -68,27 +68,27 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/12/icon-o94qaw6cyn.png"
   },
   {
-    "Author": "kawaii, jukka",
-    "Name": "Palace Pal",
-    "Punchline": "Shows possible trap & Accursed Hoard locations in Palace of The Dead, Heaven on High, and Eureka Orthos.",
-    "Description": "Shows possible trap & Accursed Hoard locations in Palace of The Dead, Heaven on High, and Eureka Orthos.\n\nThis plugin requires Splatoon in order to render various draws on the screen.",
+    "Author": "Taurenkey, kawaii",
+    "Name": "Artisan",
+    "Punchline": "A 'simple' crafting plugin.",
+    "Description": "The all-in-one crafting plugin. Perfect for people with next to no knowledge about crafting rotations. No need for a library of different macros, the solvers will work dynamically to try and complete your crafts. Also provides convenient ways to craft lists of items or grind out a specific item repeatedly.",
     "Tags": [
-      "potd",
-      "hoh",
-      "splatoon",
-      "palace"
+      "crafting"
     ],
-    "InternalName": "PalacePal",
+    "InternalName": "Artisan",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 134411,
-    "LastUpdate": 1743091529916,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/32/PalacePal/versions/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/32/PalacePal/versions/latest.zip",
-    "AssemblyVersion": "4.12.0.0",
+    "DownloadCount": 2908401,
+    "LastUpdate": 1751108257810,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/latest.zip",
+    "AssemblyVersion": "4.0.3.44",
     "ApplicableVersion": "any",
     "DalamudApiLevel": "12",
-    "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/32/icon-vrl2a8dqi3h.png"
+    "Changelog": "Raphael update",
+    "TestingAssemblyVersion": "4.0.3.30",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/6/Artisan/versions/testing.zip",
+    "TestingDalamudApiLevel": "12",
+    "IconUrl": "https://s3.puni.sh/media/plugin/6/icon-3h8wd5b9qr.png"
   },
   {
     "Author": "Taurenkey",
@@ -116,27 +116,25 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/7/icon-bl3wub19h2u.png"
   },
   {
-    "Author": "Taurenkey, kawaii",
-    "Name": "Artisan",
-    "Punchline": "A 'simple' crafting plugin.",
-    "Description": "The all-in-one crafting plugin. Perfect for people with next to no knowledge about crafting rotations. No need for a library of different macros, the solvers will work dynamically to try and complete your crafts. Also provides convenient ways to craft lists of items or grind out a specific item repeatedly.",
+    "Author": "Det, Taurenkey",
+    "Name": "AutoHook",
+    "Punchline": "Makes fishing less (or more) boring",
+    "Description": "It hooks the fish for you, can you believe it?\n\nCN API 10: Enable testing version or use\nhttps://puni.sh/api/repository/det",
     "Tags": [
-      "crafting"
+      "Gathering",
+      "Fishing"
     ],
-    "InternalName": "Artisan",
+    "InternalName": "AutoHook",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 2908390,
-    "LastUpdate": 1751108257810,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/latest.zip",
-    "AssemblyVersion": "4.0.3.44",
+    "DownloadCount": 660650,
+    "LastUpdate": 1746757651287,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/latest.zip",
+    "AssemblyVersion": "4.3.4.1",
     "ApplicableVersion": "any",
     "DalamudApiLevel": "12",
-    "Changelog": "Raphael update",
-    "TestingAssemblyVersion": "4.0.3.30",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/6/Artisan/versions/testing.zip",
-    "TestingDalamudApiLevel": "12",
-    "IconUrl": "https://s3.puni.sh/media/plugin/6/icon-3h8wd5b9qr.png"
+    "Changelog": "",
+    "IconUrl": "https://s3.puni.sh/media/plugin/47/icon-k1slevjorpo.png"
   },
   {
     "Author": "kawaii, NightmareXIV",
@@ -159,25 +157,27 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/11/icon-d95r9462spc.png"
   },
   {
-    "Author": "Det, Taurenkey",
-    "Name": "AutoHook",
-    "Punchline": "Makes fishing less (or more) boring",
-    "Description": "It hooks the fish for you, can you believe it?\n\nCN API 10: Enable testing version or use\nhttps://puni.sh/api/repository/det",
+    "Author": "kawaii, jukka",
+    "Name": "Palace Pal",
+    "Punchline": "Shows possible trap & Accursed Hoard locations in Palace of The Dead, Heaven on High, and Eureka Orthos.",
+    "Description": "Shows possible trap & Accursed Hoard locations in Palace of The Dead, Heaven on High, and Eureka Orthos.\n\nThis plugin requires Splatoon in order to render various draws on the screen.",
     "Tags": [
-      "Gathering",
-      "Fishing"
+      "potd",
+      "hoh",
+      "splatoon",
+      "palace"
     ],
-    "InternalName": "AutoHook",
+    "InternalName": "PalacePal",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 660649,
-    "LastUpdate": 1746757651287,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/latest.zip",
-    "AssemblyVersion": "4.3.4.1",
+    "DownloadCount": 134412,
+    "LastUpdate": 1743091529916,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/32/PalacePal/versions/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/32/PalacePal/versions/latest.zip",
+    "AssemblyVersion": "4.12.0.0",
     "ApplicableVersion": "any",
     "DalamudApiLevel": "12",
     "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/47/icon-k1slevjorpo.png"
+    "IconUrl": "https://s3.puni.sh/media/plugin/32/icon-vrl2a8dqi3h.png"
   },
   {
     "Author": "Team Wrath",
@@ -187,7 +187,7 @@
     "Tags": [],
     "InternalName": "WrathCombo",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 290732,
+    "DownloadCount": 290774,
     "LastUpdate": 1752437527200,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/latest.zip",
@@ -205,7 +205,7 @@
     "Tags": [],
     "InternalName": "AutoRetainer",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 1280437,
+    "DownloadCount": 1280523,
     "LastUpdate": 1752427951758,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/latest.zip",
@@ -226,7 +226,7 @@
     "Tags": [],
     "InternalName": "YesAlready",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 716555,
+    "DownloadCount": 716561,
     "LastUpdate": 1751007793582,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/26/YesAlready/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/26/YesAlready/versions/latest.zip",
@@ -250,7 +250,7 @@
     ],
     "InternalName": "Splatoon",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 1043292,
+    "DownloadCount": 1043294,
     "LastUpdate": 1750911087470,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/10/Splatoon/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/10/Splatoon/versions/latest.zip",
@@ -1253,7 +1253,7 @@
     "Tags": [],
     "InternalName": "vsatisfy",
     "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 37883,
+    "DownloadCount": 37884,
     "LastUpdate": 1743321822076,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/58/vsatisfy/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/58/vsatisfy/versions/latest.zip",
@@ -1262,6 +1262,29 @@
     "DalamudApiLevel": "12",
     "Changelog": "",
     "IconUrl": "https://s3.puni.sh/media/plugin/58/icon-hffi2ft0zlg.png"
+  },
+  {
+    "Author": "veyn, xan_0",
+    "Name": "Boss Mod",
+    "Punchline": "Don't fail at raid mechanics anymore",
+    "Description": "A bunch of utilities to simplify bosses. Currently supports endwalker content.",
+    "Tags": [],
+    "InternalName": "BossMod",
+    "RepoUrl": "https://puni.sh/api/repository/veyn",
+    "DownloadCount": 1011069,
+    "LastUpdate": 1752421827620,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/30/BossMod/versions/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/30/BossMod/versions/latest.zip",
+    "AssemblyVersion": "0.3.0.4",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "12",
+    "Changelog": "",
+    "IconUrl": "https://s3.puni.sh/media/plugin/30/icon-1x16xz3evsu.png",
+    "ImageUrls": [
+      "https://s3.puni.sh/media/plugin/30/image-4mbxiq5k4pl.png",
+      "https://s3.puni.sh/media/plugin/30/image-nc231jzj2gb.png",
+      "https://s3.puni.sh/media/plugin/30/image-3nufuhgwbhl.png"
+    ]
   },
   {
     "Author": "veyn, croizat",
@@ -1289,7 +1312,7 @@
     "Tags": [],
     "InternalName": "vnavmesh",
     "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 508321,
+    "DownloadCount": 508350,
     "LastUpdate": 1752341941442,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/latest.zip",
@@ -1298,29 +1321,6 @@
     "DalamudApiLevel": "12",
     "Changelog": "",
     "IconUrl": "https://s3.puni.sh/media/plugin/48/icon-ylwecng2h0n.png"
-  },
-  {
-    "Author": "veyn, xan_0",
-    "Name": "Boss Mod",
-    "Punchline": "Don't fail at raid mechanics anymore",
-    "Description": "A bunch of utilities to simplify bosses. Currently supports endwalker content.",
-    "Tags": [],
-    "InternalName": "BossMod",
-    "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 1011036,
-    "LastUpdate": 1752421827620,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/30/BossMod/versions/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/30/BossMod/versions/latest.zip",
-    "AssemblyVersion": "0.3.0.4",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "12",
-    "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/30/icon-1x16xz3evsu.png",
-    "ImageUrls": [
-      "https://s3.puni.sh/media/plugin/30/image-4mbxiq5k4pl.png",
-      "https://s3.puni.sh/media/plugin/30/image-nc231jzj2gb.png",
-      "https://s3.puni.sh/media/plugin/30/image-3nufuhgwbhl.png"
-    ]
   },
   {
     "Author": "veyn",
@@ -1366,7 +1366,7 @@
     "Tags": [],
     "InternalName": "AutoDuty",
     "RepoUrl": "https://puni.sh/api/repository/herc",
-    "DownloadCount": 752116,
+    "DownloadCount": 752150,
     "LastUpdate": 1752380129341,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/latest.zip",
@@ -1642,7 +1642,7 @@
     "Tags": [],
     "InternalName": "SomethingNeedDoing",
     "RepoUrl": "https://puni.sh/api/repository/croizat",
-    "DownloadCount": 509487,
+    "DownloadCount": 509510,
     "LastUpdate": 1752392702594,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/latest.zip",
@@ -1664,7 +1664,7 @@
     ],
     "InternalName": "Automaton",
     "RepoUrl": "https://puni.sh/api/repository/croizat",
-    "DownloadCount": 195975,
+    "DownloadCount": 195976,
     "LastUpdate": 1749637979552,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/34/Automaton/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/34/Automaton/versions/latest.zip",
@@ -2460,28 +2460,11 @@
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/SoyaX/SoyaPlugins/main/DozeAnywhere_0225.zip"
   },
   {
-    "Author": "VariableVixen",
-    "Name": "TinyCommands",
-    "Description": "Adds tiny and simple but useful chat commands, and nothing more. It doesn't even have a UI.",
-    "InternalName": "TinyCmds",
-    "AssemblyVersion": "8.9.3",
-    "RepoUrl": "https://raw.githubusercontent.com/VariableVixen/MyDalamudPlugins/master/pluginmaster.json",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": 12,
-    "DownloadLinkInstall": "https://github.com/PrincessRTFM/MyDalamudPlugins/raw/master/plugins/TinyCmds/latest.zip",
-    "IsHide": false,
-    "IsTestingExclusive": false,
-    "DownloadLinkTesting": "https://github.com/PrincessRTFM/MyDalamudPlugins/raw/master/plugins/TinyCmds/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/PrincessRTFM/MyDalamudPlugins/raw/master/plugins/TinyCmds/latest.zip",
-    "DownloadCount": 0,
-    "LastUpdated": "1752259280"
-  },
-  {
     "Author": "attick, daemitus, VariableVixen",
     "Name": "XIV Combo Very Expanded",
     "Description": "This plugin condenses combos and mutually exclusive abilities onto a single button. To a degree that some would call absurd, but that's why it's all configurable. Let the players decide.",
     "InternalName": "XIVComboVX",
-    "AssemblyVersion": "9.32.2",
+    "AssemblyVersion": "9.32.3",
     "RepoUrl": "https://raw.githubusercontent.com/VariableVixen/MyDalamudPlugins/master/pluginmaster.json",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 12,
@@ -2491,7 +2474,7 @@
     "DownloadLinkTesting": "https://github.com/PrincessRTFM/MyDalamudPlugins/raw/master/plugins/XIVComboVX/latest.zip",
     "DownloadLinkUpdate": "https://github.com/PrincessRTFM/MyDalamudPlugins/raw/master/plugins/XIVComboVX/latest.zip",
     "DownloadCount": 0,
-    "LastUpdated": "1752259280"
+    "LastUpdated": "1752447382"
   },
   {
     "Author": "VariableVixen",
@@ -2514,7 +2497,7 @@
     "DownloadLinkTesting": "https://github.com/PrincessRTFM/MyDalamudPlugins/raw/master/plugins/XivEsp/latest.zip",
     "DownloadLinkUpdate": "https://github.com/PrincessRTFM/MyDalamudPlugins/raw/master/plugins/XivEsp/latest.zip",
     "DownloadCount": 0,
-    "LastUpdated": "1752259280"
+    "LastUpdated": "1752447382"
   },
   {
     "Author": "VariableVixen",
@@ -2531,6 +2514,23 @@
     "DownloadLinkTesting": "https://github.com/PrincessRTFM/MyDalamudPlugins/raw/master/plugins/WoLua/latest.zip",
     "DownloadLinkUpdate": "https://github.com/PrincessRTFM/MyDalamudPlugins/raw/master/plugins/WoLua/latest.zip",
     "DownloadCount": 0,
-    "LastUpdated": "1752259280"
+    "LastUpdated": "1752447382"
+  },
+  {
+    "Author": "VariableVixen",
+    "Name": "TinyCommands",
+    "Description": "Adds tiny and simple but useful chat commands, and nothing more. It doesn't even have a UI.",
+    "InternalName": "TinyCmds",
+    "AssemblyVersion": "8.9.3",
+    "RepoUrl": "https://raw.githubusercontent.com/VariableVixen/MyDalamudPlugins/master/pluginmaster.json",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 12,
+    "DownloadLinkInstall": "https://github.com/PrincessRTFM/MyDalamudPlugins/raw/master/plugins/TinyCmds/latest.zip",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadLinkTesting": "https://github.com/PrincessRTFM/MyDalamudPlugins/raw/master/plugins/TinyCmds/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/PrincessRTFM/MyDalamudPlugins/raw/master/plugins/TinyCmds/latest.zip",
+    "DownloadCount": 0,
+    "LastUpdated": "1752447382"
   }
 ]
