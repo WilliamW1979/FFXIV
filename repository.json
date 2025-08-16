@@ -1,5 +1,28 @@
 [
   {
+    "Author": "Taurenkey, NightmareXIV, kawaii",
+    "Name": "Artisan",
+    "Punchline": "A 'simple' crafting plugin.",
+    "Description": "The all-in-one crafting plugin. Perfect for people with next to no knowledge about crafting rotations. No need for a library of different macros, the solvers will work dynamically to try and complete your crafts. Also provides convenient ways to craft lists of items or grind out a specific item repeatedly.",
+    "Tags": [
+      "crafting"
+    ],
+    "InternalName": "Artisan",
+    "RepoUrl": "https://love.puni.sh/ment.json",
+    "DownloadCount": 3132497,
+    "LastUpdate": 1755236196041,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/latest.zip",
+    "AssemblyVersion": "4.0.3.55",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "- UI fixes (by PhoenixtheII)",
+    "TestingAssemblyVersion": "4.0.3.53",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/6/Artisan/versions/testing.zip",
+    "TestingDalamudApiLevel": "13",
+    "IconUrl": "https://s3.puni.sh/media/plugin/6/icon-3h8wd5b9qr.png"
+  },
+  {
     "Author": "kawaii, NightmareXIV",
     "Name": "Orbwalker",
     "Punchline": "S P A C E G L I D I N G",
@@ -18,53 +41,6 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/12/icon-o94qaw6cyn.png"
   },
   {
-    "Author": "Taurenkey, NightmareXIV, kawaii",
-    "Name": "Artisan",
-    "Punchline": "A 'simple' crafting plugin.",
-    "Description": "The all-in-one crafting plugin. Perfect for people with next to no knowledge about crafting rotations. No need for a library of different macros, the solvers will work dynamically to try and complete your crafts. Also provides convenient ways to craft lists of items or grind out a specific item repeatedly.",
-    "Tags": [
-      "crafting"
-    ],
-    "InternalName": "Artisan",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 3132310,
-    "LastUpdate": 1755236196041,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/latest.zip",
-    "AssemblyVersion": "4.0.3.55",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "- UI fixes (by PhoenixtheII)",
-    "TestingAssemblyVersion": "4.0.3.53",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/6/Artisan/versions/testing.zip",
-    "TestingDalamudApiLevel": "13",
-    "IconUrl": "https://s3.puni.sh/media/plugin/6/icon-3h8wd5b9qr.png"
-  },
-  {
-    "Author": "Taurenkey, NightmareXIV, croizat",
-    "Name": "Pandora's Box",
-    "Punchline": "Do you dare to open Pandora's Box?",
-    "Description": "Pandora's Box is a collection of major QoL tweaks and adjustments.\n\nOpen the box with /pandora",
-    "Tags": [
-      "punish",
-      "plugin"
-    ],
-    "InternalName": "PandorasBox",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 834878,
-    "LastUpdate": 1755025879074,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/latest.zip",
-    "AssemblyVersion": "1.6.3.15",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "- Update island sanctuary checks",
-    "TestingAssemblyVersion": "1.5.4.1",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/testing.zip",
-    "TestingDalamudApiLevel": "9",
-    "IconUrl": "https://s3.puni.sh/media/plugin/8/icon-9opcpzqyh1h.png"
-  },
-  {
     "Author": "Taurenkey, NightmareXIV, Gidedin",
     "Name": "LazyLoot",
     "Punchline": "Dungeon Loot but Lazy.",
@@ -77,7 +53,7 @@
     ],
     "InternalName": "LazyLoot",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 152107,
+    "DownloadCount": 152114,
     "LastUpdate": 1754949195613,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/9/LazyLoot/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/9/LazyLoot/versions/latest.zip",
@@ -91,6 +67,30 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/9/icon-zjun2qgmfbe.png"
   },
   {
+    "Author": "Taurenkey, NightmareXIV, croizat",
+    "Name": "Pandora's Box",
+    "Punchline": "Do you dare to open Pandora's Box?",
+    "Description": "Pandora's Box is a collection of major QoL tweaks and adjustments.\n\nOpen the box with /pandora",
+    "Tags": [
+      "punish",
+      "plugin"
+    ],
+    "InternalName": "PandorasBox",
+    "RepoUrl": "https://love.puni.sh/ment.json",
+    "DownloadCount": 834914,
+    "LastUpdate": 1755025879074,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/latest.zip",
+    "AssemblyVersion": "1.6.3.15",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "- Update island sanctuary checks",
+    "TestingAssemblyVersion": "1.5.4.1",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/testing.zip",
+    "TestingDalamudApiLevel": "9",
+    "IconUrl": "https://s3.puni.sh/media/plugin/8/icon-9opcpzqyh1h.png"
+  },
+  {
     "Author": "Taurenkey, NightmareXIV",
     "Name": "Saucy",
     "Punchline": "When working for MGP is too much effort.",
@@ -102,7 +102,7 @@
     ],
     "InternalName": "Saucy",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 407842,
+    "DownloadCount": 408004,
     "LastUpdate": 1755277576897,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/7/Saucy/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/7/Saucy/versions/latest.zip",
@@ -125,7 +125,7 @@
     ],
     "InternalName": "Avarice",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 207206,
+    "DownloadCount": 207212,
     "LastUpdate": 1754551915609,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/11/Avarice/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/11/Avarice/versions/latest.zip",
@@ -148,7 +148,7 @@
     ],
     "InternalName": "PalacePal",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 151889,
+    "DownloadCount": 151895,
     "LastUpdate": 1754737396149,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/32/PalacePal/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/32/PalacePal/versions/latest.zip",
@@ -166,7 +166,7 @@
     "Tags": [],
     "InternalName": "YesAlready",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 776530,
+    "DownloadCount": 776547,
     "LastUpdate": 1754840561783,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/26/YesAlready/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/26/YesAlready/versions/latest.zip",
@@ -180,6 +180,27 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/26/icon-v1pvonkr6r.png"
   },
   {
+    "Author": "Det, Taurenkey",
+    "Name": "AutoHook",
+    "Punchline": "Makes fishing less (or more) boring",
+    "Description": "It hooks the fish for you, can you believe it?\n\nCN API 10: Enable testing version or use\nhttps://puni.sh/api/repository/det",
+    "Tags": [
+      "Gathering",
+      "Fishing"
+    ],
+    "InternalName": "AutoHook",
+    "RepoUrl": "https://love.puni.sh/ment.json",
+    "DownloadCount": 756536,
+    "LastUpdate": 1755110227199,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/latest.zip",
+    "AssemblyVersion": "5.0.0.9",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "",
+    "IconUrl": "https://s3.puni.sh/media/plugin/47/icon-k1slevjorpo.png"
+  },
+  {
     "Author": "kawaii, NightmareXIV",
     "Name": "AutoRetainer",
     "Punchline": "Collect and assign ventures to your retainers from the comfort of your bed.",
@@ -187,7 +208,7 @@
     "Tags": [],
     "InternalName": "AutoRetainer",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 1451483,
+    "DownloadCount": 1451543,
     "LastUpdate": 1754954042162,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/latest.zip",
@@ -201,27 +222,6 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/24/icon-drb6aywk5m9.png"
   },
   {
-    "Author": "Det, Taurenkey",
-    "Name": "AutoHook",
-    "Punchline": "Makes fishing less (or more) boring",
-    "Description": "It hooks the fish for you, can you believe it?\n\nCN API 10: Enable testing version or use\nhttps://puni.sh/api/repository/det",
-    "Tags": [
-      "Gathering",
-      "Fishing"
-    ],
-    "InternalName": "AutoHook",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 756486,
-    "LastUpdate": 1755110227199,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/latest.zip",
-    "AssemblyVersion": "5.0.0.9",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/47/icon-k1slevjorpo.png"
-  },
-  {
     "Author": "Team Wrath",
     "Name": "Wrath Combo",
     "Punchline": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
@@ -229,7 +229,7 @@
     "Tags": [],
     "InternalName": "WrathCombo",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 346226,
+    "DownloadCount": 346246,
     "LastUpdate": 1754867420080,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/latest.zip",
@@ -253,7 +253,7 @@
     ],
     "InternalName": "Splatoon",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 1105352,
+    "DownloadCount": 1105365,
     "LastUpdate": 1754801236139,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/10/Splatoon/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/10/Splatoon/versions/latest.zip",
@@ -1256,7 +1256,7 @@
     "Tags": [],
     "InternalName": "vsatisfy",
     "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 44091,
+    "DownloadCount": 44093,
     "LastUpdate": 1754783692980,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/58/vsatisfy/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/58/vsatisfy/versions/latest.zip",
@@ -1267,6 +1267,24 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/58/icon-hffi2ft0zlg.png"
   },
   {
+    "Author": "veyn, croizat",
+    "Name": "V(ery) Island",
+    "Punchline": "Automate island sanctuary activities",
+    "Description": "Automate gathering, workshop assignments, etc.",
+    "Tags": [],
+    "InternalName": "visland",
+    "RepoUrl": "https://puni.sh/api/repository/veyn",
+    "DownloadCount": 642599,
+    "LastUpdate": 1754783803884,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/28/visland/versions/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/28/visland/versions/latest.zip",
+    "AssemblyVersion": "0.0.0.137",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "",
+    "IconUrl": "https://s3.puni.sh/media/plugin/28/icon-lruwx4y549.png"
+  },
+  {
     "Author": "veyn",
     "Name": "Easier Faux Hollows",
     "Punchline": "Faux Hollows solver based on known patterns",
@@ -1274,7 +1292,7 @@
     "Tags": [],
     "InternalName": "vfaux",
     "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 46391,
+    "DownloadCount": 46395,
     "LastUpdate": 1754783661951,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/29/vfaux/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/29/vfaux/versions/latest.zip",
@@ -1292,7 +1310,7 @@
     "Tags": [],
     "InternalName": "vnavmesh",
     "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 598392,
+    "DownloadCount": 598432,
     "LastUpdate": 1755029818566,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/latest.zip",
@@ -1304,24 +1322,6 @@
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/testing.zip",
     "TestingDalamudApiLevel": "12",
     "IconUrl": "https://s3.puni.sh/media/plugin/48/icon-ylwecng2h0n.png"
-  },
-  {
-    "Author": "veyn, croizat",
-    "Name": "V(ery) Island",
-    "Punchline": "Automate island sanctuary activities",
-    "Description": "Automate gathering, workshop assignments, etc.",
-    "Tags": [],
-    "InternalName": "visland",
-    "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 642588,
-    "LastUpdate": 1754783803884,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/28/visland/versions/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/28/visland/versions/latest.zip",
-    "AssemblyVersion": "0.0.0.137",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/28/icon-lruwx4y549.png"
   },
   {
     "Author": "veyn",
@@ -1349,7 +1349,7 @@
     "Tags": [],
     "InternalName": "BossMod",
     "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 1079695,
+    "DownloadCount": 1079736,
     "LastUpdate": 1755098775426,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/30/BossMod/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/30/BossMod/versions/latest.zip",
@@ -1372,7 +1372,7 @@
     "Tags": [],
     "InternalName": "AutoDuty",
     "RepoUrl": "https://puni.sh/api/repository/herc",
-    "DownloadCount": 828700,
+    "DownloadCount": 828736,
     "LastUpdate": 1755022214167,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/latest.zip",
@@ -1446,7 +1446,7 @@
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/RotationSolverReborn/releases/download/7.3.0.37/RotationSolver.zip",
     "TestingAssemblyVersion": "7.3.0.37",
     "Changelog": "## What's Changed\r\n* Hotfix for tank mits and Dalamud Branch checking by @LTS-FFXIV in https://github.com/FFXIV-CombatReborn/RotationSolverReborn/pull/939\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/RotationSolverReborn/compare/7.3.0.29...7.3.0.30",
-    "DownloadCount": 1449104,
+    "DownloadCount": 1449192,
     "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
@@ -1480,7 +1480,7 @@
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/BossmodReborn/releases/download/1.0.2.1/BossMod.zip",
     "TestingAssemblyVersion": "1.0.2.1",
     "Changelog": "## What's Changed\r\n* cleanup, necron ex Aetherblight pattern fix by @CarnifexOptimus in https://github.com/FFXIV-CombatReborn/BossmodReborn/pull/939\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/BossmodReborn/compare/7.3.0.16...7.3.0.17",
-    "DownloadCount": 1888277,
+    "DownloadCount": 1888631,
     "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
@@ -1509,7 +1509,7 @@
     "AssemblyVersion": "7.3.0.3",
     "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/ActionTimelineReborn/releases/download/7.3.0.3/ActionTimelineReborn.zip",
     "Changelog": "Update for full Dalamud release for 7.3",
-    "DownloadCount": 15969,
+    "DownloadCount": 15975,
     "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
@@ -1539,7 +1539,7 @@
     "AssemblyVersion": "7.3.0.0",
     "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/EasyZoomReborn/releases/download/7.3.0.0/EasyZoomReborn.zip",
     "Changelog": "## What's Changed\r\n* Update for 7.3 by @LTS-FFXIV in https://github.com/FFXIV-CombatReborn/EasyZoomReborn/pull/11\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/EasyZoomReborn/compare/7.2.0.0...7.3.0.0",
-    "DownloadCount": 28153,
+    "DownloadCount": 28160,
     "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
@@ -1578,7 +1578,7 @@
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/releases/download/7.2.5.1/GatherbuddyReborn.zip",
     "TestingAssemblyVersion": "7.2.5.1",
     "Changelog": "**Full Changelog**: https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/compare/7.3.0.1...7.3.0.2",
-    "DownloadCount": 379397,
+    "DownloadCount": 379435,
     "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
@@ -1672,7 +1672,7 @@
     "DownloadLinkTesting": "https://github.com/Party-Finder-Reborn/party-finder-plugin/releases/download/0.0.0.2/PartyFinderReborn.zip",
     "TestingAssemblyVersion": "0.0.0.2",
     "Changelog": "**Full Changelog**: https://github.com/Party-Finder-Reborn/party-finder-plugin/compare/7.3.0.0...7.3.0.1",
-    "DownloadCount": 1184,
+    "DownloadCount": 1188,
     "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
@@ -1683,7 +1683,7 @@
     "Tags": [],
     "InternalName": "SomethingNeedDoing",
     "RepoUrl": "https://puni.sh/api/repository/croizat",
-    "DownloadCount": 562413,
+    "DownloadCount": 562601,
     "LastUpdate": 1755329223912,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/latest.zip",
@@ -1705,7 +1705,7 @@
     ],
     "InternalName": "Automaton",
     "RepoUrl": "https://puni.sh/api/repository/croizat",
-    "DownloadCount": 217610,
+    "DownloadCount": 217619,
     "LastUpdate": 1755003045829,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/34/Automaton/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/34/Automaton/versions/latest.zip",
