@@ -18,6 +18,29 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/12/icon-o94qaw6cyn.png"
   },
   {
+    "Author": "Taurenkey, NightmareXIV, kawaii",
+    "Name": "Artisan",
+    "Punchline": "A 'simple' crafting plugin.",
+    "Description": "The all-in-one crafting plugin. Perfect for people with next to no knowledge about crafting rotations. No need for a library of different macros, the solvers will work dynamically to try and complete your crafts. Also provides convenient ways to craft lists of items or grind out a specific item repeatedly.",
+    "Tags": [
+      "crafting"
+    ],
+    "InternalName": "Artisan",
+    "RepoUrl": "https://love.puni.sh/ment.json",
+    "DownloadCount": 3181746,
+    "LastUpdate": 1755236196041,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/latest.zip",
+    "AssemblyVersion": "4.0.3.55",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "- UI fixes (by PhoenixtheII)",
+    "TestingAssemblyVersion": "4.0.3.58",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/6/Artisan/versions/testing.zip",
+    "TestingDalamudApiLevel": "13",
+    "IconUrl": "https://s3.puni.sh/media/plugin/6/icon-3h8wd5b9qr.png"
+  },
+  {
     "Author": "Taurenkey, NightmareXIV, Gidedin",
     "Name": "LazyLoot",
     "Punchline": "Dungeon Loot but Lazy.",
@@ -44,29 +67,6 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/9/icon-zjun2qgmfbe.png"
   },
   {
-    "Author": "Taurenkey, NightmareXIV, kawaii",
-    "Name": "Artisan",
-    "Punchline": "A 'simple' crafting plugin.",
-    "Description": "The all-in-one crafting plugin. Perfect for people with next to no knowledge about crafting rotations. No need for a library of different macros, the solvers will work dynamically to try and complete your crafts. Also provides convenient ways to craft lists of items or grind out a specific item repeatedly.",
-    "Tags": [
-      "crafting"
-    ],
-    "InternalName": "Artisan",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 3181735,
-    "LastUpdate": 1755236196041,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/latest.zip",
-    "AssemblyVersion": "4.0.3.55",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "- UI fixes (by PhoenixtheII)",
-    "TestingAssemblyVersion": "4.0.3.58",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/6/Artisan/versions/testing.zip",
-    "TestingDalamudApiLevel": "13",
-    "IconUrl": "https://s3.puni.sh/media/plugin/6/icon-3h8wd5b9qr.png"
-  },
-  {
     "Author": "Taurenkey, NightmareXIV, croizat",
     "Name": "Pandora's Box",
     "Punchline": "Do you dare to open Pandora's Box?",
@@ -89,29 +89,6 @@
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/testing.zip",
     "TestingDalamudApiLevel": "9",
     "IconUrl": "https://s3.puni.sh/media/plugin/8/icon-9opcpzqyh1h.png"
-  },
-  {
-    "Author": "kawaii, jukka",
-    "Name": "Palace Pal",
-    "Punchline": "Shows possible trap & Accursed Hoard locations in Palace of The Dead, Heaven on High, and Eureka Orthos.",
-    "Description": "Shows possible trap & Accursed Hoard locations in Palace of The Dead, Heaven on High, and Eureka Orthos.\n\nThis plugin requires Splatoon in order to render various draws on the screen.",
-    "Tags": [
-      "potd",
-      "hoh",
-      "splatoon",
-      "palace"
-    ],
-    "InternalName": "PalacePal",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 155576,
-    "LastUpdate": 1754737396149,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/32/PalacePal/versions/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/32/PalacePal/versions/latest.zip",
-    "AssemblyVersion": "4.13.0.0",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/32/icon-vrl2a8dqi3h.png"
   },
   {
     "Author": "Taurenkey, NightmareXIV",
@@ -139,6 +116,29 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/7/icon-bl3wub19h2u.png"
   },
   {
+    "Author": "kawaii, jukka",
+    "Name": "Palace Pal",
+    "Punchline": "Shows possible trap & Accursed Hoard locations in Palace of The Dead, Heaven on High, and Eureka Orthos.",
+    "Description": "Shows possible trap & Accursed Hoard locations in Palace of The Dead, Heaven on High, and Eureka Orthos.\n\nThis plugin requires Splatoon in order to render various draws on the screen.",
+    "Tags": [
+      "potd",
+      "hoh",
+      "splatoon",
+      "palace"
+    ],
+    "InternalName": "PalacePal",
+    "RepoUrl": "https://love.puni.sh/ment.json",
+    "DownloadCount": 155577,
+    "LastUpdate": 1754737396149,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/32/PalacePal/versions/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/32/PalacePal/versions/latest.zip",
+    "AssemblyVersion": "4.13.0.0",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "",
+    "IconUrl": "https://s3.puni.sh/media/plugin/32/icon-vrl2a8dqi3h.png"
+  },
+  {
     "Author": "kawaii, NightmareXIV",
     "Name": "Avarice",
     "Punchline": "Positional feedback with pixel perfect rear/flank tracking, range indicators, and more.",
@@ -159,6 +159,27 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/11/icon-d95r9462spc.png"
   },
   {
+    "Author": "Team Wrath",
+    "Name": "Wrath Combo",
+    "Punchline": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
+    "Description": "Turns one action into many! Similar to how PvP actions work, we take an action and build a whole combo out of it. Sometimes it's as simple as a 1-2-3 combo, other times it's a full job rotation. Either way, you'll find something suited for your rotation needs.",
+    "Tags": [],
+    "InternalName": "WrathCombo",
+    "RepoUrl": "https://love.puni.sh/ment.json",
+    "DownloadCount": 380881,
+    "LastUpdate": 1756707938151,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/latest.zip",
+    "AssemblyVersion": "1.0.2.6",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "Please check the project's GitHub or Discord for a full changelog.",
+    "TestingAssemblyVersion": "1.0.1.15",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/testing.zip",
+    "TestingDalamudApiLevel": "12",
+    "IconUrl": "https://s3.puni.sh/media/plugin/60/icon-2bwhkn3zf1f.png"
+  },
+  {
     "Author": "Det, Taurenkey",
     "Name": "AutoHook",
     "Punchline": "Makes fishing less (or more) boring",
@@ -169,7 +190,7 @@
     ],
     "InternalName": "AutoHook",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 775764,
+    "DownloadCount": 775770,
     "LastUpdate": 1756766366620,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/latest.zip",
@@ -199,27 +220,6 @@
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/testing.zip",
     "TestingDalamudApiLevel": "13",
     "IconUrl": "https://s3.puni.sh/media/plugin/24/icon-drb6aywk5m9.png"
-  },
-  {
-    "Author": "Team Wrath",
-    "Name": "Wrath Combo",
-    "Punchline": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
-    "Description": "Turns one action into many! Similar to how PvP actions work, we take an action and build a whole combo out of it. Sometimes it's as simple as a 1-2-3 combo, other times it's a full job rotation. Either way, you'll find something suited for your rotation needs.",
-    "Tags": [],
-    "InternalName": "WrathCombo",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 380879,
-    "LastUpdate": 1756707938151,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/latest.zip",
-    "AssemblyVersion": "1.0.2.6",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "Please check the project's GitHub or Discord for a full changelog.",
-    "TestingAssemblyVersion": "1.0.1.15",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/testing.zip",
-    "TestingDalamudApiLevel": "12",
-    "IconUrl": "https://s3.puni.sh/media/plugin/60/icon-2bwhkn3zf1f.png"
   },
   {
     "Author": "daemitus, kawaii",
@@ -253,7 +253,7 @@
     ],
     "InternalName": "Questionable",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 12690,
+    "DownloadCount": 12691,
     "LastUpdate": 1756765919547,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/94/Questionable/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/94/Questionable/versions/latest.zip",
@@ -274,7 +274,7 @@
     ],
     "InternalName": "Splatoon",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 1111171,
+    "DownloadCount": 1111172,
     "LastUpdate": 1754801236139,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/10/Splatoon/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/10/Splatoon/versions/latest.zip",
@@ -1279,6 +1279,27 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/58/icon-hffi2ft0zlg.png"
   },
   {
+    "Author": "veyn, xan_0",
+    "Name": "vnavmesh",
+    "Punchline": "Move around!",
+    "Description": "Utility to automatically move the character around in the world, skilfully avoiding any obstacles.",
+    "Tags": [],
+    "InternalName": "vnavmesh",
+    "RepoUrl": "https://puni.sh/api/repository/veyn",
+    "DownloadCount": 647286,
+    "LastUpdate": 1756412168180,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/latest.zip",
+    "AssemblyVersion": "0.4.2.2",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "",
+    "TestingAssemblyVersion": "0.5.0.1",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/testing.zip",
+    "TestingDalamudApiLevel": "13",
+    "IconUrl": "https://s3.puni.sh/media/plugin/48/icon-ylwecng2h0n.png"
+  },
+  {
     "Author": "veyn",
     "Name": "Easier Faux Hollows",
     "Punchline": "Faux Hollows solver based on known patterns",
@@ -1313,27 +1334,6 @@
     "DalamudApiLevel": "13",
     "Changelog": "",
     "IconUrl": "https://s3.puni.sh/media/plugin/28/icon-lruwx4y549.png"
-  },
-  {
-    "Author": "veyn, xan_0",
-    "Name": "vnavmesh",
-    "Punchline": "Move around!",
-    "Description": "Utility to automatically move the character around in the world, skilfully avoiding any obstacles.",
-    "Tags": [],
-    "InternalName": "vnavmesh",
-    "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 647284,
-    "LastUpdate": 1756412168180,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/latest.zip",
-    "AssemblyVersion": "0.4.2.2",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "",
-    "TestingAssemblyVersion": "0.5.0.1",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/testing.zip",
-    "TestingDalamudApiLevel": "13",
-    "IconUrl": "https://s3.puni.sh/media/plugin/48/icon-ylwecng2h0n.png"
   },
   {
     "Author": "veyn",
@@ -1452,13 +1452,13 @@
     "IconUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/RebornAssets/main/IconAssets/RSR_Icon.png",
     "Punchline": "Analyses combat information every frame and finds the best action.",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/FFXIV-CombatReborn/RotationSolverReborn/releases/download/7.3.0.58/RotationSolver.zip",
-    "AssemblyVersion": "7.3.0.58",
-    "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/RotationSolverReborn/releases/download/7.3.0.58/RotationSolver.zip",
+    "DownloadLinkInstall": "https://github.com/FFXIV-CombatReborn/RotationSolverReborn/releases/download/7.3.0.59/RotationSolver.zip",
+    "AssemblyVersion": "7.3.0.59",
+    "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/RotationSolverReborn/releases/download/7.3.0.59/RotationSolver.zip",
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/RotationSolverReborn/releases/download/7.3.0.49/RotationSolver.zip",
     "TestingAssemblyVersion": "7.3.0.49",
-    "Changelog": "## What's Changed\r\n* Updated RSR for Dalamud 13.1.0, rework of heal interrupt system, and fix for MCH by @LTS-FFXIV in https://github.com/FFXIV-CombatReborn/RotationSolverReborn/pull/985\r\n* One more fix for setting actions as GCDSingleHeal for interrupt system by @LTS-FFXIV in https://github.com/FFXIV-CombatReborn/RotationSolverReborn/pull/986\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/RotationSolverReborn/compare/7.3.0.57...7.3.0.58",
-    "DownloadCount": 1520006,
+    "Changelog": "## What's Changed\r\n* Added two of the RSR macros to the plugin installer screen, cleanup of updaters by @LTS-FFXIV in https://github.com/FFXIV-CombatReborn/RotationSolverReborn/pull/987\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/RotationSolverReborn/compare/7.3.0.58...7.3.0.59",
+    "DownloadCount": 1520048,
     "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
@@ -1492,7 +1492,7 @@
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/BossmodReborn/releases/download/1.0.2.1/BossMod.zip",
     "TestingAssemblyVersion": "1.0.2.1",
     "Changelog": "## What's Changed\r\n* more Vault Oneiron modules, fixed some bugs in existing modules by @CarnifexOptimus in https://github.com/FFXIV-CombatReborn/BossmodReborn/pull/963\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/BossmodReborn/compare/7.3.0.37...7.3.0.38",
-    "DownloadCount": 1987561,
+    "DownloadCount": 1987634,
     "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
@@ -1590,7 +1590,7 @@
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/releases/download/7.2.5.1/GatherbuddyReborn.zip",
     "TestingAssemblyVersion": "7.2.5.1",
     "Changelog": "## What's Changed\r\n* Fix Min/Max input fields by @lazyranma in https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/pull/404\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/compare/7.3.0.2...7.3.0.3",
-    "DownloadCount": 397852,
+    "DownloadCount": 397857,
     "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
