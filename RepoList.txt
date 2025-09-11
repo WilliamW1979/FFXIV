@@ -21,7 +21,7 @@ https://github.com/Milesnocte/GambaGames/raw/main/repo.json
 https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json
 https://github.com/huntsffxiv/repo/raw/main/repo.json
 https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json
-https://github.com/WilliamW1979/Repo/raw/main/ffxiv.json
+https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/FashionReport.json
 https://raw.githubusercontent.com/Haselnussbomber/MyDalamudPlugins/main/repo.json
 https://raw.githubusercontent.com/Ottermandias/Glamourer/main/repo.json
 https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json
@@ -29,7 +29,6 @@ https://raw.githubusercontent.com/xivdev/Penumbra/master/repo.json
 https://raw.githubusercontent.com/jawslouis/MakePlacePlugin/master/MakePlacePlugin.json
 https://raw.githubusercontent.com/a03831/Dalamud.SkipCutscene/dist/repo.json
 https://raw.githubusercontent.com/BardToolbox/BardToolbox-Release/master/pluginmaster.json
-https://raw.githubusercontent.com/WilliamW1979/Repo/raw/main/ffxiv.json
 https://raw.githubusercontent.com/Etheirys/Brio/main/repo.json
 https://raw.githubusercontent.com/Project-GagSpeak/repo/main/projectgagspeak.json
 https://raw.githubusercontent.com/dodingdaga/DalamudPlugins/main/PuppetMaster.json
