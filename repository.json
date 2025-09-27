@@ -88,6 +88,31 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/11/icon-d95r9462spc.png"
   },
   {
+    "Author": "Taurenkey, NightmareXIV",
+    "Name": "Saucy",
+    "Punchline": "When working for MGP is too much effort.",
+    "Description": "Automates certain Gold Saucer mini-games.",
+    "Tags": [
+      "gold saucer",
+      "mgp",
+      "automation"
+    ],
+    "InternalName": "Saucy",
+    "RepoUrl": "https://love.puni.sh/ment.json",
+    "DownloadCount": 431060,
+    "LastUpdate": 1755277576,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/7/Saucy/versions/1.4.2.7/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/7/Saucy/versions/1.4.2.7/latest.zip",
+    "AssemblyVersion": "1.4.2.7",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "- Mini cactpot fixes (by Jaksuhn)\n- Triple triad stop command (by  t0mball)",
+    "TestingAssemblyVersion": "1.3.0.4",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/7/Saucy/versions/1.3.0.4/testing.zip",
+    "TestingDalamudApiLevel": "9",
+    "IconUrl": "https://s3.puni.sh/media/plugin/7/icon-bl3wub19h2u.png"
+  },
+  {
     "Author": "kawaii, jukka",
     "Name": "Palace Pal",
     "Punchline": "Shows possible trap & Accursed Hoard locations in Palace of The Dead, Heaven on High, and Eureka Orthos.",
@@ -120,7 +145,7 @@
     ],
     "InternalName": "Artisan",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 3356966,
+    "DownloadCount": 3356967,
     "LastUpdate": 1756966556,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.3.63/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.3.63/latest.zip",
@@ -132,31 +157,6 @@
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.3.63/testing.zip",
     "TestingDalamudApiLevel": "13",
     "IconUrl": "https://s3.puni.sh/media/plugin/6/icon-3h8wd5b9qr.png"
-  },
-  {
-    "Author": "Taurenkey, NightmareXIV",
-    "Name": "Saucy",
-    "Punchline": "When working for MGP is too much effort.",
-    "Description": "Automates certain Gold Saucer mini-games.",
-    "Tags": [
-      "gold saucer",
-      "mgp",
-      "automation"
-    ],
-    "InternalName": "Saucy",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 431059,
-    "LastUpdate": 1755277576,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/7/Saucy/versions/1.4.2.7/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/7/Saucy/versions/1.4.2.7/latest.zip",
-    "AssemblyVersion": "1.4.2.7",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "- Mini cactpot fixes (by Jaksuhn)\n- Triple triad stop command (by  t0mball)",
-    "TestingAssemblyVersion": "1.3.0.4",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/7/Saucy/versions/1.3.0.4/testing.zip",
-    "TestingDalamudApiLevel": "9",
-    "IconUrl": "https://s3.puni.sh/media/plugin/7/icon-bl3wub19h2u.png"
   },
   {
     "Author": "kawaii, NightmareXIV",
@@ -175,27 +175,6 @@
     "DalamudApiLevel": "13",
     "Changelog": "- Multi Mode expert delivery:\n- - Fixed an issue where \"Finalize by purchasing\" option would trigger 1-minute long lockout\n- - Added a possibility to trigger delivery when amount of ventures drops below certain amount\n- - Added an option to use Priority Seal Allowance before delivery\n- Added possibility to use Shared Estate for Multi Mode teleportation\n- - You must have testing version of Lifestream, or it won't work\n- - Don't forget to register your shared estate in Lifestream\n- - This option is experimental and probably the most untested option that has ever been in AutoRetainer so don't leave unattended\n- Added new submarine sectors (by YsEmei)\n",
     "IconUrl": "https://s3.puni.sh/media/plugin/24/icon-drb6aywk5m9.png"
-  },
-  {
-    "Author": "Det, Taurenkey",
-    "Name": "AutoHook",
-    "Punchline": "Makes fishing less (or more) boring",
-    "Description": "It hooks the fish for you, can you believe it?",
-    "Tags": [
-      "Gathering",
-      "Fishing"
-    ],
-    "InternalName": "AutoHook",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 831022,
-    "LastUpdate": 1758278634,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/5.0.0.13/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/5.0.0.13/latest.zip",
-    "AssemblyVersion": "5.0.0.13",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/47/icon-k1slevjorpo.png"
   },
   {
     "Author": "Liza Carvelli & various contributors",
@@ -222,6 +201,27 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/94/icon-ayf2kn3uloc.png"
   },
   {
+    "Author": "Det, Taurenkey",
+    "Name": "AutoHook",
+    "Punchline": "Makes fishing less (or more) boring",
+    "Description": "It hooks the fish for you, can you believe it?",
+    "Tags": [
+      "Gathering",
+      "Fishing"
+    ],
+    "InternalName": "AutoHook",
+    "RepoUrl": "https://love.puni.sh/ment.json",
+    "DownloadCount": 831023,
+    "LastUpdate": 1758278634,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/5.0.0.13/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/5.0.0.13/latest.zip",
+    "AssemblyVersion": "5.0.0.13",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "",
+    "IconUrl": "https://s3.puni.sh/media/plugin/47/icon-k1slevjorpo.png"
+  },
+  {
     "Author": "Team Wrath",
     "Name": "Wrath Combo",
     "Punchline": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
@@ -229,7 +229,7 @@
     "Tags": [],
     "InternalName": "WrathCombo",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 422707,
+    "DownloadCount": 422708,
     "LastUpdate": 1758516602,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.2.10/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.2.10/latest.zip",
@@ -1309,7 +1309,7 @@
     "Tags": [],
     "InternalName": "vnavmesh",
     "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 703186,
+    "DownloadCount": 703190,
     "LastUpdate": 1758925034,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/0.5.2.1/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/0.5.2.1/latest.zip",
@@ -1384,7 +1384,7 @@
     "Tags": [],
     "InternalName": "AutoDuty",
     "RepoUrl": "https://puni.sh/api/repository/herc",
-    "DownloadCount": 900931,
+    "DownloadCount": 900932,
     "LastUpdate": 1758499383,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/0.0.0.243/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/0.0.0.243/latest.zip",
@@ -1695,7 +1695,7 @@
     "Tags": [],
     "InternalName": "SomethingNeedDoing",
     "RepoUrl": "https://puni.sh/api/repository/croizat",
-    "DownloadCount": 614158,
+    "DownloadCount": 614159,
     "LastUpdate": 1758609647,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/13.49/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/13.49/latest.zip",
