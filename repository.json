@@ -12,7 +12,7 @@
     ],
     "InternalName": "LazyLoot",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 163960,
+    "DownloadCount": 163963,
     "LastUpdate": 1758304680,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/9/LazyLoot/versions/5.3.2.3/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/9/LazyLoot/versions/5.3.2.3/latest.zip",
@@ -36,7 +36,7 @@
     ],
     "InternalName": "PandorasBox",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 896605,
+    "DownloadCount": 896607,
     "LastUpdate": 1756336248,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.6.3.18/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.6.3.18/latest.zip",
@@ -68,26 +68,6 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/12/icon-o94qaw6cyn.png"
   },
   {
-    "Author": "kawaii, NightmareXIV",
-    "Name": "Avarice",
-    "Punchline": "Positional feedback with pixel perfect rear/flank tracking, range indicators, and more.",
-    "Description": "Positional feedback with pixel perfect rear/flank tracking, range indicators, and more.",
-    "Tags": [
-      "combat"
-    ],
-    "InternalName": "Avarice",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 215842,
-    "LastUpdate": 1754551915,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/11/Avarice/versions/2.1.1.3/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/11/Avarice/versions/2.1.1.3/latest.zip",
-    "AssemblyVersion": "2.1.1.3",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "- 7.3",
-    "IconUrl": "https://s3.puni.sh/media/plugin/11/icon-d95r9462spc.png"
-  },
-  {
     "Author": "Taurenkey, NightmareXIV",
     "Name": "Saucy",
     "Punchline": "When working for MGP is too much effort.",
@@ -99,7 +79,7 @@
     ],
     "InternalName": "Saucy",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 431123,
+    "DownloadCount": 431124,
     "LastUpdate": 1755277576,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/7/Saucy/versions/1.4.2.7/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/7/Saucy/versions/1.4.2.7/latest.zip",
@@ -113,6 +93,26 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/7/icon-bl3wub19h2u.png"
   },
   {
+    "Author": "kawaii, NightmareXIV",
+    "Name": "Avarice",
+    "Punchline": "Positional feedback with pixel perfect rear/flank tracking, range indicators, and more.",
+    "Description": "Positional feedback with pixel perfect rear/flank tracking, range indicators, and more.",
+    "Tags": [
+      "combat"
+    ],
+    "InternalName": "Avarice",
+    "RepoUrl": "https://love.puni.sh/ment.json",
+    "DownloadCount": 215843,
+    "LastUpdate": 1754551915,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/11/Avarice/versions/2.1.1.3/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/11/Avarice/versions/2.1.1.3/latest.zip",
+    "AssemblyVersion": "2.1.1.3",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "- 7.3",
+    "IconUrl": "https://s3.puni.sh/media/plugin/11/icon-d95r9462spc.png"
+  },
+  {
     "Author": "Taurenkey, NightmareXIV, kawaii",
     "Name": "Artisan",
     "Punchline": "A 'simple' crafting plugin.",
@@ -122,7 +122,7 @@
     ],
     "InternalName": "Artisan",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 3357309,
+    "DownloadCount": 3357313,
     "LastUpdate": 1756966556,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.3.63/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.3.63/latest.zip",
@@ -166,7 +166,7 @@
     "Tags": [],
     "InternalName": "AutoRetainer",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 1532756,
+    "DownloadCount": 1532761,
     "LastUpdate": 1756110059,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.5.2.1/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.5.2.1/latest.zip",
@@ -175,27 +175,6 @@
     "DalamudApiLevel": "13",
     "Changelog": "- Multi Mode expert delivery:\n- - Fixed an issue where \"Finalize by purchasing\" option would trigger 1-minute long lockout\n- - Added a possibility to trigger delivery when amount of ventures drops below certain amount\n- - Added an option to use Priority Seal Allowance before delivery\n- Added possibility to use Shared Estate for Multi Mode teleportation\n- - You must have testing version of Lifestream, or it won't work\n- - Don't forget to register your shared estate in Lifestream\n- - This option is experimental and probably the most untested option that has ever been in AutoRetainer so don't leave unattended\n- Added new submarine sectors (by YsEmei)\n",
     "IconUrl": "https://s3.puni.sh/media/plugin/24/icon-drb6aywk5m9.png"
-  },
-  {
-    "Author": "Det, Taurenkey",
-    "Name": "AutoHook",
-    "Punchline": "Makes fishing less (or more) boring",
-    "Description": "It hooks the fish for you, can you believe it?",
-    "Tags": [
-      "Gathering",
-      "Fishing"
-    ],
-    "InternalName": "AutoHook",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 831301,
-    "LastUpdate": 1759005497,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/5.0.0.14/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/5.0.0.14/latest.zip",
-    "AssemblyVersion": "5.0.0.14",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/47/icon-k1slevjorpo.png"
   },
   {
     "Author": "Liza Carvelli & various contributors",
@@ -208,14 +187,14 @@
     ],
     "InternalName": "Questionable",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 35249,
-    "LastUpdate": 1758086752,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/94/Questionable/versions/6.6.0.10/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/94/Questionable/versions/6.6.0.10/latest.zip",
-    "AssemblyVersion": "6.6.0.10",
+    "DownloadCount": 35281,
+    "LastUpdate": 1759006804,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/94/Questionable/versions/6.7.12.0/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/94/Questionable/versions/6.7.12.0/latest.zip",
+    "AssemblyVersion": "6.7.12.0",
     "ApplicableVersion": "any",
     "DalamudApiLevel": "13",
-    "Changelog": "- tribes 1222,1223,1257 fixes (by alydev)\n- Rotation plugin list order update: move Wrath above the separator (by alydev)\n- New feature: Show Questionable window on start (by alydev)\n- grd 387 additional info on combat (by alydev)\n- grd 3855 simplify route, avoid KO (by alydev)\n- Post stb: 2962,2969 add shortcuts (by alydev)\n- Tested amaljaa quests 1223,1233,1243 (by alydev)",
+    "Changelog": "- Add phantom relic quests 5320,5380,5381. fix loporrit 4699 (c51835b) by alydev\n- Config option Start Minimized (cb8a6e4) by alydev\n- Add Manderville relic chain (except first quest) (68a4295) by alydev\n- Quest 3326 reduce stop distance #35 (bf8f546) by alydev\n- Sylph: story 1256, daily 1257,1258,1268,1277,1279 fixes (002cb57) by alydev",
     "TestingAssemblyVersion": "6.6.0.9",
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/94/Questionable/versions/6.6.0.9/testing.zip",
     "TestingDalamudApiLevel": "13",
@@ -229,7 +208,7 @@
     "Tags": [],
     "InternalName": "WrathCombo",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 422897,
+    "DownloadCount": 422902,
     "LastUpdate": 1758516602,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.2.10/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.2.10/latest.zip",
@@ -243,28 +222,25 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/60/icon-2bwhkn3zf1f.png"
   },
   {
-    "Author": "NightmareXIV, Xenosys",
-    "Name": "Splatoon",
-    "Punchline": "Redefining FFXIV navigation with unlimited, precise waymarks.",
-    "Description": "Splatoon is a powerful accessibility tool. It revolutionizes gameplay with its custom waymark system, offering the ability to create unlimited grouped waymarks, labels, and actor indicators with exacting pixel precision. This feature empowers players by making crucial objects and events more visually discernible, thereby facilitating quicker reactions. However, it's important to note that the plugin does not come pre-loaded with presets. Players have the freedom to craft their own or import existing ones, offering a personalized touch to their gaming experience.",
+    "Author": "Det, Taurenkey",
+    "Name": "AutoHook",
+    "Punchline": "Makes fishing less (or more) boring",
+    "Description": "It hooks the fish for you, can you believe it?",
     "Tags": [
-      "Utility",
-      "Accessibility"
+      "Gathering",
+      "Fishing"
     ],
-    "InternalName": "Splatoon",
+    "InternalName": "AutoHook",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 1180619,
-    "LastUpdate": 1758169429,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.8.4.0/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.8.4.0/latest.zip",
-    "AssemblyVersion": "3.8.4.0",
+    "DownloadCount": 831314,
+    "LastUpdate": 1759005497,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/5.0.0.14/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/5.0.0.14/latest.zip",
+    "AssemblyVersion": "5.0.0.14",
     "ApplicableVersion": "any",
     "DalamudApiLevel": "13",
-    "Changelog": "- \"Face player\" options extended\n- - \"<tethered>\" placeholder, facing an object(s) that is tethered to current\n- - \"Invert\" option was added. Instead of facing target, target will face object.\n- Target alteration option added\n- - Redirects draw towards another object selected by condition, such as \"Tethered\", \"Targeted\", \"Furthest/Nearest\".\n- - Conditions still checked against original object\n- Element's distance limit can now be checked against other object selected by placeholder. Checking against captured element is also supported.\n- Realtime tether option. Instead of checking historical event of receiving tether, will check whether an object has a tether at this specific moment of time. \n- $TETHER placeholder was added.\n- Dragonsong's Reprise phase will now be detected and set automatically, even after disconnects and in replays too.\n- Triggers can now be disabled without being removed\n\nAll together, these changes should remove need to use scripts for most of the tethers, furthest/nearest objects and complex positional checks. ",
-    "TestingAssemblyVersion": "3.8.4.0",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.8.4.0/testing.zip",
-    "TestingDalamudApiLevel": "13",
-    "IconUrl": "https://s3.puni.sh/media/plugin/10/icon-cchf5yumm2p.png"
+    "Changelog": "",
+    "IconUrl": "https://s3.puni.sh/media/plugin/47/icon-k1slevjorpo.png"
   },
   {
     "Author": "daemitus, kawaii",
@@ -274,7 +250,7 @@
     "Tags": [],
     "InternalName": "YesAlready",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 884210,
+    "DownloadCount": 884211,
     "LastUpdate": 1757873731,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/26/YesAlready/versions/1.13.03/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/26/YesAlready/versions/1.13.03/latest.zip",
@@ -286,6 +262,30 @@
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/26/YesAlready/versions/1.10.4.0/testing.zip",
     "TestingDalamudApiLevel": "12",
     "IconUrl": "https://s3.puni.sh/media/plugin/26/icon-v1pvonkr6r.png"
+  },
+  {
+    "Author": "NightmareXIV, Xenosys",
+    "Name": "Splatoon",
+    "Punchline": "Redefining FFXIV navigation with unlimited, precise waymarks.",
+    "Description": "Splatoon is a powerful accessibility tool. It revolutionizes gameplay with its custom waymark system, offering the ability to create unlimited grouped waymarks, labels, and actor indicators with exacting pixel precision. This feature empowers players by making crucial objects and events more visually discernible, thereby facilitating quicker reactions. However, it's important to note that the plugin does not come pre-loaded with presets. Players have the freedom to craft their own or import existing ones, offering a personalized touch to their gaming experience.",
+    "Tags": [
+      "Utility",
+      "Accessibility"
+    ],
+    "InternalName": "Splatoon",
+    "RepoUrl": "https://love.puni.sh/ment.json",
+    "DownloadCount": 1180621,
+    "LastUpdate": 1758169429,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.8.4.0/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.8.4.0/latest.zip",
+    "AssemblyVersion": "3.8.4.0",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "- \"Face player\" options extended\n- - \"<tethered>\" placeholder, facing an object(s) that is tethered to current\n- - \"Invert\" option was added. Instead of facing target, target will face object.\n- Target alteration option added\n- - Redirects draw towards another object selected by condition, such as \"Tethered\", \"Targeted\", \"Furthest/Nearest\".\n- - Conditions still checked against original object\n- Element's distance limit can now be checked against other object selected by placeholder. Checking against captured element is also supported.\n- Realtime tether option. Instead of checking historical event of receiving tether, will check whether an object has a tether at this specific moment of time. \n- $TETHER placeholder was added.\n- Dragonsong's Reprise phase will now be detected and set automatically, even after disconnects and in replays too.\n- Triggers can now be disabled without being removed\n\nAll together, these changes should remove need to use scripts for most of the tethers, furthest/nearest objects and complex positional checks. ",
+    "TestingAssemblyVersion": "3.8.4.0",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.8.4.0/testing.zip",
+    "TestingDalamudApiLevel": "13",
+    "IconUrl": "https://s3.puni.sh/media/plugin/10/icon-cchf5yumm2p.png"
   },
   {
     "Author": "attick, daemitus, Khayle",
@@ -1261,6 +1261,29 @@
     "DownloadLinkUpdate": "https://github.com/Haselnussbomber/YokaiCheck/releases/download/v1.2.0/latest.zip"
   },
   {
+    "Author": "veyn, xan_0",
+    "Name": "Boss Mod",
+    "Punchline": "Don't fail at raid mechanics anymore",
+    "Description": "A bunch of utilities to simplify bosses. Currently supports endwalker content.",
+    "Tags": [],
+    "InternalName": "BossMod",
+    "RepoUrl": "https://puni.sh/api/repository/veyn",
+    "DownloadCount": 1189990,
+    "LastUpdate": 1758311091,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/30/BossMod/versions/0.3.6.1/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/30/BossMod/versions/0.3.6.1/latest.zip",
+    "AssemblyVersion": "0.3.6.1",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "",
+    "IconUrl": "https://s3.puni.sh/media/plugin/30/icon-1x16xz3evsu.png",
+    "ImageUrls": [
+      "https://s3.puni.sh/media/plugin/30/image-4mbxiq5k4pl.png",
+      "https://s3.puni.sh/media/plugin/30/image-nc231jzj2gb.png",
+      "https://s3.puni.sh/media/plugin/30/image-3nufuhgwbhl.png"
+    ]
+  },
+  {
     "Author": "veyn",
     "Name": "Satisfier",
     "Punchline": "Simplify custom deliveries.",
@@ -1279,29 +1302,6 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/58/icon-hffi2ft0zlg.png"
   },
   {
-    "Author": "veyn, xan_0",
-    "Name": "Boss Mod",
-    "Punchline": "Don't fail at raid mechanics anymore",
-    "Description": "A bunch of utilities to simplify bosses. Currently supports endwalker content.",
-    "Tags": [],
-    "InternalName": "BossMod",
-    "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 1189989,
-    "LastUpdate": 1758311091,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/30/BossMod/versions/0.3.6.1/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/30/BossMod/versions/0.3.6.1/latest.zip",
-    "AssemblyVersion": "0.3.6.1",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/30/icon-1x16xz3evsu.png",
-    "ImageUrls": [
-      "https://s3.puni.sh/media/plugin/30/image-4mbxiq5k4pl.png",
-      "https://s3.puni.sh/media/plugin/30/image-nc231jzj2gb.png",
-      "https://s3.puni.sh/media/plugin/30/image-3nufuhgwbhl.png"
-    ]
-  },
-  {
     "Author": "veyn",
     "Name": "Easier Faux Hollows",
     "Punchline": "Faux Hollows solver based on known patterns",
@@ -1309,7 +1309,7 @@
     "Tags": [],
     "InternalName": "vfaux",
     "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 51042,
+    "DownloadCount": 51043,
     "LastUpdate": 1754783661,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/29/vfaux/versions/0.0.0.9/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/29/vfaux/versions/0.0.0.9/latest.zip",
@@ -1327,7 +1327,7 @@
     "Tags": [],
     "InternalName": "visland",
     "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 652522,
+    "DownloadCount": 652523,
     "LastUpdate": 1754783803,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/28/visland/versions/0.0.0.137/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/28/visland/versions/0.0.0.137/latest.zip",
@@ -1345,7 +1345,7 @@
     "Tags": [],
     "InternalName": "vnavmesh",
     "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 703740,
+    "DownloadCount": 703753,
     "LastUpdate": 1758925034,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/0.5.2.1/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/0.5.2.1/latest.zip",
@@ -1384,7 +1384,7 @@
     "Tags": [],
     "InternalName": "AutoDuty",
     "RepoUrl": "https://puni.sh/api/repository/herc",
-    "DownloadCount": 901191,
+    "DownloadCount": 901198,
     "LastUpdate": 1759004297,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/0.0.0.244/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/0.0.0.244/latest.zip",
@@ -1458,7 +1458,7 @@
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/RotationSolverReborn/releases/download/7.3.0.49/RotationSolver.zip",
     "TestingAssemblyVersion": "7.3.0.49",
     "Changelog": "## What's Changed\r\n* Performance pass on helpers by @LTS-FFXIV in https://github.com/FFXIV-CombatReborn/RotationSolverReborn/pull/1014\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/RotationSolverReborn/compare/7.3.1.19...7.3.1.20",
-    "DownloadCount": 1631102,
+    "DownloadCount": 1631305,
     "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
@@ -1492,7 +1492,7 @@
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/BossmodReborn/releases/download/1.0.2.1/BossMod.zip",
     "TestingAssemblyVersion": "1.0.2.1",
     "Changelog": "## What's Changed\r\n* AVX2/AVX512 polygonboundaryindex by @CarnifexOptimus in https://github.com/FFXIV-CombatReborn/BossmodReborn/pull/996\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/BossmodReborn/compare/7.3.1.24...7.3.1.25",
-    "DownloadCount": 2124488,
+    "DownloadCount": 2124563,
     "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
@@ -1521,7 +1521,7 @@
     "AssemblyVersion": "7.3.1.0",
     "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/ActionTimelineReborn/releases/download/7.3.1.0/ActionTimelineReborn.zip",
     "Changelog": "## What's Changed\r\n* Update OnCastHook Sigs by @ElliotZ in https://github.com/FFXIV-CombatReborn/ActionTimelineReborn/pull/9\r\n\r\n## New Contributors\r\n* @ElliotZ made their first contribution in https://github.com/FFXIV-CombatReborn/ActionTimelineReborn/pull/9\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/ActionTimelineReborn/compare/7.3.0.3...7.3.1.0",
-    "DownloadCount": 17593,
+    "DownloadCount": 17594,
     "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
@@ -1551,7 +1551,7 @@
     "AssemblyVersion": "7.3.0.0",
     "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/EasyZoomReborn/releases/download/7.3.0.0/EasyZoomReborn.zip",
     "Changelog": "## What's Changed\r\n* Update for 7.3 by @LTS-FFXIV in https://github.com/FFXIV-CombatReborn/EasyZoomReborn/pull/11\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/EasyZoomReborn/compare/7.2.0.0...7.3.0.0",
-    "DownloadCount": 31527,
+    "DownloadCount": 31529,
     "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
@@ -1590,7 +1590,7 @@
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/releases/download/7.2.5.1/GatherbuddyReborn.zip",
     "TestingAssemblyVersion": "7.2.5.1",
     "Changelog": "## What's Changed\r\n* Fix Min/Max input fields by @lazyranma in https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/pull/404\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/compare/7.3.0.2...7.3.0.3",
-    "DownloadCount": 404253,
+    "DownloadCount": 404259,
     "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
@@ -1695,7 +1695,7 @@
     "Tags": [],
     "InternalName": "SomethingNeedDoing",
     "RepoUrl": "https://puni.sh/api/repository/croizat",
-    "DownloadCount": 614292,
+    "DownloadCount": 614293,
     "LastUpdate": 1758609647,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/13.49/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/13.49/latest.zip",
@@ -1717,7 +1717,7 @@
     ],
     "InternalName": "Automaton",
     "RepoUrl": "https://puni.sh/api/repository/croizat",
-    "DownloadCount": 263911,
+    "DownloadCount": 263913,
     "LastUpdate": 1758574507,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/34/Automaton/versions/69.91/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/34/Automaton/versions/69.91/latest.zip",
