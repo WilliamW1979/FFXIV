@@ -36,3 +36,4 @@ https://raw.githubusercontent.com/SoyaX/SoyaPlugins/main/repo.json
 https://raw.githubusercontent.com/ryoniive/Dalamud-Darkness-Repo/raw/main/ffxiv_custom_repo.json
 https://raw.githubusercontent.com/Milestonee/GambaGames/main/repo.json
 https://raw.githubusercontent.com/VariableVixen/MyDalamudPlugins/master/pluginmaster.json
+https://xiv.starry.blue/plugins/master.json
