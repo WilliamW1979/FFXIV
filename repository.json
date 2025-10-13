@@ -1,29 +1,5 @@
 [
   {
-    "Author": "Taurenkey, NightmareXIV, croizat",
-    "Name": "Pandora's Box",
-    "Punchline": "Do you dare to open Pandora's Box?",
-    "Description": "Pandora's Box is a collection of major QoL tweaks and adjustments.\n\nOpen the box with /pandora",
-    "Tags": [
-      "punish",
-      "plugin"
-    ],
-    "InternalName": "PandorasBox",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 898851,
-    "LastUpdate": 1756336248,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.6.3.18/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.6.3.18/latest.zip",
-    "AssemblyVersion": "1.6.3.18",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "- Solid Reason/Ageless Words fix.",
-    "TestingAssemblyVersion": "1.5.4.1",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.5.4.1/testing.zip",
-    "TestingDalamudApiLevel": "9",
-    "IconUrl": "https://s3.puni.sh/media/plugin/8/icon-9opcpzqyh1h.png"
-  },
-  {
     "Author": "kawaii, NightmareXIV",
     "Name": "Orbwalker",
     "Punchline": "S P A C E G L I D I N G",
@@ -42,6 +18,30 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/12/icon-o94qaw6cyn.png"
   },
   {
+    "Author": "Taurenkey, NightmareXIV, croizat",
+    "Name": "Pandora's Box",
+    "Punchline": "Do you dare to open Pandora's Box?",
+    "Description": "Pandora's Box is a collection of major QoL tweaks and adjustments.\n\nOpen the box with /pandora",
+    "Tags": [
+      "punish",
+      "plugin"
+    ],
+    "InternalName": "PandorasBox",
+    "RepoUrl": "https://love.puni.sh/ment.json",
+    "DownloadCount": 898858,
+    "LastUpdate": 1756336248,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.6.3.18/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.6.3.18/latest.zip",
+    "AssemblyVersion": "1.6.3.18",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "- Solid Reason/Ageless Words fix.",
+    "TestingAssemblyVersion": "1.5.4.1",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.5.4.1/testing.zip",
+    "TestingDalamudApiLevel": "9",
+    "IconUrl": "https://s3.puni.sh/media/plugin/8/icon-9opcpzqyh1h.png"
+  },
+  {
     "Author": "Taurenkey, NightmareXIV, Gidedin",
     "Name": "LazyLoot",
     "Punchline": "Dungeon Loot but Lazy.",
@@ -54,7 +54,7 @@
     ],
     "InternalName": "LazyLoot",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 165872,
+    "DownloadCount": 165875,
     "LastUpdate": 1758304680,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/9/LazyLoot/versions/5.3.2.3/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/9/LazyLoot/versions/5.3.2.3/latest.zip",
@@ -66,29 +66,6 @@
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/9/LazyLoot/versions/5.3.2.2/testing.zip",
     "TestingDalamudApiLevel": "13",
     "IconUrl": "https://s3.puni.sh/media/plugin/9/icon-zjun2qgmfbe.png"
-  },
-  {
-    "Author": "Taurenkey, NightmareXIV, kawaii",
-    "Name": "Artisan",
-    "Punchline": "A 'simple' crafting plugin.",
-    "Description": "The all-in-one crafting plugin. Perfect for people with next to no knowledge about crafting rotations. No need for a library of different macros, the solvers will work dynamically to try and complete your crafts. Also provides convenient ways to craft lists of items or grind out a specific item repeatedly.",
-    "Tags": [
-      "crafting"
-    ],
-    "InternalName": "Artisan",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 3365597,
-    "LastUpdate": 1759915183,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.4.0/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.4.0/latest.zip",
-    "AssemblyVersion": "4.0.4.0",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "- Updated Raphael solver to support new recipes\n- Skip Raphael auto-switch for recipes that already have a macro assigned option (by xan)\n- Add configurable option to play crafting completed sound on error (by TheOddball)",
-    "TestingAssemblyVersion": "4.0.4.0",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.4.0/testing.zip",
-    "TestingDalamudApiLevel": "13",
-    "IconUrl": "https://s3.puni.sh/media/plugin/6/icon-3h8wd5b9qr.png"
   },
   {
     "Author": "kawaii, NightmareXIV",
@@ -111,6 +88,54 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/11/icon-d95r9462spc.png"
   },
   {
+    "Author": "Taurenkey, NightmareXIV",
+    "Name": "Saucy",
+    "Punchline": "When working for MGP is too much effort.",
+    "Description": "Automates certain Gold Saucer mini-games.",
+    "Tags": [
+      "gold saucer",
+      "mgp",
+      "automation"
+    ],
+    "InternalName": "Saucy",
+    "RepoUrl": "https://love.puni.sh/ment.json",
+    "DownloadCount": 432497,
+    "LastUpdate": 1755277576,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/7/Saucy/versions/1.4.2.7/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/7/Saucy/versions/1.4.2.7/latest.zip",
+    "AssemblyVersion": "1.4.2.7",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "- Mini cactpot fixes (by Jaksuhn)\n- Triple triad stop command (by  t0mball)",
+    "TestingAssemblyVersion": "1.3.0.4",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/7/Saucy/versions/1.3.0.4/testing.zip",
+    "TestingDalamudApiLevel": "9",
+    "IconUrl": "https://s3.puni.sh/media/plugin/7/icon-bl3wub19h2u.png"
+  },
+  {
+    "Author": "Taurenkey, NightmareXIV, kawaii",
+    "Name": "Artisan",
+    "Punchline": "A 'simple' crafting plugin.",
+    "Description": "The all-in-one crafting plugin. Perfect for people with next to no knowledge about crafting rotations. No need for a library of different macros, the solvers will work dynamically to try and complete your crafts. Also provides convenient ways to craft lists of items or grind out a specific item repeatedly.",
+    "Tags": [
+      "crafting"
+    ],
+    "InternalName": "Artisan",
+    "RepoUrl": "https://love.puni.sh/ment.json",
+    "DownloadCount": 3365603,
+    "LastUpdate": 1759915183,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.4.0/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.4.0/latest.zip",
+    "AssemblyVersion": "4.0.4.0",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "- Updated Raphael solver to support new recipes\n- Skip Raphael auto-switch for recipes that already have a macro assigned option (by xan)\n- Add configurable option to play crafting completed sound on error (by TheOddball)",
+    "TestingAssemblyVersion": "4.0.4.0",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.4.0/testing.zip",
+    "TestingDalamudApiLevel": "13",
+    "IconUrl": "https://s3.puni.sh/media/plugin/6/icon-3h8wd5b9qr.png"
+  },
+  {
     "Author": "kawaii, jukka",
     "Name": "Palace Pal",
     "Punchline": "Shows possible trap & Accursed Hoard locations in Palace of The Dead, Heaven on High, and Eureka Orthos.",
@@ -123,7 +148,7 @@
     ],
     "InternalName": "PalacePal",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 164092,
+    "DownloadCount": 164096,
     "LastUpdate": 1754737396,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/32/PalacePal/versions/4.13.0.0/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/32/PalacePal/versions/4.13.0.0/latest.zip",
@@ -135,31 +160,6 @@
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/32/PalacePal/versions/4.14.0.0/testing.zip",
     "TestingDalamudApiLevel": "13",
     "IconUrl": "https://s3.puni.sh/media/plugin/32/icon-vrl2a8dqi3h.png"
-  },
-  {
-    "Author": "Taurenkey, NightmareXIV",
-    "Name": "Saucy",
-    "Punchline": "When working for MGP is too much effort.",
-    "Description": "Automates certain Gold Saucer mini-games.",
-    "Tags": [
-      "gold saucer",
-      "mgp",
-      "automation"
-    ],
-    "InternalName": "Saucy",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 432496,
-    "LastUpdate": 1755277576,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/7/Saucy/versions/1.4.2.7/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/7/Saucy/versions/1.4.2.7/latest.zip",
-    "AssemblyVersion": "1.4.2.7",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "- Mini cactpot fixes (by Jaksuhn)\n- Triple triad stop command (by  t0mball)",
-    "TestingAssemblyVersion": "1.3.0.4",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/7/Saucy/versions/1.3.0.4/testing.zip",
-    "TestingDalamudApiLevel": "9",
-    "IconUrl": "https://s3.puni.sh/media/plugin/7/icon-bl3wub19h2u.png"
   },
   {
     "Author": "kawaii, NightmareXIV",
@@ -180,30 +180,6 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/24/icon-drb6aywk5m9.png"
   },
   {
-    "Author": "Liza Carvelli & various contributors",
-    "Name": "Questionable",
-    "Punchline": "A tiny quest helper plugin.",
-    "Description": "A small quest helper plugin designed to automatically do your quests for you where possible. Utilizes navmesh to automatically travel to all quest waypoints and (attempts to) complete all steps along the way (excluding dungeons, single-player duties and combat).\n\nNot all quests are supported.\n\nRequired Plugins: vnavmesh, TextAdvance, Lifestream",
-    "Tags": [
-      "quests",
-      "msq"
-    ],
-    "InternalName": "Questionable",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 42565,
-    "LastUpdate": 1760289111,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/94/Questionable/versions/6.8.25.0/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/94/Questionable/versions/6.8.25.0/latest.zip",
-    "AssemblyVersion": "6.8.25.0",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "- Yok Huy quests 5337,5338,5339,5344 bug fixes\n- M'naago story quest 3006\n- CRP 10-50 quests\n",
-    "TestingAssemblyVersion": "6.6.0.9",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/94/Questionable/versions/6.6.0.9/testing.zip",
-    "TestingDalamudApiLevel": "13",
-    "IconUrl": "https://s3.puni.sh/media/plugin/94/icon-ayf2kn3uloc.png"
-  },
-  {
     "Author": "Team Wrath",
     "Name": "Wrath Combo",
     "Punchline": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
@@ -211,7 +187,7 @@
     "Tags": [],
     "InternalName": "WrathCombo",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 428943,
+    "DownloadCount": 428957,
     "LastUpdate": 1760301853,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.2.14/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.2.14/latest.zip",
@@ -223,6 +199,30 @@
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.1.15/testing.zip",
     "TestingDalamudApiLevel": "12",
     "IconUrl": "https://s3.puni.sh/media/plugin/60/icon-2bwhkn3zf1f.png"
+  },
+  {
+    "Author": "Liza Carvelli & various contributors",
+    "Name": "Questionable",
+    "Punchline": "A tiny quest helper plugin.",
+    "Description": "A small quest helper plugin designed to automatically do your quests for you where possible. Utilizes navmesh to automatically travel to all quest waypoints and (attempts to) complete all steps along the way (excluding dungeons, single-player duties and combat).\n\nNot all quests are supported.\n\nRequired Plugins: vnavmesh, TextAdvance, Lifestream",
+    "Tags": [
+      "quests",
+      "msq"
+    ],
+    "InternalName": "Questionable",
+    "RepoUrl": "https://love.puni.sh/ment.json",
+    "DownloadCount": 42569,
+    "LastUpdate": 1760289111,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/94/Questionable/versions/6.8.25.0/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/94/Questionable/versions/6.8.25.0/latest.zip",
+    "AssemblyVersion": "6.8.25.0",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "- Yok Huy quests 5337,5338,5339,5344 bug fixes\n- M'naago story quest 3006\n- CRP 10-50 quests\n",
+    "TestingAssemblyVersion": "6.6.0.9",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/94/Questionable/versions/6.6.0.9/testing.zip",
+    "TestingDalamudApiLevel": "13",
+    "IconUrl": "https://s3.puni.sh/media/plugin/94/icon-ayf2kn3uloc.png"
   },
   {
     "Author": "Det, Taurenkey",
@@ -246,27 +246,6 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/47/icon-k1slevjorpo.png"
   },
   {
-    "Author": "daemitus, kawaii",
-    "Name": "Yes Already",
-    "Punchline": "Clicks Yes in various dialogs you've specified.",
-    "Description": "Tired of clicking yes in Praetorium? Can't stand using keys in dungeons? Well do I have the plugin for you! Yes Already is specifically designed to click all the annoying dialogs you've grown accustomed facerolling. Just enter the dialog text, and you'll never see it again! Also works with /regex/ and has several built-in modules for dialogs that aren't quite yes/no prompts but act like it (like desynth).",
-    "Tags": [],
-    "InternalName": "YesAlready",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 887325,
-    "LastUpdate": 1757873731,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/26/YesAlready/versions/1.13.03/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/26/YesAlready/versions/1.13.03/latest.zip",
-    "AssemblyVersion": "1.13.03",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "",
-    "TestingAssemblyVersion": "1.10.4.0",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/26/YesAlready/versions/1.10.4.0/testing.zip",
-    "TestingDalamudApiLevel": "12",
-    "IconUrl": "https://s3.puni.sh/media/plugin/26/icon-v1pvonkr6r.png"
-  },
-  {
     "Author": "NightmareXIV, Xenosys",
     "Name": "Splatoon",
     "Punchline": "Redefining FFXIV navigation with unlimited, precise waymarks.",
@@ -277,7 +256,7 @@
     ],
     "InternalName": "Splatoon",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 1184097,
+    "DownloadCount": 1184098,
     "LastUpdate": 1758169429,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.8.4.0/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.8.4.0/latest.zip",
@@ -289,6 +268,27 @@
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.8.4.0/testing.zip",
     "TestingDalamudApiLevel": "13",
     "IconUrl": "https://s3.puni.sh/media/plugin/10/icon-cchf5yumm2p.png"
+  },
+  {
+    "Author": "daemitus, kawaii",
+    "Name": "Yes Already",
+    "Punchline": "Clicks Yes in various dialogs you've specified.",
+    "Description": "Tired of clicking yes in Praetorium? Can't stand using keys in dungeons? Well do I have the plugin for you! Yes Already is specifically designed to click all the annoying dialogs you've grown accustomed facerolling. Just enter the dialog text, and you'll never see it again! Also works with /regex/ and has several built-in modules for dialogs that aren't quite yes/no prompts but act like it (like desynth).",
+    "Tags": [],
+    "InternalName": "YesAlready",
+    "RepoUrl": "https://love.puni.sh/ment.json",
+    "DownloadCount": 887327,
+    "LastUpdate": 1757873731,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/26/YesAlready/versions/1.13.03/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/26/YesAlready/versions/1.13.03/latest.zip",
+    "AssemblyVersion": "1.13.03",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "",
+    "TestingAssemblyVersion": "1.10.4.0",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/26/YesAlready/versions/1.10.4.0/testing.zip",
+    "TestingDalamudApiLevel": "12",
+    "IconUrl": "https://s3.puni.sh/media/plugin/26/icon-v1pvonkr6r.png"
   },
   {
     "Author": "attick, daemitus, Khayle",
@@ -1271,7 +1271,7 @@
     "Tags": [],
     "InternalName": "BossMod",
     "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 1196562,
+    "DownloadCount": 1196584,
     "LastUpdate": 1760324396,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/30/BossMod/versions/0.4.1.5/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/30/BossMod/versions/0.4.1.5/latest.zip",
@@ -1312,7 +1312,7 @@
     "Tags": [],
     "InternalName": "vnavmesh",
     "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 712327,
+    "DownloadCount": 712332,
     "LastUpdate": 1760025226,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/0.5.4.0/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/0.5.4.0/latest.zip",
@@ -1333,7 +1333,7 @@
     "Tags": [],
     "InternalName": "visland",
     "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 653614,
+    "DownloadCount": 653615,
     "LastUpdate": 1754783803,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/28/visland/versions/0.0.0.137/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/28/visland/versions/0.0.0.137/latest.zip",
@@ -1387,7 +1387,7 @@
     "Tags": [],
     "InternalName": "AutoDuty",
     "RepoUrl": "https://puni.sh/api/repository/herc",
-    "DownloadCount": 907525,
+    "DownloadCount": 907530,
     "LastUpdate": 1759901061,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/0.0.0.245/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/0.0.0.245/latest.zip",
@@ -1698,7 +1698,7 @@
     "Tags": [],
     "InternalName": "SomethingNeedDoing",
     "RepoUrl": "https://puni.sh/api/repository/croizat",
-    "DownloadCount": 617884,
+    "DownloadCount": 617886,
     "LastUpdate": 1759132806,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/13.51/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/13.51/latest.zip",
@@ -1720,7 +1720,7 @@
     ],
     "InternalName": "Automaton",
     "RepoUrl": "https://puni.sh/api/repository/croizat",
-    "DownloadCount": 267537,
+    "DownloadCount": 267538,
     "LastUpdate": 1759527625,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/34/Automaton/versions/69.93/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/34/Automaton/versions/69.93/latest.zip",
@@ -2592,5 +2592,102 @@
     "DownloadLinkUpdate": "https://github.com/VariableVixen/MyDalamudPlugins/raw/master/plugins/WoLua/latest.zip",
     "DownloadCount": 0,
     "LastUpdated": "1756145433"
+  },
+  {
+    "Author": "Asteria Nocturna",
+    "Name": "Divination.AetheryteLinkInChat",
+    "Punchline": "Quick teleport for mob hunts and treasure hunts!",
+    "Description": "Display a teleport link to the nearest aetherite for the map link from the in-game chat. Type /alic to configure the plugin.",
+    "Changelog": "0222da0: add ECommons reference via Nuget\n368a77f: remove ECommons submodule\n153fae4: Merge pull request #697 from SlashNephy/renovate/gitversion.msbuild-6.x\n\nUpdate dependency GitVersion.MsBuild to 6.4.0\na3a2e35: Merge pull request #698 from SlashNephy/renovate/gitversion.tool-6.x\n\nUpdate dependency gitversion.tool to v6.4.0\n66caede: Merge pull request #701 from SlashNephy/renovate/major-github-artifact-actions\n\nUpdate actions/download-artifact action to v5\n43477da: Merge pull request #705 from SlashNephy/renovate/actions-checkout-5.x\n\nUpdate actions/checkout action to v5\nd85d7b3: Update dependency gitversion.tool to 6.4.0\nd172ecd: Update dependency GitVersion.MsBuild to 6.4.0\nc3428f2: Update dependency DiscordRichPresence to 1.6.1.70 (#700)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>\nb7d6f6e: Merge pull request #703 from a1hena/api13\n\nApi13\nc739f46: Update DivinationApi.cs\n5dd082c: Update DivinationApi.cs\n1a47467: Delete NetworkDataParser.cs\na1068ab: rollback import\n32dfd49: Delete INetworkInterceptor\nb4e1e98: disable InstanceIDViewer\nc02c5eb: Update ECommons\na6b32aa: Update DivinationApi.cs\ncedcb74: (wip) disable  ImGui.InputScalar\n444bdb6: Update build-Common.yml\n7488f24: ECommons.DalamudServices.Legacy.IGameNetwork\nb46dda7: Update actions/checkout action to v5\nda5db62: Merge branch 'api13' of https://github.com/a1hena/Divination into api13\n28525bd: move IChatGui\ndcbd7f4: Dalamud.Bindings.ImGui\n9d651dc: comment agent->IsFlagMarkerSet\nede7b24: comment agent->IsFlagMarkerSet\n13022cc: Dalamud.Bindings.ImGui\n51b6443: Replace Condition Gathering42 and Crafting40\nd1230a4: Dalamud.NET.Sdk 13.0.0",
+    "Tags": [
+      "teleporter"
+    ],
+    "CategoryTags": [
+      "utility"
+    ],
+    "InternalName": "AetheryteLinkInChat",
+    "AssemblyVersion": "7.3.1.0",
+    "TestingAssemblyVersion": "7.3.1.0",
+    "RepoUrl": "https://xiv.starry.blue/plugins/master.json",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 13,
+    "DownloadCount": 24508,
+    "LastUpdate": 1760329016,
+    "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/AetheryteLinkInChat/download",
+    "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/AetheryteLinkInChat/download",
+    "AcceptsFeedback": true
+  },
+  {
+    "Author": "Asteria Nocturna",
+    "Name": "Divination.Debugger",
+    "Punchline": "You don't need this unless you are developer.",
+    "Description": "Tiny tool to inspect game...",
+    "Changelog": "1024a06: wrap with IFramework.RunOnFrameworkThread\n5fb1d60: DalamudApiLevel 12\nc0e5091: upgrade GitVersion to 6\n70f3e84: use global TargetFramework\n98c8b30: migrate to Dalamud.NET.Sdk\n\nhttps://dalamud.dev/plugin-development/how-tos/v12-sdk-migration\n1b1fd1f: upgrade solution to .NET 9\n8ad3ade: fix ECommons reference in Horoscope\nc6c36e1: remove ClickLib reference\n3faf60a: Merge pull request #692 from Diyagi/master\n\nAPI 12  and .NET 9 Update\n763f80b: More SocketIO Fixes\n1011668: Fix SocketIO Client for SocketIO Update\nea504c8: Fixes for API 12\nc920db5: API 12 and NET 9 Update\nd5549a3: Update ECommons\n37ca918: Merge pull request #691 from Diyagi/api11\n\nUpdate to API 11 and Lumina 5\n6eb5d76: Improves IEnumerable Extension\n4f14499: Update README.md\n565cda2: Prevent some possible null ref errors\nd3fadf9: Fix wrong logic\ne4940d8: Remove Dalamud API Level Override\n7047607: Update Lumina\ne506051: Update ECommons\n84882d7: Update DalamudPackager\n8314022: Merge pull request #680 from Diyagi/CommandProcessorFix\n\nCommand processor fix\n40b1abe: Merge pull request #679 from Diyagi/MapLinkOption\n\nAdd option to toggle link after maplink\n7856f43: Merge pull request #676 from SlashNephy/renovate/peter-evans-create-pull-request-7.x\n\nUpdate peter-evans/create-pull-request action to v7\nc8ff3a3: Fix CommandProcessor\ne877ac4: Fix config logic\need6c17: Add option to toggle link after maplink\nab2d82a: Update peter-evans/create-pull-request action to v7",
+    "Tags": [
+      "Development",
+      "Debug"
+    ],
+    "CategoryTags": [
+      "utility"
+    ],
+    "InternalName": "Debugger",
+    "AssemblyVersion": "7.1.0.0",
+    "TestingAssemblyVersion": "7.2.1.60000",
+    "RepoUrl": "https://xiv.starry.blue/plugins/master.json",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 12,
+    "DownloadCount": 397,
+    "LastUpdate": 1760329016,
+    "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Debugger/download",
+    "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Debugger/download",
+    "AcceptsFeedback": true
+  },
+  {
+    "Author": "Asteria Nocturna",
+    "Name": "Divination.FaloopIntegration",
+    "Punchline": "Faloop Notification in Chat",
+    "Description": "Show Faloop mob spawn notifications in in-game chat. Type /faloop to configure the plugin.",
+    "Changelog": "0222da0: add ECommons reference via Nuget\n368a77f: remove ECommons submodule\n153fae4: Merge pull request #697 from SlashNephy/renovate/gitversion.msbuild-6.x\n\nUpdate dependency GitVersion.MsBuild to 6.4.0\na3a2e35: Merge pull request #698 from SlashNephy/renovate/gitversion.tool-6.x\n\nUpdate dependency gitversion.tool to v6.4.0\n66caede: Merge pull request #701 from SlashNephy/renovate/major-github-artifact-actions\n\nUpdate actions/download-artifact action to v5\n43477da: Merge pull request #705 from SlashNephy/renovate/actions-checkout-5.x\n\nUpdate actions/checkout action to v5\nd85d7b3: Update dependency gitversion.tool to 6.4.0\nd172ecd: Update dependency GitVersion.MsBuild to 6.4.0\nc3428f2: Update dependency DiscordRichPresence to 1.6.1.70 (#700)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>\nb7d6f6e: Merge pull request #703 from a1hena/api13\n\nApi13\nc739f46: Update DivinationApi.cs\n5dd082c: Update DivinationApi.cs\n1a47467: Delete NetworkDataParser.cs\na1068ab: rollback import\n32dfd49: Delete INetworkInterceptor\nb4e1e98: disable InstanceIDViewer\nc02c5eb: Update ECommons\na6b32aa: Update DivinationApi.cs\ncedcb74: (wip) disable  ImGui.InputScalar\n444bdb6: Update build-Common.yml\n7488f24: ECommons.DalamudServices.Legacy.IGameNetwork\nb46dda7: Update actions/checkout action to v5\nda5db62: Merge branch 'api13' of https://github.com/a1hena/Divination into api13\n28525bd: move IChatGui\ndcbd7f4: Dalamud.Bindings.ImGui\n9d651dc: comment agent->IsFlagMarkerSet\nede7b24: comment agent->IsFlagMarkerSet\n13022cc: Dalamud.Bindings.ImGui\n51b6443: Replace Condition Gathering42 and Crafting40\nd1230a4: Dalamud.NET.Sdk 13.0.0",
+    "Tags": [
+      "mobhunt"
+    ],
+    "CategoryTags": [
+      "social",
+      "utility"
+    ],
+    "InternalName": "FaloopIntegration",
+    "AssemblyVersion": "7.3.1.0",
+    "TestingAssemblyVersion": "7.3.1.0",
+    "RepoUrl": "https://xiv.starry.blue/plugins/master.json",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 13,
+    "DownloadCount": 21025,
+    "LastUpdate": 1760329016,
+    "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/FaloopIntegration/download",
+    "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/FaloopIntegration/download",
+    "AcceptsFeedback": true
+  },
+  {
+    "Author": "Horoscope developers",
+    "Name": "Divination.InstanceIDViewer",
+    "Description": "show instance id in chat when instance changed",
+    "Changelog": "ab83a11: wrap TeleportToPaths with RunOnTick\n1024a06: wrap with IFramework.RunOnFrameworkThread\n5fb1d60: DalamudApiLevel 12\nc0e5091: upgrade GitVersion to 6\n70f3e84: use global TargetFramework\n98c8b30: migrate to Dalamud.NET.Sdk\n\nhttps://dalamud.dev/plugin-development/how-tos/v12-sdk-migration\n1b1fd1f: upgrade solution to .NET 9\n8ad3ade: fix ECommons reference in Horoscope\nc6c36e1: remove ClickLib reference\n3faf60a: Merge pull request #692 from Diyagi/master\n\nAPI 12  and .NET 9 Update\n763f80b: More SocketIO Fixes\n1011668: Fix SocketIO Client for SocketIO Update\nea504c8: Fixes for API 12\nc920db5: API 12 and NET 9 Update\nd5549a3: Update ECommons\n37ca918: Merge pull request #691 from Diyagi/api11\n\nUpdate to API 11 and Lumina 5\n6eb5d76: Improves IEnumerable Extension\n4f14499: Update README.md\n565cda2: Prevent some possible null ref errors\nd3fadf9: Fix wrong logic\ne4940d8: Remove Dalamud API Level Override\n7047607: Update Lumina\ne506051: Update ECommons\n84882d7: Update DalamudPackager\n8314022: Merge pull request #680 from Diyagi/CommandProcessorFix\n\nCommand processor fix\n40b1abe: Merge pull request #679 from Diyagi/MapLinkOption\n\nAdd option to toggle link after maplink\n7856f43: Merge pull request #676 from SlashNephy/renovate/peter-evans-create-pull-request-7.x\n\nUpdate peter-evans/create-pull-request action to v7\nc8ff3a3: Fix CommandProcessor\ne877ac4: Fix config logic\need6c17: Add option to toggle link after maplink",
+    "Tags": [
+      "Discord"
+    ],
+    "CategoryTags": [
+      "social"
+    ],
+    "InternalName": "InstanceIDViewer",
+    "AssemblyVersion": "7.2.2.60000",
+    "TestingAssemblyVersion": "7.2.2.60000",
+    "RepoUrl": "https://xiv.starry.blue/plugins/master.json",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 10,
+    "DownloadCount": 766,
+    "LastUpdate": 1760329016,
+    "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/InstanceIDViewer/download",
+    "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/InstanceIDViewer/download",
+    "AcceptsFeedback": true
   }
 ]
