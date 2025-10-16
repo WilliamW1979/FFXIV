@@ -68,6 +68,29 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/12/icon-o94qaw6cyn.png"
   },
   {
+    "Author": "Taurenkey, NightmareXIV, kawaii",
+    "Name": "Artisan",
+    "Punchline": "A 'simple' crafting plugin.",
+    "Description": "The all-in-one crafting plugin. Perfect for people with next to no knowledge about crafting rotations. No need for a library of different macros, the solvers will work dynamically to try and complete your crafts. Also provides convenient ways to craft lists of items or grind out a specific item repeatedly.",
+    "Tags": [
+      "crafting"
+    ],
+    "InternalName": "Artisan",
+    "RepoUrl": "https://love.puni.sh/ment.json",
+    "DownloadCount": 3367094,
+    "LastUpdate": 1759915183,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.4.0/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.4.0/latest.zip",
+    "AssemblyVersion": "4.0.4.0",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "- Updated Raphael solver to support new recipes\n- Skip Raphael auto-switch for recipes that already have a macro assigned option (by xan)\n- Add configurable option to play crafting completed sound on error (by TheOddball)",
+    "TestingAssemblyVersion": "4.0.4.0",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.4.0/testing.zip",
+    "TestingDalamudApiLevel": "13",
+    "IconUrl": "https://s3.puni.sh/media/plugin/6/icon-3h8wd5b9qr.png"
+  },
+  {
     "Author": "kawaii, jukka",
     "Name": "Palace Pal",
     "Punchline": "Shows possible trap & Accursed Hoard locations in Palace of The Dead, Heaven on High, and Eureka Orthos.",
@@ -80,7 +103,7 @@
     ],
     "InternalName": "PalacePal",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 165707,
+    "DownloadCount": 165708,
     "LastUpdate": 1760025336,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/32/PalacePal/versions/4.14.0.0/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/32/PalacePal/versions/4.14.0.0/latest.zip",
@@ -136,29 +159,6 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/11/icon-d95r9462spc.png"
   },
   {
-    "Author": "Taurenkey, NightmareXIV, kawaii",
-    "Name": "Artisan",
-    "Punchline": "A 'simple' crafting plugin.",
-    "Description": "The all-in-one crafting plugin. Perfect for people with next to no knowledge about crafting rotations. No need for a library of different macros, the solvers will work dynamically to try and complete your crafts. Also provides convenient ways to craft lists of items or grind out a specific item repeatedly.",
-    "Tags": [
-      "crafting"
-    ],
-    "InternalName": "Artisan",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 3367092,
-    "LastUpdate": 1759915183,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.4.0/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.4.0/latest.zip",
-    "AssemblyVersion": "4.0.4.0",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "- Updated Raphael solver to support new recipes\n- Skip Raphael auto-switch for recipes that already have a macro assigned option (by xan)\n- Add configurable option to play crafting completed sound on error (by TheOddball)",
-    "TestingAssemblyVersion": "4.0.4.0",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.4.0/testing.zip",
-    "TestingDalamudApiLevel": "13",
-    "IconUrl": "https://s3.puni.sh/media/plugin/6/icon-3h8wd5b9qr.png"
-  },
-  {
     "Author": "kawaii, NightmareXIV",
     "Name": "AutoRetainer",
     "Punchline": "Collect and assign ventures to your retainers from the comfort of your bed.",
@@ -180,6 +180,30 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/24/icon-drb6aywk5m9.png"
   },
   {
+    "Author": "Liza Carvelli & various contributors",
+    "Name": "Questionable",
+    "Punchline": "A tiny quest helper plugin.",
+    "Description": "A small quest helper plugin designed to automatically do your quests for you where possible. Utilizes navmesh to automatically travel to all quest waypoints and (attempts to) complete all steps along the way (excluding dungeons, single-player duties and combat).\n\nNot all quests are supported.\n\nRequired Plugins: vnavmesh, TextAdvance, Lifestream",
+    "Tags": [
+      "quests",
+      "msq"
+    ],
+    "InternalName": "Questionable",
+    "RepoUrl": "https://love.puni.sh/ment.json",
+    "DownloadCount": 44442,
+    "LastUpdate": 1760550535,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/94/Questionable/versions/6.9.28.0/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/94/Questionable/versions/6.9.28.0/latest.zip",
+    "AssemblyVersion": "6.9.28.0",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "- Fix minor warnings in code, bug fix aether current skip\n",
+    "TestingAssemblyVersion": "6.9.29.0",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/94/Questionable/versions/6.9.29.0/testing.zip",
+    "TestingDalamudApiLevel": "13",
+    "IconUrl": "https://s3.puni.sh/media/plugin/94/icon-ayf2kn3uloc.png"
+  },
+  {
     "Author": "NightmareXIV, Xenosys",
     "Name": "Splatoon",
     "Punchline": "Redefining FFXIV navigation with unlimited, precise waymarks.",
@@ -190,7 +214,7 @@
     ],
     "InternalName": "Splatoon",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 1185068,
+    "DownloadCount": 1185073,
     "LastUpdate": 1760550443,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.8.4.2/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.8.4.2/latest.zip",
@@ -214,7 +238,7 @@
     ],
     "InternalName": "AutoHook",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 838738,
+    "DownloadCount": 838739,
     "LastUpdate": 1759047257,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/5.0.0.15/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/5.0.0.15/latest.zip",
@@ -223,30 +247,6 @@
     "DalamudApiLevel": "13",
     "Changelog": "",
     "IconUrl": "https://s3.puni.sh/media/plugin/47/icon-k1slevjorpo.png"
-  },
-  {
-    "Author": "Liza Carvelli & various contributors",
-    "Name": "Questionable",
-    "Punchline": "A tiny quest helper plugin.",
-    "Description": "A small quest helper plugin designed to automatically do your quests for you where possible. Utilizes navmesh to automatically travel to all quest waypoints and (attempts to) complete all steps along the way (excluding dungeons, single-player duties and combat).\n\nNot all quests are supported.\n\nRequired Plugins: vnavmesh, TextAdvance, Lifestream",
-    "Tags": [
-      "quests",
-      "msq"
-    ],
-    "InternalName": "Questionable",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 44434,
-    "LastUpdate": 1760550535,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/94/Questionable/versions/6.9.28.0/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/94/Questionable/versions/6.9.28.0/latest.zip",
-    "AssemblyVersion": "6.9.28.0",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "- Fix minor warnings in code, bug fix aether current skip\n",
-    "TestingAssemblyVersion": "6.9.29.0",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/94/Questionable/versions/6.9.29.0/testing.zip",
-    "TestingDalamudApiLevel": "13",
-    "IconUrl": "https://s3.puni.sh/media/plugin/94/icon-ayf2kn3uloc.png"
   },
   {
     "Author": "Team Wrath",
@@ -1289,7 +1289,7 @@
     "Tags": [],
     "InternalName": "BossMod",
     "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 1198708,
+    "DownloadCount": 1198715,
     "LastUpdate": 1760489393,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/30/BossMod/versions/0.4.1.8/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/30/BossMod/versions/0.4.1.8/latest.zip",
@@ -1387,7 +1387,7 @@
     "Tags": [],
     "InternalName": "AutoDuty",
     "RepoUrl": "https://puni.sh/api/repository/herc",
-    "DownloadCount": 908347,
+    "DownloadCount": 908348,
     "LastUpdate": 1759901061,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/0.0.0.245/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/0.0.0.245/latest.zip",
