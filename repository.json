@@ -68,6 +68,29 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/8/icon-9opcpzqyh1h.png"
   },
   {
+    "Author": "Taurenkey, NightmareXIV, kawaii",
+    "Name": "Artisan",
+    "Punchline": "A 'simple' crafting plugin.",
+    "Description": "The all-in-one crafting plugin. Perfect for people with next to no knowledge about crafting rotations. No need for a library of different macros, the solvers will work dynamically to try and complete your crafts. Also provides convenient ways to craft lists of items or grind out a specific item repeatedly.",
+    "Tags": [
+      "crafting"
+    ],
+    "InternalName": "Artisan",
+    "RepoUrl": "https://love.puni.sh/ment.json",
+    "DownloadCount": 3367123,
+    "LastUpdate": 1759915183,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.4.0/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.4.0/latest.zip",
+    "AssemblyVersion": "4.0.4.0",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "- Updated Raphael solver to support new recipes\n- Skip Raphael auto-switch for recipes that already have a macro assigned option (by xan)\n- Add configurable option to play crafting completed sound on error (by TheOddball)",
+    "TestingAssemblyVersion": "4.0.4.0",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.4.0/testing.zip",
+    "TestingDalamudApiLevel": "13",
+    "IconUrl": "https://s3.puni.sh/media/plugin/6/icon-3h8wd5b9qr.png"
+  },
+  {
     "Author": "kawaii, jukka",
     "Name": "Palace Pal",
     "Punchline": "Shows possible trap & Accursed Hoard locations in Palace of The Dead, Heaven on High, and Eureka Orthos.",
@@ -80,7 +103,7 @@
     ],
     "InternalName": "PalacePal",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 165736,
+    "DownloadCount": 165737,
     "LastUpdate": 1760025336,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/32/PalacePal/versions/4.14.0.0/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/32/PalacePal/versions/4.14.0.0/latest.zip",
@@ -89,29 +112,6 @@
     "DalamudApiLevel": "13",
     "Changelog": "",
     "IconUrl": "https://s3.puni.sh/media/plugin/32/icon-vrl2a8dqi3h.png"
-  },
-  {
-    "Author": "Taurenkey, NightmareXIV, kawaii",
-    "Name": "Artisan",
-    "Punchline": "A 'simple' crafting plugin.",
-    "Description": "The all-in-one crafting plugin. Perfect for people with next to no knowledge about crafting rotations. No need for a library of different macros, the solvers will work dynamically to try and complete your crafts. Also provides convenient ways to craft lists of items or grind out a specific item repeatedly.",
-    "Tags": [
-      "crafting"
-    ],
-    "InternalName": "Artisan",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 3367119,
-    "LastUpdate": 1759915183,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.4.0/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.4.0/latest.zip",
-    "AssemblyVersion": "4.0.4.0",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "- Updated Raphael solver to support new recipes\n- Skip Raphael auto-switch for recipes that already have a macro assigned option (by xan)\n- Add configurable option to play crafting completed sound on error (by TheOddball)",
-    "TestingAssemblyVersion": "4.0.4.0",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.4.0/testing.zip",
-    "TestingDalamudApiLevel": "13",
-    "IconUrl": "https://s3.puni.sh/media/plugin/6/icon-3h8wd5b9qr.png"
   },
   {
     "Author": "kawaii, NightmareXIV",
@@ -166,7 +166,7 @@
     "Tags": [],
     "InternalName": "AutoRetainer",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 1537011,
+    "DownloadCount": 1537013,
     "LastUpdate": 1756110059,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.5.2.1/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.5.2.1/latest.zip",
@@ -190,7 +190,7 @@
     ],
     "InternalName": "Questionable",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 44512,
+    "DownloadCount": 44514,
     "LastUpdate": 1760550535,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/94/Questionable/versions/6.9.28.0/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/94/Questionable/versions/6.9.28.0/latest.zip",
@@ -225,27 +225,6 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/60/icon-2bwhkn3zf1f.png"
   },
   {
-    "Author": "Det, Taurenkey",
-    "Name": "AutoHook",
-    "Punchline": "Makes fishing less (or more) boring",
-    "Description": "It hooks the fish for you, can you believe it?",
-    "Tags": [
-      "Gathering",
-      "Fishing"
-    ],
-    "InternalName": "AutoHook",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 838752,
-    "LastUpdate": 1759047257,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/5.0.0.15/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/5.0.0.15/latest.zip",
-    "AssemblyVersion": "5.0.0.15",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/47/icon-k1slevjorpo.png"
-  },
-  {
     "Author": "NightmareXIV, Xenosys",
     "Name": "Splatoon",
     "Punchline": "Redefining FFXIV navigation with unlimited, precise waymarks.",
@@ -268,6 +247,27 @@
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.8.4.0/testing.zip",
     "TestingDalamudApiLevel": "13",
     "IconUrl": "https://s3.puni.sh/media/plugin/10/icon-cchf5yumm2p.png"
+  },
+  {
+    "Author": "Det, Taurenkey",
+    "Name": "AutoHook",
+    "Punchline": "Makes fishing less (or more) boring",
+    "Description": "It hooks the fish for you, can you believe it?",
+    "Tags": [
+      "Gathering",
+      "Fishing"
+    ],
+    "InternalName": "AutoHook",
+    "RepoUrl": "https://love.puni.sh/ment.json",
+    "DownloadCount": 838754,
+    "LastUpdate": 1759047257,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/5.0.0.15/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/5.0.0.15/latest.zip",
+    "AssemblyVersion": "5.0.0.15",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "",
+    "IconUrl": "https://s3.puni.sh/media/plugin/47/icon-k1slevjorpo.png"
   },
   {
     "Author": "daemitus, kawaii",
@@ -1271,7 +1271,7 @@
     "Tags": [],
     "InternalName": "BossMod",
     "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 1198735,
+    "DownloadCount": 1198739,
     "LastUpdate": 1760489393,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/30/BossMod/versions/0.4.1.8/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/30/BossMod/versions/0.4.1.8/latest.zip",
@@ -1305,6 +1305,24 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/58/icon-hffi2ft0zlg.png"
   },
   {
+    "Author": "veyn, croizat",
+    "Name": "V(ery) Island",
+    "Punchline": "Automate island sanctuary activities",
+    "Description": "Automate gathering, workshop assignments, etc.",
+    "Tags": [],
+    "InternalName": "visland",
+    "RepoUrl": "https://puni.sh/api/repository/veyn",
+    "DownloadCount": 653851,
+    "LastUpdate": 1754783803,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/28/visland/versions/0.0.0.137/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/28/visland/versions/0.0.0.137/latest.zip",
+    "AssemblyVersion": "0.0.0.137",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "",
+    "IconUrl": "https://s3.puni.sh/media/plugin/28/icon-lruwx4y549.png"
+  },
+  {
     "Author": "veyn",
     "Name": "Easier Faux Hollows",
     "Punchline": "Faux Hollows solver based on known patterns",
@@ -1321,24 +1339,6 @@
     "DalamudApiLevel": "13",
     "Changelog": "",
     "IconUrl": "https://s3.puni.sh/media/plugin/29/icon-3vysu0z0eem.png"
-  },
-  {
-    "Author": "veyn, croizat",
-    "Name": "V(ery) Island",
-    "Punchline": "Automate island sanctuary activities",
-    "Description": "Automate gathering, workshop assignments, etc.",
-    "Tags": [],
-    "InternalName": "visland",
-    "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 653850,
-    "LastUpdate": 1754783803,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/28/visland/versions/0.0.0.137/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/28/visland/versions/0.0.0.137/latest.zip",
-    "AssemblyVersion": "0.0.0.137",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/28/icon-lruwx4y549.png"
   },
   {
     "Author": "veyn, xan_0",
@@ -1387,7 +1387,7 @@
     "Tags": [],
     "InternalName": "AutoDuty",
     "RepoUrl": "https://puni.sh/api/repository/herc",
-    "DownloadCount": 908367,
+    "DownloadCount": 908368,
     "LastUpdate": 1759901061,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/0.0.0.245/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/0.0.0.245/latest.zip",
@@ -1698,7 +1698,7 @@
     "Tags": [],
     "InternalName": "SomethingNeedDoing",
     "RepoUrl": "https://puni.sh/api/repository/croizat",
-    "DownloadCount": 618163,
+    "DownloadCount": 618164,
     "LastUpdate": 1759132806,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/13.51/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/13.51/latest.zip",
