@@ -77,7 +77,7 @@
     ],
     "InternalName": "Avarice",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 217483,
+    "DownloadCount": 217484,
     "LastUpdate": 1754551915,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/11/Avarice/versions/2.1.1.3/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/11/Avarice/versions/2.1.1.3/latest.zip",
@@ -86,29 +86,6 @@
     "DalamudApiLevel": "13",
     "Changelog": "- 7.3",
     "IconUrl": "https://s3.puni.sh/media/plugin/11/icon-d95r9462spc.png"
-  },
-  {
-    "Author": "Taurenkey, NightmareXIV, kawaii",
-    "Name": "Artisan",
-    "Punchline": "A 'simple' crafting plugin.",
-    "Description": "The all-in-one crafting plugin. Perfect for people with next to no knowledge about crafting rotations. No need for a library of different macros, the solvers will work dynamically to try and complete your crafts. Also provides convenient ways to craft lists of items or grind out a specific item repeatedly.",
-    "Tags": [
-      "crafting"
-    ],
-    "InternalName": "Artisan",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 3367078,
-    "LastUpdate": 1759915183,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.4.0/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.4.0/latest.zip",
-    "AssemblyVersion": "4.0.4.0",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "- Updated Raphael solver to support new recipes\n- Skip Raphael auto-switch for recipes that already have a macro assigned option (by xan)\n- Add configurable option to play crafting completed sound on error (by TheOddball)",
-    "TestingAssemblyVersion": "4.0.4.0",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.4.0/testing.zip",
-    "TestingDalamudApiLevel": "13",
-    "IconUrl": "https://s3.puni.sh/media/plugin/6/icon-3h8wd5b9qr.png"
   },
   {
     "Author": "Taurenkey, NightmareXIV",
@@ -136,6 +113,29 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/7/icon-bl3wub19h2u.png"
   },
   {
+    "Author": "Taurenkey, NightmareXIV, kawaii",
+    "Name": "Artisan",
+    "Punchline": "A 'simple' crafting plugin.",
+    "Description": "The all-in-one crafting plugin. Perfect for people with next to no knowledge about crafting rotations. No need for a library of different macros, the solvers will work dynamically to try and complete your crafts. Also provides convenient ways to craft lists of items or grind out a specific item repeatedly.",
+    "Tags": [
+      "crafting"
+    ],
+    "InternalName": "Artisan",
+    "RepoUrl": "https://love.puni.sh/ment.json",
+    "DownloadCount": 3367083,
+    "LastUpdate": 1759915183,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.4.0/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.4.0/latest.zip",
+    "AssemblyVersion": "4.0.4.0",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "- Updated Raphael solver to support new recipes\n- Skip Raphael auto-switch for recipes that already have a macro assigned option (by xan)\n- Add configurable option to play crafting completed sound on error (by TheOddball)",
+    "TestingAssemblyVersion": "4.0.4.0",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.4.0/testing.zip",
+    "TestingDalamudApiLevel": "13",
+    "IconUrl": "https://s3.puni.sh/media/plugin/6/icon-3h8wd5b9qr.png"
+  },
+  {
     "Author": "kawaii, jukka",
     "Name": "Palace Pal",
     "Punchline": "Shows possible trap & Accursed Hoard locations in Palace of The Dead, Heaven on High, and Eureka Orthos.",
@@ -148,7 +148,7 @@
     ],
     "InternalName": "PalacePal",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 165693,
+    "DownloadCount": 165698,
     "LastUpdate": 1760025336,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/32/PalacePal/versions/4.14.0.0/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/32/PalacePal/versions/4.14.0.0/latest.zip",
@@ -159,30 +159,6 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/32/icon-vrl2a8dqi3h.png"
   },
   {
-    "Author": "NightmareXIV, Xenosys",
-    "Name": "Splatoon",
-    "Punchline": "Redefining FFXIV navigation with unlimited, precise waymarks.",
-    "Description": "Splatoon is a powerful accessibility tool. It revolutionizes gameplay with its custom waymark system, offering the ability to create unlimited grouped waymarks, labels, and actor indicators with exacting pixel precision. This feature empowers players by making crucial objects and events more visually discernible, thereby facilitating quicker reactions. However, it's important to note that the plugin does not come pre-loaded with presets. Players have the freedom to craft their own or import existing ones, offering a personalized touch to their gaming experience.",
-    "Tags": [
-      "Utility",
-      "Accessibility"
-    ],
-    "InternalName": "Splatoon",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 1185035,
-    "LastUpdate": 1760550443,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.8.4.2/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.8.4.2/latest.zip",
-    "AssemblyVersion": "3.8.4.2",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "- Fixed an issue where if account for rotation checkbox was not checked, line ends selection was not visible\n- Fixed an issue where if line had \"account for rotation\" disabled, it would display as it had zero width/radius",
-    "TestingAssemblyVersion": "3.8.4.0",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.8.4.0/testing.zip",
-    "TestingDalamudApiLevel": "13",
-    "IconUrl": "https://s3.puni.sh/media/plugin/10/icon-cchf5yumm2p.png"
-  },
-  {
     "Author": "kawaii, NightmareXIV",
     "Name": "AutoRetainer",
     "Punchline": "Collect and assign ventures to your retainers from the comfort of your bed.",
@@ -190,7 +166,7 @@
     "Tags": [],
     "InternalName": "AutoRetainer",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 1536980,
+    "DownloadCount": 1536981,
     "LastUpdate": 1756110059,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.5.2.1/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.5.2.1/latest.zip",
@@ -204,6 +180,30 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/24/icon-drb6aywk5m9.png"
   },
   {
+    "Author": "NightmareXIV, Xenosys",
+    "Name": "Splatoon",
+    "Punchline": "Redefining FFXIV navigation with unlimited, precise waymarks.",
+    "Description": "Splatoon is a powerful accessibility tool. It revolutionizes gameplay with its custom waymark system, offering the ability to create unlimited grouped waymarks, labels, and actor indicators with exacting pixel precision. This feature empowers players by making crucial objects and events more visually discernible, thereby facilitating quicker reactions. However, it's important to note that the plugin does not come pre-loaded with presets. Players have the freedom to craft their own or import existing ones, offering a personalized touch to their gaming experience.",
+    "Tags": [
+      "Utility",
+      "Accessibility"
+    ],
+    "InternalName": "Splatoon",
+    "RepoUrl": "https://love.puni.sh/ment.json",
+    "DownloadCount": 1185044,
+    "LastUpdate": 1760550443,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.8.4.2/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.8.4.2/latest.zip",
+    "AssemblyVersion": "3.8.4.2",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "- Fixed an issue where if account for rotation checkbox was not checked, line ends selection was not visible\n- Fixed an issue where if line had \"account for rotation\" disabled, it would display as it had zero width/radius",
+    "TestingAssemblyVersion": "3.8.4.0",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.8.4.0/testing.zip",
+    "TestingDalamudApiLevel": "13",
+    "IconUrl": "https://s3.puni.sh/media/plugin/10/icon-cchf5yumm2p.png"
+  },
+  {
     "Author": "Team Wrath",
     "Name": "Wrath Combo",
     "Punchline": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
@@ -211,7 +211,7 @@
     "Tags": [],
     "InternalName": "WrathCombo",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 430324,
+    "DownloadCount": 430327,
     "LastUpdate": 1760301853,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.2.14/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.2.14/latest.zip",
@@ -225,27 +225,6 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/60/icon-2bwhkn3zf1f.png"
   },
   {
-    "Author": "Det, Taurenkey",
-    "Name": "AutoHook",
-    "Punchline": "Makes fishing less (or more) boring",
-    "Description": "It hooks the fish for you, can you believe it?",
-    "Tags": [
-      "Gathering",
-      "Fishing"
-    ],
-    "InternalName": "AutoHook",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 838732,
-    "LastUpdate": 1759047257,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/5.0.0.15/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/5.0.0.15/latest.zip",
-    "AssemblyVersion": "5.0.0.15",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/47/icon-k1slevjorpo.png"
-  },
-  {
     "Author": "Liza Carvelli & various contributors",
     "Name": "Questionable",
     "Punchline": "A tiny quest helper plugin.",
@@ -256,7 +235,7 @@
     ],
     "InternalName": "Questionable",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 44390,
+    "DownloadCount": 44403,
     "LastUpdate": 1760550535,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/94/Questionable/versions/6.9.28.0/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/94/Questionable/versions/6.9.28.0/latest.zip",
@@ -268,6 +247,27 @@
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/94/Questionable/versions/6.9.29.0/testing.zip",
     "TestingDalamudApiLevel": "13",
     "IconUrl": "https://s3.puni.sh/media/plugin/94/icon-ayf2kn3uloc.png"
+  },
+  {
+    "Author": "Det, Taurenkey",
+    "Name": "AutoHook",
+    "Punchline": "Makes fishing less (or more) boring",
+    "Description": "It hooks the fish for you, can you believe it?",
+    "Tags": [
+      "Gathering",
+      "Fishing"
+    ],
+    "InternalName": "AutoHook",
+    "RepoUrl": "https://love.puni.sh/ment.json",
+    "DownloadCount": 838733,
+    "LastUpdate": 1759047257,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/5.0.0.15/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/5.0.0.15/latest.zip",
+    "AssemblyVersion": "5.0.0.15",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "",
+    "IconUrl": "https://s3.puni.sh/media/plugin/47/icon-k1slevjorpo.png"
   },
   {
     "Author": "daemitus, kawaii",
@@ -1264,29 +1264,6 @@
     "DownloadLinkUpdate": "https://github.com/Haselnussbomber/YokaiCheck/releases/download/v1.2.0/latest.zip"
   },
   {
-    "Author": "veyn, xan_0",
-    "Name": "Boss Mod",
-    "Punchline": "Don't fail at raid mechanics anymore",
-    "Description": "A bunch of utilities to simplify bosses. Currently supports endwalker content.",
-    "Tags": [],
-    "InternalName": "BossMod",
-    "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 1198693,
-    "LastUpdate": 1760489393,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/30/BossMod/versions/0.4.1.8/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/30/BossMod/versions/0.4.1.8/latest.zip",
-    "AssemblyVersion": "0.4.1.8",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/30/icon-1x16xz3evsu.png",
-    "ImageUrls": [
-      "https://s3.puni.sh/media/plugin/30/image-4mbxiq5k4pl.png",
-      "https://s3.puni.sh/media/plugin/30/image-nc231jzj2gb.png",
-      "https://s3.puni.sh/media/plugin/30/image-3nufuhgwbhl.png"
-    ]
-  },
-  {
     "Author": "veyn",
     "Name": "Satisfier",
     "Punchline": "Simplify custom deliveries.",
@@ -1303,6 +1280,50 @@
     "DalamudApiLevel": "13",
     "Changelog": "",
     "IconUrl": "https://s3.puni.sh/media/plugin/58/icon-hffi2ft0zlg.png"
+  },
+  {
+    "Author": "veyn, xan_0",
+    "Name": "Boss Mod",
+    "Punchline": "Don't fail at raid mechanics anymore",
+    "Description": "A bunch of utilities to simplify bosses. Currently supports endwalker content.",
+    "Tags": [],
+    "InternalName": "BossMod",
+    "RepoUrl": "https://puni.sh/api/repository/veyn",
+    "DownloadCount": 1198699,
+    "LastUpdate": 1760489393,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/30/BossMod/versions/0.4.1.8/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/30/BossMod/versions/0.4.1.8/latest.zip",
+    "AssemblyVersion": "0.4.1.8",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "",
+    "IconUrl": "https://s3.puni.sh/media/plugin/30/icon-1x16xz3evsu.png",
+    "ImageUrls": [
+      "https://s3.puni.sh/media/plugin/30/image-4mbxiq5k4pl.png",
+      "https://s3.puni.sh/media/plugin/30/image-nc231jzj2gb.png",
+      "https://s3.puni.sh/media/plugin/30/image-3nufuhgwbhl.png"
+    ]
+  },
+  {
+    "Author": "veyn, xan_0",
+    "Name": "vnavmesh",
+    "Punchline": "Move around!",
+    "Description": "Utility to automatically move the character around in the world, skilfully avoiding any obstacles.",
+    "Tags": [],
+    "InternalName": "vnavmesh",
+    "RepoUrl": "https://puni.sh/api/repository/veyn",
+    "DownloadCount": 713479,
+    "LastUpdate": 1760025226,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/0.5.4.0/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/0.5.4.0/latest.zip",
+    "AssemblyVersion": "0.5.4.0",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "",
+    "TestingAssemblyVersion": "0.5.3.1",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/0.5.3.1/testing.zip",
+    "TestingDalamudApiLevel": "13",
+    "IconUrl": "https://s3.puni.sh/media/plugin/48/icon-ylwecng2h0n.png"
   },
   {
     "Author": "veyn, croizat",
@@ -1341,27 +1362,6 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/29/icon-3vysu0z0eem.png"
   },
   {
-    "Author": "veyn, xan_0",
-    "Name": "vnavmesh",
-    "Punchline": "Move around!",
-    "Description": "Utility to automatically move the character around in the world, skilfully avoiding any obstacles.",
-    "Tags": [],
-    "InternalName": "vnavmesh",
-    "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 713476,
-    "LastUpdate": 1760025226,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/0.5.4.0/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/0.5.4.0/latest.zip",
-    "AssemblyVersion": "0.5.4.0",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "",
-    "TestingAssemblyVersion": "0.5.3.1",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/0.5.3.1/testing.zip",
-    "TestingDalamudApiLevel": "13",
-    "IconUrl": "https://s3.puni.sh/media/plugin/48/icon-ylwecng2h0n.png"
-  },
-  {
     "Author": "veyn",
     "Name": "vfallguy",
     "Punchline": "Get that achievement!",
@@ -1387,7 +1387,7 @@
     "Tags": [],
     "InternalName": "AutoDuty",
     "RepoUrl": "https://puni.sh/api/repository/herc",
-    "DownloadCount": 908339,
+    "DownloadCount": 908341,
     "LastUpdate": 1759901061,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/0.0.0.245/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/0.0.0.245/latest.zip",
@@ -1461,7 +1461,7 @@
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/RotationSolverReborn/releases/download/7.3.0.49/RotationSolver.zip",
     "TestingAssemblyVersion": "7.3.0.49",
     "Changelog": "## What's Changed\r\n* Added support for Pilgrim's Potion, adjusted cooldown logic to prevent edge cases of GCD clipping by @LTS-FFXIV in https://github.com/FFXIV-CombatReborn/RotationSolverReborn/pull/1036\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/RotationSolverReborn/compare/7.3.5.7...7.3.5.8",
-    "DownloadCount": 1720517,
+    "DownloadCount": 1720647,
     "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
@@ -1495,7 +1495,7 @@
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/BossmodReborn/releases/download/1.0.2.1/BossMod.zip",
     "TestingAssemblyVersion": "1.0.2.1",
     "Changelog": "## What's Changed\r\n* TEA improvements by @CarnifexOptimus in https://github.com/FFXIV-CombatReborn/BossmodReborn/pull/1016\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/BossmodReborn/compare/7.3.5.10...7.3.5.11",
-    "DownloadCount": 2203594,
+    "DownloadCount": 2203707,
     "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
@@ -1593,7 +1593,7 @@
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/releases/download/7.2.5.1/GatherbuddyReborn.zip",
     "TestingAssemblyVersion": "7.2.5.1",
     "Changelog": "## What's Changed\r\n* Fix Diadem check by @Deathbeyond87 in https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/pull/416\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/compare/7.3.5.0...7.3.5.1",
-    "DownloadCount": 423395,
+    "DownloadCount": 423403,
     "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
@@ -1698,7 +1698,7 @@
     "Tags": [],
     "InternalName": "SomethingNeedDoing",
     "RepoUrl": "https://puni.sh/api/repository/croizat",
-    "DownloadCount": 618158,
+    "DownloadCount": 618159,
     "LastUpdate": 1759132806,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/13.51/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/13.51/latest.zip",
@@ -2617,7 +2617,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "DownloadCount": 24546,
-    "LastUpdate": 1760598843,
+    "LastUpdate": 1760602776,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/AetheryteLinkInChat/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/AetheryteLinkInChat/download",
     "AcceptsFeedback": true
@@ -2642,7 +2642,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 12,
     "DownloadCount": 397,
-    "LastUpdate": 1760598843,
+    "LastUpdate": 1760602776,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Debugger/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Debugger/download",
     "AcceptsFeedback": true
@@ -2667,7 +2667,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "DownloadCount": 21058,
-    "LastUpdate": 1760598843,
+    "LastUpdate": 1760602776,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/FaloopIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/FaloopIntegration/download",
     "AcceptsFeedback": true
@@ -2690,7 +2690,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 10,
     "DownloadCount": 766,
-    "LastUpdate": 1760598843,
+    "LastUpdate": 1760602776,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/InstanceIDViewer/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/InstanceIDViewer/download",
     "AcceptsFeedback": true
