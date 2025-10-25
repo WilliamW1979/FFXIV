@@ -21,7 +21,7 @@ https://github.com/Milesnocte/GambaGames/raw/main/repo.json
 https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json
 https://github.com/huntsffxiv/repo/raw/main/repo.json
 https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json
-https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/FashionReport.json
+https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json
 https://raw.githubusercontent.com/Haselnussbomber/MyDalamudPlugins/main/repo.json
 https://raw.githubusercontent.com/Ottermandias/Glamourer/main/repo.json
 https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json
