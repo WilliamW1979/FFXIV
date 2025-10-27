@@ -9,6 +9,25 @@ const repoList = fs.readFileSync('RepoList.txt', 'utf-8')
   .map(url => url.trim())
   .filter(url => url.length > 0);
 
+// Track errors and stats
+const errors = [];
+const stats = {
+  repos_processed: 0,
+  repos_failed: 0,
+  plugins_fetched: 0,
+  unique_plugins: 0,
+  duplicates_removed: 0,
+  timestamp: new Date().toISOString()
+};
+
+function logError(message, context = {}) {
+  errors.push({
+    message,
+    context,
+    timestamp: new Date().toISOString()
+  });
+}
+
 async function fetchData(url) {
   try {
     if (url === troubledRepo) {
@@ -45,16 +64,22 @@ async function fetchData(url) {
             pluginMeta.DownloadLinkInstall = zipUrl;
             pluginMeta.DownloadLinkUpdate = zipUrl;
             pluginMeta.DownloadLinkTesting = zipUrl;
-//            pluginMeta.DalamudApiLevel = 12;
             if (!pluginMeta.Author || pluginMeta.Author.trim() === '') {
               pluginMeta.Author = 'Unknown';
             }
-            pluginMeta.RepoUrl = url;
+            if (!pluginMeta.RepoUrl) {
+              pluginMeta.RepoUrl = url;
+            }
+            pluginMeta.SourceRepo = url;
 
             plugins.push(pluginMeta);
           }
         } catch (err) {
-          console.error(`Error processing plugin ${pluginName}: ${err.message}`);
+          logError(`Error processing plugin ${pluginName}`, {
+            plugin: pluginName,
+            repo: url,
+            error: err.message
+          });
         }
       }
 
@@ -64,7 +89,11 @@ async function fetchData(url) {
       return response.data;
     }
   } catch (error) {
-    console.error(`Error fetching data from ${url}: ${error.message}`);
+    logError(`Error fetching data from repo`, {
+      repo: url,
+      error: error.message,
+      status: error.response?.status
+    });
     return null;
   }
 }
@@ -82,7 +111,11 @@ async function fetchFallbackData(repoName) {
         return response.data;
       }
     } catch (error) {
-      console.error(`Error fetching data from fallback URL ${fallbackUrl}: ${error.message}`);
+      logError(`Error fetching fallback data`, {
+        fallback_url: fallbackUrl,
+        original_repo: repoName,
+        error: error.message
+      });
     }
   }
 
@@ -93,6 +126,7 @@ async function mergeData() {
   let mergedData = [];
 
   for (const url of repoList) {
+    stats.repos_processed++;
     let data = await fetchData(url);
 
     if (!data) {
@@ -114,30 +148,138 @@ async function mergeData() {
       } else if (data.InternalName) {
         plugins = [data];
       } else {
+        logError('Unrecognized data structure', { repo: url });
+        stats.repos_failed++;
         continue;
       }
 
       for (const plugin of plugins) {
         if (url === troubledRepo) plugin.DalamudApiLevel = 12;
         if (!plugin.Author || plugin.Author.trim() === '') plugin.Author = 'Unknown';
-        plugin.RepoUrl = url;
+        
+        if (!plugin.RepoUrl) {
+          plugin.RepoUrl = url;
+        }
+        
+        plugin.SourceRepo = url;
+        
         mergedData.push(plugin);
       }
+    } else {
+      stats.repos_failed++;
     }
   }
 
-  const uniquePlugins = mergedData.filter((plugin, index, self) =>
-    index === self.findIndex((p) => p.InternalName === plugin.InternalName)
-  );
+  stats.plugins_fetched = mergedData.length;
+
+  // Group plugins by InternalName to identify duplicates
+  const pluginGroups = {};
+  
+  for (const plugin of mergedData) {
+    const key = plugin.InternalName;
+    if (!pluginGroups[key]) {
+      pluginGroups[key] = [];
+    }
+    pluginGroups[key].push(plugin);
+  }
+
+  const uniquePlugins = [];
+  
+  for (const [internalName, plugins] of Object.entries(pluginGroups)) {
+    if (plugins.length === 1) {
+      // Only one version exists, keep it as-is
+      uniquePlugins.push(plugins[0]);
+    } else {
+      // Multiple versions exist - keep the one with highest version or most recent
+      const sortedPlugins = plugins.sort((a, b) => {
+        if (a.AssemblyVersion && b.AssemblyVersion) {
+          return compareVersions(b.AssemblyVersion, a.AssemblyVersion);
+        }
+        return 0;
+      });
+      
+      const bestPlugin = sortedPlugins[0];
+      
+      bestPlugin.AlternateSources = plugins
+        .filter(p => p.SourceRepo !== bestPlugin.SourceRepo)
+        .map(p => p.SourceRepo);
+      
+      uniquePlugins.push(bestPlugin);
+    }
+  }
+
+  stats.unique_plugins = uniquePlugins.length;
+  stats.duplicates_removed = mergedData.length - uniquePlugins.length;
 
   if (uniquePlugins.length > 0) {
     const filePath = path.resolve('repository.json');
     try {
       fs.writeFileSync(filePath, JSON.stringify(uniquePlugins, null, 2));
+      
+      // Write stats file
+      fs.writeFileSync('stats.json', JSON.stringify(stats, null, 2));
+      
+      // Write error log if there are errors
+      if (errors.length > 0) {
+        fs.writeFileSync('errors.json', JSON.stringify(errors, null, 2));
+        
+        // Also create a readable error summary
+        const errorSummary = `# Error Log
+Last Updated: ${stats.timestamp}
+
+Total Errors: ${errors.length}
+
+## Errors by Type
+
+${errors.map((err, i) => `### Error ${i + 1}
+- **Message**: ${err.message}
+- **Time**: ${err.timestamp}
+- **Details**: ${JSON.stringify(err.context, null, 2)}
+`).join('\n')}
+`;
+        fs.writeFileSync('ERROR_LOG.md', errorSummary);
+      }
+      
+      // Create a readable stats file
+      const statsMarkdown = `# Repository Statistics
+Last Updated: ${stats.timestamp}
+
+## Summary
+- **Unique Plugins**: ${stats.unique_plugins}
+- **Total Plugins Fetched**: ${stats.plugins_fetched}
+- **Duplicates Removed**: ${stats.duplicates_removed}
+- **Repositories Processed**: ${stats.repos_processed}
+- **Repositories Failed**: ${stats.repos_failed}
+- **Errors Encountered**: ${errors.length}
+
+${stats.repos_failed > 0 ? '⚠️ Some repositories failed to load. Check ERROR_LOG.md for details.' : '✅ All repositories loaded successfully!'}
+`;
+      fs.writeFileSync('STATS.md', statsMarkdown);
+      
     } catch (err) {
-      console.error('Error writing to repository.json:', err.message);
+      logError('Error writing output files', {
+        error: err.message
+      });
+      // This is critical - we still want to know about it
+      throw err;
     }
   }
+}
+
+// Helper function to compare version strings (e.g., "1.2.3" vs "1.2.4")
+function compareVersions(v1, v2) {
+  const parts1 = v1.split('.').map(Number);
+  const parts2 = v2.split('.').map(Number);
+  
+  for (let i = 0; i < Math.max(parts1.length, parts2.length); i++) {
+    const part1 = parts1[i] || 0;
+    const part2 = parts2[i] || 0;
+    
+    if (part1 > part2) return 1;
+    if (part1 < part2) return -1;
+  }
+  
+  return 0;
 }
 
 mergeData();
