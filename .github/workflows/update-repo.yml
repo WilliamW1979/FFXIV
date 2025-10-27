@@ -2,47 +2,209 @@ name: Clone and Merge Repositories
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Run every 5 minutes
-  workflow_dispatch:       # Allows manual trigger from the GitHub UI
+    - cron: '*/30 * * * *'  # Run every 30 minutes (reduced from 5 to avoid rate limits)
+  workflow_dispatch:        # Allows manual trigger from the GitHub UI
 
 jobs:
   clone-and-merge:
     runs-on: ubuntu-latest
-
+    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-
+        with:
+          fetch-depth: 0  # Full history for better commit messages
+      
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'  # Ensure Node.js version 18 or higher
-
+          node-version: '18'
+      
       - name: Install dependencies
         run: |
           npm init -y
-          npm install axios cheerio
-
+          npm install axios
+      
       - name: Run CloneRepos.js
+        id: merge_repos
         run: |
+          echo "Starting repository merge..."
           node CloneRepos.js
-
-      - name: Check if repository.json exists
-        run: |
-          if [ ! -f repository.json ]; then
-            echo "repository.json not found, skipping commit."
-            exit 1
+          EXIT_CODE=$?
+          echo "exit_code=$EXIT_CODE" >> $GITHUB_OUTPUT
+          
+          # Check if files were created
+          if [ -f "repository.json" ]; then
+            echo "repository_exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "repository_exists=false" >> $GITHUB_OUTPUT
           fi
-
+          
+          exit $EXIT_CODE
+        continue-on-error: true
+      
+      - name: Generate commit message
+        id: commit_msg
+        if: steps.merge_repos.outputs.repository_exists == 'true'
+        run: |
+          if [ -f stats.json ]; then
+            UNIQUE=$(jq -r '.unique_plugins' stats.json)
+            TOTAL=$(jq -r '.total_plugins_fetched' stats.json)
+            FAILED=$(jq -r '.failed_repos' stats.json)
+            SUCCESSFUL=$(jq -r '.successful_repos' stats.json)
+            TOTAL_REPOS=$(jq -r '.total_repos' stats.json)
+            ERRORS=$(jq -r '.errors' stats.json)
+            
+            # Create commit message
+            if [ "$ERRORS" -gt 0 ] || [ "$FAILED" -gt 0 ]; then
+              MSG="⚠️ Update repository.json: $UNIQUE plugins ($SUCCESSFUL/$TOTAL_REPOS repos, $ERRORS errors)"
+            else
+              MSG="✅ Update repository.json: $UNIQUE plugins (all $TOTAL_REPOS repos successful)"
+            fi
+            
+            echo "message=$MSG" >> $GITHUB_OUTPUT
+            echo "has_issues=$( [ "$ERRORS" -gt 0 ] && echo "true" || echo "false" )" >> $GITHUB_OUTPUT
+          else
+            echo "message=Update repository.json with new plugins" >> $GITHUB_OUTPUT
+            echo "has_issues=false" >> $GITHUB_OUTPUT
+          fi
+      
       - name: Configure Git
+        if: steps.merge_repos.outputs.repository_exists == 'true'
         run: |
-          git config --global user.name "Your GitHub Actions Bot"
-          git config --global user.email "your-email@example.com"
-
+          git config --global user.name "Plugin Repo Bot"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      
       - name: Commit and push changes
+        if: steps.merge_repos.outputs.repository_exists == 'true'
         run: |
+          # Add all generated files
           git add repository.json
-          git commit -m "Update repository.json with new plugins" || echo "No changes to commit"
+          
+          # Add report files if they exist
+          [ -f stats.json ] && git add stats.json
+          [ -f REPORT.md ] && git add REPORT.md
+          [ -f errors.json ] && git add errors.json
+          
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          
+          # Commit with generated message
+          git commit -m "${{ steps.commit_msg.outputs.message }}"
+          
+          # Push changes
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Create issue if there are problems
+        if: |
+          steps.merge_repos.outputs.exit_code != '0' || 
+          steps.commit_msg.outputs.has_issues == 'true'
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs');
+            
+            // Read the report if it exists
+            let reportContent = 'No detailed report available.';
+            if (fs.existsSync('REPORT.md')) {
+              reportContent = fs.readFileSync('REPORT.md', 'utf8');
+            }
+            
+            // Read stats
+            let stats = {};
+            if (fs.existsSync('stats.json')) {
+              stats = JSON.parse(fs.readFileSync('stats.json', 'utf8'));
+            }
+            
+            const title = `⚠️ Plugin Repository Merge Issues - ${new Date().toISOString().split('T')[0]}`;
+            const body = `# Repository Merge Issues Detected
+            
+            **Run**: [Workflow Run #${context.runNumber}](${context.payload.repository.html_url}/actions/runs/${context.runId})
+            **Time**: ${stats.timestamp || new Date().toISOString()}
+            
+            ## Summary
+            ${stats.failed_repos ? `- ❌ **Failed Repositories**: ${stats.failed_repos}/${stats.total_repos}` : ''}
+            ${stats.errors ? `- ⚠️ **Errors**: ${stats.errors}` : ''}
+            ${stats.warnings ? `- ⚠️ **Warnings**: ${stats.warnings}` : ''}
+            
+            ## Details
+            
+            ${reportContent}
+            
+            ---
+            *This issue was automatically created by the repository merge workflow.*`;
+            
+            // Check if there's already an open issue for today
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: ['automated', 'repo-merge-issues']
+            });
+            
+            const today = new Date().toISOString().split('T')[0];
+            const existingIssue = issues.data.find(issue => issue.title.includes(today));
+            
+            if (existingIssue) {
+              // Update existing issue
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existingIssue.number,
+                body: `## Update at ${new Date().toTimeString().split(' ')[0]}\n\n${body}`
+              });
+            } else {
+              // Create new issue
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: title,
+                body: body,
+                labels: ['automated', 'repo-merge-issues']
+              });
+            }
+      
+      - name: Upload artifacts on failure
+        if: failure()
+        uses: actions/upload-artifact@v3
+        with:
+          name: debug-logs
+          path: |
+            REPORT.md
+            stats.json
+            errors.json
+          retention-days: 7
+      
+      - name: Summary
+        if: always()
+        run: |
+          echo "## Plugin Repository Merge Summary" >> $GITHUB_STEP_SUMMARY
+          
+          if [ -f stats.json ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "| Metric | Value |" >> $GITHUB_STEP_SUMMARY
+            echo "|--------|-------|" >> $GITHUB_STEP_SUMMARY
+            echo "| Unique Plugins | $(jq -r '.unique_plugins' stats.json) |" >> $GITHUB_STEP_SUMMARY
+            echo "| Total Fetched | $(jq -r '.total_plugins_fetched' stats.json) |" >> $GITHUB_STEP_SUMMARY
+            echo "| Duplicates Removed | $(jq -r '.duplicates_removed' stats.json) |" >> $GITHUB_STEP_SUMMARY
+            echo "| Successful Repos | $(jq -r '.successful_repos' stats.json)/$(jq -r '.total_repos' stats.json) |" >> $GITHUB_STEP_SUMMARY
+            echo "| Failed Repos | $(jq -r '.failed_repos' stats.json) |" >> $GITHUB_STEP_SUMMARY
+            echo "| Errors | $(jq -r '.errors' stats.json) |" >> $GITHUB_STEP_SUMMARY
+            echo "| Warnings | $(jq -r '.warnings' stats.json) |" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            
+            # Add status emoji
+            FAILED=$(jq -r '.failed_repos' stats.json)
+            if [ "$FAILED" -eq 0 ]; then
+              echo "✅ **All repositories processed successfully!**" >> $GITHUB_STEP_SUMMARY
+            else
+              echo "⚠️ **Some repositories failed. Check REPORT.md for details.**" >> $GITHUB_STEP_SUMMARY
+            fi
+          else
+            echo "❌ **Merge failed - no stats generated**" >> $GITHUB_STEP_SUMMARY
+          fi
