@@ -11,7 +11,7 @@
       "other"
     ],
     "InternalName": "LazyLoot",
-    "RepoUrl": "https://love.puni.sh/ment.json",
+    "RepoUrl": "https://github.com/PunishXIV/LazyLoot",
     "DownloadCount": 168819,
     "LastUpdate": 1760720799,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/9/LazyLoot/versions/5.3.2.4/latest.zip",
@@ -23,7 +23,14 @@
     "TestingAssemblyVersion": "5.3.2.2",
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/9/LazyLoot/versions/5.3.2.2/testing.zip",
     "TestingDalamudApiLevel": "13",
-    "IconUrl": "https://s3.puni.sh/media/plugin/9/icon-zjun2qgmfbe.png"
+    "IconUrl": "https://s3.puni.sh/media/plugin/9/icon-zjun2qgmfbe.png",
+    "SourceRepo": "https://love.puni.sh/ment.json",
+    "AlternateSources": [
+      "https://raw.githubusercontent.com/a03831/Dalamud.SkipCutscene/dist/repo.json",
+      "https://raw.githubusercontent.com/ryoniive/Dalamud-Darkness-Repo/raw/main/ffxiv_custom_repo.json",
+      "https://raw.githubusercontent.com/Milestonee/GambaGames/main/repo.json",
+      "https://plugins.carvel.li/"
+    ]
   },
   {
     "Author": "Taurenkey, NightmareXIV, croizat",
@@ -35,7 +42,7 @@
       "plugin"
     ],
     "InternalName": "PandorasBox",
-    "RepoUrl": "https://love.puni.sh/ment.json",
+    "RepoUrl": "https://github.com/PunishXIV/PandorasBox",
     "DownloadCount": 900673,
     "LastUpdate": 1756336248,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.6.3.18/latest.zip",
@@ -47,7 +54,14 @@
     "TestingAssemblyVersion": "1.5.4.1",
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.5.4.1/testing.zip",
     "TestingDalamudApiLevel": "9",
-    "IconUrl": "https://s3.puni.sh/media/plugin/8/icon-9opcpzqyh1h.png"
+    "IconUrl": "https://s3.puni.sh/media/plugin/8/icon-9opcpzqyh1h.png",
+    "SourceRepo": "https://love.puni.sh/ment.json",
+    "AlternateSources": [
+      "https://raw.githubusercontent.com/a03831/Dalamud.SkipCutscene/dist/repo.json",
+      "https://raw.githubusercontent.com/ryoniive/Dalamud-Darkness-Repo/raw/main/ffxiv_custom_repo.json",
+      "https://raw.githubusercontent.com/Milestonee/GambaGames/main/repo.json",
+      "https://plugins.carvel.li/"
+    ]
   },
   {
     "Author": "kawaii, NightmareXIV",
@@ -56,7 +70,7 @@
     "Description": "Locks player movement while casting and allows for maximum caster uptime during the course of a fight.",
     "Tags": [],
     "InternalName": "Orbwalker",
-    "RepoUrl": "https://love.puni.sh/ment.json",
+    "RepoUrl": "https://github.com/PunishXIV/Orbwalker",
     "DownloadCount": 61807,
     "LastUpdate": 1757745201,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/12/Orbwalker/versions/1.0.1.6/latest.zip",
@@ -65,7 +79,14 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": "13",
     "Changelog": "- Improved job selection UI\n- Fixed error caused by selecting DoH/DoL in Jobs tab (by Akechi)\n- Added Meditate from SAM under Job-specific Actions in Extras tab (by Akechi)\n- Added Block All Movement option; supports Controller & KBM (by Akechi)\n- UI cleanup (by Akechi)\n- Vector mode for overlay, supports vertical layout (by wah)",
-    "IconUrl": "https://s3.puni.sh/media/plugin/12/icon-o94qaw6cyn.png"
+    "IconUrl": "https://s3.puni.sh/media/plugin/12/icon-o94qaw6cyn.png",
+    "SourceRepo": "https://love.puni.sh/ment.json",
+    "AlternateSources": [
+      "https://raw.githubusercontent.com/a03831/Dalamud.SkipCutscene/dist/repo.json",
+      "https://raw.githubusercontent.com/ryoniive/Dalamud-Darkness-Repo/raw/main/ffxiv_custom_repo.json",
+      "https://raw.githubusercontent.com/Milestonee/GambaGames/main/repo.json",
+      "https://plugins.carvel.li/"
+    ]
   },
   {
     "Author": "Taurenkey, NightmareXIV",
@@ -78,7 +99,7 @@
       "automation"
     ],
     "InternalName": "Saucy",
-    "RepoUrl": "https://love.puni.sh/ment.json",
+    "RepoUrl": "https://github.com/PunishXIV/Saucy",
     "DownloadCount": 433656,
     "LastUpdate": 1755277576,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/7/Saucy/versions/1.4.2.7/latest.zip",
@@ -90,7 +111,14 @@
     "TestingAssemblyVersion": "1.3.0.4",
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/7/Saucy/versions/1.3.0.4/testing.zip",
     "TestingDalamudApiLevel": "9",
-    "IconUrl": "https://s3.puni.sh/media/plugin/7/icon-bl3wub19h2u.png"
+    "IconUrl": "https://s3.puni.sh/media/plugin/7/icon-bl3wub19h2u.png",
+    "SourceRepo": "https://love.puni.sh/ment.json",
+    "AlternateSources": [
+      "https://raw.githubusercontent.com/a03831/Dalamud.SkipCutscene/dist/repo.json",
+      "https://raw.githubusercontent.com/ryoniive/Dalamud-Darkness-Repo/raw/main/ffxiv_custom_repo.json",
+      "https://raw.githubusercontent.com/Milestonee/GambaGames/main/repo.json",
+      "https://plugins.carvel.li/"
+    ]
   },
   {
     "Author": "Taurenkey, NightmareXIV, kawaii",
@@ -101,7 +129,7 @@
       "crafting"
     ],
     "InternalName": "Artisan",
-    "RepoUrl": "https://love.puni.sh/ment.json",
+    "RepoUrl": "https://github.com/PunishXIV/Artisan",
     "DownloadCount": 3372813,
     "LastUpdate": 1759915183,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.4.0/latest.zip",
@@ -113,7 +141,14 @@
     "TestingAssemblyVersion": "4.0.4.1",
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.4.1/testing.zip",
     "TestingDalamudApiLevel": "13",
-    "IconUrl": "https://s3.puni.sh/media/plugin/6/icon-3h8wd5b9qr.png"
+    "IconUrl": "https://s3.puni.sh/media/plugin/6/icon-3h8wd5b9qr.png",
+    "SourceRepo": "https://love.puni.sh/ment.json",
+    "AlternateSources": [
+      "https://raw.githubusercontent.com/a03831/Dalamud.SkipCutscene/dist/repo.json",
+      "https://raw.githubusercontent.com/ryoniive/Dalamud-Darkness-Repo/raw/main/ffxiv_custom_repo.json",
+      "https://raw.githubusercontent.com/Milestonee/GambaGames/main/repo.json",
+      "https://plugins.carvel.li/"
+    ]
   },
   {
     "Author": "NightmareXIV, Xenosys",
@@ -125,7 +160,7 @@
       "Accessibility"
     ],
     "InternalName": "Splatoon",
-    "RepoUrl": "https://love.puni.sh/ment.json",
+    "RepoUrl": "https://github.com/PunishXIV/Splatoon",
     "DownloadCount": 1188811,
     "LastUpdate": 1760550443,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.8.4.2/latest.zip",
@@ -137,7 +172,14 @@
     "TestingAssemblyVersion": "3.8.4.0",
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.8.4.0/testing.zip",
     "TestingDalamudApiLevel": "13",
-    "IconUrl": "https://s3.puni.sh/media/plugin/10/icon-cchf5yumm2p.png"
+    "IconUrl": "https://s3.puni.sh/media/plugin/10/icon-cchf5yumm2p.png",
+    "SourceRepo": "https://love.puni.sh/ment.json",
+    "AlternateSources": [
+      "https://raw.githubusercontent.com/a03831/Dalamud.SkipCutscene/dist/repo.json",
+      "https://raw.githubusercontent.com/ryoniive/Dalamud-Darkness-Repo/raw/main/ffxiv_custom_repo.json",
+      "https://raw.githubusercontent.com/Milestonee/GambaGames/main/repo.json",
+      "https://plugins.carvel.li/"
+    ]
   },
   {
     "Author": "kawaii, NightmareXIV",
@@ -148,8 +190,8 @@
       "combat"
     ],
     "InternalName": "Avarice",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 218406,
+    "RepoUrl": "https://github.com/PunishXIV/Avarice",
+    "DownloadCount": 218407,
     "LastUpdate": 1754551915,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/11/Avarice/versions/2.1.1.3/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/11/Avarice/versions/2.1.1.3/latest.zip",
@@ -157,28 +199,14 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": "13",
     "Changelog": "- 7.3",
-    "IconUrl": "https://s3.puni.sh/media/plugin/11/icon-d95r9462spc.png"
-  },
-  {
-    "Author": "kawaii, NightmareXIV",
-    "Name": "AutoRetainer",
-    "Punchline": "Collect and assign ventures to your retainers from the comfort of your bed.",
-    "Description": "Collect and assign ventures to your retainers from the comfort of your bed.",
-    "Tags": [],
-    "InternalName": "AutoRetainer",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 1540144,
-    "LastUpdate": 1756110059,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.5.2.1/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.5.2.1/latest.zip",
-    "AssemblyVersion": "4.5.2.1",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "- Multi Mode expert delivery:\n- - Fixed an issue where \"Finalize by purchasing\" option would trigger 1-minute long lockout\n- - Added a possibility to trigger delivery when amount of ventures drops below certain amount\n- - Added an option to use Priority Seal Allowance before delivery\n- Added possibility to use Shared Estate for Multi Mode teleportation\n- - You must have testing version of Lifestream, or it won't work\n- - Don't forget to register your shared estate in Lifestream\n- - This option is experimental and probably the most untested option that has ever been in AutoRetainer so don't leave unattended\n- Added new submarine sectors (by YsEmei)\n",
-    "TestingAssemblyVersion": "4.5.3.1",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.5.3.1/testing.zip",
-    "TestingDalamudApiLevel": "13",
-    "IconUrl": "https://s3.puni.sh/media/plugin/24/icon-drb6aywk5m9.png"
+    "IconUrl": "https://s3.puni.sh/media/plugin/11/icon-d95r9462spc.png",
+    "SourceRepo": "https://love.puni.sh/ment.json",
+    "AlternateSources": [
+      "https://raw.githubusercontent.com/a03831/Dalamud.SkipCutscene/dist/repo.json",
+      "https://raw.githubusercontent.com/ryoniive/Dalamud-Darkness-Repo/raw/main/ffxiv_custom_repo.json",
+      "https://raw.githubusercontent.com/Milestonee/GambaGames/main/repo.json",
+      "https://plugins.carvel.li/"
+    ]
   },
   {
     "Author": "kawaii, jukka",
@@ -192,7 +220,7 @@
       "palace"
     ],
     "InternalName": "PalacePal",
-    "RepoUrl": "https://love.puni.sh/ment.json",
+    "RepoUrl": "https://github.com/PunishXIV/PalacePal",
     "DownloadCount": 168623,
     "LastUpdate": 1760025336,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/32/PalacePal/versions/4.14.0.0/latest.zip",
@@ -201,7 +229,42 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": "13",
     "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/32/icon-vrl2a8dqi3h.png"
+    "IconUrl": "https://s3.puni.sh/media/plugin/32/icon-vrl2a8dqi3h.png",
+    "SourceRepo": "https://love.puni.sh/ment.json",
+    "AlternateSources": [
+      "https://raw.githubusercontent.com/a03831/Dalamud.SkipCutscene/dist/repo.json",
+      "https://raw.githubusercontent.com/ryoniive/Dalamud-Darkness-Repo/raw/main/ffxiv_custom_repo.json",
+      "https://raw.githubusercontent.com/Milestonee/GambaGames/main/repo.json",
+      "https://plugins.carvel.li/"
+    ]
+  },
+  {
+    "Author": "kawaii, NightmareXIV",
+    "Name": "AutoRetainer",
+    "Punchline": "Collect and assign ventures to your retainers from the comfort of your bed.",
+    "Description": "Collect and assign ventures to your retainers from the comfort of your bed.",
+    "Tags": [],
+    "InternalName": "AutoRetainer",
+    "RepoUrl": "https://github.com/PunishXIV/AutoRetainer",
+    "DownloadCount": 1540145,
+    "LastUpdate": 1756110059,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.5.2.1/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.5.2.1/latest.zip",
+    "AssemblyVersion": "4.5.2.1",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "- Multi Mode expert delivery:\n- - Fixed an issue where \"Finalize by purchasing\" option would trigger 1-minute long lockout\n- - Added a possibility to trigger delivery when amount of ventures drops below certain amount\n- - Added an option to use Priority Seal Allowance before delivery\n- Added possibility to use Shared Estate for Multi Mode teleportation\n- - You must have testing version of Lifestream, or it won't work\n- - Don't forget to register your shared estate in Lifestream\n- - This option is experimental and probably the most untested option that has ever been in AutoRetainer so don't leave unattended\n- Added new submarine sectors (by YsEmei)\n",
+    "TestingAssemblyVersion": "4.5.3.1",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.5.3.1/testing.zip",
+    "TestingDalamudApiLevel": "13",
+    "IconUrl": "https://s3.puni.sh/media/plugin/24/icon-drb6aywk5m9.png",
+    "SourceRepo": "https://love.puni.sh/ment.json",
+    "AlternateSources": [
+      "https://raw.githubusercontent.com/a03831/Dalamud.SkipCutscene/dist/repo.json",
+      "https://raw.githubusercontent.com/ryoniive/Dalamud-Darkness-Repo/raw/main/ffxiv_custom_repo.json",
+      "https://raw.githubusercontent.com/Milestonee/GambaGames/main/repo.json",
+      "https://plugins.carvel.li/"
+    ]
   },
   {
     "Author": "Liza Carvelli & various contributors",
@@ -213,7 +276,7 @@
       "msq"
     ],
     "InternalName": "Questionable",
-    "RepoUrl": "https://love.puni.sh/ment.json",
+    "RepoUrl": "https://github.com/PunishXIV/Questionable",
     "DownloadCount": 50266,
     "LastUpdate": 1761330063,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/94/Questionable/versions/6.11.34.1/latest.zip",
@@ -225,7 +288,15 @@
     "TestingAssemblyVersion": "6.11.33.1",
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/94/Questionable/versions/6.11.33.1/testing.zip",
     "TestingDalamudApiLevel": "13",
-    "IconUrl": "https://s3.puni.sh/media/plugin/94/icon-ayf2kn3uloc.png"
+    "IconUrl": "https://s3.puni.sh/media/plugin/94/icon-ayf2kn3uloc.png",
+    "SourceRepo": "https://love.puni.sh/ment.json",
+    "AlternateSources": [
+      "https://raw.githubusercontent.com/a03831/Dalamud.SkipCutscene/dist/repo.json",
+      "https://raw.githubusercontent.com/ryoniive/Dalamud-Darkness-Repo/raw/main/ffxiv_custom_repo.json",
+      "https://raw.githubusercontent.com/Milestonee/GambaGames/main/repo.json",
+      "https://plugins.carvel.li/",
+      "https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json"
+    ]
   },
   {
     "Author": "Det, Taurenkey",
@@ -237,7 +308,7 @@
       "Fishing"
     ],
     "InternalName": "AutoHook",
-    "RepoUrl": "https://love.puni.sh/ment.json",
+    "RepoUrl": "https://github.com/PunishXIV/AutoHook",
     "DownloadCount": 840925,
     "LastUpdate": 1759047257,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/5.0.0.15/latest.zip",
@@ -246,7 +317,14 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": "13",
     "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/47/icon-k1slevjorpo.png"
+    "IconUrl": "https://s3.puni.sh/media/plugin/47/icon-k1slevjorpo.png",
+    "SourceRepo": "https://love.puni.sh/ment.json",
+    "AlternateSources": [
+      "https://raw.githubusercontent.com/a03831/Dalamud.SkipCutscene/dist/repo.json",
+      "https://raw.githubusercontent.com/ryoniive/Dalamud-Darkness-Repo/raw/main/ffxiv_custom_repo.json",
+      "https://raw.githubusercontent.com/Milestonee/GambaGames/main/repo.json",
+      "https://plugins.carvel.li/"
+    ]
   },
   {
     "Author": "Team Wrath",
@@ -255,8 +333,8 @@
     "Description": "Turns one action into many! Similar to how PvP actions work, we take an action and build a whole combo out of it. Sometimes it's as simple as a 1-2-3 combo, other times it's a full job rotation. Either way, you'll find something suited for your rotation needs.",
     "Tags": [],
     "InternalName": "WrathCombo",
-    "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 434955,
+    "RepoUrl": "https://github.com/PunishXIV/WrathCombo",
+    "DownloadCount": 434957,
     "LastUpdate": 1761534567,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.2.17/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.2.17/latest.zip",
@@ -267,7 +345,14 @@
     "TestingAssemblyVersion": "1.0.1.15",
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.1.15/testing.zip",
     "TestingDalamudApiLevel": "12",
-    "IconUrl": "https://s3.puni.sh/media/plugin/60/icon-2bwhkn3zf1f.png"
+    "IconUrl": "https://s3.puni.sh/media/plugin/60/icon-2bwhkn3zf1f.png",
+    "SourceRepo": "https://love.puni.sh/ment.json",
+    "AlternateSources": [
+      "https://raw.githubusercontent.com/a03831/Dalamud.SkipCutscene/dist/repo.json",
+      "https://raw.githubusercontent.com/ryoniive/Dalamud-Darkness-Repo/raw/main/ffxiv_custom_repo.json",
+      "https://raw.githubusercontent.com/Milestonee/GambaGames/main/repo.json",
+      "https://plugins.carvel.li/"
+    ]
   },
   {
     "Author": "daemitus, kawaii",
@@ -276,7 +361,7 @@
     "Description": "Tired of clicking yes in Praetorium? Can't stand using keys in dungeons? Well do I have the plugin for you! Yes Already is specifically designed to click all the annoying dialogs you've grown accustomed facerolling. Just enter the dialog text, and you'll never see it again! Also works with /regex/ and has several built-in modules for dialogs that aren't quite yes/no prompts but act like it (like desynth).",
     "Tags": [],
     "InternalName": "YesAlready",
-    "RepoUrl": "https://love.puni.sh/ment.json",
+    "RepoUrl": "https://github.com/PunishXIV/YesAlready",
     "DownloadCount": 889224,
     "LastUpdate": 1757873731,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/26/YesAlready/versions/1.13.03/latest.zip",
@@ -288,7 +373,14 @@
     "TestingAssemblyVersion": "1.10.4.0",
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/26/YesAlready/versions/1.10.4.0/testing.zip",
     "TestingDalamudApiLevel": "12",
-    "IconUrl": "https://s3.puni.sh/media/plugin/26/icon-v1pvonkr6r.png"
+    "IconUrl": "https://s3.puni.sh/media/plugin/26/icon-v1pvonkr6r.png",
+    "SourceRepo": "https://love.puni.sh/ment.json",
+    "AlternateSources": [
+      "https://raw.githubusercontent.com/a03831/Dalamud.SkipCutscene/dist/repo.json",
+      "https://raw.githubusercontent.com/ryoniive/Dalamud-Darkness-Repo/raw/main/ffxiv_custom_repo.json",
+      "https://raw.githubusercontent.com/Milestonee/GambaGames/main/repo.json",
+      "https://plugins.carvel.li/"
+    ]
   },
   {
     "Author": "attick, daemitus, Khayle",
@@ -297,7 +389,7 @@
     "Description": "This plugin condenses combos and mutually exclusive abilities onto a single button. For example, a 1-2-3 combo would become 1-1-1.",
     "InternalName": "XIVComboExpanded",
     "AssemblyVersion": "2.0.4.1",
-    "RepoUrl": "https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json",
+    "RepoUrl": "https://github.com/daemitus/XIVComboPlugin",
     "ApplicableVersion": "any",
     "Tags": [
       "combo",
@@ -315,7 +407,8 @@
     "DownloadLinkTesting": "https://github.com/daemitus/MyDalamudPlugins/raw/master/plugins/XIVComboExpanded/latest.zip",
     "DownloadLinkUpdate": "https://github.com/daemitus/MyDalamudPlugins/raw/master/plugins/XIVComboExpanded/latest.zip",
     "DownloadCount": 0,
-    "LastUpdate": "1755409547"
+    "LastUpdate": "1755409547",
+    "SourceRepo": "https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json"
   },
   {
     "Author": "Aida Enna",
@@ -324,7 +417,7 @@
     "InternalName": "AutoLogin",
     "AssemblyVersion": "1.3.0.5",
     "Changelog": "- Updated for patch 7.3",
-    "RepoUrl": "https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/repo.json",
+    "RepoUrl": "https://github.com/Aida-Enna/XIVPlugins",
     "ApplicableVersion": "any",
     "Tags": [
       "login",
@@ -339,7 +432,8 @@
     "IconUrl": "https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/Plogon/Resources/Icons/AutoLogin.png",
     "DownloadLinkInstall": "https://github.com/Aida-Enna/XIVPlugins/blob/main/Plogon/AutoLogin.zip?raw=true",
     "DownloadLinkTesting": "https://github.com/Aida-Enna/XIVPlugins/blob/main/Plogon/AutoLogin.zip?raw=true",
-    "DownloadLinkUpdate": "https://github.com/Aida-Enna/XIVPlugins/blob/main/Plogon/AutoLogin.zip?raw=true"
+    "DownloadLinkUpdate": "https://github.com/Aida-Enna/XIVPlugins/blob/main/Plogon/AutoLogin.zip?raw=true",
+    "SourceRepo": "https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/repo.json"
   },
   {
     "Author": "Aida Enna",
@@ -349,7 +443,7 @@
     "InternalName": "AutoPillion",
     "AssemblyVersion": "1.0.0.3",
     "Changelog": "- Updated for patch 7.3",
-    "RepoUrl": "https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/repo.json",
+    "RepoUrl": "https://github.com/Aida-Enna/XIVPlugins",
     "ApplicableVersion": "any",
     "Tags": [
       "mount",
@@ -364,7 +458,8 @@
     "IconUrl": "https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/Plogon/Resources/Icons/AutoPillion.png",
     "DownloadLinkInstall": "https://github.com/Aida-Enna/XIVPlugins/blob/main/Plogon/AutoPillion.zip?raw=true",
     "DownloadLinkTesting": "https://github.com/Aida-Enna/XIVPlugins/blob/main/Plogon/AutoPillion.zip?raw=true",
-    "DownloadLinkUpdate": "https://github.com/Aida-Enna/XIVPlugins/blob/main/Plogon/AutoPillion.zip?raw=true"
+    "DownloadLinkUpdate": "https://github.com/Aida-Enna/XIVPlugins/blob/main/Plogon/AutoPillion.zip?raw=true",
+    "SourceRepo": "https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/repo.json"
   },
   {
     "Author": "Aida Enna",
@@ -374,7 +469,7 @@
     "InternalName": "FoodCheck",
     "AssemblyVersion": "1.0.1.1",
     "Changelog": "- Updated for patch 7.3",
-    "RepoUrl": "https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/repo.json",
+    "RepoUrl": "https://github.com/Aida-Enna/XIVPlugins",
     "ApplicableVersion": "any",
     "Tags": [
       "food",
@@ -390,7 +485,8 @@
     "IconUrl": "https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/Plogon/Resources/Icons/FoodCheck.png",
     "DownloadLinkInstall": "https://github.com/Aida-Enna/XIVPlugins/blob/main/Plogon/FoodCheck.zip?raw=true",
     "DownloadLinkTesting": "https://github.com/Aida-Enna/XIVPlugins/blob/main/Plogon/FoodCheck.zip?raw=true",
-    "DownloadLinkUpdate": "https://github.com/Aida-Enna/XIVPlugins/blob/main/Plogon/FoodCheck.zip?raw=true"
+    "DownloadLinkUpdate": "https://github.com/Aida-Enna/XIVPlugins/blob/main/Plogon/FoodCheck.zip?raw=true",
+    "SourceRepo": "https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/repo.json"
   },
   {
     "Author": "Aida Enna",
@@ -400,7 +496,7 @@
     "InternalName": "MacroChainRedux",
     "AssemblyVersion": "2.1.1.4",
     "Changelog": "- Updated for patch 7.3",
-    "RepoUrl": "https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/repo.json",
+    "RepoUrl": "https://github.com/Aida-Enna/XIVPlugins",
     "ApplicableVersion": "any",
     "Tags": [
       "macro",
@@ -414,7 +510,8 @@
     "IconUrl": "https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/Plogon/Resources/Icons/MacroChainRedux.png",
     "DownloadLinkInstall": "https://github.com/Aida-Enna/XIVPlugins/blob/main/Plogon/MacroChainRedux.zip?raw=true",
     "DownloadLinkTesting": "https://github.com/Aida-Enna/XIVPlugins/blob/main/Plogon/MacroChainRedux.zip?raw=true",
-    "DownloadLinkUpdate": "https://github.com/Aida-Enna/XIVPlugins/blob/main/Plogon/MacroChainRedux.zip?raw=true"
+    "DownloadLinkUpdate": "https://github.com/Aida-Enna/XIVPlugins/blob/main/Plogon/MacroChainRedux.zip?raw=true",
+    "SourceRepo": "https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/repo.json"
   },
   {
     "Author": "Aida Enna",
@@ -424,7 +521,7 @@
     "InternalName": "PortraitFixer",
     "AssemblyVersion": "1.0.1.2",
     "Changelog": "- Updated for patch 7.3",
-    "RepoUrl": "https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/repo.json",
+    "RepoUrl": "https://github.com/Aida-Enna/XIVPlugins",
     "ApplicableVersion": "any",
     "Tags": [
       "portrait",
@@ -438,7 +535,8 @@
     "IconUrl": "https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/Plogon/Resources/Icons/PortraitFixer.png",
     "DownloadLinkInstall": "https://github.com/Aida-Enna/XIVPlugins/blob/main/Plogon/PortraitFixer.zip?raw=true",
     "DownloadLinkTesting": "https://github.com/Aida-Enna/XIVPlugins/blob/main/Plogon/PortraitFixer.zip?raw=true",
-    "DownloadLinkUpdate": "https://github.com/Aida-Enna/XIVPlugins/blob/main/Plogon/PortraitFixer.zip?raw=true"
+    "DownloadLinkUpdate": "https://github.com/Aida-Enna/XIVPlugins/blob/main/Plogon/PortraitFixer.zip?raw=true",
+    "SourceRepo": "https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/repo.json"
   },
   {
     "Author": "NightmareXIV, AsunaTsuki",
@@ -461,7 +559,11 @@
     "DownloadLinkTesting": "https://github.com/NightmareXIV/DynamicBridge/releases/download/1.0.7.4/latest.zip",
     "SupportsProfiles": true,
     "IconUrl": "https://raw.githubusercontent.com/NightmareXIV/DynamicBridge/main/DynamicBridge/images/icon.png",
-    "RepoUrl": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json"
+    "RepoUrl": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
+    "SourceRepo": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
+    "AlternateSources": [
+      "https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json"
+    ]
   },
   {
     "Author": "NightmareXIV",
@@ -474,7 +576,7 @@
     "AssemblyVersion": "1.0.2.9",
     "TestingAssemblyVersion": "1.0.2.6",
     "IsTestingExclusive": false,
-    "RepoUrl": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
+    "RepoUrl": "https://github.com/NightmareXIV/HuntTrainAssistant",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "TestingDalamudApiLevel": 12,
@@ -484,7 +586,8 @@
     "DownloadLinkUpdate": "https://github.com/NightmareXIV/HuntTrainAssistant/releases/download/1.0.2.9/latest.zip",
     "DownloadLinkTesting": "https://github.com/NightmareXIV/HuntTrainAssistant/releases/download/1.0.2.6/latest.zip",
     "SupportsProfiles": true,
-    "IconUrl": "https://raw.githubusercontent.com/NightmareXIV/HuntTrainAssistant/master/HuntTrainAssistant/images/icon.png"
+    "IconUrl": "https://raw.githubusercontent.com/NightmareXIV/HuntTrainAssistant/master/HuntTrainAssistant/images/icon.png",
+    "SourceRepo": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json"
   },
   {
     "Author": "NightmareXIV",
@@ -497,7 +600,7 @@
     "AssemblyVersion": "2.5.3.2",
     "TestingAssemblyVersion": "2.5.2.8",
     "IsTestingExclusive": false,
-    "RepoUrl": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
+    "RepoUrl": "https://github.com/NightmareXIV/Lifestream",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "TestingDalamudApiLevel": 13,
@@ -507,7 +610,8 @@
     "DownloadLinkUpdate": "https://github.com/NightmareXIV/Lifestream/releases/download/2.5.3.2/latest.zip",
     "DownloadLinkTesting": "https://github.com/NightmareXIV/Lifestream/releases/download/2.5.2.8/latest.zip",
     "SupportsProfiles": true,
-    "IconUrl": "https://raw.githubusercontent.com/NightmareXIV/Lifestream/main/Lifestream/images/icon.png"
+    "IconUrl": "https://raw.githubusercontent.com/NightmareXIV/Lifestream/main/Lifestream/images/icon.png",
+    "SourceRepo": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json"
   },
   {
     "Author": "NightmareXIV",
@@ -531,7 +635,8 @@
     "SupportsProfiles": true,
     "ImageUrls": [],
     "IconUrl": "https://raw.githubusercontent.com/NightmareXIV/DSREyeLocator/master/DSREyeLocator/images/icon.png",
-    "RepoUrl": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json"
+    "RepoUrl": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
+    "SourceRepo": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json"
   },
   {
     "Author": "NightmareXIV",
@@ -543,14 +648,15 @@
     "InternalName": "WExtras",
     "AssemblyVersion": "1.0.0.8",
     "IsTestingExclusive": false,
-    "RepoUrl": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
+    "RepoUrl": "https://github.com/NightmareXIV/WExtras",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "DownloadCount": 9551,
     "LastUpdate": 1754634172,
     "DownloadLinkInstall": "https://github.com/NightmareXIV/WExtras/releases/download/1.0.0.8/latest.zip",
     "DownloadLinkUpdate": "https://github.com/NightmareXIV/WExtras/releases/download/1.0.0.8/latest.zip",
-    "SupportsProfiles": true
+    "SupportsProfiles": true,
+    "SourceRepo": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json"
   },
   {
     "Author": "NightmareXIV",
@@ -563,7 +669,7 @@
     "AssemblyVersion": "3.2.4.7",
     "TestingAssemblyVersion": "3.2.3.0",
     "IsTestingExclusive": false,
-    "RepoUrl": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
+    "RepoUrl": "https://github.com/NightmareXIV/TextAdvance",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "TestingDalamudApiLevel": 10,
@@ -573,7 +679,8 @@
     "DownloadLinkUpdate": "https://github.com/NightmareXIV/TextAdvance/releases/download/3.2.4.7/latest.zip",
     "DownloadLinkTesting": "https://github.com/NightmareXIV/TextAdvance/releases/download/3.2.3.0/latest.zip",
     "SupportsProfiles": true,
-    "IconUrl": "https://raw.githubusercontent.com/NightmareXIV/TextAdvance/master/TextAdvance/images/icon.png"
+    "IconUrl": "https://raw.githubusercontent.com/NightmareXIV/TextAdvance/master/TextAdvance/images/icon.png",
+    "SourceRepo": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json"
   },
   {
     "Author": "NightmareXIV",
@@ -585,7 +692,7 @@
     "InternalName": "AntiAfkKick-Dalamud",
     "AssemblyVersion": "2.1.0.9",
     "IsTestingExclusive": false,
-    "RepoUrl": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
+    "RepoUrl": "https://github.com/NightmareXIV/AntiAfkKick",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "DownloadCount": 216734,
@@ -593,7 +700,8 @@
     "DownloadLinkInstall": "https://github.com/NightmareXIV/AntiAfkKick/releases/download/2.1.0.9/latest.zip",
     "DownloadLinkUpdate": "https://github.com/NightmareXIV/AntiAfkKick/releases/download/2.1.0.9/latest.zip",
     "SupportsProfiles": true,
-    "IconUrl": "https://raw.githubusercontent.com/NightmareXIV/AntiAfkKick/master/AntiAfkKick-Dalamud/images/icon.png"
+    "IconUrl": "https://raw.githubusercontent.com/NightmareXIV/AntiAfkKick/master/AntiAfkKick-Dalamud/images/icon.png",
+    "SourceRepo": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json"
   },
   {
     "Author": "NightmareXIV",
@@ -606,7 +714,7 @@
     "AssemblyVersion": "1.0.1.7",
     "TestingAssemblyVersion": "1.0.1.3",
     "IsTestingExclusive": false,
-    "RepoUrl": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
+    "RepoUrl": "https://github.com/NightmareXIV/SelectString",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "TestingDalamudApiLevel": 12,
@@ -616,7 +724,8 @@
     "DownloadLinkUpdate": "https://github.com/NightmareXIV/SelectString/releases/download/1.0.1.7/latest.zip",
     "DownloadLinkTesting": "https://github.com/NightmareXIV/SelectString/releases/download/1.0.1.3/latest.zip",
     "SupportsProfiles": true,
-    "IconUrl": "https://raw.githubusercontent.com/NightmareXIV/SelectString/master/SelectString/images/icon.png"
+    "IconUrl": "https://raw.githubusercontent.com/NightmareXIV/SelectString/master/SelectString/images/icon.png",
+    "SourceRepo": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json"
   },
   {
     "Author": "NightmareXIV",
@@ -628,7 +737,7 @@
     "InternalName": "Prioritizer",
     "AssemblyVersion": "2.0.1.2",
     "IsTestingExclusive": false,
-    "RepoUrl": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
+    "RepoUrl": "https://github.com/NightmareXIV/Prioritizer",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "DownloadCount": 18211,
@@ -636,7 +745,8 @@
     "DownloadLinkInstall": "https://github.com/NightmareXIV/Prioritizer/releases/download/2.0.1.2/latest.zip",
     "DownloadLinkUpdate": "https://github.com/NightmareXIV/Prioritizer/releases/download/2.0.1.2/latest.zip",
     "SupportsProfiles": true,
-    "IconUrl": "https://raw.githubusercontent.com/NightmareXIV/Prioritizer/master/Prioritizer/images/icon.png"
+    "IconUrl": "https://raw.githubusercontent.com/NightmareXIV/Prioritizer/master/Prioritizer/images/icon.png",
+    "SourceRepo": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json"
   },
   {
     "Author": "NightmareXIV",
@@ -648,14 +758,15 @@
     "InternalName": "UnloadErrorFuckOff",
     "AssemblyVersion": "1.0.0.8",
     "IsTestingExclusive": false,
-    "RepoUrl": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
+    "RepoUrl": "https://github.com/NightmareXIV/UnloadErrorFuckOff",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "DownloadCount": 6463,
     "LastUpdate": 1754546642,
     "DownloadLinkInstall": "https://github.com/NightmareXIV/UnloadErrorFuckOff/releases/download/1.0.0.8/latest.zip",
     "DownloadLinkUpdate": "https://github.com/NightmareXIV/UnloadErrorFuckOff/releases/download/1.0.0.8/latest.zip",
-    "SupportsProfiles": true
+    "SupportsProfiles": true,
+    "SourceRepo": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json"
   },
   {
     "Author": "NightmareXIV",
@@ -674,7 +785,8 @@
     "DownloadLinkInstall": "https://github.com/NightmareXIV/Imagenation/releases/download/1.0.0.8/latest.zip",
     "DownloadLinkUpdate": "https://github.com/NightmareXIV/Imagenation/releases/download/1.0.0.8/latest.zip",
     "SupportsProfiles": true,
-    "RepoUrl": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json"
+    "RepoUrl": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
+    "SourceRepo": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json"
   },
   {
     "Author": "NightmareXIV",
@@ -694,7 +806,8 @@
     "DownloadLinkUpdate": "https://github.com/NightmareXIV/ObjectExplorer/releases/download/1.0.0.8/latest.zip",
     "SupportsProfiles": true,
     "IconUrl": "",
-    "RepoUrl": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json"
+    "RepoUrl": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
+    "SourceRepo": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json"
   },
   {
     "Author": "NightmareXIV",
@@ -706,14 +819,15 @@
     "InternalName": "StandalonePluginManager",
     "AssemblyVersion": "1.0.0.1",
     "IsTestingExclusive": false,
-    "RepoUrl": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
+    "RepoUrl": "https://github.com/NightmareXIV/StandalonePluginManager",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "DownloadCount": 1067,
     "LastUpdate": 1760041844,
     "DownloadLinkInstall": "https://github.com/NightmareXIV/StandalonePluginManager/releases/download/1.0.0.1/latest.zip",
     "DownloadLinkUpdate": "https://github.com/NightmareXIV/StandalonePluginManager/releases/download/1.0.0.1/latest.zip",
-    "SupportsProfiles": true
+    "SupportsProfiles": true,
+    "SourceRepo": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json"
   },
   {
     "Author": "NightmareXIV",
@@ -726,7 +840,7 @@
     "AssemblyVersion": "1.0.2.1",
     "TestingAssemblyVersion": "1.0.0.9",
     "IsTestingExclusive": false,
-    "RepoUrl": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
+    "RepoUrl": "https://github.com/NightmareXIV/Battlevest",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "TestingDalamudApiLevel": 10,
@@ -736,7 +850,8 @@
     "DownloadLinkUpdate": "https://github.com/NightmareXIV/Battlevest/releases/download/1.0.2.1/latest.zip",
     "DownloadLinkTesting": "https://github.com/NightmareXIV/Battlevest/releases/download/1.0.0.9/latest.zip",
     "SupportsProfiles": true,
-    "IconUrl": ""
+    "IconUrl": "",
+    "SourceRepo": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json"
   },
   {
     "Author": "NightmareXIV",
@@ -749,7 +864,7 @@
     "AssemblyVersion": "1.0.0.11",
     "TestingAssemblyVersion": "1.0.0.7",
     "IsTestingExclusive": false,
-    "RepoUrl": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
+    "RepoUrl": "https://github.com/NightmareXIV/Stylist",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "TestingDalamudApiLevel": 11,
@@ -759,7 +874,8 @@
     "DownloadLinkUpdate": "https://github.com/NightmareXIV/Stylist/releases/download/1.0.0.11/latest.zip",
     "DownloadLinkTesting": "https://github.com/NightmareXIV/Stylist/releases/download/1.0.0.7/latest.zip",
     "SupportsProfiles": true,
-    "IconUrl": "https://raw.githubusercontent.com/NightmareXIV/Stylist/main/Stylist/images/icon.png"
+    "IconUrl": "https://raw.githubusercontent.com/NightmareXIV/Stylist/main/Stylist/images/icon.png",
+    "SourceRepo": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json"
   },
   {
     "Author": "Det",
@@ -770,7 +886,7 @@
     "ImageUrls": [
       ""
     ],
-    "RepoUrl": "https://raw.githubusercontent.com/InitialDet/MyDalamudPlugins/main/pluginmaster.json",
+    "RepoUrl": "https://github.com/InitialDet/MinionRoulette",
     "Tags": [
       "Casual",
       "Minion"
@@ -789,7 +905,8 @@
     "DownloadCount": 3908,
     "DownloadLinkInstall": "https://github.com/InitialDet/MinionRoulette/releases/download/1.2.0.1/latest.zip",
     "DownloadLinkTesting": "https://github.com/InitialDet/MinionRoulette/releases/download/1.2.0.1/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/InitialDet/MinionRoulette/releases/download/1.2.0.1/latest.zip"
+    "DownloadLinkUpdate": "https://github.com/InitialDet/MinionRoulette/releases/download/1.2.0.1/latest.zip",
+    "SourceRepo": "https://raw.githubusercontent.com/InitialDet/MyDalamudPlugins/main/pluginmaster.json"
   },
   {
     "Author": "akira0245, Ori, Kalle, Zune",
@@ -798,7 +915,7 @@
     "AssemblyVersion": "3.2.1.3",
     "Description": "Bard performance using midi files or keyboard.\n- Solo and ensemble mode support\n- Text commands for instrument equip and switch\nSupported by FFXIV Bards & Bands Community: ffbard.com",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/pluginmaster.json",
+    "RepoUrl": "https://midibard.org",
     "Tags": [
       "music",
       "utility",
@@ -823,7 +940,8 @@
     "LastUpdate": "1758989930",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/plugins/MidiBard2/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/plugins/MidiBard2/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/plugins/MidiBard2/latest.zip"
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/plugins/MidiBard2/latest.zip",
+    "SourceRepo": "https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/pluginmaster.json"
   },
   {
     "Author": "LeonBlade",
@@ -832,7 +950,7 @@
     "Punchline": "House decorating made easy!",
     "InternalName": "BDTHPlugin",
     "AssemblyVersion": "1.7.1",
-    "RepoUrl": "https://raw.githubusercontent.com/LeonBlade/DalamudPlugins/main/repo.json",
+    "RepoUrl": "https://github.com/LeonBlade/BDTHPlugin",
     "ApplicableVersion": "any",
     "Tags": [
       "bdth",
@@ -851,7 +969,8 @@
     "DownloadCount": 55270,
     "DownloadLinkInstall": "https://github.com/LeonBlade/BDTHPlugin/releases/download/1.7.1/BDTHPlugin.zip",
     "DownloadLinkTesting": "https://github.com/LeonBlade/BDTHPlugin/releases/download/1.7.1/BDTHPlugin.zip",
-    "DownloadLinkUpdate": "https://github.com/LeonBlade/BDTHPlugin/releases/download/1.7.1/BDTHPlugin.zip"
+    "DownloadLinkUpdate": "https://github.com/LeonBlade/BDTHPlugin/releases/download/1.7.1/BDTHPlugin.zip",
+    "SourceRepo": "https://raw.githubusercontent.com/LeonBlade/DalamudPlugins/main/repo.json"
   },
   {
     "Author": "Chalkos",
@@ -860,7 +979,7 @@
     "Description": "Helper for your day-to-day market operations.",
     "InternalName": "Marketbuddy",
     "AssemblyVersion": "0.2.4.0",
-    "RepoUrl": "https://raw.githubusercontent.com/Chalkos/Marketbuddy/main/repo.json",
+    "RepoUrl": "https://github.com/chalkos/Marketbuddy",
     "ApplicableVersion": "any",
     "DownloadLinkInstall": "https://github.com/chalkos/Marketbuddy/raw/main/latest.zip",
     "IsHide": false,
@@ -869,7 +988,8 @@
     "DownloadLinkUpdate": "https://github.com/chalkos/Marketbuddy/raw/main/latest.zip",
     "DownloadCount": 0,
     "LastUpdated": "1754532873",
-    "Changelog": "* update for api13 (thanks PhoenixtheII)\n* persist option to open current prices list when holding SHIFT (thanks PhoenixtheII)"
+    "Changelog": "* update for api13 (thanks PhoenixtheII)\n* persist option to open current prices list when holding SHIFT (thanks PhoenixtheII)",
+    "SourceRepo": "https://raw.githubusercontent.com/Chalkos/Marketbuddy/main/repo.json"
   },
   {
     "Author": "UnknownX",
@@ -879,7 +999,7 @@
     "Changelog": "Fixed for 7.3 (Thanks to Zeffuro)",
     "InternalName": "NoClippy",
     "AssemblyVersion": "0.5.0.19",
-    "RepoUrl": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json",
+    "RepoUrl": "https://github.com/UnknownX7/NoClippy",
     "ApplicableVersion": "any",
     "CategoryTags": [
       "jobs",
@@ -896,7 +1016,8 @@
     "DownloadLinkTesting": "https://github.com/UnknownX7/NoClippy/releases/download/v0.5.0.19/latest.zip",
     "DownloadLinkUpdate": "https://github.com/UnknownX7/NoClippy/releases/download/v0.5.0.19/latest.zip",
     "DownloadCount": 55678,
-    "LastUpdate": "1754723794"
+    "LastUpdate": "1754723794",
+    "SourceRepo": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json"
   },
   {
     "Author": "UnknownX",
@@ -906,7 +1027,7 @@
     "Changelog": "",
     "InternalName": "ReAction",
     "AssemblyVersion": "1.3.4.2",
-    "RepoUrl": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json",
+    "RepoUrl": "https://github.com/UnknownX7/ReAction",
     "ApplicableVersion": "any",
     "CategoryTags": [
       "jobs"
@@ -922,7 +1043,8 @@
     "DownloadLinkTesting": "https://github.com/UnknownX7/ReAction/releases/download/v1.3.4.2/latest.zip",
     "DownloadLinkUpdate": "https://github.com/UnknownX7/ReAction/releases/download/v1.3.4.2/latest.zip",
     "DownloadCount": 19651,
-    "LastUpdate": "1754732126"
+    "LastUpdate": "1754732126",
+    "SourceRepo": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json"
   },
   {
     "Author": "UnknownX",
@@ -931,7 +1053,7 @@
     "Description": "This plugin is available as an option in ReAction now.",
     "InternalName": "Fractionality",
     "AssemblyVersion": "1.0.1.5",
-    "RepoUrl": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json",
+    "RepoUrl": "https://github.com/UnknownX7/Fractionality",
     "ApplicableVersion": "any",
     "CategoryTags": [],
     "DalamudApiLevel": 8,
@@ -945,7 +1067,8 @@
     "DownloadLinkTesting": "https://github.com/UnknownX7/Fractionality/releases/download/v1.0.1.5/latest.zip",
     "DownloadLinkUpdate": "https://github.com/UnknownX7/Fractionality/releases/download/v1.0.1.5/latest.zip",
     "DownloadCount": 954,
-    "LastUpdate": "1680237651"
+    "LastUpdate": "1680237651",
+    "SourceRepo": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json"
   },
   {
     "Author": "UnknownX",
@@ -955,7 +1078,7 @@
     "Changelog": "",
     "InternalName": "OOBlugin",
     "AssemblyVersion": "1.1.2.11",
-    "RepoUrl": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json",
+    "RepoUrl": "https://github.com/UnknownX7/OOBlugin",
     "ApplicableVersion": "any",
     "CategoryTags": [
       "utility"
@@ -971,7 +1094,8 @@
     "DownloadLinkTesting": "https://github.com/UnknownX7/OOBlugin/releases/download/v1.1.2.11/latest.zip",
     "DownloadLinkUpdate": "https://github.com/UnknownX7/OOBlugin/releases/download/v1.1.2.11/latest.zip",
     "DownloadCount": 10544,
-    "LastUpdate": "1696378706"
+    "LastUpdate": "1696378706",
+    "SourceRepo": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json"
   },
   {
     "Author": "UnknownX",
@@ -981,7 +1105,7 @@
     "Changelog": "",
     "InternalName": "Cammy",
     "AssemblyVersion": "2.1.0.13",
-    "RepoUrl": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json",
+    "RepoUrl": "https://github.com/UnknownX7/Cammy",
     "ApplicableVersion": "any",
     "CategoryTags": [
       "utility"
@@ -997,7 +1121,8 @@
     "DownloadLinkTesting": "https://github.com/UnknownX7/Cammy/releases/download/v2.1.0.13/latest.zip",
     "DownloadLinkUpdate": "https://github.com/UnknownX7/Cammy/releases/download/v2.1.0.13/latest.zip",
     "DownloadCount": 39026,
-    "LastUpdate": "1754893981"
+    "LastUpdate": "1754893981",
+    "SourceRepo": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json"
   },
   {
     "Author": "UnknownX",
@@ -1007,7 +1132,7 @@
     "Changelog": "",
     "InternalName": "DalamudRepoBrowser",
     "AssemblyVersion": "2.0.3.3",
-    "RepoUrl": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json",
+    "RepoUrl": "https://github.com/UnknownX7/DalamudRepoBrowser",
     "ApplicableVersion": "any",
     "CategoryTags": [
       "other"
@@ -1023,7 +1148,8 @@
     "DownloadLinkTesting": "https://github.com/UnknownX7/DalamudRepoBrowser/releases/download/v2.0.3.3/latest.zip",
     "DownloadLinkUpdate": "https://github.com/UnknownX7/DalamudRepoBrowser/releases/download/v2.0.3.3/latest.zip",
     "DownloadCount": 16280,
-    "LastUpdate": "1700166956"
+    "LastUpdate": "1700166956",
+    "SourceRepo": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json"
   },
   {
     "Author": "Liza Carvelli",
@@ -1032,7 +1158,7 @@
     "AssemblyVersion": "7.1",
     "Description": "",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json",
+    "RepoUrl": "https://git.carvel.li/liza/ARControl",
     "LoadRequiredState": 0,
     "LoadSync": false,
     "CanUnloadAsync": false,
@@ -1047,7 +1173,8 @@
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/carvel/ARControl_Update.zip",
     "Changelog": "v7.0 (2025-03-29)\n- API 12\n\nv6.1 (2025-01-12)\n- DoWM retainers no longer check if you've gathered an item as MIN/BTN\n\nv6.0 (2024-11-15)\n- API 11\n\nv5.8 (2024-10-28)\n- Show when items have unobtained folklore books in 'Locked Items' tab\n\nv5.7 (2024-08-02)\n- Show last update time on Inventory tab",
     "IsHide": false,
-    "IsTestingExclusive": false
+    "IsTestingExclusive": false,
+    "SourceRepo": "https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json"
   },
   {
     "Author": "Liza Carvelli",
@@ -1056,7 +1183,7 @@
     "AssemblyVersion": "8.1",
     "Description": "",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json",
+    "RepoUrl": "https://git.carvel.li/liza/Workshoppa",
     "LoadRequiredState": 0,
     "LoadSync": false,
     "CanUnloadAsync": false,
@@ -1071,7 +1198,8 @@
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/carvel/Workshoppa_Update.zip",
     "Changelog": "v8.0 (2025-03-30)\n- API 12\n\nv7.0 (2024-11-19)\n- API 11\n\nv6.2 (2024-07-28)\n- Exclude crystals, shards and clusters from generated material list (this was an unintended consequence of the 7.0 update)\n\nv6.1 (2024-07-12)\n- Fix 'Export Material List to Clipboard'\n\nv6.0 (2024-07-04)\n- API 10",
     "IsHide": false,
-    "IsTestingExclusive": false
+    "IsTestingExclusive": false,
+    "SourceRepo": "https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json"
   },
   {
     "Author": "Liza Carvelli",
@@ -1080,7 +1208,7 @@
     "AssemblyVersion": "6.1",
     "Description": "",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json",
+    "RepoUrl": "https://git.carvel.li/liza/Squadronista",
     "LoadRequiredState": 0,
     "LoadSync": false,
     "CanUnloadAsync": false,
@@ -1095,7 +1223,8 @@
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/carvel/Squadronista_Update.zip",
     "Changelog": "v6.0 (2025-03-29)\n- API 12\n\nv5.0 (2024-12-06)\n- API 11\n\nv4.0 (2024-07-07)\n- API 10\n- Update logic with regards to current mission attributes to hopefully solve some calculation issues\n\nv3.0 (2024-03-23)\n- NET 8\n\nv2.0 (2024-03-02)\n- Use GcArmyManager instead of addon/atk parsing",
     "IsHide": false,
-    "IsTestingExclusive": false
+    "IsTestingExclusive": false,
+    "SourceRepo": "https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json"
   },
   {
     "Author": "Liza Carvelli",
@@ -1104,7 +1233,7 @@
     "AssemblyVersion": "3.1",
     "Description": "Browse through all gear pieces available for each class/job and show possible upgrades",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json",
+    "RepoUrl": "https://git.carvel.li/liza/Gearsetter",
     "Tags": [
       "gearset",
       "gearsets"
@@ -1123,7 +1252,8 @@
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/carvel/Gearsetter_Update.zip",
     "Changelog": "v3.0 (2025-03-29)\n- API 12\n- Show which coffers an item can be obtained from\n\nv2.4 (2025-01-23)\n- Ignore unsupported materia types (e.g. elemental resistances)\n- Ignore eternity ring materia data\n\nv2.3 (2024-12-22)\n- Fix IPC\n\nv2.2 (2024-12-21)\n- Add special handling for 'Neophyte's Ring'\n- Update materia calculations to respect stat limits\n\nv2.1 (2024-11-21)\n- Include substat caps into the effective gear stat calculation",
     "IsHide": false,
-    "IsTestingExclusive": false
+    "IsTestingExclusive": false,
+    "SourceRepo": "https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json"
   },
   {
     "Author": "Liza Carvelli",
@@ -1132,7 +1262,7 @@
     "AssemblyVersion": "4.2",
     "Description": "Uploads your game statistics (such as quest progress, gil, retainer stats) to an InfluxDB or QuestDB instance, making it possible to automatically track your progress through external tools such as Grafana.",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json",
+    "RepoUrl": "https://git.carvel.li/liza/Influx",
     "LoadRequiredState": 0,
     "LoadSync": false,
     "CanUnloadAsync": false,
@@ -1147,7 +1277,8 @@
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/carvel/Influx_Update.zip",
     "Changelog": "v4.1 (2025-04-05)\n- Fix code that only works on the English game version\n\nv4.0 (2025-03-29)\n- API 12\n\nv3.0 (2025-03-16)\n- Add experimental support for QuestDB\n\nv2.2 (2025-03-02)\n- Make plugin compatible with AllaganTools 1.11.1+, thanks to nihilistzsche\n- Add 'Test Connection' button in the config window\n\nv2.1 (2025-02-27)\n- Add 'Auto enroll characters on login', thanks to Asuna",
     "IsHide": false,
-    "IsTestingExclusive": false
+    "IsTestingExclusive": false,
+    "SourceRepo": "https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json"
   },
   {
     "Author": "Liza Carvelli",
@@ -1156,7 +1287,7 @@
     "AssemblyVersion": "3.1",
     "Description": "A plugin for things that aren't worth their own plugins; see commands for details.",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json",
+    "RepoUrl": "https://git.carvel.li/liza/KitchenSink",
     "Tags": [
       "character switch"
     ],
@@ -1174,7 +1305,8 @@
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/carvel/KitchenSink_Update.zip",
     "Changelog": "v3.0 (2025-03-29)\nAPI 12\n\nv2.3 (2024-12-23)\n- Fix glamour set UI breaking when in instanced content\n\nv2.2 (2024-12-22)\n- Show currency count for 'Allied Societies' glamour set tab\n- Fix right-click on server info bar 'character switch' icon\n\nv2.1 (2024-11-23)\n- Highlight sets purchasable for MGP/Trophy Crystal/Wolf Marks that you can afford\n\nv2.0 (2024-11-20)\n- API 11\n- Add glamour set helper\n- Ignore errors when building DTR bar entry if AR isn't installed",
     "IsHide": false,
-    "IsTestingExclusive": false
+    "IsTestingExclusive": false,
+    "SourceRepo": "https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json"
   },
   {
     "Author": "Haselnussbomber",
@@ -1183,7 +1315,7 @@
     "AssemblyVersion": "1.37.0",
     "Description": "For developers.",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json",
+    "RepoUrl": "https://github.com/Haselnussbomber/HaselDebug",
     "DalamudApiLevel": 13,
     "LoadRequiredState": 0,
     "LoadSync": false,
@@ -1195,7 +1327,11 @@
     "DownloadCount": 220,
     "LastUpdate": 1760309412,
     "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselDebug/releases/download/v1.37.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselDebug/releases/download/v1.37.0/latest.zip"
+    "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselDebug/releases/download/v1.37.0/latest.zip",
+    "SourceRepo": "https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json",
+    "AlternateSources": [
+      "https://raw.githubusercontent.com/Haselnussbomber/MyDalamudPlugins/main/repo.json"
+    ]
   },
   {
     "Author": "Haselnussbomber",
@@ -1204,7 +1340,7 @@
     "AssemblyVersion": "40.0.2",
     "Description": "Keep on tweaking.",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json",
+    "RepoUrl": "https://github.com/Haselnussbomber/HaselTweaks",
     "DalamudApiLevel": 13,
     "LoadRequiredState": 1,
     "LoadSync": false,
@@ -1217,7 +1353,11 @@
     "DownloadCount": 5716,
     "LastUpdate": 1760792477,
     "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v40.0.2/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v40.0.2/latest.zip"
+    "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v40.0.2/latest.zip",
+    "SourceRepo": "https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json",
+    "AlternateSources": [
+      "https://raw.githubusercontent.com/Haselnussbomber/MyDalamudPlugins/main/repo.json"
+    ]
   },
   {
     "Author": "Haselnussbomber",
@@ -1226,7 +1366,7 @@
     "AssemblyVersion": "2.5.4",
     "Description": "A little helper to check which Levequests have been completed and which are missing.",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json",
+    "RepoUrl": "https://github.com/Haselnussbomber/LeveHelper",
     "DalamudApiLevel": 13,
     "LoadRequiredState": 1,
     "LoadSync": false,
@@ -1239,7 +1379,11 @@
     "DownloadCount": 1432,
     "LastUpdate": 1754742951,
     "DownloadLinkInstall": "https://github.com/Haselnussbomber/LeveHelper/releases/download/v2.5.4/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Haselnussbomber/LeveHelper/releases/download/v2.5.4/latest.zip"
+    "DownloadLinkUpdate": "https://github.com/Haselnussbomber/LeveHelper/releases/download/v2.5.4/latest.zip",
+    "SourceRepo": "https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json",
+    "AlternateSources": [
+      "https://raw.githubusercontent.com/Haselnussbomber/MyDalamudPlugins/main/repo.json"
+    ]
   },
   {
     "Author": "Haselnussbomber",
@@ -1248,7 +1392,7 @@
     "AssemblyVersion": "1.2.0",
     "Description": "Yo-kai Check is a small plugin to assist you in tracking the rewards of the Yo-kai Watch event.",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json",
+    "RepoUrl": "https://github.com/Haselnussbomber/YokaiCheck",
     "DalamudApiLevel": 9,
     "LoadRequiredState": 1,
     "LoadSync": false,
@@ -1261,7 +1405,11 @@
     "DownloadCount": 917,
     "LastUpdate": 1714178614,
     "DownloadLinkInstall": "https://github.com/Haselnussbomber/YokaiCheck/releases/download/v1.2.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Haselnussbomber/YokaiCheck/releases/download/v1.2.0/latest.zip"
+    "DownloadLinkUpdate": "https://github.com/Haselnussbomber/YokaiCheck/releases/download/v1.2.0/latest.zip",
+    "SourceRepo": "https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json",
+    "AlternateSources": [
+      "https://raw.githubusercontent.com/Haselnussbomber/MyDalamudPlugins/main/repo.json"
+    ]
   },
   {
     "Author": "veyn, xan_0",
@@ -1270,7 +1418,7 @@
     "Description": "A bunch of utilities to simplify bosses. Currently supports endwalker content.",
     "Tags": [],
     "InternalName": "BossMod",
-    "RepoUrl": "https://puni.sh/api/repository/veyn",
+    "RepoUrl": "https://github.com/awgil/ffxiv_bossmod",
     "DownloadCount": 1205016,
     "LastUpdate": 1761458794,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/30/BossMod/versions/0.4.4.2/latest.zip",
@@ -1284,7 +1432,8 @@
       "https://s3.puni.sh/media/plugin/30/image-4mbxiq5k4pl.png",
       "https://s3.puni.sh/media/plugin/30/image-nc231jzj2gb.png",
       "https://s3.puni.sh/media/plugin/30/image-3nufuhgwbhl.png"
-    ]
+    ],
+    "SourceRepo": "https://puni.sh/api/repository/veyn"
   },
   {
     "Author": "veyn",
@@ -1302,7 +1451,8 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": "13",
     "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/58/icon-hffi2ft0zlg.png"
+    "IconUrl": "https://s3.puni.sh/media/plugin/58/icon-hffi2ft0zlg.png",
+    "SourceRepo": "https://puni.sh/api/repository/veyn"
   },
   {
     "Author": "veyn",
@@ -1311,7 +1461,7 @@
     "Description": "Based on ezFauxHollows, but uses known patterns instead of general-purpose solver.",
     "Tags": [],
     "InternalName": "vfaux",
-    "RepoUrl": "https://puni.sh/api/repository/veyn",
+    "RepoUrl": "https://github.com/awgil/vfaux",
     "DownloadCount": 51943,
     "LastUpdate": 1754783661,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/29/vfaux/versions/0.0.0.9/latest.zip",
@@ -1320,7 +1470,8 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": "13",
     "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/29/icon-3vysu0z0eem.png"
+    "IconUrl": "https://s3.puni.sh/media/plugin/29/icon-3vysu0z0eem.png",
+    "SourceRepo": "https://puni.sh/api/repository/veyn"
   },
   {
     "Author": "veyn, croizat",
@@ -1329,8 +1480,8 @@
     "Description": "Automate gathering, workshop assignments, etc.",
     "Tags": [],
     "InternalName": "visland",
-    "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 654573,
+    "RepoUrl": "https://github.com/awgil/ffxiv_visland",
+    "DownloadCount": 654574,
     "LastUpdate": 1754783803,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/28/visland/versions/0.0.0.137/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/28/visland/versions/0.0.0.137/latest.zip",
@@ -1338,7 +1489,8 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": "13",
     "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/28/icon-lruwx4y549.png"
+    "IconUrl": "https://s3.puni.sh/media/plugin/28/icon-lruwx4y549.png",
+    "SourceRepo": "https://puni.sh/api/repository/veyn"
   },
   {
     "Author": "veyn, xan_0",
@@ -1359,7 +1511,8 @@
     "TestingAssemblyVersion": "0.5.3.1",
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/0.5.3.1/testing.zip",
     "TestingDalamudApiLevel": "13",
-    "IconUrl": "https://s3.puni.sh/media/plugin/48/icon-ylwecng2h0n.png"
+    "IconUrl": "https://s3.puni.sh/media/plugin/48/icon-ylwecng2h0n.png",
+    "SourceRepo": "https://puni.sh/api/repository/veyn"
   },
   {
     "Author": "veyn",
@@ -1377,7 +1530,8 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": "10",
     "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/41/icon-ky2vlcaen2q.png"
+    "IconUrl": "https://s3.puni.sh/media/plugin/41/icon-ky2vlcaen2q.png",
+    "SourceRepo": "https://puni.sh/api/repository/veyn"
   },
   {
     "Author": "Herculezz, James, erdelf",
@@ -1386,7 +1540,7 @@
     "Description": "A plugin to run dungeons for you with Trust, Duty Support, Squadrons, Variants, and Regular, Requires BossMod, vnavmesh and a Rotation Plugin (BossMod AutoRotation, Wrath or RotationSolverReborn)",
     "Tags": [],
     "InternalName": "AutoDuty",
-    "RepoUrl": "https://puni.sh/api/repository/herc",
+    "RepoUrl": "https://github.com/ffxivcode/AutoDuty",
     "DownloadCount": 914079,
     "LastUpdate": 1761506627,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/0.0.0.251/latest.zip",
@@ -1405,7 +1559,8 @@
       "https://s3.puni.sh/media/plugin/54/image-vkvtqki3ggh.png",
       "https://s3.puni.sh/media/plugin/54/image-pw9lcsan22.png",
       "https://s3.puni.sh/media/plugin/54/image-5lu04i95hz8.png"
-    ]
+    ],
+    "SourceRepo": "https://puni.sh/api/repository/herc"
   },
   {
     "Author": "Herculezz",
@@ -1414,7 +1569,7 @@
     "Description": "A bunch of utilities to simplify multi-boxing, and a IPC broadcaster",
     "Tags": [],
     "InternalName": "MBT",
-    "RepoUrl": "https://puni.sh/api/repository/herc",
+    "RepoUrl": "https://github.com/ffxivcode/MBT",
     "DownloadCount": 1371,
     "LastUpdate": 1725604589,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/59/MBT/versions/0.0.0.16/latest.zip",
@@ -1426,7 +1581,8 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/59/icon-ip39o3kb75.png",
     "ImageUrls": [
       "https://s3.puni.sh/media/plugin/59/image-76g0cnkuc7q.png"
-    ]
+    ],
+    "SourceRepo": "https://puni.sh/api/repository/herc"
   },
   {
     "Author": "The Combat Reborn Team",
@@ -1462,7 +1618,8 @@
     "TestingAssemblyVersion": "7.3.0.49",
     "Changelog": "## What's Changed\r\n* Fix for PLD clemency not considering self by @LTS-FFXIV in https://github.com/FFXIV-CombatReborn/RotationSolverReborn/pull/1050\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/RotationSolverReborn/compare/7.3.5.15...7.3.5.16",
     "DownloadCount": 1770266,
-    "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
+    "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
+    "SourceRepo": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
     "Author": "The Combat Reborn Team",
@@ -1496,7 +1653,8 @@
     "TestingAssemblyVersion": "1.0.2.1",
     "Changelog": "## What's Changed\r\n* add transparency option for zone module windows, merge vbm by @CarnifexOptimus in https://github.com/FFXIV-CombatReborn/BossmodReborn/pull/1028\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/BossmodReborn/compare/7.3.5.20...7.3.5.21",
     "DownloadCount": 2259397,
-    "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
+    "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
+    "SourceRepo": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
     "Author": "The Combat Reborn Team",
@@ -1525,7 +1683,8 @@
     "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/ActionTimelineReborn/releases/download/7.3.1.0/ActionTimelineReborn.zip",
     "Changelog": "## What's Changed\r\n* Update OnCastHook Sigs by @ElliotZ in https://github.com/FFXIV-CombatReborn/ActionTimelineReborn/pull/9\r\n\r\n## New Contributors\r\n* @ElliotZ made their first contribution in https://github.com/FFXIV-CombatReborn/ActionTimelineReborn/pull/9\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/ActionTimelineReborn/compare/7.3.0.3...7.3.1.0",
     "DownloadCount": 18418,
-    "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
+    "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
+    "SourceRepo": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
     "Author": "The Combat Reborn Team",
@@ -1555,7 +1714,8 @@
     "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/EasyZoomReborn/releases/download/7.3.0.0/EasyZoomReborn.zip",
     "Changelog": "## What's Changed\r\n* Update for 7.3 by @LTS-FFXIV in https://github.com/FFXIV-CombatReborn/EasyZoomReborn/pull/11\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/EasyZoomReborn/compare/7.2.0.0...7.3.0.0",
     "DownloadCount": 32596,
-    "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
+    "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
+    "SourceRepo": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
     "Author": "The Combat Reborn Team",
@@ -1594,7 +1754,8 @@
     "TestingAssemblyVersion": "7.3.5.9",
     "Changelog": "## What's Changed\r\n* UI modifications by @Deathbeyond87 in https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/pull/423\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/compare/7.3.5.6...7.3.5.7",
     "DownloadCount": 466444,
-    "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
+    "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
+    "SourceRepo": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
     "Author": "The Combat Reborn Team",
@@ -1621,7 +1782,8 @@
     "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/RebornToolbox/releases/download/7.2.0.1/RebornToolbox.zip",
     "Changelog": "## What's Changed\r\n* Deprecate Supermarket Sweep by @NostraThomas99 in https://github.com/FFXIV-CombatReborn/RebornToolbox/pull/14\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/RebornToolbox/compare/7.2.0.0...7.2.0.1",
     "DownloadCount": 20637,
-    "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
+    "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
+    "SourceRepo": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
     "Author": "The Combat Reborn Team",
@@ -1653,7 +1815,8 @@
     "TestingAssemblyVersion": "7.2.5.3",
     "Changelog": "## What's Changed\r\n* Systems Update by @Deathbeyond87 in https://github.com/FFXIV-CombatReborn/ZodiacBuddyReborn/pull/5\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/ZodiacBuddyReborn/compare/7.3.1.1...7.3.1.2",
     "DownloadCount": 6268,
-    "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
+    "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
+    "SourceRepo": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
     "Author": "The Combat Reborn Team",
@@ -1688,7 +1851,8 @@
     "TestingAssemblyVersion": "0.0.0.2",
     "Changelog": "**Full Changelog**: https://github.com/Party-Finder-Reborn/party-finder-plugin/compare/7.3.0.0...7.3.0.1",
     "DownloadCount": 2821,
-    "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
+    "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
+    "SourceRepo": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
   {
     "Author": "croizat",
@@ -1697,7 +1861,7 @@
     "Description": "Now for more than crafting!",
     "Tags": [],
     "InternalName": "SomethingNeedDoing",
-    "RepoUrl": "https://puni.sh/api/repository/croizat",
+    "RepoUrl": "https://github.com/Jaksuhn/SomethingNeedDoing",
     "DownloadCount": 619501,
     "LastUpdate": 1761522054,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/13.52/latest.zip",
@@ -1706,7 +1870,8 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": "13",
     "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/25/icon-6h5x17j9gpr.png"
+    "IconUrl": "https://s3.puni.sh/media/plugin/25/icon-6h5x17j9gpr.png",
+    "SourceRepo": "https://puni.sh/api/repository/croizat"
   },
   {
     "Author": "croizat",
@@ -1719,7 +1884,7 @@
       "tweaks"
     ],
     "InternalName": "Automaton",
-    "RepoUrl": "https://puni.sh/api/repository/croizat",
+    "RepoUrl": "https://github.com/Jaksuhn/Automaton",
     "DownloadCount": 270440,
     "LastUpdate": 1760958211,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/34/Automaton/versions/69.94/latest.zip",
@@ -1728,7 +1893,8 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": "13",
     "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/34/icon-z405dwrdjem.png"
+    "IconUrl": "https://s3.puni.sh/media/plugin/34/icon-z405dwrdjem.png",
+    "SourceRepo": "https://puni.sh/api/repository/croizat"
   },
   {
     "Author": "KangasZ",
@@ -1737,7 +1903,7 @@
     "Description": "A plugin which could help you skip cutscene from Duty Roulette: Main Scenario.",
     "InternalName": "SkipCutscene",
     "AssemblyVersion": "3.0.1.2",
-    "RepoUrl": "https://raw.githubusercontent.com/KangasZ/DalamudPluginRepository/main/plugin_repository.json",
+    "RepoUrl": "https://github.com/KangasZ/SkipCutscene",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "DownloadLinkInstall": "https://github.com/KangasZ/DalamudPluginRepository/raw/main/plugins/SkipCutscene/latest.zip",
@@ -1746,7 +1912,8 @@
     "DownloadLinkTesting": "https://github.com/KangasZ/DalamudPluginRepository/raw/main/plugins/SkipCutscene/latest.zip",
     "DownloadLinkUpdate": "https://github.com/KangasZ/DalamudPluginRepository/raw/main/plugins/SkipCutscene/latest.zip",
     "DownloadCount": 0,
-    "LastUpdate": "1760060647"
+    "LastUpdate": "1760060647",
+    "SourceRepo": "https://raw.githubusercontent.com/KangasZ/DalamudPluginRepository/main/plugin_repository.json"
   },
   {
     "Author": "KangasZ",
@@ -1756,7 +1923,7 @@
     "Changelog": "Initial support for new deep dungeon",
     "InternalName": "RadarPlugin",
     "AssemblyVersion": "2.1.8.1",
-    "RepoUrl": "https://raw.githubusercontent.com/KangasZ/DalamudPluginRepository/main/plugin_repository.json",
+    "RepoUrl": "https://github.com/KangasZ/RadarPlugin",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "DownloadLinkInstall": "https://github.com/KangasZ/DalamudPluginRepository/raw/main/plugins/RadarPlugin/latest.zip",
@@ -1765,7 +1932,8 @@
     "DownloadLinkTesting": "https://github.com/KangasZ/DalamudPluginRepository/raw/main/plugins/RadarPlugin/latest.zip",
     "DownloadLinkUpdate": "https://github.com/KangasZ/DalamudPluginRepository/raw/main/plugins/RadarPlugin/latest.zip",
     "DownloadCount": 0,
-    "LastUpdate": "1760060647"
+    "LastUpdate": "1760060647",
+    "SourceRepo": "https://raw.githubusercontent.com/KangasZ/DalamudPluginRepository/main/plugin_repository.json"
   },
   {
     "Author": "KangasZ",
@@ -1774,7 +1942,7 @@
     "Description": "Weather tracker and daily/weekly reset tracker",
     "InternalName": "KangasTweaks",
     "AssemblyVersion": "0.0.7.3",
-    "RepoUrl": "https://raw.githubusercontent.com/KangasZ/DalamudPluginRepository/main/plugin_repository.json",
+    "RepoUrl": "https://github.com/KangasZ/KangasTweaks",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "DownloadLinkInstall": "https://github.com/KangasZ/DalamudPluginRepository/raw/main/plugins/KangasTweaks/latest.zip",
@@ -1783,7 +1951,8 @@
     "DownloadLinkTesting": "https://github.com/KangasZ/DalamudPluginRepository/raw/main/plugins/KangasTweaks/latest.zip",
     "DownloadLinkUpdate": "https://github.com/KangasZ/DalamudPluginRepository/raw/main/plugins/KangasTweaks/latest.zip",
     "DownloadCount": 0,
-    "LastUpdate": "1760060647"
+    "LastUpdate": "1760060647",
+    "SourceRepo": "https://raw.githubusercontent.com/KangasZ/DalamudPluginRepository/main/plugin_repository.json"
   },
   {
     "Author": "KangasZ",
@@ -1792,7 +1961,7 @@
     "Description": "A Dalamud Plugin that will do afk-timers!",
     "InternalName": "UIAntiAfkKick",
     "AssemblyVersion": "3.2.6.4",
-    "RepoUrl": "https://raw.githubusercontent.com/KangasZ/DalamudPluginRepository/main/plugin_repository.json",
+    "RepoUrl": "https://github.com/KangasZ/UIAntiAfkKick",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "DownloadLinkInstall": "https://github.com/KangasZ/DalamudPluginRepository/raw/main/plugins/UIAntiAfkKick/latest.zip",
@@ -1801,7 +1970,8 @@
     "DownloadLinkTesting": "https://github.com/KangasZ/DalamudPluginRepository/raw/main/plugins/UIAntiAfkKick/latest.zip",
     "DownloadLinkUpdate": "https://github.com/KangasZ/DalamudPluginRepository/raw/main/plugins/UIAntiAfkKick/latest.zip",
     "DownloadCount": 0,
-    "LastUpdate": "1760060647"
+    "LastUpdate": "1760060647",
+    "SourceRepo": "https://raw.githubusercontent.com/KangasZ/DalamudPluginRepository/main/plugin_repository.json"
   },
   {
     "Author": "Athavar",
@@ -1811,7 +1981,7 @@
     "Changelog": "Go to https://github.com/Athavar/Athavar.FFXIV.Plugin/releases/latest to find the last changes.",
     "InternalName": "Athavar.FFXIV.Plugin",
     "AssemblyVersion": "2.3.0.1",
-    "RepoUrl": "https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json",
+    "RepoUrl": "https://github.com/Athavar/Athavar.FFXIV.Plugin",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "IconUrl": "https://raw.githubusercontent.com/Athavar/Athavar.FFXIV.DalaRepo/master/plugins/Athavar.FFXIV.Plugin/images/icon.png",
@@ -1826,7 +1996,8 @@
     "DownloadLinkTesting": "https://github.com/Athavar/Athavar.FFXIV.Plugin/releases/download/v2.3.0.1/latest.zip",
     "DownloadLinkUpdate": "https://github.com/Athavar/Athavar.FFXIV.Plugin/releases/download/v2.3.0.1/latest.zip",
     "DownloadCount": 0,
-    "LastUpdated": "1755107833"
+    "LastUpdated": "1755107833",
+    "SourceRepo": "https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json"
   },
   {
     "Author": "emyxiv",
@@ -1842,11 +2013,12 @@
     ],
     "InternalName": "Dresser",
     "AssemblyVersion": "0.6.0.1",
-    "RepoUrl": "https://github.com/emyxiv/Dresser/raw/master/repo.json",
+    "RepoUrl": "https://github.com/emyxiv/Dresser",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "DownloadCount": 1406,
-    "DownloadLinkInstall": "https://github.com/emyxiv/Dresser/releases/download/v0.6.0.1/latest.zip"
+    "DownloadLinkInstall": "https://github.com/emyxiv/Dresser/releases/download/v0.6.0.1/latest.zip",
+    "SourceRepo": "https://github.com/emyxiv/Dresser/raw/master/repo.json"
   },
   {
     "Author": "MilesNocte",
@@ -1861,7 +2033,7 @@
       "Deathroll",
       "Blackjack"
     ],
-    "RepoUrl": "https://github.com/Milesnocte/GambaGames/raw/main/repo.json",
+    "RepoUrl": "https://github.com/Milesnocte/GambaGames",
     "DalamudApiLevel": 10,
     "LoadRequiredState": 0,
     "LoadSync": false,
@@ -1871,7 +2043,8 @@
     "DownloadLinkInstall": "https://github.com/Milesnocte/GambaGames/releases/download/0.0.1.9/latest.zip",
     "DownloadLinkTesting": "https://github.com/Milesnocte/GambaGames/releases/download/0.0.1.9/latest.zip",
     "DownloadLinkUpdate": "https://github.com/Milesnocte/GambaGames/releases/download/0.0.1.9/latest.zip",
-    "AcceptsFeedback": true
+    "AcceptsFeedback": true,
+    "SourceRepo": "https://github.com/Milesnocte/GambaGames/raw/main/repo.json"
   },
   {
     "Author": "Bluefissure",
@@ -1880,7 +2053,7 @@
     "AssemblyVersion": "1.0.8.0",
     "Description": "Double weaving in high latency network.",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json",
+    "RepoUrl": "https://github.com/Bluefissure/DoubleWeaver",
     "Tags": [
       "bluefissure",
       "doublewaver"
@@ -1899,7 +2072,8 @@
     "LastUpdate": "1733107895",
     "DownloadLinkInstall": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/plugins/DoubleWeaver/latest.zip",
     "DownloadLinkTesting": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/plugins/DoubleWeaver/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/plugins/DoubleWeaver/latest.zip"
+    "DownloadLinkUpdate": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/plugins/DoubleWeaver/latest.zip",
+    "SourceRepo": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json"
   },
   {
     "Author": "Bluefissure",
@@ -1908,7 +2082,7 @@
     "AssemblyVersion": "1.3.2.0",
     "Description": "Automatically save/load the positions of housing furnitures.",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json",
+    "RepoUrl": "https://github.com/Bluefissure/HousingPos",
     "Tags": [
       "bluefissure",
       "housing"
@@ -1926,7 +2100,8 @@
     "LastUpdate": "1733107895",
     "DownloadLinkInstall": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/plugins/HousingPos/latest.zip",
     "DownloadLinkTesting": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/plugins/HousingPos/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/plugins/HousingPos/latest.zip"
+    "DownloadLinkUpdate": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/plugins/HousingPos/latest.zip",
+    "SourceRepo": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json"
   },
   {
     "Author": "Bluefissure",
@@ -1939,7 +2114,7 @@
       "Util",
       "UI"
     ],
-    "RepoUrl": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json",
+    "RepoUrl": "https://github.com/Bluefissure/IMEPlugin",
     "AssemblyVersion": "1.0.8.0",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 6,
@@ -1949,7 +2124,8 @@
     "LastUpdate": "1660430493",
     "DownloadLinkInstall": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/plugins/IMEPlugin/latest.zip",
     "DownloadLinkTesting": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/plugins/IMEPlugin/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/plugins/IMEPlugin/latest.zip"
+    "DownloadLinkUpdate": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/plugins/IMEPlugin/latest.zip",
+    "SourceRepo": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json"
   },
   {
     "Author": "Bluefissure",
@@ -1958,7 +2134,7 @@
     "AssemblyVersion": "1.1.4.0",
     "Description": "Automatically invite people to your party (doesn't work for CWLS). /xinvite to open.",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json",
+    "RepoUrl": "https://github.com/Bluefissure/Inviter",
     "DalamudApiLevel": 12,
     "LoadRequiredState": 0,
     "LoadSync": false,
@@ -1973,7 +2149,8 @@
     "LastUpdate": "1755483028",
     "DownloadLinkInstall": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/plugins/Inviter/latest.zip",
     "DownloadLinkTesting": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/plugins/Inviter/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/plugins/Inviter/latest.zip"
+    "DownloadLinkUpdate": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/plugins/Inviter/latest.zip",
+    "SourceRepo": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json"
   },
   {
     "Author": "Bluefissure",
@@ -1982,7 +2159,7 @@
     "AssemblyVersion": "1.0.3.1",
     "Description": "Smart Vote the Mvp in player commendation for you.",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json",
+    "RepoUrl": "https://github.com/Bluefissure/SmartVote",
     "DalamudApiLevel": 5,
     "LoadPriority": 0,
     "IsHide": "False",
@@ -1991,7 +2168,8 @@
     "LastUpdate": "1639105128",
     "DownloadLinkInstall": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/plugins/SmartVote/latest.zip",
     "DownloadLinkTesting": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/plugins/SmartVote/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/plugins/SmartVote/latest.zip"
+    "DownloadLinkUpdate": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/plugins/SmartVote/latest.zip",
+    "SourceRepo": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json"
   },
   {
     "Author": "Bluefissure",
@@ -1999,7 +2177,7 @@
     "Description": "A simple plugin that lock the positions of specified windows. /windowlocker to open.",
     "InternalName": "WindowLocker",
     "AssemblyVersion": "1.0.1.0",
-    "RepoUrl": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json",
+    "RepoUrl": "https://github.com/Bluefissure/WindowLocker",
     "IconUrl": "https://raw.githubusercontent.com/Bluefissure/WindowLocker/master/images/icon.png",
     "ApplicableVersion": "any",
     "Tags": [
@@ -2014,7 +2192,8 @@
     "LastUpdate": "1639105128",
     "DownloadLinkInstall": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/plugins/WindowLocker/latest.zip",
     "DownloadLinkTesting": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/plugins/WindowLocker/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/plugins/WindowLocker/latest.zip"
+    "DownloadLinkUpdate": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/plugins/WindowLocker/latest.zip",
+    "SourceRepo": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json"
   },
   {
     "Author": "HuntsFFXIV",
@@ -2023,7 +2202,7 @@
     "InternalName": "HuntAlerts",
     "AssemblyVersion": "1.3.3.0",
     "Changelog": "7.3 fixes",
-    "RepoUrl": "https://github.com/huntsffxiv/repo/raw/main/repo.json",
+    "RepoUrl": "https://github.com/huntsffxiv",
     "ApplicableVersion": "any",
     "Tags": [
       "hunt",
@@ -2039,7 +2218,8 @@
     "IconUrl": "https://cdn.discordapp.com/attachments/1197030696372408382/1197623443814891680/FFXIV_Hunts_logo.png",
     "DownloadLinkInstall": "https://github.com/huntsffxiv/repo/releases/download/v1.3.3.0/HuntAlerts_v1.3.3.0.zip",
     "DownloadLinkTesting": "https://github.com/huntsffxiv/repo/releases/download/v1.3.3.0/HuntAlerts_v1.3.3.0.zip",
-    "DownloadLinkUpdate": "https://github.com/huntsffxiv/repo/releases/download/v1.3.3.0/HuntAlerts_v1.3.3.0.zip"
+    "DownloadLinkUpdate": "https://github.com/huntsffxiv/repo/releases/download/v1.3.3.0/HuntAlerts_v1.3.3.0.zip",
+    "SourceRepo": "https://github.com/huntsffxiv/repo/raw/main/repo.json"
   },
   {
     "Author": "GiR-Zippo, Meowchestra",
@@ -2048,7 +2228,7 @@
     "AssemblyVersion": "0.0.2.1",
     "Description": "LightAmp companion for enhanced functionality.",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json",
+    "RepoUrl": "https://github.com//GiR-Zippo/Hypnotoad-Plugin",
     "CategoryTags": [
       "utility",
       "other"
@@ -2061,7 +2241,8 @@
     "LastUpdate": "1757269133",
     "DownloadLinkInstall": "https://github.com//GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.2.1/latest.zip",
     "DownloadLinkTesting": "https://github.com//GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.2.1/latest.zip",
-    "DownloadLinkUpdate": "https://github.com//GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.2.1/latest.zip"
+    "DownloadLinkUpdate": "https://github.com//GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.2.1/latest.zip",
+    "SourceRepo": "https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json"
   },
   {
     "Author": "Ottermandias",
@@ -2083,7 +2264,7 @@
     "InternalName": "Glamourer",
     "AssemblyVersion": "1.5.1.3",
     "TestingAssemblyVersion": "1.5.1.4",
-    "RepoUrl": "https://raw.githubusercontent.com/Ottermandias/Glamourer/main/repo.json",
+    "RepoUrl": "https://github.com/Ottermandias/Glamourer",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "TestingDalamudApiLevel": 13,
@@ -2094,7 +2275,11 @@
     "DownloadLinkInstall": "https://github.com/Ottermandias/Glamourer/releases/download/1.5.1.3/Glamourer.zip",
     "DownloadLinkUpdate": "https://github.com/Ottermandias/Glamourer/releases/download/1.5.1.3/Glamourer.zip",
     "DownloadLinkTesting": "https://github.com/Ottermandias/Glamourer/releases/download/testing_1.5.1.4/Glamourer.zip",
-    "IconUrl": "https://raw.githubusercontent.com/Ottermandias/Glamourer/main/images/icon.png"
+    "IconUrl": "https://raw.githubusercontent.com/Ottermandias/Glamourer/main/images/icon.png",
+    "SourceRepo": "https://raw.githubusercontent.com/Ottermandias/Glamourer/main/repo.json",
+    "AlternateSources": [
+      "https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json"
+    ]
   },
   {
     "Author": "Ottermandias, Nylfae, Adam, Wintermute",
@@ -2104,7 +2289,7 @@
     "InternalName": "Penumbra",
     "AssemblyVersion": "1.5.1.6",
     "TestingAssemblyVersion": "1.5.1.7",
-    "RepoUrl": "https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json",
+    "RepoUrl": "https://github.com/xivdev/Penumbra",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "TestingDalamudApiLevel": 13,
@@ -2121,6 +2306,10 @@
     "IconUrl": "https://raw.githubusercontent.com/xivdev/Penumbra/master/images/icon.png",
     "Tags": [
       "Sea Of Stars"
+    ],
+    "SourceRepo": "https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json",
+    "AlternateSources": [
+      "https://raw.githubusercontent.com/xivdev/Penumbra/master/repo.json"
     ]
   },
   {
@@ -2131,7 +2320,7 @@
     "InternalName": "CustomizePlus",
     "AssemblyVersion": "2.0.8.4",
     "TestingAssemblyVersion": "2.0.8.4",
-    "RepoUrl": "https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json",
+    "RepoUrl": "https://github.com/Aether-Tools/CustomizePlus",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "TestingDalamudApiLevel": 13,
@@ -2151,7 +2340,8 @@
       "Character",
       "Aether Tools",
       "Sea Of Stars"
-    ]
+    ],
+    "SourceRepo": "https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json"
   },
   {
     "Author": "Caraxi",
@@ -2160,7 +2350,7 @@
     "AssemblyVersion": "0.11.0.17",
     "Description": "Adjust the position of your character model",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json",
+    "RepoUrl": "https://github.com/Caraxi/SimpleHeels",
     "DalamudApiLevel": 13,
     "LoadRequiredState": 0,
     "LoadSync": false,
@@ -2173,7 +2363,8 @@
     "DownloadLinkUpdate": "https://repo.caraxian.com/plugins/SimpleHeels/0.11.0.17.zip",
     "Tags": [
       "Sea Of Stars"
-    ]
+    ],
+    "SourceRepo": "https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json"
   },
   {
     "ApplicableVersion": "any",
@@ -2193,7 +2384,7 @@
     "LastUpdate": 1760910786,
     "Name": "Heliosphere",
     "Punchline": "An efficient mod manager and platform that integrates directly with Penumbra.",
-    "RepoUrl": "https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json",
+    "RepoUrl": "https://heliosphere.app/",
     "Tags": [
       "mods",
       "modding",
@@ -2203,7 +2394,8 @@
     ],
     "TestingAssemblyVersion": "2.3.0.0",
     "TestingChangelog": "- Fix a possible error in the multiple directory warning\n- Fix updates for mods with duplicated files\n- Add a first-time-user setup window to make onboarding easier",
-    "TestingDalamudApiLevel": 10
+    "TestingDalamudApiLevel": 10,
+    "SourceRepo": "https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json"
   },
   {
     "Author": "Chirp, Cazzar, Bwuny and contributors",
@@ -2212,7 +2404,7 @@
     "Description": "A robust posing tool for creating screenshots in GPose.",
     "AssemblyVersion": "0.2.29",
     "TestingAssemblyVersion": "0.3.12",
-    "RepoUrl": "https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json",
+    "RepoUrl": "https://github.com/ktisis-tools/Ktisis",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "TestingDalamudApiLevel": 13,
@@ -2225,7 +2417,8 @@
     "IconUrl": "https://github.com/ktisis-tools/Ktisis/raw/main/icon.png",
     "DownloadLinkInstall": "https://github.com/ktisis-tools/Ktisis/releases/download/v0.2.29/latest.zip",
     "DownloadLinkTesting": "https://github.com/ktisis-tools/Ktisis/releases/download/v0.3.12/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/ktisis-tools/Ktisis/releases/download/v0.2.29/latest.zip"
+    "DownloadLinkUpdate": "https://github.com/ktisis-tools/Ktisis/releases/download/v0.2.29/latest.zip",
+    "SourceRepo": "https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json"
   },
   {
     "Author": "Minmoose, Asgard and Contributors",
@@ -2235,7 +2428,7 @@
     "InternalName": "Brio",
     "AssemblyVersion": "0.6.0.2",
     "TestingAssemblyVersion": "0.6.0.2",
-    "RepoUrl": "https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json",
+    "RepoUrl": "https://github.com/Etheirys/Brio",
     "ApplicableVersion": "any",
     "DownloadCount": 1533080,
     "DalamudApiLevel": 13,
@@ -2260,6 +2453,10 @@
       "utility",
       "tools",
       "Sea Of Stars"
+    ],
+    "SourceRepo": "https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json",
+    "AlternateSources": [
+      "https://raw.githubusercontent.com/Etheirys/Brio/main/repo.json"
     ]
   },
   {
@@ -2269,7 +2466,7 @@
     "Description": "Design and apply your own status effects with custom formatting, durations, and other accoutrements.",
     "ApplicableVersion": "any",
     "Punchline": "Crippling depression now in the form of a debuff, kupo!",
-    "RepoUrl": "https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json",
+    "RepoUrl": "https://github.com/kawaii/Moodles",
     "AcceptsFeedback": false,
     "DalamudApiLevel": 13,
     "AssemblyVersion": "1.0.0.53",
@@ -2278,7 +2475,8 @@
     "IconUrl": "https://raw.githubusercontent.com/kawaii/Moodles/main/images/icon.png",
     "Tags": [
       "Sea Of Stars"
-    ]
+    ],
+    "SourceRepo": "https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json"
   },
   {
     "Author": "Jawslouis",
@@ -2288,7 +2486,7 @@
     "Punchline": "Automatically save & load furniture layouts in your house.",
     "Description": "Automatically save & load the positions of house furniture. Import/export layouts from the MakePlace program.",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://raw.githubusercontent.com/jawslouis/MakePlacePlugin/master/MakePlacePlugin.json",
+    "RepoUrl": "https://github.com/jawslouis/MakePlacePlugin",
     "Tags": [
       "makeplace",
       "housing",
@@ -2303,7 +2501,8 @@
     "DownloadLinkTesting": "https://github.com/jawslouis/MakePlacePlugin/releases/download/v3.7.3/MakePlacePlugin.zip",
     "DownloadLinkUpdate": "https://github.com/jawslouis/MakePlacePlugin/releases/download/v3.7.3/MakePlacePlugin.zip",
     "_isDip17Plugin": false,
-    "_Dip17Channel": null
+    "_Dip17Channel": null,
+    "SourceRepo": "https://raw.githubusercontent.com/jawslouis/MakePlacePlugin/master/MakePlacePlugin.json"
   },
   {
     "Author": "BardToolbox",
@@ -2312,7 +2511,7 @@
     "AssemblyVersion": "2.2.3.0",
     "Description": "",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://raw.githubusercontent.com/BardToolbox/BardToolbox-Release/master/pluginmaster.json",
+    "RepoUrl": "https://discord.gg/h9Nt5NXZWz",
     "Tags": [
       "bard",
       "midi",
@@ -2381,7 +2580,8 @@
     "LastUpdate": "1745090324",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/BardToolbox/BardToolbox-Release/master/plugins/BardToolbox/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/BardToolbox/BardToolbox-Release/master/plugins/BardToolbox/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/BardToolbox/BardToolbox-Release/master/plugins/BardToolbox/latest.zip"
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/BardToolbox/BardToolbox-Release/master/plugins/BardToolbox/latest.zip",
+    "SourceRepo": "https://raw.githubusercontent.com/BardToolbox/BardToolbox-Release/master/pluginmaster.json"
   },
   {
     "Author": "Cordelia",
@@ -2391,7 +2591,7 @@
     "Punchline": "The Only BDSM Plugin You'll Ever Need!",
     "Description": "GagSpeak 4.0 (Now Server-Side!), 20+ Modules, 100+ Features, 50+ Configurations. No Paywalls!",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://raw.githubusercontent.com/Project-GagSpeak/repo/main/projectgagspeak.json",
+    "RepoUrl": "https://github.com/Project-GagSpeak/client",
     "Tags": [
       "BDSM",
       "Bondage",
@@ -2411,7 +2611,8 @@
     "IsTestingExclusive": "False",
     "DownloadLinkInstall": "https://files.kinkporium.studio/release/1.2.1.6.zip",
     "DownloadLinkTesting": "https://files.kinkporium.studio/release/1.2.1.6.zip",
-    "DownloadLinkUpdate": "https://files.kinkporium.studio/release/1.2.1.6.zip"
+    "DownloadLinkUpdate": "https://files.kinkporium.studio/release/1.2.1.6.zip",
+    "SourceRepo": "https://raw.githubusercontent.com/Project-GagSpeak/repo/main/projectgagspeak.json"
   },
   {
     "Author": "DodingDaga",
@@ -2420,7 +2621,7 @@
     "AssemblyVersion": "7.3.0.0",
     "Description": "For the lulz",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://raw.githubusercontent.com/dodingdaga/DalamudPlugins/main/PuppetMaster.json",
+    "RepoUrl": "https://github.com/dodingdaga/DalamudPlugins",
     "Tags": [
       "emote",
       "plugin"
@@ -2434,7 +2635,8 @@
     "LastUpdated": "1754859735",
     "DownloadLinkInstall": "https://github.com/dodingdaga/DalamudPlugins/releases/download/7.3.0.0/latest_pp.zip",
     "DownloadLinkTesting": "https://github.com/dodingdaga/DalamudPlugins/releases/download/7.3.0.0/latest_pp.zip",
-    "DownloadLinkUpdate": "https://github.com/dodingdaga/DalamudPlugins/releases/download/7.3.0.0/latest_pp.zip"
+    "DownloadLinkUpdate": "https://github.com/dodingdaga/DalamudPlugins/releases/download/7.3.0.0/latest_pp.zip",
+    "SourceRepo": "https://raw.githubusercontent.com/dodingdaga/DalamudPlugins/main/PuppetMaster.json"
   },
   {
     "Author": "DodingDaga",
@@ -2443,7 +2645,7 @@
     "AssemblyVersion": "7.3.0.0",
     "Description": "For the lulz",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://raw.githubusercontent.com/dodingdaga/DalamudPlugins/main/PuppetMaster.json",
+    "RepoUrl": "https://github.com/dodingdaga/DalamudPlugins",
     "Tags": [
       "plugin",
       "emote"
@@ -2457,7 +2659,8 @@
     "LastUpdated": "1754859735",
     "DownloadLinkInstall": "https://github.com/dodingdaga/DalamudPlugins/releases/download/7.3.0.0/latest_cc.zip",
     "DownloadLinkTesting": "https://github.com/dodingdaga/DalamudPlugins/releases/download/7.3.0.0/latest_cc.zip",
-    "DownloadLinkUpdate": "https://github.com/dodingdaga/DalamudPlugins/releases/download/7.3.0.0/latest_cc.zip"
+    "DownloadLinkUpdate": "https://github.com/dodingdaga/DalamudPlugins/releases/download/7.3.0.0/latest_cc.zip",
+    "SourceRepo": "https://raw.githubusercontent.com/dodingdaga/DalamudPlugins/main/PuppetMaster.json"
   },
   {
     "Author": "SoyaX",
@@ -2466,7 +2669,7 @@
     "Punchline": "Anywhere is a bed, if you want it to be.",
     "InternalName": "DozeAnywhere",
     "AssemblyVersion": "0.2.2.6",
-    "RepoUrl": "https://raw.githubusercontent.com/SoyaX/SoyaPlugins/main/repo.json",
+    "RepoUrl": "https://github.com/SoyaX/DozeAnywhere",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "IsHide": "False",
@@ -2474,7 +2677,8 @@
     "DownloadCount": 0,
     "DownloadLinkInstall": "https://raw.githubusercontent.com/SoyaX/SoyaPlugins/main/DozeAnywhere_0226.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/SoyaX/SoyaPlugins/main/DozeAnywhere_0226.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/SoyaX/SoyaPlugins/main/DozeAnywhere_0226.zip"
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/SoyaX/SoyaPlugins/main/DozeAnywhere_0226.zip",
+    "SourceRepo": "https://raw.githubusercontent.com/SoyaX/SoyaPlugins/main/repo.json"
   },
   {
     "Author": "VariableVixen",
@@ -2482,7 +2686,7 @@
     "Description": "Provides a list of all FATEs in the current zone, with their type, sorted by maximum level and distance from you.",
     "InternalName": "BetterFateList",
     "AssemblyVersion": "1.0.1.1",
-    "RepoUrl": "https://raw.githubusercontent.com/VariableVixen/MyDalamudPlugins/master/pluginmaster.json",
+    "RepoUrl": "https://github.com/VariableVixen/BetterFateList",
     "ApplicableVersion": "any",
     "Tags": [
       "fate"
@@ -2494,7 +2698,8 @@
     "DownloadLinkTesting": "https://github.com/VariableVixen/MyDalamudPlugins/raw/master/plugins/BetterFateList/latest.zip",
     "DownloadLinkUpdate": "https://github.com/VariableVixen/MyDalamudPlugins/raw/master/plugins/BetterFateList/latest.zip",
     "DownloadCount": 0,
-    "LastUpdated": "1760863655"
+    "LastUpdated": "1760863655",
+    "SourceRepo": "https://raw.githubusercontent.com/VariableVixen/MyDalamudPlugins/master/pluginmaster.json"
   },
   {
     "Author": "VariableVixen",
@@ -2502,7 +2707,7 @@
     "Description": "Adds tiny and simple but useful chat commands, and nothing more. It doesn't even have a UI.",
     "InternalName": "TinyCmds",
     "AssemblyVersion": "8.9.5",
-    "RepoUrl": "https://raw.githubusercontent.com/VariableVixen/MyDalamudPlugins/master/pluginmaster.json",
+    "RepoUrl": "https://github.com/VariableVixen/TinyCommands",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "DownloadLinkInstall": "https://github.com/VariableVixen/MyDalamudPlugins/raw/master/plugins/TinyCmds/latest.zip",
@@ -2511,7 +2716,8 @@
     "DownloadLinkTesting": "https://github.com/VariableVixen/MyDalamudPlugins/raw/master/plugins/TinyCmds/latest.zip",
     "DownloadLinkUpdate": "https://github.com/VariableVixen/MyDalamudPlugins/raw/master/plugins/TinyCmds/latest.zip",
     "DownloadCount": 0,
-    "LastUpdated": "1760863655"
+    "LastUpdated": "1760863655",
+    "SourceRepo": "https://raw.githubusercontent.com/VariableVixen/MyDalamudPlugins/master/pluginmaster.json"
   },
   {
     "Author": "VariableVixen",
@@ -2519,7 +2725,7 @@
     "Description": "Write custom chat commands by creating lua scripts",
     "InternalName": "WoLua",
     "AssemblyVersion": "4.2.0",
-    "RepoUrl": "https://raw.githubusercontent.com/VariableVixen/MyDalamudPlugins/master/pluginmaster.json",
+    "RepoUrl": "https://github.com/VariableVixen/WoLua",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "DownloadLinkInstall": "https://github.com/VariableVixen/MyDalamudPlugins/raw/master/plugins/WoLua/latest.zip",
@@ -2528,7 +2734,8 @@
     "DownloadLinkTesting": "https://github.com/VariableVixen/MyDalamudPlugins/raw/master/plugins/WoLua/latest.zip",
     "DownloadLinkUpdate": "https://github.com/VariableVixen/MyDalamudPlugins/raw/master/plugins/WoLua/latest.zip",
     "DownloadCount": 0,
-    "LastUpdated": "1760863655"
+    "LastUpdated": "1760863655",
+    "SourceRepo": "https://raw.githubusercontent.com/VariableVixen/MyDalamudPlugins/master/pluginmaster.json"
   },
   {
     "Author": "attick, daemitus, VariableVixen",
@@ -2536,7 +2743,7 @@
     "Description": "This plugin condenses combos and mutually exclusive abilities onto a single button. To a degree that some would call absurd, but that's why it's all configurable. Let the players decide.",
     "InternalName": "XIVComboVX",
     "AssemblyVersion": "9.33.8",
-    "RepoUrl": "https://raw.githubusercontent.com/VariableVixen/MyDalamudPlugins/master/pluginmaster.json",
+    "RepoUrl": "https://github.com/VariableVixen/XIVComboPlugin",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "DownloadLinkInstall": "https://github.com/VariableVixen/MyDalamudPlugins/raw/master/plugins/XIVComboVX/latest.zip",
@@ -2545,7 +2752,8 @@
     "DownloadLinkTesting": "https://github.com/VariableVixen/MyDalamudPlugins/raw/master/plugins/XIVComboVX/latest.zip",
     "DownloadLinkUpdate": "https://github.com/VariableVixen/MyDalamudPlugins/raw/master/plugins/XIVComboVX/latest.zip",
     "DownloadCount": 0,
-    "LastUpdated": "1760863655"
+    "LastUpdated": "1760863655",
+    "SourceRepo": "https://raw.githubusercontent.com/VariableVixen/MyDalamudPlugins/master/pluginmaster.json"
   },
   {
     "Author": "VariableVixen",
@@ -2553,7 +2761,7 @@
     "Description": "If you've ever spent ten minutes looking for your hunt target, this is the plugin for you. Set a case-insensitive substring, glob, or regular expression, and all nearby game objects with matching names will be tagged on your screen!",
     "InternalName": "XivEsp",
     "AssemblyVersion": "1.10.1.1",
-    "RepoUrl": "https://raw.githubusercontent.com/VariableVixen/MyDalamudPlugins/master/pluginmaster.json",
+    "RepoUrl": "https://github.com/VariableVixen/XivEsp",
     "ApplicableVersion": "any",
     "Tags": [
       "search",
@@ -2568,7 +2776,8 @@
     "DownloadLinkTesting": "https://github.com/VariableVixen/MyDalamudPlugins/raw/master/plugins/XivEsp/latest.zip",
     "DownloadLinkUpdate": "https://github.com/VariableVixen/MyDalamudPlugins/raw/master/plugins/XivEsp/latest.zip",
     "DownloadCount": 0,
-    "LastUpdated": "1760863655"
+    "LastUpdated": "1760863655",
+    "SourceRepo": "https://raw.githubusercontent.com/VariableVixen/MyDalamudPlugins/master/pluginmaster.json"
   },
   {
     "Author": "Asteria Nocturna",
@@ -2585,14 +2794,15 @@
     "InternalName": "AetheryteLinkInChat",
     "AssemblyVersion": "7.3.1.0",
     "TestingAssemblyVersion": "7.3.1.0",
-    "RepoUrl": "https://xiv.starry.blue/plugins/master.json",
+    "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "DownloadCount": 24639,
-    "LastUpdate": 1761599533,
+    "LastUpdate": 1761603159,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/AetheryteLinkInChat/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/AetheryteLinkInChat/download",
-    "AcceptsFeedback": true
+    "AcceptsFeedback": true,
+    "SourceRepo": "https://xiv.starry.blue/plugins/master.json"
   },
   {
     "Author": "Asteria Nocturna",
@@ -2610,14 +2820,15 @@
     "InternalName": "Debugger",
     "AssemblyVersion": "7.1.0.0",
     "TestingAssemblyVersion": "7.2.1.60000",
-    "RepoUrl": "https://xiv.starry.blue/plugins/master.json",
+    "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 12,
     "DownloadCount": 397,
-    "LastUpdate": 1761599533,
+    "LastUpdate": 1761603159,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Debugger/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Debugger/download",
-    "AcceptsFeedback": true
+    "AcceptsFeedback": true,
+    "SourceRepo": "https://xiv.starry.blue/plugins/master.json"
   },
   {
     "Author": "Asteria Nocturna",
@@ -2635,14 +2846,15 @@
     "InternalName": "FaloopIntegration",
     "AssemblyVersion": "7.3.1.0",
     "TestingAssemblyVersion": "7.3.1.0",
-    "RepoUrl": "https://xiv.starry.blue/plugins/master.json",
+    "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "DownloadCount": 21129,
-    "LastUpdate": 1761599533,
+    "LastUpdate": 1761603159,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/FaloopIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/FaloopIntegration/download",
-    "AcceptsFeedback": true
+    "AcceptsFeedback": true,
+    "SourceRepo": "https://xiv.starry.blue/plugins/master.json"
   },
   {
     "Author": "Horoscope developers",
@@ -2658,13 +2870,14 @@
     "InternalName": "InstanceIDViewer",
     "AssemblyVersion": "7.2.2.60000",
     "TestingAssemblyVersion": "7.2.2.60000",
-    "RepoUrl": "https://xiv.starry.blue/plugins/master.json",
+    "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 10,
     "DownloadCount": 766,
-    "LastUpdate": 1761599533,
+    "LastUpdate": 1761603159,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/InstanceIDViewer/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/InstanceIDViewer/download",
-    "AcceptsFeedback": true
+    "AcceptsFeedback": true,
+    "SourceRepo": "https://xiv.starry.blue/plugins/master.json"
   }
 ]
