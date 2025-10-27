@@ -1,0 +1,37 @@
+[
+  {
+    "timestamp": "2025-10-27T23:26:38.743Z",
+    "message": "Failed to fetch after 3 attempts",
+    "url": "https://raw.githubusercontent.com/a03831/Dalamud.SkipCutscene/dist/repo.json",
+    "error": "Request failed with status code 404",
+    "status": 404,
+    "statusText": "Not Found"
+  },
+  {
+    "timestamp": "2025-10-27T23:26:48.242Z",
+    "message": "Failed to fetch after 3 attempts",
+    "url": "https://raw.githubusercontent.com/ryoniive/Dalamud-Darkness-Repo/raw/main/ffxiv_custom_repo.json",
+    "error": "Request failed with status code 404",
+    "status": 404,
+    "statusText": "Not Found"
+  },
+  {
+    "timestamp": "2025-10-27T23:26:54.873Z",
+    "message": "Failed to fetch after 3 attempts",
+    "url": "https://raw.githubusercontent.com/Milestonee/GambaGames/main/repo.json",
+    "error": "Request failed with status code 404",
+    "status": 404,
+    "statusText": "Not Found"
+  },
+  {
+    "timestamp": "2025-10-27T23:27:04.242Z",
+    "message": "Failed to fetch after 3 attempts",
+    "url": "https://git.carvel.li/liza/plugin-repo/raw/branch/master/_config.json",
+    "error": "getaddrinfo ENOTFOUND git.carvel.li"
+  },
+  {
+    "timestamp": "2025-10-27T23:27:04.242Z",
+    "message": "Carvel config has no plugins",
+    "url": "https://plugins.carvel.li/"
+  }
+]
