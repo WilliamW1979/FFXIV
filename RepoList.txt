@@ -30,6 +30,5 @@ https://raw.githubusercontent.com/Etheirys/Brio/main/repo.json
 https://raw.githubusercontent.com/Project-GagSpeak/repo/main/projectgagspeak.json
 https://raw.githubusercontent.com/dodingdaga/DalamudPlugins/main/PuppetMaster.json
 https://raw.githubusercontent.com/SoyaX/SoyaPlugins/main/repo.json
-https://raw.githubusercontent.com/Milestonee/GambaGames/main/repo.json
 https://raw.githubusercontent.com/VariableVixen/MyDalamudPlugins/master/pluginmaster.json
 https://xiv.starry.blue/plugins/master.json
