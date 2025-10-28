@@ -1,0 +1,10 @@
+[
+  {
+    "timestamp": "2025-10-28T03:16:08.828Z",
+    "message": "Failed to fetch after 3 attempts",
+    "url": "https://raw.githubusercontent.com/Milestonee/GambaGames/main/repo.json",
+    "error": "Request failed with status code 404",
+    "status": 404,
+    "statusText": "Not Found"
+  }
+]
