@@ -25,7 +25,6 @@ https://raw.githubusercontent.com/Ottermandias/Glamourer/main/repo.json
 https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json
 https://raw.githubusercontent.com/xivdev/Penumbra/master/repo.json
 https://raw.githubusercontent.com/jawslouis/MakePlacePlugin/master/MakePlacePlugin.json
-https://raw.githubusercontent.com/a03831/Dalamud.SkipCutscene/dist/repo.json
 https://raw.githubusercontent.com/BardToolbox/BardToolbox-Release/master/pluginmaster.json
 https://raw.githubusercontent.com/Etheirys/Brio/main/repo.json
 https://raw.githubusercontent.com/Project-GagSpeak/repo/main/projectgagspeak.json
