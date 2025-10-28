@@ -2,7 +2,7 @@ name: Clone and Merge Repositories
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # Run every 30 minutes (reduced from 5 to avoid rate limits)
+    - cron: '*/5 * * * *'  # Run every 30 minutes (reduced from 5 to avoid rate limits)
   workflow_dispatch:        # Allows manual trigger from the GitHub UI
 
 jobs:
