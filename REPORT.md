@@ -1,18 +1,18 @@
 # Plugin Repository Merge Report
-Generated: 2025-10-28T02:56:35.495Z
+Generated: 2025-10-28T03:04:14.124Z
 
 ## Summary
-- **Total Repositories**: 36
+- **Total Repositories**: 35
 - **Successful**: 34 ✅
-- **Failed**: 2 ❌
+- **Failed**: 1 ❌
 - **Empty**: 0 ⚠️
 
 - **Total Plugins Fetched**: 121
 - **Unique Plugins**: 112
 - **Duplicates Removed**: 9
 
-- **Errors**: 2
-- **Warnings**: 4
+- **Errors**: 1
+- **Warnings**: 2
 
 ## Repository Status
 
@@ -124,11 +124,6 @@ Generated: 2025-10-28T02:56:35.495Z
    - Status: success
    - Plugins: 1
 
-❌ **https://raw.githubusercontent.com/a03831/Dalamud.SkipCutscene/dist/repo.json**
-   - Status: failed
-   - Plugins: 0
-   - Error: Failed to fetch data
-
 ✅ **https://raw.githubusercontent.com/BardToolbox/BardToolbox-Release/master/pluginmaster.json**
    - Status: success
    - Plugins: 1
@@ -163,24 +158,12 @@ Generated: 2025-10-28T02:56:35.495Z
    - Plugins: 4
 
 
-## Errors (2)
+## Errors (1)
 
 ### 1. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2025-10-28T02:56:24.217Z",
-  "message": "Failed to fetch after 3 attempts",
-  "url": "https://raw.githubusercontent.com/a03831/Dalamud.SkipCutscene/dist/repo.json",
-  "error": "Request failed with status code 404",
-  "status": 404,
-  "statusText": "Not Found"
-}
-```
-
-### 2. Failed to fetch after 3 attempts
-```
-{
-  "timestamp": "2025-10-28T02:56:33.559Z",
+  "timestamp": "2025-10-28T03:04:11.887Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://raw.githubusercontent.com/Milestonee/GambaGames/main/repo.json",
   "error": "Request failed with status code 404",
@@ -194,10 +177,8 @@ Generated: 2025-10-28T02:56:35.495Z
 
 
 
-## Warnings (4)
+## Warnings (2)
 
-- Fetch attempt 1 failed, retrying...
-- Fetch attempt 2 failed, retrying...
 - Fetch attempt 1 failed, retrying...
 - Fetch attempt 2 failed, retrying...
 
