@@ -1,18 +1,18 @@
 # Plugin Repository Merge Report
-Generated: 2025-10-28T03:16:10.878Z
+Generated: 2025-10-28T03:18:13.721Z
 
 ## Summary
-- **Total Repositories**: 35
+- **Total Repositories**: 34
 - **Successful**: 34 ✅
-- **Failed**: 1 ❌
+- **Failed**: 0 ❌
 - **Empty**: 0 ⚠️
 
 - **Total Plugins Fetched**: 121
 - **Unique Plugins**: 112
 - **Duplicates Removed**: 9
 
-- **Errors**: 1
-- **Warnings**: 2
+- **Errors**: 0
+- **Warnings**: 0
 
 ## Repository Status
 
@@ -144,11 +144,6 @@ Generated: 2025-10-28T03:16:10.878Z
    - Status: success
    - Plugins: 1
 
-❌ **https://raw.githubusercontent.com/Milestonee/GambaGames/main/repo.json**
-   - Status: failed
-   - Plugins: 0
-   - Error: Failed to fetch data
-
 ✅ **https://raw.githubusercontent.com/VariableVixen/MyDalamudPlugins/master/pluginmaster.json**
    - Status: success
    - Plugins: 5
@@ -157,30 +152,6 @@ Generated: 2025-10-28T03:16:10.878Z
    - Status: success
    - Plugins: 4
 
-
-## Errors (1)
-
-### 1. Failed to fetch after 3 attempts
-```
-{
-  "timestamp": "2025-10-28T03:16:08.828Z",
-  "message": "Failed to fetch after 3 attempts",
-  "url": "https://raw.githubusercontent.com/Milestonee/GambaGames/main/repo.json",
-  "error": "Request failed with status code 404",
-  "status": 404,
-  "statusText": "Not Found"
-}
-```
-
-
-
-
-
-
-## Warnings (2)
-
-- Fetch attempt 1 failed, retrying...
-- Fetch attempt 2 failed, retrying...
 
 
 
