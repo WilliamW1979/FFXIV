@@ -1,0 +1,18 @@
+[
+  {
+    "timestamp": "2025-10-28T02:56:24.217Z",
+    "message": "Failed to fetch after 3 attempts",
+    "url": "https://raw.githubusercontent.com/a03831/Dalamud.SkipCutscene/dist/repo.json",
+    "error": "Request failed with status code 404",
+    "status": 404,
+    "statusText": "Not Found"
+  },
+  {
+    "timestamp": "2025-10-28T02:56:33.559Z",
+    "message": "Failed to fetch after 3 attempts",
+    "url": "https://raw.githubusercontent.com/Milestonee/GambaGames/main/repo.json",
+    "error": "Request failed with status code 404",
+    "status": 404,
+    "statusText": "Not Found"
+  }
+]
