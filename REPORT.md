@@ -1,5 +1,5 @@
 # Plugin Repository Merge Report
-Generated: 2025-10-27T23:37:43.012Z
+Generated: 2025-10-28T01:21:54.414Z
 
 ## Summary
 - **Total Repositories**: 39
@@ -181,7 +181,7 @@ Generated: 2025-10-27T23:37:43.012Z
 ### 1. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2025-10-27T23:37:17.098Z",
+  "timestamp": "2025-10-28T01:21:29.101Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://raw.githubusercontent.com/a03831/Dalamud.SkipCutscene/dist/repo.json",
   "error": "Request failed with status code 404",
@@ -193,7 +193,7 @@ Generated: 2025-10-27T23:37:43.012Z
 ### 2. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2025-10-27T23:37:26.553Z",
+  "timestamp": "2025-10-28T01:21:38.293Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://raw.githubusercontent.com/ryoniive/Dalamud-Darkness-Repo/raw/main/ffxiv_custom_repo.json",
   "error": "Request failed with status code 404",
@@ -205,7 +205,7 @@ Generated: 2025-10-27T23:37:43.012Z
 ### 3. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2025-10-27T23:37:33.376Z",
+  "timestamp": "2025-10-28T01:21:44.866Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://raw.githubusercontent.com/Milestonee/GambaGames/main/repo.json",
   "error": "Request failed with status code 404",
@@ -217,7 +217,7 @@ Generated: 2025-10-27T23:37:43.012Z
 ### 4. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2025-10-27T23:37:42.508Z",
+  "timestamp": "2025-10-28T01:21:53.909Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://git.carvel.li/liza/plugin-repo/raw/branch/master/_config.json",
   "error": "getaddrinfo ENOTFOUND git.carvel.li"
@@ -227,7 +227,7 @@ Generated: 2025-10-27T23:37:43.012Z
 ### 5. Carvel config has no plugins
 ```
 {
-  "timestamp": "2025-10-27T23:37:42.508Z",
+  "timestamp": "2025-10-28T01:21:53.909Z",
   "message": "Carvel config has no plugins",
   "url": "https://plugins.carvel.li/"
 }
