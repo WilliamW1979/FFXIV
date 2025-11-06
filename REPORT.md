@@ -1,5 +1,5 @@
 # Plugin Repository Merge Report
-Generated: 2025-11-06T20:47:19.297Z
+Generated: 2025-11-06T20:56:33.384Z
 
 ## Summary
 - **Total Repositories**: 34
@@ -12,7 +12,7 @@ Generated: 2025-11-06T20:47:19.297Z
 - **Duplicates Removed**: 9
 
 - **Errors**: 0
-- **Warnings**: 2
+- **Warnings**: 0
 
 ## Repository Status
 
@@ -152,13 +152,6 @@ Generated: 2025-11-06T20:47:19.297Z
    - Status: success
    - Plugins: 4
 
-
-
-
-## Warnings (2)
-
-- Fetch attempt 1 failed, retrying...
-- Fetch attempt 1 failed, retrying...
 
 
 
