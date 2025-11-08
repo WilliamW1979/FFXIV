@@ -1,5 +1,5 @@
 # Plugin Repository Merge Report
-Generated: 2025-11-08T21:31:57.205Z
+Generated: 2025-11-08T21:42:26.977Z
 
 ## Summary
 - **Total Repositories**: 34
@@ -7,8 +7,8 @@ Generated: 2025-11-08T21:31:57.205Z
 - **Failed**: 0 ❌
 - **Empty**: 0 ⚠️
 
-- **Total Plugins Fetched**: 121
-- **Unique Plugins**: 112
+- **Total Plugins Fetched**: 120
+- **Unique Plugins**: 111
 - **Duplicates Removed**: 9
 
 - **Errors**: 0
@@ -66,7 +66,7 @@ Generated: 2025-11-08T21:31:57.205Z
 
 ✅ **https://puni.sh/api/repository/herc**
    - Status: success
-   - Plugins: 2
+   - Plugins: 1
 
 ✅ **https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json**
    - Status: success
