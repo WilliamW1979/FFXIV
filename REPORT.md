@@ -1,25 +1,24 @@
 # Plugin Repository Merge Report
-Generated: 2025-11-18T14:30:51.780Z
+Generated: 2025-11-18T14:48:49.781Z
 
 ## Summary
 - **Total Repositories**: 34
-- **Successful**: 30 ✅
-- **Failed**: 4 ❌
+- **Successful**: 34 ✅
+- **Failed**: 0 ❌
 - **Empty**: 0 ⚠️
 
-- **Total Plugins Fetched**: 98
-- **Unique Plugins**: 90
-- **Duplicates Removed**: 8
+- **Total Plugins Fetched**: 120
+- **Unique Plugins**: 111
+- **Duplicates Removed**: 9
 
-- **Errors**: 4
-- **Warnings**: 8
+- **Errors**: 0
+- **Warnings**: 0
 
 ## Repository Status
 
-❌ **https://love.puni.sh/ment.json**
-   - Status: failed
-   - Plugins: 0
-   - Error: Failed to fetch data
+✅ **https://love.puni.sh/ment.json**
+   - Status: success
+   - Plugins: 13
 
 ✅ **https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json**
    - Status: success
@@ -61,24 +60,21 @@ Generated: 2025-11-18T14:30:51.780Z
    - Status: success
    - Plugins: 4
 
-❌ **https://puni.sh/api/repository/veyn**
-   - Status: failed
-   - Plugins: 0
-   - Error: Failed to fetch data
+✅ **https://puni.sh/api/repository/veyn**
+   - Status: success
+   - Plugins: 6
 
-❌ **https://puni.sh/api/repository/herc**
-   - Status: failed
-   - Plugins: 0
-   - Error: Failed to fetch data
+✅ **https://puni.sh/api/repository/herc**
+   - Status: success
+   - Plugins: 1
 
 ✅ **https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json**
    - Status: success
    - Plugins: 8
 
-❌ **https://puni.sh/api/repository/croizat**
-   - Status: failed
-   - Plugins: 0
-   - Error: Failed to fetch data
+✅ **https://puni.sh/api/repository/croizat**
+   - Status: success
+   - Plugins: 2
 
 ✅ **https://raw.githubusercontent.com/KangasZ/DalamudPluginRepository/main/plugin_repository.json**
    - Status: success
@@ -156,72 +152,6 @@ Generated: 2025-11-18T14:30:51.780Z
    - Status: success
    - Plugins: 4
 
-
-## Errors (4)
-
-### 1. Failed to fetch after 3 attempts
-```
-{
-  "timestamp": "2025-11-18T14:30:12.124Z",
-  "message": "Failed to fetch after 3 attempts",
-  "url": "https://love.puni.sh/ment.json",
-  "error": "Request failed with status code 500",
-  "status": 500,
-  "statusText": "Internal Server Error"
-}
-```
-
-### 2. Failed to fetch after 3 attempts
-```
-{
-  "timestamp": "2025-11-18T14:30:25.162Z",
-  "message": "Failed to fetch after 3 attempts",
-  "url": "https://puni.sh/api/repository/veyn",
-  "error": "Request failed with status code 500",
-  "status": 500,
-  "statusText": "Internal Server Error"
-}
-```
-
-### 3. Failed to fetch after 3 attempts
-```
-{
-  "timestamp": "2025-11-18T14:30:31.884Z",
-  "message": "Failed to fetch after 3 attempts",
-  "url": "https://puni.sh/api/repository/herc",
-  "error": "Request failed with status code 500",
-  "status": 500,
-  "statusText": "Internal Server Error"
-}
-```
-
-### 4. Failed to fetch after 3 attempts
-```
-{
-  "timestamp": "2025-11-18T14:30:39.135Z",
-  "message": "Failed to fetch after 3 attempts",
-  "url": "https://puni.sh/api/repository/croizat",
-  "error": "Request failed with status code 500",
-  "status": 500,
-  "statusText": "Internal Server Error"
-}
-```
-
-
-
-
-
-
-## Warnings (8)
-
-- Fetch attempt 1 failed, retrying...
-- Fetch attempt 2 failed, retrying...
-- Fetch attempt 1 failed, retrying...
-- Fetch attempt 2 failed, retrying...
-- Fetch attempt 1 failed, retrying...
-- Fetch attempt 2 failed, retrying...
-- Fetch attempt 1 failed, retrying...
-- Fetch attempt 2 failed, retrying...
 
 
 
