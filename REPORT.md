@@ -1,24 +1,25 @@
 # Plugin Repository Merge Report
-Generated: 2025-11-18T12:54:54.415Z
+Generated: 2025-11-18T13:31:00.618Z
 
 ## Summary
 - **Total Repositories**: 34
-- **Successful**: 34 ✅
-- **Failed**: 0 ❌
+- **Successful**: 29 ✅
+- **Failed**: 5 ❌
 - **Empty**: 0 ⚠️
 
-- **Total Plugins Fetched**: 120
-- **Unique Plugins**: 111
-- **Duplicates Removed**: 9
+- **Total Plugins Fetched**: 94
+- **Unique Plugins**: 86
+- **Duplicates Removed**: 8
 
-- **Errors**: 0
-- **Warnings**: 0
+- **Errors**: 5
+- **Warnings**: 10
 
 ## Repository Status
 
-✅ **https://love.puni.sh/ment.json**
-   - Status: success
-   - Plugins: 13
+❌ **https://love.puni.sh/ment.json**
+   - Status: failed
+   - Plugins: 0
+   - Error: Failed to fetch data
 
 ✅ **https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json**
    - Status: success
@@ -60,21 +61,24 @@ Generated: 2025-11-18T12:54:54.415Z
    - Status: success
    - Plugins: 4
 
-✅ **https://puni.sh/api/repository/veyn**
-   - Status: success
-   - Plugins: 6
+❌ **https://puni.sh/api/repository/veyn**
+   - Status: failed
+   - Plugins: 0
+   - Error: Failed to fetch data
 
-✅ **https://puni.sh/api/repository/herc**
-   - Status: success
-   - Plugins: 1
+❌ **https://puni.sh/api/repository/herc**
+   - Status: failed
+   - Plugins: 0
+   - Error: Failed to fetch data
 
 ✅ **https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json**
    - Status: success
    - Plugins: 8
 
-✅ **https://puni.sh/api/repository/croizat**
-   - Status: success
-   - Plugins: 2
+❌ **https://puni.sh/api/repository/croizat**
+   - Status: failed
+   - Plugins: 0
+   - Error: Failed to fetch data
 
 ✅ **https://raw.githubusercontent.com/KangasZ/DalamudPluginRepository/main/plugin_repository.json**
    - Status: success
@@ -148,10 +152,91 @@ Generated: 2025-11-18T12:54:54.415Z
    - Status: success
    - Plugins: 5
 
-✅ **https://xiv.starry.blue/plugins/master.json**
-   - Status: success
-   - Plugins: 4
+❌ **https://xiv.starry.blue/plugins/master.json**
+   - Status: failed
+   - Plugins: 0
+   - Error: Failed to fetch data
 
+
+## Errors (5)
+
+### 1. Failed to fetch after 3 attempts
+```
+{
+  "timestamp": "2025-11-18T13:30:17.828Z",
+  "message": "Failed to fetch after 3 attempts",
+  "url": "https://love.puni.sh/ment.json",
+  "error": "Request failed with status code 500",
+  "status": 500,
+  "statusText": "Internal Server Error"
+}
+```
+
+### 2. Failed to fetch after 3 attempts
+```
+{
+  "timestamp": "2025-11-18T13:30:29.961Z",
+  "message": "Failed to fetch after 3 attempts",
+  "url": "https://puni.sh/api/repository/veyn",
+  "error": "Request failed with status code 500",
+  "status": 500,
+  "statusText": "Internal Server Error"
+}
+```
+
+### 3. Failed to fetch after 3 attempts
+```
+{
+  "timestamp": "2025-11-18T13:30:36.528Z",
+  "message": "Failed to fetch after 3 attempts",
+  "url": "https://puni.sh/api/repository/herc",
+  "error": "Request failed with status code 500",
+  "status": 500,
+  "statusText": "Internal Server Error"
+}
+```
+
+### 4. Failed to fetch after 3 attempts
+```
+{
+  "timestamp": "2025-11-18T13:30:43.623Z",
+  "message": "Failed to fetch after 3 attempts",
+  "url": "https://puni.sh/api/repository/croizat",
+  "error": "Request failed with status code 500",
+  "status": 500,
+  "statusText": "Internal Server Error"
+}
+```
+
+### 5. Failed to fetch after 3 attempts
+```
+{
+  "timestamp": "2025-11-18T13:31:00.114Z",
+  "message": "Failed to fetch after 3 attempts",
+  "url": "https://xiv.starry.blue/plugins/master.json",
+  "error": "Request failed with status code 500",
+  "status": 500,
+  "statusText": "Internal Server Error"
+}
+```
+
+
+
+
+
+
+## Warnings (10)
+
+- Fetch attempt 1 failed, retrying...
+- Fetch attempt 2 failed, retrying...
+- Fetch attempt 1 failed, retrying...
+- Fetch attempt 2 failed, retrying...
+- Fetch attempt 1 failed, retrying...
+- Fetch attempt 2 failed, retrying...
+- Fetch attempt 1 failed, retrying...
+- Fetch attempt 2 failed, retrying...
+- Fetch attempt 1 failed, retrying...
+- Fetch attempt 2 failed, retrying...
 
 
 
