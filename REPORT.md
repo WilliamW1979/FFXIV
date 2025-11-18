@@ -1,5 +1,5 @@
 # Plugin Repository Merge Report
-Generated: 2025-11-18T13:31:00.618Z
+Generated: 2025-11-18T13:51:06.732Z
 
 ## Summary
 - **Total Repositories**: 34
@@ -163,7 +163,7 @@ Generated: 2025-11-18T13:31:00.618Z
 ### 1. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2025-11-18T13:30:17.828Z",
+  "timestamp": "2025-11-18T13:50:23.112Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://love.puni.sh/ment.json",
   "error": "Request failed with status code 500",
@@ -175,7 +175,7 @@ Generated: 2025-11-18T13:31:00.618Z
 ### 2. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2025-11-18T13:30:29.961Z",
+  "timestamp": "2025-11-18T13:50:35.453Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://puni.sh/api/repository/veyn",
   "error": "Request failed with status code 500",
@@ -187,7 +187,7 @@ Generated: 2025-11-18T13:31:00.618Z
 ### 3. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2025-11-18T13:30:36.528Z",
+  "timestamp": "2025-11-18T13:50:42.064Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://puni.sh/api/repository/herc",
   "error": "Request failed with status code 500",
@@ -199,7 +199,7 @@ Generated: 2025-11-18T13:31:00.618Z
 ### 4. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2025-11-18T13:30:43.623Z",
+  "timestamp": "2025-11-18T13:50:49.190Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://puni.sh/api/repository/croizat",
   "error": "Request failed with status code 500",
@@ -211,7 +211,7 @@ Generated: 2025-11-18T13:31:00.618Z
 ### 5. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2025-11-18T13:31:00.114Z",
+  "timestamp": "2025-11-18T13:51:06.229Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://xiv.starry.blue/plugins/master.json",
   "error": "Request failed with status code 500",
