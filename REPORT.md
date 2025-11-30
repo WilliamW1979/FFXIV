@@ -1,18 +1,18 @@
 # Plugin Repository Merge Report
-Generated: 2025-11-30T23:45:03.441Z
+Generated: 2025-11-30T23:55:03.640Z
 
 ## Summary
 - **Total Repositories**: 34
-- **Successful**: 33 ✅
-- **Failed**: 1 ❌
+- **Successful**: 34 ✅
+- **Failed**: 0 ❌
 - **Empty**: 0 ⚠️
 
-- **Total Plugins Fetched**: 117
-- **Unique Plugins**: 108
+- **Total Plugins Fetched**: 120
+- **Unique Plugins**: 111
 - **Duplicates Removed**: 9
 
-- **Errors**: 1
-- **Warnings**: 2
+- **Errors**: 0
+- **Warnings**: 0
 
 ## Repository Status
 
@@ -100,10 +100,9 @@ Generated: 2025-11-30T23:45:03.441Z
    - Status: success
    - Plugins: 1
 
-❌ **https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json**
-   - Status: failed
-   - Plugins: 0
-   - Error: Failed to fetch data
+✅ **https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json**
+   - Status: success
+   - Plugins: 3
 
 ✅ **https://raw.githubusercontent.com/Haselnussbomber/MyDalamudPlugins/main/repo.json**
    - Status: success
@@ -153,30 +152,6 @@ Generated: 2025-11-30T23:45:03.441Z
    - Status: success
    - Plugins: 4
 
-
-## Errors (1)
-
-### 1. Failed to fetch after 3 attempts
-```
-{
-  "timestamp": "2025-11-30T23:44:55.647Z",
-  "message": "Failed to fetch after 3 attempts",
-  "url": "https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json",
-  "error": "Request failed with status code 502",
-  "status": 502,
-  "statusText": "Bad Gateway or Proxy Error"
-}
-```
-
-
-
-
-
-
-## Warnings (2)
-
-- Fetch attempt 1 failed, retrying...
-- Fetch attempt 2 failed, retrying...
 
 
 
