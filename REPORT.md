@@ -1,18 +1,18 @@
 # Plugin Repository Merge Report
-Generated: 2025-12-11T17:40:10.297Z
+Generated: 2025-12-11T17:59:57.542Z
 
 ## Summary
 - **Total Repositories**: 34
-- **Successful**: 34 ✅
-- **Failed**: 0 ❌
+- **Successful**: 33 ✅
+- **Failed**: 1 ❌
 - **Empty**: 0 ⚠️
 
-- **Total Plugins Fetched**: 120
-- **Unique Plugins**: 111
+- **Total Plugins Fetched**: 119
+- **Unique Plugins**: 110
 - **Duplicates Removed**: 9
 
-- **Errors**: 0
-- **Warnings**: 0
+- **Errors**: 1
+- **Warnings**: 4
 
 ## Repository Status
 
@@ -84,9 +84,10 @@ Generated: 2025-12-11T17:40:10.297Z
    - Status: success
    - Plugins: 1
 
-✅ **https://github.com/emyxiv/Dresser/raw/master/repo.json**
-   - Status: success
-   - Plugins: 1
+❌ **https://github.com/emyxiv/Dresser/raw/master/repo.json**
+   - Status: failed
+   - Plugins: 0
+   - Error: Failed to fetch data
 
 ✅ **https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json**
    - Status: success
@@ -152,6 +153,32 @@ Generated: 2025-12-11T17:40:10.297Z
    - Status: success
    - Plugins: 4
 
+
+## Errors (1)
+
+### 1. Failed to fetch after 3 attempts
+```
+{
+  "timestamp": "2025-12-11T17:59:20.376Z",
+  "message": "Failed to fetch after 3 attempts",
+  "url": "https://github.com/emyxiv/Dresser/raw/master/repo.json",
+  "error": "Request failed with status code 504",
+  "status": 504,
+  "statusText": "Gateway Time-out"
+}
+```
+
+
+
+
+
+
+## Warnings (4)
+
+- Fetch attempt 1 failed, retrying...
+- Fetch attempt 2 failed, retrying...
+- Fetch attempt 1 failed, retrying...
+- Fetch attempt 2 failed, retrying...
 
 
 
