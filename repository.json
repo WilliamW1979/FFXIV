@@ -77,7 +77,7 @@
     ],
     "InternalName": "Saucy",
     "RepoUrl": "https://github.com/PunishXIV/Saucy",
-    "DownloadCount": 438616,
+    "DownloadCount": 438617,
     "LastUpdate": 1755277576,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/7/Saucy/versions/1.4.2.7/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/7/Saucy/versions/1.4.2.7/latest.zip",
@@ -144,7 +144,7 @@
     "Tags": [],
     "InternalName": "YesAlready",
     "RepoUrl": "https://github.com/PunishXIV/YesAlready",
-    "DownloadCount": 926071,
+    "DownloadCount": 926072,
     "LastUpdate": 1763283931,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/26/YesAlready/versions/1.13.05/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/26/YesAlready/versions/1.13.05/latest.zip",
@@ -205,36 +205,6 @@
     "SourceRepo": "https://love.puni.sh/ment.json"
   },
   {
-    "Author": "Liza Carvelli & various contributors",
-    "Name": "Questionable",
-    "Punchline": "A tiny quest helper plugin.",
-    "Description": "A small quest helper plugin designed to automatically do your quests for you where possible. Utilizes navmesh to automatically travel to all quest waypoints and (attempts to) complete all steps along the way (excluding dungeons, single-player duties and combat).\n\nNot all quests are supported.\n\nRequired Plugins: vnavmesh, TextAdvance, Lifestream",
-    "Tags": [
-      "quest",
-      "msq",
-      "qol",
-      "utility"
-    ],
-    "InternalName": "Questionable",
-    "RepoUrl": "https://github.com/PunishXIV/Questionable",
-    "DownloadCount": 205455,
-    "LastUpdate": 1765838989,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/94/Questionable/versions/13.68.129.2/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/94/Questionable/versions/13.68.129.2/latest.zip",
-    "AssemblyVersion": "13.68.129.2",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "- Namazu choose whether to use craft or gather job\n- Debug command to convert decimal ints to questwork values\n- More daily quests checked by alydev and Lumi",
-    "TestingAssemblyVersion": "6.23.16.1",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/94/Questionable/versions/6.23.16.1/testing.zip",
-    "TestingDalamudApiLevel": "13",
-    "IconUrl": "https://s3.puni.sh/media/plugin/94/icon-ayf2kn3uloc.png",
-    "SourceRepo": "https://love.puni.sh/ment.json",
-    "AlternateSources": [
-      "https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json"
-    ]
-  },
-  {
     "Author": "Det, Taurenkey",
     "Name": "AutoHook",
     "Punchline": "Makes fishing less (or more) boring",
@@ -282,6 +252,36 @@
     "TestingDalamudApiLevel": "13",
     "IconUrl": "https://s3.puni.sh/media/plugin/9/icon-zjun2qgmfbe.png",
     "SourceRepo": "https://love.puni.sh/ment.json"
+  },
+  {
+    "Author": "Liza Carvelli & various contributors",
+    "Name": "Questionable",
+    "Punchline": "A tiny quest helper plugin.",
+    "Description": "A small quest helper plugin designed to automatically do your quests for you where possible. Utilizes navmesh to automatically travel to all quest waypoints and (attempts to) complete all steps along the way (excluding dungeons, single-player duties and combat).\n\nNot all quests are supported.\n\nRequired Plugins: vnavmesh, TextAdvance, Lifestream",
+    "Tags": [
+      "quest",
+      "msq",
+      "qol",
+      "utility"
+    ],
+    "InternalName": "Questionable",
+    "RepoUrl": "https://github.com/PunishXIV/Questionable",
+    "DownloadCount": 205456,
+    "LastUpdate": 1765838989,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/94/Questionable/versions/13.68.129.2/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/94/Questionable/versions/13.68.129.2/latest.zip",
+    "AssemblyVersion": "13.68.129.2",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "- Namazu choose whether to use craft or gather job\n- Debug command to convert decimal ints to questwork values\n- More daily quests checked by alydev and Lumi",
+    "TestingAssemblyVersion": "6.23.16.1",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/94/Questionable/versions/6.23.16.1/testing.zip",
+    "TestingDalamudApiLevel": "13",
+    "IconUrl": "https://s3.puni.sh/media/plugin/94/icon-ayf2kn3uloc.png",
+    "SourceRepo": "https://love.puni.sh/ment.json",
+    "AlternateSources": [
+      "https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json"
+    ]
   },
   {
     "Author": "NightmareXIV, Xenosys",
@@ -1338,6 +1338,30 @@
     ]
   },
   {
+    "Author": "veyn, xan_0",
+    "Name": "Boss Mod",
+    "Punchline": "Don't fail at raid mechanics anymore",
+    "Description": "A bunch of utilities to simplify bosses. Currently supports endwalker content.",
+    "Tags": [],
+    "InternalName": "BossMod",
+    "RepoUrl": "https://github.com/awgil/ffxiv_bossmod",
+    "DownloadCount": 1288240,
+    "LastUpdate": 1765822016,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/30/BossMod/versions/0.4.10.2/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/30/BossMod/versions/0.4.10.2/latest.zip",
+    "AssemblyVersion": "0.4.10.2",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "",
+    "IconUrl": "https://s3.puni.sh/media/plugin/30/icon-1x16xz3evsu.png",
+    "ImageUrls": [
+      "https://s3.puni.sh/media/plugin/30/image-4mbxiq5k4pl.png",
+      "https://s3.puni.sh/media/plugin/30/image-nc231jzj2gb.png",
+      "https://s3.puni.sh/media/plugin/30/image-3nufuhgwbhl.png"
+    ],
+    "SourceRepo": "https://puni.sh/api/repository/veyn"
+  },
+  {
     "Author": "veyn, croizat",
     "Name": "Satisfier",
     "Punchline": "Simplify custom deliveries.",
@@ -1354,30 +1378,6 @@
     "DalamudApiLevel": "13",
     "Changelog": "",
     "IconUrl": "https://s3.puni.sh/media/plugin/58/icon-hffi2ft0zlg.png",
-    "SourceRepo": "https://puni.sh/api/repository/veyn"
-  },
-  {
-    "Author": "veyn, xan_0",
-    "Name": "Boss Mod",
-    "Punchline": "Don't fail at raid mechanics anymore",
-    "Description": "A bunch of utilities to simplify bosses. Currently supports endwalker content.",
-    "Tags": [],
-    "InternalName": "BossMod",
-    "RepoUrl": "https://github.com/awgil/ffxiv_bossmod",
-    "DownloadCount": 1288239,
-    "LastUpdate": 1765822016,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/30/BossMod/versions/0.4.10.2/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/30/BossMod/versions/0.4.10.2/latest.zip",
-    "AssemblyVersion": "0.4.10.2",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/30/icon-1x16xz3evsu.png",
-    "ImageUrls": [
-      "https://s3.puni.sh/media/plugin/30/image-4mbxiq5k4pl.png",
-      "https://s3.puni.sh/media/plugin/30/image-nc231jzj2gb.png",
-      "https://s3.puni.sh/media/plugin/30/image-3nufuhgwbhl.png"
-    ],
     "SourceRepo": "https://puni.sh/api/repository/veyn"
   },
   {
@@ -1407,7 +1407,7 @@
     "Tags": [],
     "InternalName": "vnavmesh",
     "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 860799,
+    "DownloadCount": 860801,
     "LastUpdate": 1765825341,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/1.1.2.1/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/1.1.2.1/latest.zip",
@@ -1514,7 +1514,7 @@
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/RotationSolverReborn/releases/download/7.3.8.20/RotationSolver.zip",
     "TestingAssemblyVersion": "7.3.8.20",
     "Changelog": "## What's Changed\r\n* Misc spelling and formatting fix for tips by @LTS-FFXIV in https://github.com/FFXIV-CombatReborn/RotationSolverReborn/pull/1098\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/RotationSolverReborn/compare/7.3.8.28...7.3.8.29",
-    "DownloadCount": 1965320,
+    "DownloadCount": 1965322,
     "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
     "SourceRepo": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
@@ -1549,7 +1549,7 @@
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/BossmodReborn/releases/download/1.0.2.1/BossMod.zip",
     "TestingAssemblyVersion": "1.0.2.1",
     "Changelog": "## What's Changed\r\n* Merge vbm by @CarnifexOptimus in https://github.com/FFXIV-CombatReborn/BossmodReborn/pull/1048\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/BossmodReborn/compare/7.3.8.3...7.3.8.4",
-    "DownloadCount": 2366544,
+    "DownloadCount": 2366549,
     "RepoUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
     "SourceRepo": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json"
   },
