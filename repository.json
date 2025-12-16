@@ -1,27 +1,5 @@
 [
   {
-    "Author": "Team Wrath",
-    "Name": "Wrath Combo",
-    "Punchline": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
-    "Description": "Turns one action into many! Similar to how PvP actions work, we take an action and build a whole combo out of it. Sometimes it's as simple as a 1-2-3 combo, other times it's a full job rotation. Either way, you'll find something suited for your rotation needs.",
-    "Tags": [],
-    "InternalName": "WrathCombo",
-    "RepoUrl": "https://github.com/PunishXIV/WrathCombo",
-    "DownloadCount": 498687,
-    "LastUpdate": 1765252580,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.2.26/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.2.26/latest.zip",
-    "AssemblyVersion": "1.0.2.26",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "Please check the project's GitHub or Discord for a full changelog.",
-    "TestingAssemblyVersion": "1.0.2.24",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.2.24/testing.zip",
-    "TestingDalamudApiLevel": "13",
-    "IconUrl": "https://s3.puni.sh/media/plugin/60/icon-2bwhkn3zf1f.png",
-    "SourceRepo": "https://love.puni.sh/ment.json"
-  },
-  {
     "Author": "Taurenkey, NightmareXIV, croizat",
     "Name": "Pandora's Box",
     "Punchline": "Do you dare to open Pandora's Box?",
@@ -63,6 +41,28 @@
     "DalamudApiLevel": "13",
     "Changelog": "- Improved job selection UI\n- Fixed error caused by selecting DoH/DoL in Jobs tab (by Akechi)\n- Added Meditate from SAM under Job-specific Actions in Extras tab (by Akechi)\n- Added Block All Movement option; supports Controller & KBM (by Akechi)\n- UI cleanup (by Akechi)\n- Vector mode for overlay, supports vertical layout (by wah)",
     "IconUrl": "https://s3.puni.sh/media/plugin/12/icon-o94qaw6cyn.png",
+    "SourceRepo": "https://love.puni.sh/ment.json"
+  },
+  {
+    "Author": "Team Wrath",
+    "Name": "Wrath Combo",
+    "Punchline": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
+    "Description": "Turns one action into many! Similar to how PvP actions work, we take an action and build a whole combo out of it. Sometimes it's as simple as a 1-2-3 combo, other times it's a full job rotation. Either way, you'll find something suited for your rotation needs.",
+    "Tags": [],
+    "InternalName": "WrathCombo",
+    "RepoUrl": "https://github.com/PunishXIV/WrathCombo",
+    "DownloadCount": 498688,
+    "LastUpdate": 1765252580,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.2.26/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.2.26/latest.zip",
+    "AssemblyVersion": "1.0.2.26",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "Please check the project's GitHub or Discord for a full changelog.",
+    "TestingAssemblyVersion": "1.0.2.24",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.2.24/testing.zip",
+    "TestingDalamudApiLevel": "13",
+    "IconUrl": "https://s3.puni.sh/media/plugin/60/icon-2bwhkn3zf1f.png",
     "SourceRepo": "https://love.puni.sh/ment.json"
   },
   {
@@ -1338,6 +1338,30 @@
     ]
   },
   {
+    "Author": "veyn, xan_0",
+    "Name": "Boss Mod",
+    "Punchline": "Don't fail at raid mechanics anymore",
+    "Description": "A bunch of utilities to simplify bosses. Currently supports endwalker content.",
+    "Tags": [],
+    "InternalName": "BossMod",
+    "RepoUrl": "https://github.com/awgil/ffxiv_bossmod",
+    "DownloadCount": 1288243,
+    "LastUpdate": 1765822016,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/30/BossMod/versions/0.4.10.2/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/30/BossMod/versions/0.4.10.2/latest.zip",
+    "AssemblyVersion": "0.4.10.2",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "",
+    "IconUrl": "https://s3.puni.sh/media/plugin/30/icon-1x16xz3evsu.png",
+    "ImageUrls": [
+      "https://s3.puni.sh/media/plugin/30/image-4mbxiq5k4pl.png",
+      "https://s3.puni.sh/media/plugin/30/image-nc231jzj2gb.png",
+      "https://s3.puni.sh/media/plugin/30/image-3nufuhgwbhl.png"
+    ],
+    "SourceRepo": "https://puni.sh/api/repository/veyn"
+  },
+  {
     "Author": "veyn, croizat",
     "Name": "Satisfier",
     "Punchline": "Simplify custom deliveries.",
@@ -1354,30 +1378,6 @@
     "DalamudApiLevel": "13",
     "Changelog": "",
     "IconUrl": "https://s3.puni.sh/media/plugin/58/icon-hffi2ft0zlg.png",
-    "SourceRepo": "https://puni.sh/api/repository/veyn"
-  },
-  {
-    "Author": "veyn, xan_0",
-    "Name": "Boss Mod",
-    "Punchline": "Don't fail at raid mechanics anymore",
-    "Description": "A bunch of utilities to simplify bosses. Currently supports endwalker content.",
-    "Tags": [],
-    "InternalName": "BossMod",
-    "RepoUrl": "https://github.com/awgil/ffxiv_bossmod",
-    "DownloadCount": 1288242,
-    "LastUpdate": 1765822016,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/30/BossMod/versions/0.4.10.2/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/30/BossMod/versions/0.4.10.2/latest.zip",
-    "AssemblyVersion": "0.4.10.2",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "13",
-    "Changelog": "",
-    "IconUrl": "https://s3.puni.sh/media/plugin/30/icon-1x16xz3evsu.png",
-    "ImageUrls": [
-      "https://s3.puni.sh/media/plugin/30/image-4mbxiq5k4pl.png",
-      "https://s3.puni.sh/media/plugin/30/image-nc231jzj2gb.png",
-      "https://s3.puni.sh/media/plugin/30/image-3nufuhgwbhl.png"
-    ],
     "SourceRepo": "https://puni.sh/api/repository/veyn"
   },
   {
