@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "timestamp": "2025-12-22T22:27:44.993Z",
+    "message": "Failed to fetch after 3 attempts",
+    "url": "https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json",
+    "error": "Request failed with status code 503",
+    "status": 503,
+    "statusText": "Service Unavailable"
+  },
+  {
+    "timestamp": "2025-12-22T22:28:21.280Z",
+    "message": "Failed to fetch after 3 attempts",
+    "url": "https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json",
+    "error": "Request failed with status code 503",
+    "status": 503,
+    "statusText": "Service Unavailable"
+  },
+  {
+    "timestamp": "2025-12-22T22:28:45.093Z",
+    "message": "Failed to fetch after 3 attempts",
+    "url": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json",
+    "error": "Request failed with status code 503",
+    "status": 503,
+    "statusText": "Service Unavailable"
+  }
+]
