@@ -1,5 +1,5 @@
 # Plugin Repository Merge Report
-Generated: 2025-12-24T16:59:30.739Z
+Generated: 2025-12-24T17:25:48.801Z
 
 ## Summary
 - **Total Repositories**: 34
@@ -7,8 +7,8 @@ Generated: 2025-12-24T16:59:30.739Z
 - **Failed**: 0 ❌
 - **Empty**: 0 ⚠️
 
-- **Total Plugins Fetched**: 120
-- **Unique Plugins**: 111
+- **Total Plugins Fetched**: 121
+- **Unique Plugins**: 112
 - **Duplicates Removed**: 9
 
 - **Errors**: 0
@@ -78,7 +78,7 @@ Generated: 2025-12-24T16:59:30.739Z
 
 ✅ **https://raw.githubusercontent.com/KangasZ/DalamudPluginRepository/main/plugin_repository.json**
    - Status: success
-   - Plugins: 4
+   - Plugins: 5
 
 ✅ **https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json**
    - Status: success
