@@ -1,5 +1,5 @@
 # Plugin Repository Merge Report
-Generated: 2026-01-07T09:38:41.458Z
+Generated: 2026-01-07T09:55:37.812Z
 
 ## Summary
 - **Total Repositories**: 34
@@ -7,8 +7,8 @@ Generated: 2026-01-07T09:38:41.458Z
 - **Failed**: 0 ❌
 - **Empty**: 0 ⚠️
 
-- **Total Plugins Fetched**: 121
-- **Unique Plugins**: 112
+- **Total Plugins Fetched**: 120
+- **Unique Plugins**: 111
 - **Duplicates Removed**: 9
 
 - **Errors**: 0
@@ -26,7 +26,7 @@ Generated: 2026-01-07T09:38:41.458Z
 
 ✅ **https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/repo.json**
    - Status: success
-   - Plugins: 5
+   - Plugins: 4
 
 ✅ **https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json**
    - Status: success
