@@ -1,5 +1,5 @@
 # Plugin Repository Merge Report
-Generated: 2026-01-17T14:47:56.985Z
+Generated: 2026-01-17T14:58:10.888Z
 
 ## Summary
 - **Total Repositories**: 34
@@ -7,8 +7,8 @@ Generated: 2026-01-17T14:47:56.985Z
 - **Failed**: 0 ❌
 - **Empty**: 0 ⚠️
 
-- **Total Plugins Fetched**: 120
-- **Unique Plugins**: 111
+- **Total Plugins Fetched**: 118
+- **Unique Plugins**: 109
 - **Duplicates Removed**: 9
 
 - **Errors**: 0
@@ -150,7 +150,7 @@ Generated: 2026-01-17T14:47:56.985Z
 
 ✅ **https://xiv.starry.blue/plugins/master.json**
    - Status: success
-   - Plugins: 4
+   - Plugins: 2
 
 
 
