@@ -1,25 +1,24 @@
 # Plugin Repository Merge Report
-Generated: 2026-02-03T15:09:02.171Z
+Generated: 2026-02-03T16:02:21.627Z
 
 ## Summary
 - **Total Repositories**: 34
-- **Successful**: 33 ✅
-- **Failed**: 1 ❌
+- **Successful**: 34 ✅
+- **Failed**: 0 ❌
 - **Empty**: 0 ⚠️
 
-- **Total Plugins Fetched**: 105
-- **Unique Plugins**: 97
-- **Duplicates Removed**: 8
+- **Total Plugins Fetched**: 118
+- **Unique Plugins**: 109
+- **Duplicates Removed**: 9
 
-- **Errors**: 1
-- **Warnings**: 4
+- **Errors**: 0
+- **Warnings**: 0
 
 ## Repository Status
 
-❌ **https://love.puni.sh/ment.json**
-   - Status: failed
-   - Plugins: 0
-   - Error: Failed to fetch data
+✅ **https://love.puni.sh/ment.json**
+   - Status: success
+   - Plugins: 13
 
 ✅ **https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json**
    - Status: success
@@ -153,30 +152,6 @@ Generated: 2026-02-03T15:09:02.171Z
    - Status: success
    - Plugins: 2
 
-
-## Errors (1)
-
-### 1. Failed to fetch after 3 attempts
-```
-{
-  "timestamp": "2026-02-03T15:06:57.373Z",
-  "message": "Failed to fetch after 3 attempts",
-  "url": "https://love.puni.sh/ment.json",
-  "error": "timeout of 30000ms exceeded"
-}
-```
-
-
-
-
-
-
-## Warnings (4)
-
-- Fetch attempt 1 failed, retrying...
-- Fetch attempt 2 failed, retrying...
-- Fetch attempt 1 failed, retrying...
-- Fetch attempt 2 failed, retrying...
 
 
 
