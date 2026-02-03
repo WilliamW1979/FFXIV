@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "timestamp": "2026-02-03T15:06:57.373Z",
+    "message": "Failed to fetch after 3 attempts",
+    "url": "https://love.puni.sh/ment.json",
+    "error": "timeout of 30000ms exceeded"
+  }
+]
