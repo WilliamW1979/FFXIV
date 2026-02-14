@@ -1,18 +1,18 @@
 # Plugin Repository Merge Report
-Generated: 2026-02-14T09:48:41.057Z
+Generated: 2026-02-14T10:02:00.578Z
 
 ## Summary
 - **Total Repositories**: 34
-- **Successful**: 33 ✅
-- **Failed**: 1 ❌
+- **Successful**: 34 ✅
+- **Failed**: 0 ❌
 - **Empty**: 0 ⚠️
 
-- **Total Plugins Fetched**: 117
-- **Unique Plugins**: 108
+- **Total Plugins Fetched**: 118
+- **Unique Plugins**: 109
 - **Duplicates Removed**: 9
 
-- **Errors**: 1
-- **Warnings**: 2
+- **Errors**: 0
+- **Warnings**: 0
 
 ## Repository Status
 
@@ -96,10 +96,9 @@ Generated: 2026-02-14T09:48:41.057Z
    - Status: success
    - Plugins: 1
 
-❌ **https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json**
-   - Status: failed
-   - Plugins: 0
-   - Error: Failed to fetch data
+✅ **https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json**
+   - Status: success
+   - Plugins: 1
 
 ✅ **https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json**
    - Status: success
@@ -153,30 +152,6 @@ Generated: 2026-02-14T09:48:41.057Z
    - Status: success
    - Plugins: 2
 
-
-## Errors (1)
-
-### 1. Failed to fetch after 3 attempts
-```
-{
-  "timestamp": "2026-02-14T09:48:33.300Z",
-  "message": "Failed to fetch after 3 attempts",
-  "url": "https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json",
-  "error": "Request failed with status code 502",
-  "status": 502,
-  "statusText": "Bad Gateway or Proxy Error"
-}
-```
-
-
-
-
-
-
-## Warnings (2)
-
-- Fetch attempt 1 failed, retrying...
-- Fetch attempt 2 failed, retrying...
 
 
 
