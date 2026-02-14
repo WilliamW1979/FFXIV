@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "timestamp": "2026-02-14T09:48:33.300Z",
+    "message": "Failed to fetch after 3 attempts",
+    "url": "https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json",
+    "error": "Request failed with status code 502",
+    "status": 502,
+    "statusText": "Bad Gateway or Proxy Error"
+  }
+]
