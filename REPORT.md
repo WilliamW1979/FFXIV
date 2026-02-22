@@ -1,18 +1,18 @@
 # Plugin Repository Merge Report
-Generated: 2026-02-22T23:36:57.678Z
+Generated: 2026-02-22T23:56:37.239Z
 
 ## Summary
 - **Total Repositories**: 34
-- **Successful**: 34 ✅
-- **Failed**: 0 ❌
+- **Successful**: 33 ✅
+- **Failed**: 1 ❌
 - **Empty**: 0 ⚠️
 
-- **Total Plugins Fetched**: 118
-- **Unique Plugins**: 109
-- **Duplicates Removed**: 9
+- **Total Plugins Fetched**: 111
+- **Unique Plugins**: 103
+- **Duplicates Removed**: 8
 
-- **Errors**: 0
-- **Warnings**: 0
+- **Errors**: 1
+- **Warnings**: 2
 
 ## Repository Status
 
@@ -52,9 +52,10 @@ Generated: 2026-02-22T23:36:57.678Z
    - Status: success
    - Plugins: 6
 
-✅ **https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json**
-   - Status: success
-   - Plugins: 7
+❌ **https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json**
+   - Status: failed
+   - Plugins: 0
+   - Error: Failed to fetch data
 
 ✅ **https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json**
    - Status: success
@@ -152,6 +153,30 @@ Generated: 2026-02-22T23:36:57.678Z
    - Status: success
    - Plugins: 2
 
+
+## Errors (1)
+
+### 1. Failed to fetch after 3 attempts
+```
+{
+  "timestamp": "2026-02-22T23:56:21.398Z",
+  "message": "Failed to fetch after 3 attempts",
+  "url": "https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json",
+  "error": "Request failed with status code 502",
+  "status": 502,
+  "statusText": "Bad Gateway or Proxy Error"
+}
+```
+
+
+
+
+
+
+## Warnings (2)
+
+- Fetch attempt 1 failed, retrying...
+- Fetch attempt 2 failed, retrying...
 
 
 
