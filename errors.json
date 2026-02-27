@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "timestamp": "2026-02-27T09:24:11.834Z",
+    "message": "Failed to fetch after 3 attempts",
+    "url": "https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json",
+    "error": "socket hang up"
+  },
+  {
+    "timestamp": "2026-02-27T09:24:35.385Z",
+    "message": "Failed to fetch after 3 attempts",
+    "url": "https://github.com/huntsffxiv/repo/raw/main/repo.json",
+    "error": "socket hang up"
+  },
+  {
+    "timestamp": "2026-02-27T09:24:43.220Z",
+    "message": "Failed to fetch after 3 attempts",
+    "url": "https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json",
+    "error": "socket hang up"
+  }
+]

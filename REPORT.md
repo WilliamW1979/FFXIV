@@ -1,18 +1,18 @@
 # Plugin Repository Merge Report
-Generated: 2026-02-27T08:37:12.418Z
+Generated: 2026-02-27T09:24:50.257Z
 
 ## Summary
 - **Total Repositories**: 34
-- **Successful**: 34 ✅
-- **Failed**: 0 ❌
+- **Successful**: 31 ✅
+- **Failed**: 3 ❌
 - **Empty**: 0 ⚠️
 
-- **Total Plugins Fetched**: 118
-- **Unique Plugins**: 109
-- **Duplicates Removed**: 9
+- **Total Plugins Fetched**: 107
+- **Unique Plugins**: 99
+- **Duplicates Removed**: 8
 
-- **Errors**: 0
-- **Warnings**: 0
+- **Errors**: 3
+- **Warnings**: 10
 
 ## Repository Status
 
@@ -52,9 +52,10 @@ Generated: 2026-02-27T08:37:12.418Z
    - Status: success
    - Plugins: 6
 
-✅ **https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json**
-   - Status: success
-   - Plugins: 7
+❌ **https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json**
+   - Status: failed
+   - Plugins: 0
+   - Error: Failed to fetch data
 
 ✅ **https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json**
    - Status: success
@@ -92,17 +93,19 @@ Generated: 2026-02-27T08:37:12.418Z
    - Status: success
    - Plugins: 6
 
-✅ **https://github.com/huntsffxiv/repo/raw/main/repo.json**
-   - Status: success
-   - Plugins: 1
+❌ **https://github.com/huntsffxiv/repo/raw/main/repo.json**
+   - Status: failed
+   - Plugins: 0
+   - Error: Failed to fetch data
 
 ✅ **https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json**
    - Status: success
    - Plugins: 1
 
-✅ **https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json**
-   - Status: success
-   - Plugins: 3
+❌ **https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json**
+   - Status: failed
+   - Plugins: 0
+   - Error: Failed to fetch data
 
 ✅ **https://raw.githubusercontent.com/Haselnussbomber/MyDalamudPlugins/main/repo.json**
    - Status: success
@@ -152,6 +155,56 @@ Generated: 2026-02-27T08:37:12.418Z
    - Status: success
    - Plugins: 2
 
+
+## Errors (3)
+
+### 1. Failed to fetch after 3 attempts
+```
+{
+  "timestamp": "2026-02-27T09:24:11.834Z",
+  "message": "Failed to fetch after 3 attempts",
+  "url": "https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json",
+  "error": "socket hang up"
+}
+```
+
+### 2. Failed to fetch after 3 attempts
+```
+{
+  "timestamp": "2026-02-27T09:24:35.385Z",
+  "message": "Failed to fetch after 3 attempts",
+  "url": "https://github.com/huntsffxiv/repo/raw/main/repo.json",
+  "error": "socket hang up"
+}
+```
+
+### 3. Failed to fetch after 3 attempts
+```
+{
+  "timestamp": "2026-02-27T09:24:43.220Z",
+  "message": "Failed to fetch after 3 attempts",
+  "url": "https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json",
+  "error": "socket hang up"
+}
+```
+
+
+
+
+
+
+## Warnings (10)
+
+- Fetch attempt 1 failed, retrying...
+- Fetch attempt 1 failed, retrying...
+- Fetch attempt 2 failed, retrying...
+- Fetch attempt 1 failed, retrying...
+- Fetch attempt 2 failed, retrying...
+- Fetch attempt 1 failed, retrying...
+- Fetch attempt 1 failed, retrying...
+- Fetch attempt 2 failed, retrying...
+- Fetch attempt 1 failed, retrying...
+- Fetch attempt 2 failed, retrying...
 
 
 
