@@ -1,10 +1,1 @@
-[
-  {
-    "timestamp": "2026-02-28T10:56:44.817Z",
-    "message": "Failed to fetch after 3 attempts",
-    "url": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json",
-    "error": "Request failed with status code 502",
-    "status": 502,
-    "statusText": "Bad Gateway or Proxy Error"
-  }
-]
+[]
