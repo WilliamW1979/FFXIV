@@ -1,18 +1,18 @@
 # Plugin Repository Merge Report
-Generated: 2026-03-04T21:47:37.012Z
+Generated: 2026-03-04T22:16:45.453Z
 
 ## Summary
 - **Total Repositories**: 34
-- **Successful**: 34 ✅
-- **Failed**: 0 ❌
+- **Successful**: 33 ✅
+- **Failed**: 1 ❌
 - **Empty**: 0 ⚠️
 
-- **Total Plugins Fetched**: 118
-- **Unique Plugins**: 109
+- **Total Plugins Fetched**: 115
+- **Unique Plugins**: 106
 - **Duplicates Removed**: 9
 
-- **Errors**: 0
-- **Warnings**: 0
+- **Errors**: 1
+- **Warnings**: 2
 
 ## Repository Status
 
@@ -100,9 +100,10 @@ Generated: 2026-03-04T21:47:37.012Z
    - Status: success
    - Plugins: 1
 
-✅ **https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json**
-   - Status: success
-   - Plugins: 3
+❌ **https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json**
+   - Status: failed
+   - Plugins: 0
+   - Error: Failed to fetch data
 
 ✅ **https://raw.githubusercontent.com/Haselnussbomber/MyDalamudPlugins/main/repo.json**
    - Status: success
@@ -152,6 +153,30 @@ Generated: 2026-03-04T21:47:37.012Z
    - Status: success
    - Plugins: 2
 
+
+## Errors (1)
+
+### 1. Failed to fetch after 3 attempts
+```
+{
+  "timestamp": "2026-03-04T22:16:38.220Z",
+  "message": "Failed to fetch after 3 attempts",
+  "url": "https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json",
+  "error": "Request failed with status code 503",
+  "status": 503,
+  "statusText": "Service Unavailable"
+}
+```
+
+
+
+
+
+
+## Warnings (2)
+
+- Fetch attempt 1 failed, retrying...
+- Fetch attempt 2 failed, retrying...
 
 
 
