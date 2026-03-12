@@ -1,18 +1,18 @@
 # Plugin Repository Merge Report
-Generated: 2026-03-12T05:37:01.680Z
+Generated: 2026-03-12T06:32:27.565Z
 
 ## Summary
 - **Total Repositories**: 34
-- **Successful**: 32 ✅
-- **Failed**: 2 ❌
+- **Successful**: 34 ✅
+- **Failed**: 0 ❌
 - **Empty**: 0 ⚠️
 
-- **Total Plugins Fetched**: 114
-- **Unique Plugins**: 109
-- **Duplicates Removed**: 5
+- **Total Plugins Fetched**: 119
+- **Unique Plugins**: 110
+- **Duplicates Removed**: 9
 
-- **Errors**: 2
-- **Warnings**: 4
+- **Errors**: 0
+- **Warnings**: 0
 
 ## Repository Status
 
@@ -20,10 +20,9 @@ Generated: 2026-03-12T05:37:01.680Z
    - Status: success
    - Plugins: 13
 
-❌ **https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json**
-   - Status: failed
-   - Plugins: 0
-   - Error: Failed to fetch data
+✅ **https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json**
+   - Status: success
+   - Plugins: 1
 
 ✅ **https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/repo.json**
    - Status: success
@@ -57,10 +56,9 @@ Generated: 2026-03-12T05:37:01.680Z
    - Status: success
    - Plugins: 7
 
-❌ **https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json**
-   - Status: failed
-   - Plugins: 0
-   - Error: Failed to fetch data
+✅ **https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json**
+   - Status: success
+   - Plugins: 4
 
 ✅ **https://puni.sh/api/repository/veyn**
    - Status: success
@@ -154,44 +152,6 @@ Generated: 2026-03-12T05:37:01.680Z
    - Status: success
    - Plugins: 2
 
-
-## Errors (2)
-
-### 1. Failed to fetch after 3 attempts
-```
-{
-  "timestamp": "2026-03-12T05:36:36.665Z",
-  "message": "Failed to fetch after 3 attempts",
-  "url": "https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json",
-  "error": "Request failed with status code 502",
-  "status": 502,
-  "statusText": "Bad Gateway or Proxy Error"
-}
-```
-
-### 2. Failed to fetch after 3 attempts
-```
-{
-  "timestamp": "2026-03-12T05:36:47.432Z",
-  "message": "Failed to fetch after 3 attempts",
-  "url": "https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json",
-  "error": "Request failed with status code 502",
-  "status": 502,
-  "statusText": "Bad Gateway or Proxy Error"
-}
-```
-
-
-
-
-
-
-## Warnings (4)
-
-- Fetch attempt 1 failed, retrying...
-- Fetch attempt 2 failed, retrying...
-- Fetch attempt 1 failed, retrying...
-- Fetch attempt 2 failed, retrying...
 
 
 
