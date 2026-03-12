@@ -1,18 +1,18 @@
 # Plugin Repository Merge Report
-Generated: 2026-03-12T19:51:21.415Z
+Generated: 2026-03-12T20:21:59.604Z
 
 ## Summary
 - **Total Repositories**: 34
-- **Successful**: 34 ✅
-- **Failed**: 0 ❌
+- **Successful**: 33 ✅
+- **Failed**: 1 ❌
 - **Empty**: 0 ⚠️
 
-- **Total Plugins Fetched**: 119
+- **Total Plugins Fetched**: 115
 - **Unique Plugins**: 110
-- **Duplicates Removed**: 9
+- **Duplicates Removed**: 5
 
-- **Errors**: 0
-- **Warnings**: 0
+- **Errors**: 1
+- **Warnings**: 5
 
 ## Repository Status
 
@@ -56,9 +56,10 @@ Generated: 2026-03-12T19:51:21.415Z
    - Status: success
    - Plugins: 7
 
-✅ **https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json**
-   - Status: success
-   - Plugins: 4
+❌ **https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json**
+   - Status: failed
+   - Plugins: 0
+   - Error: Failed to fetch data
 
 ✅ **https://puni.sh/api/repository/veyn**
    - Status: success
@@ -152,6 +153,33 @@ Generated: 2026-03-12T19:51:21.415Z
    - Status: success
    - Plugins: 2
 
+
+## Errors (1)
+
+### 1. Failed to fetch after 3 attempts
+```
+{
+  "timestamp": "2026-03-12T20:21:04.805Z",
+  "message": "Failed to fetch after 3 attempts",
+  "url": "https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json",
+  "error": "Request failed with status code 502",
+  "status": 502,
+  "statusText": "Bad Gateway"
+}
+```
+
+
+
+
+
+
+## Warnings (5)
+
+- Fetch attempt 1 failed, retrying...
+- Fetch attempt 2 failed, retrying...
+- Fetch attempt 1 failed, retrying...
+- Fetch attempt 1 failed, retrying...
+- Fetch attempt 2 failed, retrying...
 
 
 
