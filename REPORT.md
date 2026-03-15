@@ -1,18 +1,18 @@
 # Plugin Repository Merge Report
-Generated: 2026-03-15T17:59:14.491Z
+Generated: 2026-03-15T18:53:43.996Z
 
 ## Summary
 - **Total Repositories**: 34
-- **Successful**: 34 ✅
-- **Failed**: 0 ❌
+- **Successful**: 33 ✅
+- **Failed**: 1 ❌
 - **Empty**: 0 ⚠️
 
-- **Total Plugins Fetched**: 119
-- **Unique Plugins**: 110
+- **Total Plugins Fetched**: 118
+- **Unique Plugins**: 109
 - **Duplicates Removed**: 9
 
-- **Errors**: 0
-- **Warnings**: 0
+- **Errors**: 1
+- **Warnings**: 2
 
 ## Repository Status
 
@@ -20,9 +20,10 @@ Generated: 2026-03-15T17:59:14.491Z
    - Status: success
    - Plugins: 13
 
-✅ **https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json**
-   - Status: success
-   - Plugins: 1
+❌ **https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json**
+   - Status: failed
+   - Plugins: 0
+   - Error: Failed to fetch data
 
 ✅ **https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/repo.json**
    - Status: success
@@ -152,6 +153,30 @@ Generated: 2026-03-15T17:59:14.491Z
    - Status: success
    - Plugins: 2
 
+
+## Errors (1)
+
+### 1. Failed to fetch after 3 attempts
+```
+{
+  "timestamp": "2026-03-15T18:53:22.507Z",
+  "message": "Failed to fetch after 3 attempts",
+  "url": "https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json",
+  "error": "Request failed with status code 502",
+  "status": 502,
+  "statusText": "Bad Gateway or Proxy Error"
+}
+```
+
+
+
+
+
+
+## Warnings (2)
+
+- Fetch attempt 1 failed, retrying...
+- Fetch attempt 2 failed, retrying...
 
 
 
