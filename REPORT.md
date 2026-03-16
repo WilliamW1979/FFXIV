@@ -1,5 +1,5 @@
 # Plugin Repository Merge Report
-Generated: 2026-03-16T06:49:02.248Z
+Generated: 2026-03-16T07:59:01.214Z
 
 ## Summary
 - **Total Repositories**: 34
@@ -7,8 +7,8 @@ Generated: 2026-03-16T06:49:02.248Z
 - **Failed**: 0 ❌
 - **Empty**: 0 ⚠️
 
-- **Total Plugins Fetched**: 119
-- **Unique Plugins**: 110
+- **Total Plugins Fetched**: 118
+- **Unique Plugins**: 109
 - **Duplicates Removed**: 9
 
 - **Errors**: 0
@@ -70,7 +70,7 @@ Generated: 2026-03-16T06:49:02.248Z
 
 ✅ **https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json**
    - Status: success
-   - Plugins: 9
+   - Plugins: 8
 
 ✅ **https://puni.sh/api/repository/croizat**
    - Status: success
