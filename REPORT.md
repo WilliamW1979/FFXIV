@@ -1,5 +1,5 @@
 # Plugin Repository Merge Report
-Generated: 2026-04-26T20:55:28.907Z
+Generated: 2026-04-26T21:37:04.952Z
 
 ## Summary
 - **Total Repositories**: 34
@@ -7,9 +7,9 @@ Generated: 2026-04-26T20:55:28.907Z
 - **Failed**: 0 ❌
 - **Empty**: 0 ⚠️
 
-- **Total Plugins Fetched**: 120
+- **Total Plugins Fetched**: 121
 - **Unique Plugins**: 111
-- **Duplicates Removed**: 9
+- **Duplicates Removed**: 10
 
 - **Errors**: 0
 - **Warnings**: 0
@@ -18,7 +18,7 @@ Generated: 2026-04-26T20:55:28.907Z
 
 ✅ **https://love.puni.sh/ment.json**
    - Status: success
-   - Plugins: 13
+   - Plugins: 14
 
 ✅ **https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json**
    - Status: success
