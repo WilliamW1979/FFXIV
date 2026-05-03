@@ -1,18 +1,18 @@
 # Plugin Repository Merge Report
-Generated: 2026-05-02T23:58:07.498Z
+Generated: 2026-05-03T03:49:27.656Z
 
 ## Summary
 - **Total Repositories**: 34
-- **Successful**: 33 ✅
-- **Failed**: 1 ❌
+- **Successful**: 34 ✅
+- **Failed**: 0 ❌
 - **Empty**: 0 ⚠️
 
-- **Total Plugins Fetched**: 115
-- **Unique Plugins**: 105
+- **Total Plugins Fetched**: 121
+- **Unique Plugins**: 111
 - **Duplicates Removed**: 10
 
-- **Errors**: 1
-- **Warnings**: 2
+- **Errors**: 0
+- **Warnings**: 0
 
 ## Repository Status
 
@@ -88,10 +88,9 @@ Generated: 2026-05-02T23:58:07.498Z
    - Status: success
    - Plugins: 1
 
-❌ **https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json**
-   - Status: failed
-   - Plugins: 0
-   - Error: Failed to fetch data
+✅ **https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json**
+   - Status: success
+   - Plugins: 6
 
 ✅ **https://github.com/huntsffxiv/repo/raw/main/repo.json**
    - Status: success
@@ -153,30 +152,6 @@ Generated: 2026-05-02T23:58:07.498Z
    - Status: success
    - Plugins: 2
 
-
-## Errors (1)
-
-### 1. Failed to fetch after 3 attempts
-```
-{
-  "timestamp": "2026-05-02T23:57:57.646Z",
-  "message": "Failed to fetch after 3 attempts",
-  "url": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json",
-  "error": "Request failed with status code 502",
-  "status": 502,
-  "statusText": "Bad Gateway or Proxy Error"
-}
-```
-
-
-
-
-
-
-## Warnings (2)
-
-- Fetch attempt 1 failed, retrying...
-- Fetch attempt 2 failed, retrying...
 
 
 
