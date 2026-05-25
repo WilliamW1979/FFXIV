@@ -1,5 +1,5 @@
 # Plugin Repository Merge Report
-Generated: 2026-05-25T04:52:12.362Z
+Generated: 2026-05-25T08:50:11.528Z
 
 ## Summary
 - **Total Repositories**: 34
@@ -7,8 +7,8 @@ Generated: 2026-05-25T04:52:12.362Z
 - **Failed**: 0 ❌
 - **Empty**: 0 ⚠️
 
-- **Total Plugins Fetched**: 121
-- **Unique Plugins**: 111
+- **Total Plugins Fetched**: 122
+- **Unique Plugins**: 112
 - **Duplicates Removed**: 10
 
 - **Errors**: 0
@@ -30,7 +30,7 @@ Generated: 2026-05-25T04:52:12.362Z
 
 ✅ **https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json**
    - Status: success
-   - Plugins: 15
+   - Plugins: 16
 
 ✅ **https://raw.githubusercontent.com/InitialDet/MyDalamudPlugins/main/pluginmaster.json**
    - Status: success
