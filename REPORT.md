@@ -1,5 +1,5 @@
 # Plugin Repository Merge Report
-Generated: 2026-06-29T07:14:56.621Z
+Generated: 2026-06-29T12:12:05.391Z
 
 ## Summary
 - **Total Repositories**: 34
@@ -7,8 +7,8 @@ Generated: 2026-06-29T07:14:56.621Z
 - **Failed**: 0 ❌
 - **Empty**: 0 ⚠️
 
-- **Total Plugins Fetched**: 122
-- **Unique Plugins**: 112
+- **Total Plugins Fetched**: 123
+- **Unique Plugins**: 113
 - **Duplicates Removed**: 10
 
 - **Errors**: 0
@@ -74,7 +74,7 @@ Generated: 2026-06-29T07:14:56.621Z
 
 ✅ **https://puni.sh/api/repository/croizat**
    - Status: success
-   - Plugins: 2
+   - Plugins: 3
 
 ✅ **https://raw.githubusercontent.com/KangasZ/DalamudPluginRepository/main/plugin_repository.json**
    - Status: success
