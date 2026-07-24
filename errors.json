@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "timestamp": "2026-07-24T16:01:47.839Z",
+    "message": "Failed to fetch after 3 attempts",
+    "url": "https://github.com/huntsffxiv/repo/raw/main/repo.json",
+    "error": "Request failed with status code 504",
+    "status": 504,
+    "statusText": "Gateway Time-out"
+  },
+  {
+    "timestamp": "2026-07-24T16:02:05.696Z",
+    "message": "Failed to fetch after 3 attempts",
+    "url": "https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json",
+    "error": "Request failed with status code 504",
+    "status": 504,
+    "statusText": "Gateway Time-out"
+  }
+]
