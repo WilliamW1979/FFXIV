@@ -1,5 +1,5 @@
 # Plugin Repository Merge Report
-Generated: 2026-08-04T01:06:42.696Z
+Generated: 2026-08-04T04:27:47.853Z
 
 ## Summary
 - **Total Repositories**: 34
@@ -7,9 +7,9 @@ Generated: 2026-08-04T01:06:42.696Z
 - **Failed**: 0 ❌
 - **Empty**: 0 ⚠️
 
-- **Total Plugins Fetched**: 123
-- **Unique Plugins**: 113
-- **Duplicates Removed**: 10
+- **Total Plugins Fetched**: 121
+- **Unique Plugins**: 112
+- **Duplicates Removed**: 9
 
 - **Errors**: 0
 - **Warnings**: 0
@@ -58,7 +58,7 @@ Generated: 2026-08-04T01:06:42.696Z
 
 ✅ **https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json**
    - Status: success
-   - Plugins: 4
+   - Plugins: 3
 
 ✅ **https://puni.sh/api/repository/veyn**
    - Status: success
@@ -106,7 +106,7 @@ Generated: 2026-08-04T01:06:42.696Z
 
 ✅ **https://raw.githubusercontent.com/Haselnussbomber/MyDalamudPlugins/main/repo.json**
    - Status: success
-   - Plugins: 4
+   - Plugins: 3
 
 ✅ **https://raw.githubusercontent.com/Ottermandias/Glamourer/main/repo.json**
    - Status: success
