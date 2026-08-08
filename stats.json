@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-08T06:05:42.208Z",
+  "timestamp": "2026-08-08T07:10:18.060Z",
   "total_repos": 34,
   "successful_repos": 34,
   "failed_repos": 0,
@@ -8,5 +8,5 @@
   "unique_plugins": 112,
   "duplicates_removed": 9,
   "errors": 0,
-  "warnings": 0
+  "warnings": 2
 }
