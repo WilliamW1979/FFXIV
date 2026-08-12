@@ -1,8 +1,1 @@
-[
-  {
-    "timestamp": "2026-08-12T17:37:42.853Z",
-    "message": "Failed to fetch after 3 attempts",
-    "url": "https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json",
-    "error": "socket hang up"
-  }
-]
+[]
