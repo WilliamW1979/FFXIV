@@ -1,18 +1,18 @@
 # Plugin Repository Merge Report
-Generated: 2026-08-12T16:36:25.767Z
+Generated: 2026-08-12T17:38:05.659Z
 
 ## Summary
 - **Total Repositories**: 34
-- **Successful**: 34 ✅
-- **Failed**: 0 ❌
+- **Successful**: 33 ✅
+- **Failed**: 1 ❌
 - **Empty**: 0 ⚠️
 
-- **Total Plugins Fetched**: 121
+- **Total Plugins Fetched**: 118
 - **Unique Plugins**: 112
-- **Duplicates Removed**: 9
+- **Duplicates Removed**: 6
 
-- **Errors**: 0
-- **Warnings**: 0
+- **Errors**: 1
+- **Warnings**: 6
 
 ## Repository Status
 
@@ -56,9 +56,10 @@ Generated: 2026-08-12T16:36:25.767Z
    - Status: success
    - Plugins: 7
 
-✅ **https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json**
-   - Status: success
-   - Plugins: 3
+❌ **https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json**
+   - Status: failed
+   - Plugins: 0
+   - Error: Failed to fetch data
 
 ✅ **https://puni.sh/api/repository/veyn**
    - Status: success
@@ -152,6 +153,32 @@ Generated: 2026-08-12T16:36:25.767Z
    - Status: success
    - Plugins: 2
 
+
+## Errors (1)
+
+### 1. Failed to fetch after 3 attempts
+```
+{
+  "timestamp": "2026-08-12T17:37:42.853Z",
+  "message": "Failed to fetch after 3 attempts",
+  "url": "https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json",
+  "error": "socket hang up"
+}
+```
+
+
+
+
+
+
+## Warnings (6)
+
+- Fetch attempt 1 failed, retrying...
+- Fetch attempt 2 failed, retrying...
+- Fetch attempt 1 failed, retrying...
+- Fetch attempt 2 failed, retrying...
+- Fetch attempt 1 failed, retrying...
+- Fetch attempt 2 failed, retrying...
 
 
 
