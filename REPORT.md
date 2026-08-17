@@ -1,5 +1,5 @@
 # Plugin Repository Merge Report
-Generated: 2026-08-17T14:13:30.407Z
+Generated: 2026-08-17T14:47:17.984Z
 
 ## Summary
 - **Total Repositories**: 34
@@ -12,7 +12,7 @@ Generated: 2026-08-17T14:13:30.407Z
 - **Duplicates Removed**: 5
 
 - **Errors**: 9
-- **Warnings**: 18
+- **Warnings**: 20
 
 ## Repository Status
 
@@ -167,7 +167,7 @@ Generated: 2026-08-17T14:13:30.407Z
 ### 1. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2026-08-17T14:11:48.709Z",
+  "timestamp": "2026-08-17T14:45:24.266Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json",
   "error": "Request failed with status code 404",
@@ -179,7 +179,7 @@ Generated: 2026-08-17T14:13:30.407Z
 ### 2. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2026-08-17T14:12:00.238Z",
+  "timestamp": "2026-08-17T14:45:35.186Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json",
   "error": "Request failed with status code 404",
@@ -191,7 +191,7 @@ Generated: 2026-08-17T14:13:30.407Z
 ### 3. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2026-08-17T14:12:07.973Z",
+  "timestamp": "2026-08-17T14:45:42.085Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json",
   "error": "Request failed with status code 404",
@@ -203,7 +203,7 @@ Generated: 2026-08-17T14:13:30.407Z
 ### 4. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2026-08-17T14:12:42.759Z",
+  "timestamp": "2026-08-17T14:45:52.259Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json",
   "error": "Request failed with status code 404",
@@ -215,7 +215,7 @@ Generated: 2026-08-17T14:13:30.407Z
 ### 5. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2026-08-17T14:12:50.640Z",
+  "timestamp": "2026-08-17T14:45:59.353Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://github.com/emyxiv/Dresser/raw/master/repo.json",
   "error": "Request failed with status code 404",
@@ -227,7 +227,7 @@ Generated: 2026-08-17T14:13:30.407Z
 ### 6. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2026-08-17T14:12:58.409Z",
+  "timestamp": "2026-08-17T14:46:06.149Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json",
   "error": "Request failed with status code 404",
@@ -239,7 +239,7 @@ Generated: 2026-08-17T14:13:30.407Z
 ### 7. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2026-08-17T14:13:07.326Z",
+  "timestamp": "2026-08-17T14:46:12.923Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://github.com/huntsffxiv/repo/raw/main/repo.json",
   "error": "Request failed with status code 404",
@@ -251,7 +251,7 @@ Generated: 2026-08-17T14:13:30.407Z
 ### 8. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2026-08-17T14:13:15.122Z",
+  "timestamp": "2026-08-17T14:46:19.762Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json",
   "error": "Request failed with status code 404",
@@ -263,7 +263,7 @@ Generated: 2026-08-17T14:13:30.407Z
 ### 9. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2026-08-17T14:13:22.864Z",
+  "timestamp": "2026-08-17T14:46:26.488Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json",
   "error": "Request failed with status code 404",
@@ -277,7 +277,7 @@ Generated: 2026-08-17T14:13:30.407Z
 
 
 
-## Warnings (18)
+## Warnings (20)
 
 - Fetch attempt 1 failed, retrying...
 - Fetch attempt 2 failed, retrying...
@@ -291,5 +291,5 @@ Generated: 2026-08-17T14:13:30.407Z
 - Fetch attempt 2 failed, retrying...
 
 
-*... and 8 more warnings.*
+*... and 10 more warnings.*
 
