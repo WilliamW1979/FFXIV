@@ -1,5 +1,5 @@
 # Plugin Repository Merge Report
-Generated: 2026-08-17T14:47:17.984Z
+Generated: 2026-08-17T15:40:25.612Z
 
 ## Summary
 - **Total Repositories**: 34
@@ -167,7 +167,7 @@ Generated: 2026-08-17T14:47:17.984Z
 ### 1. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2026-08-17T14:45:24.266Z",
+  "timestamp": "2026-08-17T15:38:16.286Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json",
   "error": "Request failed with status code 404",
@@ -179,7 +179,7 @@ Generated: 2026-08-17T14:47:17.984Z
 ### 2. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2026-08-17T14:45:35.186Z",
+  "timestamp": "2026-08-17T15:38:27.004Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json",
   "error": "Request failed with status code 404",
@@ -191,7 +191,7 @@ Generated: 2026-08-17T14:47:17.984Z
 ### 3. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2026-08-17T14:45:42.085Z",
+  "timestamp": "2026-08-17T15:38:34.042Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json",
   "error": "Request failed with status code 404",
@@ -203,7 +203,7 @@ Generated: 2026-08-17T14:47:17.984Z
 ### 4. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2026-08-17T14:45:52.259Z",
+  "timestamp": "2026-08-17T15:38:44.189Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json",
   "error": "Request failed with status code 404",
@@ -215,7 +215,7 @@ Generated: 2026-08-17T14:47:17.984Z
 ### 5. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2026-08-17T14:45:59.353Z",
+  "timestamp": "2026-08-17T15:38:51.321Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://github.com/emyxiv/Dresser/raw/master/repo.json",
   "error": "Request failed with status code 404",
@@ -227,7 +227,7 @@ Generated: 2026-08-17T14:47:17.984Z
 ### 6. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2026-08-17T14:46:06.149Z",
+  "timestamp": "2026-08-17T15:38:58.610Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json",
   "error": "Request failed with status code 404",
@@ -239,7 +239,7 @@ Generated: 2026-08-17T14:47:17.984Z
 ### 7. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2026-08-17T14:46:12.923Z",
+  "timestamp": "2026-08-17T15:39:05.693Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://github.com/huntsffxiv/repo/raw/main/repo.json",
   "error": "Request failed with status code 404",
@@ -251,7 +251,7 @@ Generated: 2026-08-17T14:47:17.984Z
 ### 8. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2026-08-17T14:46:19.762Z",
+  "timestamp": "2026-08-17T15:39:12.790Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json",
   "error": "Request failed with status code 404",
@@ -263,7 +263,7 @@ Generated: 2026-08-17T14:47:17.984Z
 ### 9. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2026-08-17T14:46:26.488Z",
+  "timestamp": "2026-08-17T15:39:19.861Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json",
   "error": "Request failed with status code 404",
