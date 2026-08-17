@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-08-17T15:38:16.286Z",
+    "timestamp": "2026-08-17T15:57:26.661Z",
     "message": "Failed to fetch after 3 attempts",
     "url": "https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json",
     "error": "Request failed with status code 404",
@@ -8,7 +8,7 @@
     "statusText": "Not Found"
   },
   {
-    "timestamp": "2026-08-17T15:38:27.004Z",
+    "timestamp": "2026-08-17T15:57:57.852Z",
     "message": "Failed to fetch after 3 attempts",
     "url": "https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json",
     "error": "Request failed with status code 404",
@@ -16,7 +16,7 @@
     "statusText": "Not Found"
   },
   {
-    "timestamp": "2026-08-17T15:38:34.042Z",
+    "timestamp": "2026-08-17T15:58:04.835Z",
     "message": "Failed to fetch after 3 attempts",
     "url": "https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json",
     "error": "Request failed with status code 404",
@@ -24,7 +24,7 @@
     "statusText": "Not Found"
   },
   {
-    "timestamp": "2026-08-17T15:38:44.189Z",
+    "timestamp": "2026-08-17T15:58:35.845Z",
     "message": "Failed to fetch after 3 attempts",
     "url": "https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json",
     "error": "Request failed with status code 404",
@@ -32,7 +32,7 @@
     "statusText": "Not Found"
   },
   {
-    "timestamp": "2026-08-17T15:38:51.321Z",
+    "timestamp": "2026-08-17T15:58:42.831Z",
     "message": "Failed to fetch after 3 attempts",
     "url": "https://github.com/emyxiv/Dresser/raw/master/repo.json",
     "error": "Request failed with status code 404",
@@ -40,7 +40,7 @@
     "statusText": "Not Found"
   },
   {
-    "timestamp": "2026-08-17T15:38:58.610Z",
+    "timestamp": "2026-08-17T15:58:49.906Z",
     "message": "Failed to fetch after 3 attempts",
     "url": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json",
     "error": "Request failed with status code 404",
@@ -48,7 +48,7 @@
     "statusText": "Not Found"
   },
   {
-    "timestamp": "2026-08-17T15:39:05.693Z",
+    "timestamp": "2026-08-17T15:58:56.903Z",
     "message": "Failed to fetch after 3 attempts",
     "url": "https://github.com/huntsffxiv/repo/raw/main/repo.json",
     "error": "Request failed with status code 404",
@@ -56,7 +56,7 @@
     "statusText": "Not Found"
   },
   {
-    "timestamp": "2026-08-17T15:39:12.790Z",
+    "timestamp": "2026-08-17T15:59:03.963Z",
     "message": "Failed to fetch after 3 attempts",
     "url": "https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json",
     "error": "Request failed with status code 404",
@@ -64,11 +64,19 @@
     "statusText": "Not Found"
   },
   {
-    "timestamp": "2026-08-17T15:39:19.861Z",
+    "timestamp": "2026-08-17T15:59:12.270Z",
     "message": "Failed to fetch after 3 attempts",
     "url": "https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json",
     "error": "Request failed with status code 404",
     "status": 404,
     "statusText": "Not Found"
+  },
+  {
+    "timestamp": "2026-08-17T16:00:26.488Z",
+    "message": "Failed to fetch after 3 attempts",
+    "url": "https://raw.githubusercontent.com/SoyaX/SoyaPlugins/main/repo.json",
+    "error": "Request failed with status code 429",
+    "status": 429,
+    "statusText": "Too Many Requests"
   }
 ]
