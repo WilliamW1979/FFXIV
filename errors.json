@@ -1,1 +1,66 @@
-[]
+[
+  {
+    "timestamp": "2026-08-17T13:44:25.644Z",
+    "message": "Failed to fetch after 3 attempts",
+    "url": "https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json",
+    "error": "Request failed with status code 404",
+    "status": 404,
+    "statusText": "Not Found"
+  },
+  {
+    "timestamp": "2026-08-17T13:44:36.847Z",
+    "message": "Failed to fetch after 3 attempts",
+    "url": "https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json",
+    "error": "Request failed with status code 404",
+    "status": 404,
+    "statusText": "Not Found"
+  },
+  {
+    "timestamp": "2026-08-17T13:44:49.744Z",
+    "message": "Failed to fetch after 3 attempts",
+    "url": "https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json",
+    "error": "Request failed with status code 404",
+    "status": 404,
+    "statusText": "Not Found"
+  },
+  {
+    "timestamp": "2026-08-17T13:44:57.013Z",
+    "message": "Failed to fetch after 3 attempts",
+    "url": "https://github.com/emyxiv/Dresser/raw/master/repo.json",
+    "error": "Request failed with status code 404",
+    "status": 404,
+    "statusText": "Not Found"
+  },
+  {
+    "timestamp": "2026-08-17T13:45:04.157Z",
+    "message": "Failed to fetch after 3 attempts",
+    "url": "https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json",
+    "error": "Request failed with status code 404",
+    "status": 404,
+    "statusText": "Not Found"
+  },
+  {
+    "timestamp": "2026-08-17T13:45:11.395Z",
+    "message": "Failed to fetch after 3 attempts",
+    "url": "https://github.com/huntsffxiv/repo/raw/main/repo.json",
+    "error": "Request failed with status code 404",
+    "status": 404,
+    "statusText": "Not Found"
+  },
+  {
+    "timestamp": "2026-08-17T13:45:26.589Z",
+    "message": "Failed to fetch after 3 attempts",
+    "url": "https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json",
+    "error": "Request failed with status code 502",
+    "status": 502,
+    "statusText": "Bad Gateway or Proxy Error"
+  },
+  {
+    "timestamp": "2026-08-17T13:45:33.707Z",
+    "message": "Failed to fetch after 3 attempts",
+    "url": "https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json",
+    "error": "Request failed with status code 404",
+    "status": 404,
+    "statusText": "Not Found"
+  }
+]

@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-08-17T12:59:10.769Z",
+  "timestamp": "2026-08-17T13:45:41.201Z",
   "total_repos": 34,
-  "successful_repos": 34,
-  "failed_repos": 0,
+  "successful_repos": 26,
+  "failed_repos": 8,
   "empty_repos": 0,
-  "total_plugins_fetched": 121,
-  "unique_plugins": 112,
-  "duplicates_removed": 9,
-  "errors": 0,
-  "warnings": 0
+  "total_plugins_fetched": 100,
+  "unique_plugins": 92,
+  "duplicates_removed": 8,
+  "errors": 8,
+  "warnings": 16
 }
