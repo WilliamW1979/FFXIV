@@ -1,18 +1,18 @@
 # Plugin Repository Merge Report
-Generated: 2026-09-07T09:45:10.501Z
+Generated: 2026-09-07T15:18:41.071Z
 
 ## Summary
 - **Total Repositories**: 34
-- **Successful**: 34 ✅
-- **Failed**: 0 ❌
+- **Successful**: 33 ✅
+- **Failed**: 1 ❌
 - **Empty**: 0 ⚠️
 
-- **Total Plugins Fetched**: 121
-- **Unique Plugins**: 112
+- **Total Plugins Fetched**: 119
+- **Unique Plugins**: 110
 - **Duplicates Removed**: 9
 
-- **Errors**: 0
-- **Warnings**: 0
+- **Errors**: 1
+- **Warnings**: 2
 
 ## Repository Status
 
@@ -148,10 +148,35 @@ Generated: 2026-09-07T09:45:10.501Z
    - Status: success
    - Plugins: 5
 
-✅ **https://xiv.starry.blue/plugins/master.json**
-   - Status: success
-   - Plugins: 2
+❌ **https://xiv.starry.blue/plugins/master.json**
+   - Status: failed
+   - Plugins: 0
+   - Error: Failed to fetch data
 
+
+## Errors (1)
+
+### 1. Failed to fetch after 3 attempts
+```
+{
+  "timestamp": "2026-09-07T15:18:40.566Z",
+  "message": "Failed to fetch after 3 attempts",
+  "url": "https://xiv.starry.blue/plugins/master.json",
+  "error": "Request failed with status code 403",
+  "status": 403,
+  "statusText": "Forbidden"
+}
+```
+
+
+
+
+
+
+## Warnings (2)
+
+- Fetch attempt 1 failed, retrying...
+- Fetch attempt 2 failed, retrying...
 
 
 
