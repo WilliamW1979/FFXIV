@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-10-01T21:18:09.354Z",
+    "timestamp": "2026-10-02T00:54:12.929Z",
     "message": "Failed to fetch after 3 attempts",
     "url": "https://xiv.starry.blue/plugins/master.json",
     "error": "Request failed with status code 403",
