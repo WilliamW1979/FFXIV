@@ -1,5 +1,5 @@
 # Plugin Repository Merge Report
-Generated: 2026-10-16T17:33:27.066Z
+Generated: 2026-10-16T20:02:58.550Z
 
 ## Summary
 - **Total Repositories**: 34
@@ -159,7 +159,7 @@ Generated: 2026-10-16T17:33:27.066Z
 ### 1. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2026-10-16T17:33:26.561Z",
+  "timestamp": "2026-10-16T20:02:58.045Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://xiv.starry.blue/plugins/master.json",
   "error": "Request failed with status code 403",
