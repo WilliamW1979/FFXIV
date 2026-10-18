@@ -1,18 +1,18 @@
 # Plugin Repository Merge Report
-Generated: 2026-10-18T09:31:11.409Z
+Generated: 2026-10-18T13:30:36.556Z
 
 ## Summary
 - **Total Repositories**: 34
-- **Successful**: 33 ✅
-- **Failed**: 1 ❌
+- **Successful**: 32 ✅
+- **Failed**: 2 ❌
 - **Empty**: 0 ⚠️
 
-- **Total Plugins Fetched**: 119
-- **Unique Plugins**: 110
+- **Total Plugins Fetched**: 118
+- **Unique Plugins**: 109
 - **Duplicates Removed**: 9
 
-- **Errors**: 1
-- **Warnings**: 2
+- **Errors**: 2
+- **Warnings**: 4
 
 ## Repository Status
 
@@ -92,9 +92,10 @@ Generated: 2026-10-18T09:31:11.409Z
    - Status: success
    - Plugins: 6
 
-✅ **https://github.com/huntsffxiv/repo/raw/main/repo.json**
-   - Status: success
-   - Plugins: 1
+❌ **https://github.com/huntsffxiv/repo/raw/main/repo.json**
+   - Status: failed
+   - Plugins: 0
+   - Error: Failed to fetch data
 
 ✅ **https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json**
    - Status: success
@@ -154,12 +155,24 @@ Generated: 2026-10-18T09:31:11.409Z
    - Error: Failed to fetch data
 
 
-## Errors (1)
+## Errors (2)
 
 ### 1. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2026-10-18T09:31:10.905Z",
+  "timestamp": "2026-10-18T13:30:22.184Z",
+  "message": "Failed to fetch after 3 attempts",
+  "url": "https://github.com/huntsffxiv/repo/raw/main/repo.json",
+  "error": "Request failed with status code 404",
+  "status": 404,
+  "statusText": "Not Found"
+}
+```
+
+### 2. Failed to fetch after 3 attempts
+```
+{
+  "timestamp": "2026-10-18T13:30:36.051Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://xiv.starry.blue/plugins/master.json",
   "error": "Request failed with status code 403",
@@ -173,8 +186,10 @@ Generated: 2026-10-18T09:31:11.409Z
 
 
 
-## Warnings (2)
+## Warnings (4)
 
+- Fetch attempt 1 failed, retrying...
+- Fetch attempt 2 failed, retrying...
 - Fetch attempt 1 failed, retrying...
 - Fetch attempt 2 failed, retrying...
 
