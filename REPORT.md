@@ -1,5 +1,5 @@
 # Plugin Repository Merge Report
-Generated: 2026-10-23T21:37:20.402Z
+Generated: 2026-10-23T23:59:36.851Z
 
 ## Summary
 - **Total Repositories**: 34
@@ -160,7 +160,7 @@ Generated: 2026-10-23T21:37:20.402Z
 ### 1. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2026-10-23T21:37:04.566Z",
+  "timestamp": "2026-10-23T23:59:21.334Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://github.com/huntsffxiv/repo/raw/main/repo.json",
   "error": "Request failed with status code 404",
@@ -172,7 +172,7 @@ Generated: 2026-10-23T21:37:20.402Z
 ### 2. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2026-10-23T21:37:19.898Z",
+  "timestamp": "2026-10-23T23:59:36.346Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://xiv.starry.blue/plugins/master.json",
   "error": "Request failed with status code 403",
