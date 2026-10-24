@@ -63,8 +63,8 @@ internal static class Submission
 
     private static async Task<(string? Reason, int Count)> EvaluateAsync(string Url, string User)
     {
-        int recent = Store.ReadSubmissions().Count(s => string.Equals(s.User, User, StringComparison.OrdinalIgnoreCase) && DateTime.UtcNow - s.TimeUtc < Settings.RateWindow);
-        if (recent >= Settings.MaxSubmissionsPerWindow) return ($"You have reached the limit of {Settings.MaxSubmissionsPerWindow} submissions per {Settings.RateWindow.TotalHours:0} hours. Please try again later.", 0);
+        int recent = Store.ReadSubmissions().Count(s => s.Outcome == "REJECTED" && string.Equals(s.User, User, StringComparison.OrdinalIgnoreCase) && DateTime.UtcNow - s.TimeUtc < Settings.RateWindow);
+        if (recent >= Settings.MaxRejectionsPerWindow) return ($"You have had {Settings.MaxRejectionsPerWindow} rejected submissions in the last {Settings.RateWindow.TotalHours:0} hours. Please try again later.", 0);
         string? urlProblem = CheckUrl(Url);
         if (urlProblem is not null) return (urlProblem, 0);
         RepoRead read = await RepoReader.ReadAsync(Url, Settings.SubmissionRetries);
