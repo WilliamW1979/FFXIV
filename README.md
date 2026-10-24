@@ -16,6 +16,8 @@ Add this URL as a custom plugin repository in Dalamud:
 
 If the repository passes every check it is added immediately and shows up in the next merged `repository.json`. If it fails, the reply explains why. Fix the problem and open a new submission.
 
+If on the rare chance that a working plugin is not being read here, please submit an issue so that I can look into it. Generally this script only reads the original JSON and creates a new MEGA JSON so it shouldn't have any problems.
+
 ### Submission requirements
 
 - The URL is `https://`, on a public domain name, 300 characters or fewer, with no credentials, custom port, IP address or internal host.
