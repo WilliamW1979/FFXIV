@@ -44,7 +44,7 @@ If a repo no longer exists or can't be read after 3 days of attempting, it gets 
 
 ### Dedication
 
-This MEGA Repository was written for a woman who loved playing FFXIV. She passed away on April 7th, 2026. Even though I don't play the game anymore, I keep this going out of respect for her. I fully automated the system because originally she was the one who managed this after I wrote the initial code. Since she can't manage it anymore, I fully automated it.
+This MEGA Repository was written for a woman who loved playing FFXIV. She passed away on April 7th, 2026. Even though I don't play the game anymore, I keep this going out of respect for her. I fully automated the system because originally she was the one who managed this after I wrote the initial code.
 
 ### Notes
 
