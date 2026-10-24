@@ -1,18 +1,18 @@
 # Plugin Repository Merge Report
 
 ## Summary
-- **Active Repositories**: 38
-- **Successful**: 37 ✅
+- **Active Repositories**: 39
+- **Successful**: 38 ✅
 - **Failing**: 1 ❌
 - **Quarantined**: 0 🚫
 - **Restored This Run**: 0 ♻️
 
-- **Total Plugins Fetched**: 155
-- **Unique Plugins**: 132
-- **Duplicates Removed**: 23
+- **Total Plugins Fetched**: 259
+- **Unique Plugins**: 161
+- **Duplicates Removed**: 98
 
 - **Errors**: 1
-- **Warnings**: 2
+- **Warnings**: 3
 
 ## Repository Status
 
@@ -169,11 +169,16 @@
    - Status: success  
    - Plugins: 14  
 
+✅ **https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json**  
+   - Status: success  
+   - Plugins: 104  
+
 ## Errors (1)
 
 - https://github.com/huntsffxiv/repo/raw/main/repo.json has been failing since 2026-10-24 05:47 UTC (2.1 of 72 hours before quarantine): HTTP 404 Not Found
 
-## Warnings (2)
+## Warnings (3)
 
 - Marketbuddy is provided by different authors: Chalkos, NightmareXIV, Chalkos
 - Questionable is provided by different authors: the Puni.sh Quest Squad, Liza Carvelli
+- SkipCutscene is provided by different authors: KangasZ, Windmourn
