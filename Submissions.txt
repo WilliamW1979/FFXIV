@@ -1,8 +1,1 @@
-2026-10-24T05:51:18.9378749Z	WilliamW1979	ACCEPTED	https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json
-2026-10-24T05:55:17.9529626Z	WilliamW1979	REJECTED	https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json
-2026-10-24T06:18:28.0419830Z	WilliamW1979	REJECTED	https://puni.sh
-2026-10-24T06:20:16.5723666Z	WilliamW1979	REJECTED	https://raw.githubusercontent.com/SlothSuite/SlothSuiteRepo/main/pluginmaster.json
-2026-10-24T06:20:35.4906487Z	WilliamW1979	REJECTED	https://love.puni.sh/ment-testing.json
-2026-10-24T06:20:50.0415912Z	WilliamW1979	REJECTED	https://raw.githubusercontent.com/Ottermandias/DalamudPlugins/main/pluginmaster.json
-2026-10-24T06:21:00.1801499Z	WilliamW1979	REJECTED	https://raw.githubusercontent.com/zandier/DalamudPlugins/master/pluginmaster.json
-2026-10-24T07:02:23.5593750Z	WilliamW1979	REJECTED	https://raw.githubusercontent.com/Eauldane/ElfShelf/refs/heads/main/repo.json
+
