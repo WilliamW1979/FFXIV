@@ -64,7 +64,7 @@ internal static class PluginTools
         string? firstVersion = GetString(First, "AssemblyVersion");
         string? secondVersion = GetString(Second, "AssemblyVersion");
         if (!string.IsNullOrEmpty(firstVersion) && !string.IsNullOrEmpty(secondVersion)) return CompareVersions(secondVersion, firstVersion);
-        return Second.Count - First.Count;
+        return 0;
     }
 
     public static List<JsonObject> Deduplicate(List<JsonObject> All)
@@ -79,8 +79,6 @@ internal static class PluginTools
                 continue;
             }
             Log.Info($"Found {versions.Count} versions of {group.Key}");
-            string[] authors = versions.Select(p => GetString(p, "Author") ?? "Unknown").Distinct(StringComparer.OrdinalIgnoreCase).ToArray();
-            if (authors.Length > 1) Log.Warn($"{group.Key} is provided by different authors: {string.Join(", ", authors)}");
             List<JsonObject> sorted = versions.OrderBy(p => p, Comparer<JsonObject>.Create(CompareCandidates)).ToList();
             JsonArray alternates = new();
             foreach (string source in sorted.Skip(1).Select(p => GetString(p, "SourceRepo")).OfType<string>().Distinct()) alternates.Add(source);
