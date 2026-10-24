@@ -4,3 +4,4 @@
 2026-10-24T06:20:16.5723666Z	WilliamW1979	REJECTED	https://raw.githubusercontent.com/SlothSuite/SlothSuiteRepo/main/pluginmaster.json
 2026-10-24T06:20:35.4906487Z	WilliamW1979	REJECTED	https://love.puni.sh/ment-testing.json
 2026-10-24T06:20:50.0415912Z	WilliamW1979	REJECTED	https://raw.githubusercontent.com/Ottermandias/DalamudPlugins/main/pluginmaster.json
+2026-10-24T06:21:00.1801499Z	WilliamW1979	REJECTED	https://raw.githubusercontent.com/zandier/DalamudPlugins/master/pluginmaster.json
