@@ -1,3 +1,4 @@
 
 2026-10-24T07:05:04.4167763Z	WilliamW1979	ACCEPTED	https://raw.githubusercontent.com/Eauldane/ElfShelf/refs/heads/main/repo.json
 2026-10-24T07:06:13.8701256Z	WilliamW1979	REJECTED	https://raw.githubusercontent.com/zandier/DalamudPlugins/master/pluginmaster.json
+2026-10-24T07:42:29.5421798Z	WilliamW1979	REJECTED	https://raw.githubusercontent.com/SlothSuite/SlothSuiteRepo/main/pluginmaster.json
