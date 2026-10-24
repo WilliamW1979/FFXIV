@@ -20,7 +20,8 @@ internal static class Submission
         return candidate is null || candidate.StartsWith('#') ? null : candidate;
     }
 
-    private static bool IsPublicHttps(string? Link) => Uri.TryCreate(Link, UriKind.Absolute, out Uri? uri) && uri.Scheme == Uri.UriSchemeHttps && uri.HostNameType == UriHostNameType.Dns && uri.UserInfo.Length == 0;
+
+    private static bool IsHttpUrl(string? Link) => Uri.TryCreate(Link, UriKind.Absolute, out Uri? uri) && (uri.Scheme == Uri.UriSchemeHttps || uri.Scheme == Uri.UriSchemeHttp);
 
     private static string? CheckUrl(string Url)
     {
@@ -54,9 +55,7 @@ internal static class Submission
                 problems.Add($"{label}: InternalName may only contain letters, digits, dots, dashes and underscores");
                 continue;
             }
-            if (!IsPublicHttps(PluginTools.GetString(plugin, "DownloadLinkInstall"))) problems.Add($"{label}: DownloadLinkInstall must be a public https:// link");
-            foreach (string field in new[] { "DownloadLinkUpdate", "DownloadLinkTesting" })
-                if (PluginTools.HasField(plugin, field) && !IsPublicHttps(PluginTools.GetString(plugin, field))) problems.Add($"{label}: {field} must be a public https:// link");
+            if (PluginTools.HasField(plugin, "RepoUrl") && !IsHttpUrl(PluginTools.GetString(plugin, "RepoUrl"))) problems.Add($"{label}: RepoUrl must be a valid http:// or https:// link");
         }
         return problems;
     }
