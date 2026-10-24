@@ -1,3 +1,4 @@
 2026-10-24T05:51:18.9378749Z	WilliamW1979	ACCEPTED	https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json
 2026-10-24T05:55:17.9529626Z	WilliamW1979	REJECTED	https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json
 2026-10-24T06:18:28.0419830Z	WilliamW1979	REJECTED	https://puni.sh
+2026-10-24T06:20:16.5723666Z	WilliamW1979	REJECTED	https://raw.githubusercontent.com/SlothSuite/SlothSuiteRepo/main/pluginmaster.json
