@@ -1,15 +1,15 @@
 # Plugin Repository Merge Report
 
 ## Summary
-- **Active Repositories**: 37
-- **Successful**: 36 ✅
+- **Active Repositories**: 38
+- **Successful**: 37 ✅
 - **Failing**: 1 ❌
 - **Quarantined**: 0 🚫
 - **Restored This Run**: 0 ♻️
 
-- **Total Plugins Fetched**: 141
+- **Total Plugins Fetched**: 155
 - **Unique Plugins**: 132
-- **Duplicates Removed**: 9
+- **Duplicates Removed**: 23
 
 - **Errors**: 1
 - **Warnings**: 2
@@ -165,9 +165,13 @@
    - Status: success  
    - Plugins: 5  
 
+✅ **https://love.puni.sh/ment-testing.json**  
+   - Status: success  
+   - Plugins: 14  
+
 ## Errors (1)
 
-- https://github.com/huntsffxiv/repo/raw/main/repo.json has been failing since 2026-10-24 05:47 UTC (1.9 of 72 hours before quarantine): HTTP 404 Not Found
+- https://github.com/huntsffxiv/repo/raw/main/repo.json has been failing since 2026-10-24 05:47 UTC (2.0 of 72 hours before quarantine): HTTP 404 Not Found
 
 ## Warnings (2)
 
