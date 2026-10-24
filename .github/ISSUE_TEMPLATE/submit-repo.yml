@@ -1,0 +1,17 @@
+name: Submit a plugin repository
+description: Submit a Dalamud custom plugin repository for automatic inclusion
+title: "[Submit] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Your repository is checked automatically within a minute or two. If it reads cleanly it is added right away, otherwise you get the reason in a comment.
+        Requirements: an https:// URL to your repo JSON on a public domain, every plugin has an InternalName, a Name and a public https:// DownloadLinkInstall, and no plugin InternalName is already provided by another repository in the list.
+  - type: input
+    id: url
+    attributes:
+      label: Repository URL
+      description: The direct URL to your repo JSON file.
+      placeholder: https://raw.githubusercontent.com/you/DalamudPlugins/main/repo.json
+    validations:
+      required: true

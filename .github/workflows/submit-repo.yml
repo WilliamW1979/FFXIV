@@ -1,0 +1,51 @@
+name: Process Repository Submission
+on:
+  issues:
+    types: [opened]
+permissions:
+  contents: write
+  issues: write
+jobs:
+  submit:
+    if: contains(github.event.issue.body, '### Repository URL')
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: '10.0.x'
+      - name: Build
+        run: dotnet publish RepoMerger -c Release -o out
+      - name: Validate submission and update the merged repository
+        id: submit
+        continue-on-error: true
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          SUBMITTER: ${{ github.event.issue.user.login }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: bash .github/scripts/run-and-push.sh submit
+      - name: Reply to the submitter
+        if: always()
+        uses: actions/github-script@v9
+        env:
+          STEP_OUTCOME: ${{ steps.submit.outcome }}
+        with:
+          script: |
+            const fs = require('fs');
+            const issue_number = context.issue.number;
+            const file = 'submission-result.txt';
+            if (process.env.STEP_OUTCOME !== 'success' || !fs.existsSync(file)) {
+              await github.rest.issues.createComment({ ...context.repo, issue_number, body: 'Something went wrong while processing this submission automatically. The maintainer has been notified and will take a look.' });
+              await github.rest.issues.addLabels({ ...context.repo, issue_number, labels: ['needs-maintainer'] });
+              return;
+            }
+            const lines = fs.readFileSync(file, 'utf8').split('\n');
+            const accepted = lines[0].trim() === 'ACCEPTED';
+            const message = lines.slice(1).join('\n').trim();
+            const body = accepted ? `✅ ${message}` : `❌ **Submission rejected**\n\n${message}\n\nFix the problem and open a new submission.`;
+            await github.rest.issues.createComment({ ...context.repo, issue_number, body });
+            await github.rest.issues.addLabels({ ...context.repo, issue_number, labels: [accepted ? 'accepted' : 'rejected'] });
+            await github.rest.issues.update({ ...context.repo, issue_number, state: 'closed', state_reason: accepted ? 'completed' : 'not_planned' });
