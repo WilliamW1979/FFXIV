@@ -3,7 +3,7 @@
     "Author": "Legends of the Game",
     "Name": "Time Memoria",
     "InternalName": "TimeMemoriaV3",
-    "AssemblyVersion": "3.8.0.15",
+    "AssemblyVersion": "3.9.0.15",
     "Description": "Quest progression and pacing — a reflective notebook for your story journey, not a scoreboard.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/LegendsOfTheGame/TimeMemoriaV3",
@@ -31,7 +31,7 @@
     "DownloadLinkTesting": "https://github.com/LegendsOfTheGame/TimeMemoriaV3/releases/latest/download/latest.zip",
     "IconUrl": "https://raw.githubusercontent.com/LegendsOfTheGame/TimeMemoriaV3/main/assets/icon.png",
     "DownloadCount": 0,
-    "Changelog": "Collections, the bestiary and optional features.\nExports:\n- The Ledger export is about half its former size (fmt 2), so it pastes cheaply into other tools. Master recipe books are added.\n- New collections export (/tm collections, Copy collections): mounts, minions, orchestrion rolls, Triple Triad cards and NPCs, emotes, fashion accessories, facewear, curiosities, fish, spearfish, Master's Bestiary captures and folklore tomes read.\n- World lists in the collections export: sightseeing log, aether currents, aetherytes and porter stops, plus the game client build.\n- New full export (/tm full, Copy everything): progress and collections together.\n- Quests done, duty clears and quest totals by expansion, so the Ledger can show questlines and a duty grid.\n- Mount speed per zone and bicolor gemstones.\nFeatures:\n- New Features list in Settings. Each feature is optional and off until you turn it on.\n- Master's Bestiary: every Beastmaster beast, where to tame it, the minimum level, the Kornago Gourd, and whether you have captured it. Click Flag to open the map there.\n- /bmap turns the Master's Bestiary on and opens it beside the game's own Master's Bestiary. It replaces the Bestiary Mapper plugin.\nFixes:\n- Active Events no longer lists an event twice when its name has an apostrophe.\n- Levequest folders use the game's job names.",
+    "Changelog": "Relic stages and the Keybound Brawler name.\nExports:\n- The collections export (Copy collections, Copy everything) now includes the highest relic stage you hold for each job, from Zodiac to Cosmic Tools. It reads the armoury chest, the bags, the saddlebag, your retainers and the glamour dresser. You do not have to open your retainers: the game's own Search for Item data is used.\nEvents:\n- Active Events shows the Gold Saucer's Keybound Brawler event (festival 257) by name, not as Unknown. The event starts on 28 October 2026 at 08:00 UTC.\nAdventurer's Ledger (Pandora Lunar):\n- Relics is its own area in the left rail, with one tab for each expansion and the stage of each job's relic.\n- Daily, Weekly and Seasonal meters in the rail, events from the Time Memoria news feed, fish and spearfish lists, crafter and gatherer hub quests from 70 to 100.\n- Fix: a second open Ledger tab no longer erases changes made in the first tab.",
     "SourceRepo": "https://raw.githubusercontent.com/LegendsOfTheGame/TimeMemoriaV3/main/repo.json"
   }
 ]
