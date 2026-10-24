@@ -6,7 +6,7 @@ Merges many Dalamud custom plugin repositories into a single `repository.json`, 
 
 Add this URL as a custom plugin repository in Dalamud:
 
-[https://raw.githubusercontent.com/WilliamW1979/TempFFXIV/main/repository.json](https://raw.githubusercontent.com/WilliamW1979/FFXIV/main/repository.json)
+[https://raw.githubusercontent.com/WilliamW1979/FFXIV/main/repository.json](https://raw.githubusercontent.com/WilliamW1979/FFXIV/main/repository.json)
 
 ## Submitting a repository
 
