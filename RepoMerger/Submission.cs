@@ -37,23 +37,9 @@ internal static class Submission
         return null;
     }
 
-    private static Dictionary<string, string> ReadExistingNames()
-    {
-        Dictionary<string, string> names = new(StringComparer.OrdinalIgnoreCase);
-        if (!File.Exists(Store.OutputFile)) return names;
-        if (JsonNode.Parse(File.ReadAllText(Store.OutputFile)) is not JsonArray array) throw new InvalidDataException($"{Store.OutputFile} is not a plugin array");
-        foreach (JsonObject plugin in array.OfType<JsonObject>())
-        {
-            string? name = PluginTools.GetString(plugin, "InternalName");
-            if (name is not null) names[name] = PluginTools.GetString(plugin, "SourceRepo") ?? "another repository";
-        }
-        return names;
-    }
-
     private static List<string> CheckPlugins(List<JsonObject> Items)
     {
         List<string> problems = [];
-        Dictionary<string, string> existing = ReadExistingNames();
         foreach (JsonObject plugin in Items)
         {
             string? name = PluginTools.GetString(plugin, "InternalName");
@@ -71,15 +57,14 @@ internal static class Submission
             if (!IsPublicHttps(PluginTools.GetString(plugin, "DownloadLinkInstall"))) problems.Add($"{label}: DownloadLinkInstall must be a public https:// link");
             foreach (string field in new[] { "DownloadLinkUpdate", "DownloadLinkTesting" })
                 if (PluginTools.HasField(plugin, field) && !IsPublicHttps(PluginTools.GetString(plugin, field))) problems.Add($"{label}: {field} must be a public https:// link");
-            if (existing.TryGetValue(name, out string? owner)) problems.Add($"{label}: InternalName is already provided by {Sanitizer.Clean(owner, 100)}");
         }
         return problems;
     }
 
     private static async Task<(string? Reason, int Count)> EvaluateAsync(string Url, string User)
     {
-        int recent = Store.ReadSubmissions().Count(s => s.Outcome == "REJECTED" && string.Equals(s.User, User, StringComparison.OrdinalIgnoreCase) && DateTime.UtcNow - s.TimeUtc < Settings.RateWindow);
-        if (recent >= Settings.MaxRejectionsPerWindow) return ($"You have had {Settings.MaxRejectionsPerWindow} rejected submissions in the last {Settings.RateWindow.TotalHours:0} hours. Please try again later.", 0);
+        int recent = Store.ReadSubmissions().Count(s => string.Equals(s.User, User, StringComparison.OrdinalIgnoreCase) && DateTime.UtcNow - s.TimeUtc < Settings.RateWindow);
+        if (recent >= Settings.MaxSubmissionsPerWindow) return ($"You have reached the limit of {Settings.MaxSubmissionsPerWindow} submissions per {Settings.RateWindow.TotalHours:0} hours. Please try again later.", 0);
         string? urlProblem = CheckUrl(Url);
         if (urlProblem is not null) return (urlProblem, 0);
         RepoRead read = await RepoReader.ReadAsync(Url, Settings.SubmissionRetries);
