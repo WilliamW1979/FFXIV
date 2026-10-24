@@ -1,14 +1,14 @@
 # Plugin Repository Merge Report
-Generated: 2026-10-23T23:59:36.851Z
+Generated: 2026-10-24T04:23:21.704Z
 
 ## Summary
-- **Total Repositories**: 34
-- **Successful**: 32 ✅
+- **Total Repositories**: 35
+- **Successful**: 33 ✅
 - **Failed**: 2 ❌
 - **Empty**: 0 ⚠️
 
-- **Total Plugins Fetched**: 118
-- **Unique Plugins**: 109
+- **Total Plugins Fetched**: 119
+- **Unique Plugins**: 110
 - **Duplicates Removed**: 9
 
 - **Errors**: 2
@@ -154,13 +154,17 @@ Generated: 2026-10-23T23:59:36.851Z
    - Plugins: 0
    - Error: Failed to fetch data
 
+✅ **https://raw.githubusercontent.com/LegendsOfTheGame/TimeMemoriaV3/main/repo.json**
+   - Status: success
+   - Plugins: 1
+
 
 ## Errors (2)
 
 ### 1. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2026-10-23T23:59:21.334Z",
+  "timestamp": "2026-10-24T04:23:06.474Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://github.com/huntsffxiv/repo/raw/main/repo.json",
   "error": "Request failed with status code 404",
@@ -172,7 +176,7 @@ Generated: 2026-10-23T23:59:36.851Z
 ### 2. Failed to fetch after 3 attempts
 ```
 {
-  "timestamp": "2026-10-23T23:59:36.346Z",
+  "timestamp": "2026-10-24T04:23:20.595Z",
   "message": "Failed to fetch after 3 attempts",
   "url": "https://xiv.starry.blue/plugins/master.json",
   "error": "Request failed with status code 403",
