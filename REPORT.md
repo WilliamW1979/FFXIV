@@ -1,14 +1,14 @@
 # Plugin Repository Merge Report
 
 ## Summary
-- **Active Repositories**: 35
-- **Successful**: 34 ✅
+- **Active Repositories**: 36
+- **Successful**: 35 ✅
 - **Failing**: 1 ❌
 - **Quarantined**: 0 🚫
 - **Restored This Run**: 0 ♻️
 
-- **Total Plugins Fetched**: 121
-- **Unique Plugins**: 112
+- **Total Plugins Fetched**: 136
+- **Unique Plugins**: 127
 - **Duplicates Removed**: 9
 
 - **Errors**: 1
@@ -157,11 +157,15 @@
    - Status: success  
    - Plugins: 1  
 
+✅ **https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json**  
+   - Status: success  
+   - Plugins: 15  
+
 ## Errors (1)
 
-- https://github.com/huntsffxiv/repo/raw/main/repo.json has been failing since 2026-10-24 05:47 UTC (0.0 of 72 hours before quarantine): HTTP 404 Not Found
+- https://github.com/huntsffxiv/repo/raw/main/repo.json has been failing since 2026-10-24 05:47 UTC (0.1 of 72 hours before quarantine): HTTP 404 Not Found
 
 ## Warnings (2)
 
-- Questionable is provided by different authors: the Puni.sh Quest Squad, Liza Carvelli
 - Marketbuddy is provided by different authors: Chalkos, NightmareXIV, Chalkos
+- Questionable is provided by different authors: the Puni.sh Quest Squad, Liza Carvelli

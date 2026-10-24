@@ -28,3 +28,4 @@ https://raw.githubusercontent.com/SoyaX/SoyaPlugins/main/repo.json	"b7219390c59b
 https://raw.githubusercontent.com/VariableVixen/MyDalamudPlugins/master/pluginmaster.json	"bdcee941daee65df06acd9de92463c3990f98552aeb8aadeada261d980a7b5b8"		2026-10-24T05:47:43.9709177Z
 https://xiv.starry.blue/plugins/master.json	"c3304386d07eebf7ed74d13941197c9b"		2026-10-24T05:47:43.9709177Z
 https://raw.githubusercontent.com/LegendsOfTheGame/TimeMemoriaV3/main/repo.json	"f59420c33bbe8bf17321a81360733273d15f4141dbdf564a4e2e113ce0d30e21"		2026-10-24T05:47:43.9709177Z
+https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json	"bebdc06df3afe30d2ebe564a3eb3e36058ccfc11cee443341d5a990fdc3f2bb1"		2026-10-24T05:51:18.9430834Z

@@ -33,3 +33,4 @@ https://raw.githubusercontent.com/SoyaX/SoyaPlugins/main/repo.json
 https://raw.githubusercontent.com/VariableVixen/MyDalamudPlugins/master/pluginmaster.json
 https://xiv.starry.blue/plugins/master.json
 https://raw.githubusercontent.com/LegendsOfTheGame/TimeMemoriaV3/main/repo.json
+https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json
