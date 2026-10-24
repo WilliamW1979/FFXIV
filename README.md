@@ -35,6 +35,10 @@ Each run does the following:
 4. Deduplicates by `InternalName`. The winner is the entry with a download link, then the higher `AssemblyVersion`, then the one with more fields. The other sources are listed in `AlternateSources`. If the copies come from different authors, a warning is logged, since that usually means two different plugins share one `InternalName`.
 5. Writes `repository.json` and the report files, then commits and pushes if anything changed.
 
+## Quarantine
+
+If a repo no longer exists or can't be read after 3 days of attempting, it gets moved to the Quarantine file. This location will be checked by the script every 6 hours instead of every 5 minutes and will no longer flag an error. This is for Repositories that are shut down and no longer exist, which helps clean up the main `repository.json` file. Just in case there was a major power outage from a hurricane or some other event, the quarantine file still gets checked every 6 hours in case a repo comes back online. So Quarantine files are never completely gone, just checked less often. As soon as the repository comes back online, it is moved back to the main repository list and the 3 day inactive is reset.
+
 ### Dedication
 
 This MEGA Repository was written for a woman who loved playing FFXIV. She passed away on April 7th, 2026. Even though I don't play the game anymore, I keep this going out of respect for her. I fully automated the system because originally she was the one who managed this after I wrote the initial code. Since she can't manage it anymore, I fully automated it.
