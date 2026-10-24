@@ -1,0 +1,37 @@
+[
+  {
+    "Author": "Legends of the Game",
+    "Name": "Time Memoria",
+    "InternalName": "TimeMemoriaV3",
+    "AssemblyVersion": "3.8.0.15",
+    "Description": "Quest progression and pacing — a reflective notebook for your story journey, not a scoreboard.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/LegendsOfTheGame/TimeMemoriaV3",
+    "Tags": [
+      "quest",
+      "quests",
+      "progression",
+      "pacing",
+      "tracker"
+    ],
+    "CategoryTags": [
+      "utility"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "Remember every step, Warriors of Light.",
+    "AcceptsFeedback": true,
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadLinkInstall": "https://github.com/LegendsOfTheGame/TimeMemoriaV3/releases/latest/download/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/LegendsOfTheGame/TimeMemoriaV3/releases/latest/download/latest.zip",
+    "DownloadLinkTesting": "https://github.com/LegendsOfTheGame/TimeMemoriaV3/releases/latest/download/latest.zip",
+    "IconUrl": "https://raw.githubusercontent.com/LegendsOfTheGame/TimeMemoriaV3/main/assets/icon.png",
+    "DownloadCount": 0,
+    "Changelog": "Collections, the bestiary and optional features.\nExports:\n- The Ledger export is about half its former size (fmt 2), so it pastes cheaply into other tools. Master recipe books are added.\n- New collections export (/tm collections, Copy collections): mounts, minions, orchestrion rolls, Triple Triad cards and NPCs, emotes, fashion accessories, facewear, curiosities, fish, spearfish, Master's Bestiary captures and folklore tomes read.\n- World lists in the collections export: sightseeing log, aether currents, aetherytes and porter stops, plus the game client build.\n- New full export (/tm full, Copy everything): progress and collections together.\n- Quests done, duty clears and quest totals by expansion, so the Ledger can show questlines and a duty grid.\n- Mount speed per zone and bicolor gemstones.\nFeatures:\n- New Features list in Settings. Each feature is optional and off until you turn it on.\n- Master's Bestiary: every Beastmaster beast, where to tame it, the minimum level, the Kornago Gourd, and whether you have captured it. Click Flag to open the map there.\n- /bmap turns the Master's Bestiary on and opens it beside the game's own Master's Bestiary. It replaces the Bestiary Mapper plugin.\nFixes:\n- Active Events no longer lists an event twice when its name has an apostrophe.\n- Levequest folders use the game's job names.",
+    "SourceRepo": "https://raw.githubusercontent.com/LegendsOfTheGame/TimeMemoriaV3/main/repo.json"
+  }
+]

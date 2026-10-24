@@ -1,0 +1,37 @@
+[
+  {
+    "Author": "akira0245, Ori, Kalle, Zune",
+    "Name": "MidiBard 2",
+    "InternalName": "MidiBard2",
+    "AssemblyVersion": "3.2.5.6",
+    "Description": "Bard performance using midi files or keyboard.\n- Solo and ensemble mode support\n- Text commands for instrument equip and switch\nSupported by FFXIV Bards & Bands Community: ffbard.com",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://midibard.org",
+    "Tags": [
+      "music",
+      "utility",
+      "midi",
+      "bard"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "ImageUrls": [
+      "https://i.imgur.com/1R13XF0.png"
+    ],
+    "IconUrl": "https://i.imgur.com/OSxqew4.png",
+    "Punchline": "Bard performance using midi files or keyboard.\nSupported by FFXIV Bards & Bands Community: ffbard.com",
+    "Changelog": "1. Better support on Bard MIDI Library: Show Playlist Menu(Triple dots on top right) -> BML Browser; 2. Rename Electric Guitar Modes and adding help messages. 3. Loads of fixes and QOL changes! 4. 更新部分加入中文翻譯 Please join our Discord for details: ffbard.com",
+    "AcceptsFeedback": false,
+    "IsHide": "False",
+    "IsTestingExclusive": "False",
+    "DownloadCount": 221454,
+    "LastUpdate": "1790733588",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/plugins/MidiBard2/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/plugins/MidiBard2/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/plugins/MidiBard2/latest.zip",
+    "SourceRepo": "https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/pluginmaster.json"
+  }
+]

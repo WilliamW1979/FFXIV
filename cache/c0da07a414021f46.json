@@ -1,0 +1,82 @@
+[
+  {
+    "Author": "The Redheaded Witch, WillWolf76",
+    "Name": "Fashion Report Calculator / Dye Finder",
+    "Punchline": "Know your Fashion Report points on the spot and help crowdsource new items and dyes!",
+    "Description": "This is the new and improved Fashion Report System. This plugin will allow you to open a window that will show you what your fashion report status is vs the current week's theme.\n\nThere are a few parts to this. Since the only way to get Fashion Report for the week to my knowledge is speaking to Masked Rose after Tuesdays reset, this plugin takes the first person who does talk to him and updates everyone else. So only one person per week needs to speak to Masked Rose.\n\nYou can click on a theme and pull all the known items for that theme for that specific slot. You also get a very detailed breakdown of how much points you are getting based on what you are currently wearing.\n\nThe plugin also stores the attempts of those using the mod (just the data from fashioncheck, no user information) so that we can figure out the dyes faster and share information faster. The information in this table is wiped every week since once we discover the dyes, it is useless.\n\nI still have more upgrades to do, including adding a dye window and the window that will help calculate the weekly dyes. I already have an idea of how I want to write them, so it shouldn't take me too long. If you have suggestions on how I can upgrade this, please share with me on github!\n\nCredit for the program goes to it's original creator, WillWolf76, who wrote this for me originally.\n\nWhen this plugin updates the database, it also updates my Discord Bot which you can set up to post fashion report each week. It's set to update on Tuesdays and Fridays (week start and dye information added). Link to add the Discord Bot is in the about section.",
+    "Tags": [
+      "Fashion Report",
+      "Gold Saucer",
+      "Mini Game",
+      "Masked Rose",
+      "Glamour",
+      "MGP"
+    ],
+    "CategoryTags": [
+      "Utility",
+      "UI"
+    ],
+    "InternalName": "FashionReport",
+    "RepoUrl": "https://github.com/TheRedheadedWitch/FashionReport",
+    "DownloadLinkInstall": "https://github.com/TheRedheadedWitch/FashionReport/releases/download/v1.4.2/FashionReport.zip",
+    "DownloadLinkTesting": "https://github.com/TheRedheadedWitch/FashionReport/releases/download/v1.4.2/FashionReport.zip",
+    "DownloadLinkUpdate": "https://github.com/TheRedheadedWitch/FashionReport/releases/download/v1.4.2/FashionReport.zip",
+    "IconUrl": "https://github.com/TheRedheadedWitch/FashionReport/raw/main/FashionReport/images/icon.png",
+    "AssemblyVersion": "1.0.0",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "Fixed some minor bugs.",
+    "SourceRepo": "https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json"
+  },
+  {
+    "Author": "The Redheaded Witch",
+    "Name": "Train Conductor",
+    "Punchline": "Choo Choo",
+    "Description": "Import your data from Turtle, then manage everything in the GUI!\n\nThere is a known bug with the dragging of List of monsters. Dragging works, but there is a graphical glitch while dragging. It is completely cosmetic but annoying. The arrows work without issue. I will work on fixing this.",
+    "Tags": [
+      "Hunt",
+      "Train",
+      "Utility"
+    ],
+    "CategoryTags": [
+      "Utility",
+      "UI"
+    ],
+    "InternalName": "TrainConductor",
+    "RepoUrl": "https://github.com/TheRedheadedWitch/TrainConductor",
+    "DownloadLinkInstall": "https://github.com/TheRedheadedWitch/TrainConductor/releases/download/v1.0.2/TrainConductor.zip",
+    "DownloadLinkTesting": "https://github.com/TheRedheadedWitch/TrainConductor/releases/download/v1.0.2/TrainConductor.zip",
+    "DownloadLinkUpdate": "https://github.com/TheRedheadedWitch/TrainConductor/releases/download/v1.0.2/TrainConductor.zip",
+    "IconUrl": "https://raw.githubusercontent.com/TheRedheadedWitch/TrainConductor/master/TrainConductor/images/icon.png",
+    "AssemblyVersion": "1.0.2",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "Fixed some minor bugs.",
+    "SourceRepo": "https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json"
+  },
+  {
+    "Author": "The Redheaded Witch",
+    "Name": "S Rank Assistant",
+    "Punchline": "I spent hours wokring hard coding so I could be lazy! Wouldn't you?",
+    "Description": "Auto counter for S Rank Summoning! Counts kills, gathering attempts, and even discarding items. Tracker is per zone so you can keep track of multiple locations at once. Even tracks the kills of others.",
+    "Tags": [
+      "Hunt",
+      "Utility"
+    ],
+    "CategoryTags": [
+      "Utility",
+      "UI"
+    ],
+    "InternalName": "SRankAssistant",
+    "RepoUrl": "https://github.com/TheRedheadedWitch/SRankAssistant",
+    "DownloadLinkInstall": "https://github.com/TheRedheadedWitch/SRankAssistant/releases/download/v1.0.1/SRankAssist.zip",
+    "DownloadLinkTesting": "https://github.com/TheRedheadedWitch/SRankAssistant/releases/download/v1.0.1/SRankAssist.zip",
+    "DownloadLinkUpdate": "https://github.com/TheRedheadedWitch/SRankAssistant/releases/download/v1.0.1/SRankAssist.zip",
+    "IconUrl": "https://raw.githubusercontent.com/TheRedheadedWitch/SRankAssistant/master/SRankAssistant/images/icon.png",
+    "ApplicableVersion": "any",
+    "AssemblyVersion": "1.0.1",
+    "DalamudApiLevel": "13",
+    "Changelog": "Fixed some minor bugs.",
+    "SourceRepo": "https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json"
+  }
+]

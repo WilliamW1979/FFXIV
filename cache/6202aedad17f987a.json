@@ -1,0 +1,65 @@
+[
+  {
+    "Author": "daemitus, croizat",
+    "Name": "Something Need Doing",
+    "Punchline": "Work work.",
+    "Description": "Now for more than crafting!",
+    "Tags": [],
+    "InternalName": "SomethingNeedDoing",
+    "RepoUrl": "https://github.com/Jaksuhn/SomethingNeedDoing",
+    "DownloadCount": 828296,
+    "LastUpdate": 1791046466,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/15.12/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/15.12/update/latest.zip",
+    "AssemblyVersion": "15.12",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "",
+    "IconUrl": "https://puni.sh/api/plugins/icon/25",
+    "SourceRepo": "https://puni.sh/api/repository/croizat"
+  },
+  {
+    "Author": "croizat",
+    "Name": "CBT \uD83D\uDC0E",
+    "Punchline": "Yet another tweaks collection plugin.",
+    "Description": "Tweaks that are sometimes simple, sometimes not.",
+    "Tags": [
+      "automation",
+      "plugin",
+      "tweaks"
+    ],
+    "InternalName": "Automaton",
+    "RepoUrl": "https://github.com/Jaksuhn/Automaton",
+    "DownloadCount": 1034839,
+    "LastUpdate": 1792693509,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/34/Automaton/versions/69.222/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/34/Automaton/versions/69.222/update/latest.zip",
+    "AssemblyVersion": "69.222",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "",
+    "IconUrl": "https://puni.sh/api/plugins/icon/34",
+    "SourceRepo": "https://puni.sh/api/repository/croizat"
+  },
+  {
+    "Author": "croizat",
+    "Name": "Glamour Log",
+    "Punchline": "Gotta collect 'em all",
+    "Description": "A log for all your glamours and other glam-related tweaks",
+    "Tags": [
+      "glamour"
+    ],
+    "InternalName": "GlamourLog",
+    "RepoUrl": "https://github.com/Jaksuhn/ffxiv_glamourlog",
+    "DownloadCount": 48896,
+    "LastUpdate": 1792498679,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/136/GlamourLog/versions/15.75/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/136/GlamourLog/versions/15.75/update/latest.zip",
+    "AssemblyVersion": "15.75",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "added chinese translations\nfixed a dispose issue with the filter window",
+    "IconUrl": "https://puni.sh/api/plugins/icon/136",
+    "SourceRepo": "https://puni.sh/api/repository/croizat"
+  }
+]
