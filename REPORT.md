@@ -1,14 +1,14 @@
 # Plugin Repository Merge Report
 
 ## Summary
-- **Active Repositories**: 36
-- **Successful**: 35 ✅
+- **Active Repositories**: 37
+- **Successful**: 36 ✅
 - **Failing**: 1 ❌
 - **Quarantined**: 0 🚫
 - **Restored This Run**: 0 ♻️
 
-- **Total Plugins Fetched**: 136
-- **Unique Plugins**: 127
+- **Total Plugins Fetched**: 141
+- **Unique Plugins**: 132
 - **Duplicates Removed**: 9
 
 - **Errors**: 1
@@ -160,6 +160,10 @@
 ✅ **https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json**  
    - Status: success  
    - Plugins: 15  
+
+✅ **https://raw.githubusercontent.com/Eauldane/ElfShelf/refs/heads/main/repo.json**  
+   - Status: success  
+   - Plugins: 5  
 
 ## Errors (1)
 
