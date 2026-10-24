@@ -1,3 +1,0 @@
-2026-10-24T07:43:51.0546588Z	WilliamW1979	REJECTED	https://raw.githubusercontent.com/SlothSuite/SlothSuiteRepo/main/pluginmaster.json
-2026-10-24T07:45:43.9299022Z	WilliamW1979	ACCEPTED	https://love.puni.sh/ment-testing.json
-2026-10-24T07:46:57.7062606Z	WilliamW1979	REJECTED	https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json
