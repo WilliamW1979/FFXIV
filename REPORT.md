@@ -175,7 +175,7 @@
 
 ## Errors (1)
 
-- https://github.com/huntsffxiv/repo/raw/main/repo.json has been failing since 2026-10-24 05:47 UTC (33.7 of 72 hours before quarantine): HTTP 404 Not Found
+- https://github.com/huntsffxiv/repo/raw/main/repo.json has been failing since 2026-10-24 05:47 UTC (33.8 of 72 hours before quarantine): HTTP 404 Not Found
 
 ## Warnings (3)
 
