@@ -175,10 +175,10 @@
 
 ## Errors (1)
 
-- https://github.com/huntsffxiv/repo/raw/main/repo.json has been failing since 2026-10-24 05:47 UTC (62.2 of 72 hours before quarantine): HTTP 404 Not Found
+- https://github.com/huntsffxiv/repo/raw/main/repo.json has been failing since 2026-10-24 05:47 UTC (62.3 of 72 hours before quarantine): HTTP 404 Not Found
 
 ## Warnings (3)
 
-- Marketbuddy is provided by different authors: Chalkos, NightmareXIV, Chalkos
 - Questionable is provided by different authors: the Puni.sh Quest Squad, Liza Carvelli
+- Marketbuddy is provided by different authors: Chalkos, NightmareXIV, Chalkos
 - SkipCutscene is provided by different authors: KangasZ, Windmourn
