@@ -53,7 +53,7 @@
     ],
     "InternalName": "PandorasBox",
     "RepoUrl": "https://github.com/PunishXIV/PandorasBox",
-    "DownloadCount": 1419243,
+    "DownloadCount": 1419245,
     "LastUpdate": 1791992270,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.6.4.6/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.6.4.6/update/latest.zip",
@@ -92,6 +92,31 @@
     "SourceRepo": "https://love.puni.sh/ment.json"
   },
   {
+    "Author": "Det, croizat",
+    "Name": "AutoHook",
+    "Punchline": "Makes fishing less (or more) boring",
+    "Description": "It hooks the fish for you, can you believe it?",
+    "Tags": [
+      "Gathering",
+      "Fishing"
+    ],
+    "InternalName": "AutoHook",
+    "RepoUrl": "https://github.com/PunishXIV/AutoHook",
+    "DownloadCount": 2827854,
+    "LastUpdate": 1792752495,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.2.10/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.2.10/update/latest.zip",
+    "AssemblyVersion": "6.0.2.10",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "",
+    "TestingAssemblyVersion": "6.0.1.2",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.1.2/install/testing.zip",
+    "TestingDalamudApiLevel": "15",
+    "IconUrl": "https://puni.sh/api/plugins/icon/47",
+    "SourceRepo": "https://love.puni.sh/ment.json"
+  },
+  {
     "Author": "Taurenkey, Gid, NightmareXIV",
     "Name": "LazyLoot",
     "Punchline": "Dungeon Loot but Lazy.",
@@ -116,31 +141,6 @@
     "SourceRepo": "https://love.puni.sh/ment.json"
   },
   {
-    "Author": "Det, croizat",
-    "Name": "AutoHook",
-    "Punchline": "Makes fishing less (or more) boring",
-    "Description": "It hooks the fish for you, can you believe it?",
-    "Tags": [
-      "Gathering",
-      "Fishing"
-    ],
-    "InternalName": "AutoHook",
-    "RepoUrl": "https://github.com/PunishXIV/AutoHook",
-    "DownloadCount": 2827849,
-    "LastUpdate": 1792752495,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.2.10/install/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.2.10/update/latest.zip",
-    "AssemblyVersion": "6.0.2.10",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "15",
-    "Changelog": "",
-    "TestingAssemblyVersion": "6.0.1.2",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.1.2/install/testing.zip",
-    "TestingDalamudApiLevel": "15",
-    "IconUrl": "https://puni.sh/api/plugins/icon/47",
-    "SourceRepo": "https://love.puni.sh/ment.json"
-  },
-  {
     "Author": "the Puni.sh Quest Squad",
     "Name": "Questionable",
     "Punchline": "A tiny quest helper plugin.",
@@ -153,7 +153,7 @@
     ],
     "InternalName": "Questionable",
     "RepoUrl": "https://github.com/PunishXIV/Questionable",
-    "DownloadCount": 2546196,
+    "DownloadCount": 2546201,
     "LastUpdate": 1792943148,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/94/Questionable/versions/15.756.3.56/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/94/Questionable/versions/15.756.3.56/update/latest.zip",
@@ -222,7 +222,7 @@
     ],
     "InternalName": "WrathCombo",
     "RepoUrl": "https://github.com/PunishXIV/WrathCombo",
-    "DownloadCount": 1262526,
+    "DownloadCount": 1262527,
     "LastUpdate": 1792168226,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.4.27/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.4.27/update/latest.zip",
@@ -234,6 +234,31 @@
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.4.21/install/testing.zip",
     "TestingDalamudApiLevel": "15",
     "IconUrl": "https://puni.sh/api/plugins/icon/60",
+    "SourceRepo": "https://love.puni.sh/ment.json"
+  },
+  {
+    "Author": "kawaii, Ice",
+    "Name": "Palantir",
+    "Punchline": "Lost in a deep dungeon with nothing but dry bread and water?",
+    "Description": "Palantir is a spiritual successor to PalacePal, the popular deep dungeon trap ESP plugin created by Liza Carvelli. It reveals the locations of previously recorded traps and Accursed Hoards from a crowdsourced database.",
+    "Tags": [
+      "deep dungeon",
+      "palace of the dead",
+      "heaven-on-high",
+      "eureka orthos",
+      "pilgrim's traverse"
+    ],
+    "InternalName": "Palantir",
+    "RepoUrl": "https://github.com/PunishXIV/Palantir",
+    "DownloadCount": 10727,
+    "LastUpdate": 1792016192,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/169/Palantir/versions/0.0.0.8/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/169/Palantir/versions/0.0.0.8/update/latest.zip",
+    "AssemblyVersion": "0.0.0.8",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "- IPC from cold storage instead of hot",
+    "IconUrl": "https://puni.sh/api/plugins/icon/169",
     "SourceRepo": "https://love.puni.sh/ment.json"
   },
   {
@@ -260,31 +285,6 @@
     "SourceRepo": "https://love.puni.sh/ment.json"
   },
   {
-    "Author": "kawaii, Ice",
-    "Name": "Palantir",
-    "Punchline": "Lost in a deep dungeon with nothing but dry bread and water?",
-    "Description": "Palantir is a spiritual successor to PalacePal, the popular deep dungeon trap ESP plugin created by Liza Carvelli. It reveals the locations of previously recorded traps and Accursed Hoards from a crowdsourced database.",
-    "Tags": [
-      "deep dungeon",
-      "palace of the dead",
-      "heaven-on-high",
-      "eureka orthos",
-      "pilgrim's traverse"
-    ],
-    "InternalName": "Palantir",
-    "RepoUrl": "https://github.com/PunishXIV/Palantir",
-    "DownloadCount": 10726,
-    "LastUpdate": 1792016192,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/169/Palantir/versions/0.0.0.8/install/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/169/Palantir/versions/0.0.0.8/update/latest.zip",
-    "AssemblyVersion": "0.0.0.8",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "15",
-    "Changelog": "- IPC from cold storage instead of hot",
-    "IconUrl": "https://puni.sh/api/plugins/icon/169",
-    "SourceRepo": "https://love.puni.sh/ment.json"
-  },
-  {
     "Author": "NightmareXIV",
     "Name": "Splatoon",
     "Punchline": "Scriptable overlay engine for drawing mechanics, markers, and indicators in real-time",
@@ -295,7 +295,7 @@
     ],
     "InternalName": "Splatoon",
     "RepoUrl": "https://github.com/PunishXIV/Splatoon",
-    "DownloadCount": 2346232,
+    "DownloadCount": 2346233,
     "LastUpdate": 1792020246,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.9.2.32/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.9.2.32/update/latest.zip",
