@@ -3,7 +3,7 @@
     "Author": "Legends of the Game",
     "Name": "Time Memoria",
     "InternalName": "TimeMemoriaV3",
-    "AssemblyVersion": "3.9.0.15",
+    "AssemblyVersion": "3.10.0.15",
     "Description": "Quest progression and pacing — a reflective notebook for your story journey, not a scoreboard.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/LegendsOfTheGame/TimeMemoriaV3",
@@ -31,7 +31,7 @@
     "DownloadLinkTesting": "https://github.com/LegendsOfTheGame/TimeMemoriaV3/releases/latest/download/latest.zip",
     "IconUrl": "https://raw.githubusercontent.com/LegendsOfTheGame/TimeMemoriaV3/main/assets/icon.png",
     "DownloadCount": 0,
-    "Changelog": "Relic stages and the Keybound Brawler name.\nExports:\n- The collections export (Copy collections, Copy everything) now includes the highest relic stage you hold for each job, from Zodiac to Cosmic Tools. It reads the armoury chest, the bags, the saddlebag, your retainers and the glamour dresser. You do not have to open your retainers: the game's own Search for Item data is used.\nEvents:\n- Active Events shows the Gold Saucer's Keybound Brawler event (festival 257) by name, not as Unknown. The event starts on 28 October 2026 at 08:00 UTC.\nAdventurer's Ledger (Pandora Lunar):\n- Relics is its own area in the left rail, with one tab for each expansion and the stage of each job's relic.\n- Daily, Weekly and Seasonal meters in the rail, events from the Time Memoria news feed, fish and spearfish lists, crafter and gatherer hub quests from 70 to 100.\n- Fix: a second open Ledger tab no longer erases changes made in the first tab.",
+    "Changelog": "Food by role, and where each food is.\nFood:\n- New /tm food window: the strongest meal you hold for each role and where it is (inventory, saddlebag or a retainer by name), plus the food you ate and the time that remains.\n- In the Bonuses tab, put the cursor on a food's name to see each place that holds it, in NQ and HQ.\n- The Bonuses tab and /tmmini find saddlebag food immediately after you start the game. The premium saddlebag is included.\nHelp:\n- The game-styled window's Help tab has an Open the issue tracker button. You must have a GitHub account to open an issue.\nExports:\n- Your last 5 exports for each character are kept in the exports folder of the configuration folder. Nothing is sent anywhere.\n- Fix: the Ledger export no longer counts the Hall of the Novice exercises as duties.",
     "SourceRepo": "https://raw.githubusercontent.com/LegendsOfTheGame/TimeMemoriaV3/main/repo.json"
   }
 ]
