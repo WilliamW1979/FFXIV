@@ -4,7 +4,7 @@
 - **Active Repositories**: 39
 - **Successful**: 38 ✅
 - **Failing**: 1 ❌
-- **Quarantined**: 0 🚫
+- **Quarantined**: 1 🚫
 - **Restored This Run**: 0 ♻️
 
 - **Total Plugins Fetched**: 259
@@ -92,8 +92,8 @@
    - Status: success  
    - Plugins: 6  
 
-❌ **https://github.com/huntsffxiv/repo/raw/main/repo.json**  
-   - Status: failed  
+🚫 **https://github.com/huntsffxiv/repo/raw/main/repo.json**  
+   - Status: quarantined  
    - Plugins: 0  
    - Error: HTTP 404 Not Found  
 
@@ -175,7 +175,7 @@
 
 ## Errors (1)
 
-- https://github.com/huntsffxiv/repo/raw/main/repo.json has been failing since 2026-10-24 05:47 UTC (72.0 of 72 hours before quarantine): HTTP 404 Not Found
+- Quarantined https://github.com/huntsffxiv/repo/raw/main/repo.json after failing continuously since 2026-10-24 05:47 UTC: HTTP 404 Not Found
 
 ## Warnings (3)
 

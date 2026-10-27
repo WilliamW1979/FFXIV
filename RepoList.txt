@@ -17,7 +17,6 @@ https://raw.githubusercontent.com/KangasZ/DalamudPluginRepository/main/plugin_re
 https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json
 https://github.com/emyxiv/Dresser/raw/master/repo.json
 https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json
-https://github.com/huntsffxiv/repo/raw/main/repo.json
 https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json
 https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json
 https://raw.githubusercontent.com/Haselnussbomber/MyDalamudPlugins/main/repo.json

@@ -1,8 +1,8 @@
 total_repos=39
 successful_repos=38
 failed_repos=1
-quarantined_repos=0
-new_quarantined=0
+quarantined_repos=1
+new_quarantined=1
 restored_repos=0
 total_plugins_fetched=259
 unique_plugins=161
