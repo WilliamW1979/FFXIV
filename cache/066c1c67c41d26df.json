@@ -3,8 +3,8 @@
     "Author": "Eauldane",
     "Name": "Snowcloak Sync",
     "InternalName": "Snowcloak",
-    "AssemblyVersion": "5.0.3.0",
-    "TestingAssemblyVersion": "5.0.3.0",
+    "AssemblyVersion": "5.1.0.0",
+    "TestingAssemblyVersion": "5.1.0.0",
     "Description": "This plugin will synchronize your Penumbra mods and current Glamourer state with other paired clients automatically.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Eauldane/SnowcloakClient",
@@ -22,9 +22,9 @@
     "IsHide": false,
     "IsTestingExclusive": false,
     "CanUnloadAsync": true,
-    "DownloadLinkInstall": "https://github.com/Eauldane/SnowcloakClient/releases/download/5.0.3.0/latest.zip",
-    "DownloadLinkTesting": "https://github.com/Eauldane/SnowcloakClient/releases/download/5.0.3.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Eauldane/SnowcloakClient/releases/download/5.0.3.0/latest.zip",
+    "DownloadLinkInstall": "https://github.com/Eauldane/SnowcloakClient/releases/download/5.1.0.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/Eauldane/SnowcloakClient/releases/download/5.1.0.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Eauldane/SnowcloakClient/releases/download/5.1.0.0/latest.zip",
     "SourceRepo": "https://raw.githubusercontent.com/Eauldane/ElfShelf/refs/heads/main/repo.json"
   },
   {
