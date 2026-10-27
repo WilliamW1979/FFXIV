@@ -1,1 +1,0 @@
-Quarantined https://github.com/huntsffxiv/repo/raw/main/repo.json after failing continuously since 2026-10-24 05:47 UTC: HTTP 404 Not Found

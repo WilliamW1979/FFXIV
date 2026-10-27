@@ -1,9 +1,9 @@
 # Plugin Repository Merge Report
 
 ## Summary
-- **Active Repositories**: 39
+- **Active Repositories**: 38
 - **Successful**: 38 ✅
-- **Failing**: 1 ❌
+- **Failing**: 0 ❌
 - **Quarantined**: 1 🚫
 - **Restored This Run**: 0 ♻️
 
@@ -11,7 +11,7 @@
 - **Unique Plugins**: 161
 - **Duplicates Removed**: 98
 
-- **Errors**: 1
+- **Errors**: 0
 - **Warnings**: 3
 
 ## Repository Status
@@ -92,11 +92,6 @@
    - Status: success  
    - Plugins: 6  
 
-🚫 **https://github.com/huntsffxiv/repo/raw/main/repo.json**  
-   - Status: quarantined  
-   - Plugins: 0  
-   - Error: HTTP 404 Not Found  
-
 ✅ **https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json**  
    - Status: success  
    - Plugins: 1  
@@ -173,9 +168,10 @@
    - Status: success  
    - Plugins: 104  
 
-## Errors (1)
-
-- Quarantined https://github.com/huntsffxiv/repo/raw/main/repo.json after failing continuously since 2026-10-24 05:47 UTC: HTTP 404 Not Found
+🚫 **https://github.com/huntsffxiv/repo/raw/main/repo.json**  
+   - Status: quarantined  
+   - Plugins: 0  
+   - Error: HTTP 404 Not Found  
 
 ## Warnings (3)
 
