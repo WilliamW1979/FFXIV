@@ -88,7 +88,7 @@
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-AutoDailyTribes/releases/latest/download/latest.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DownloadCount": 37225,
+    "DownloadCount": 37227,
     "LastUpdate": "1792657527",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   },
@@ -119,7 +119,7 @@
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-AutoFATEGrind/releases/latest/download/latest.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DownloadCount": 84654,
+    "DownloadCount": 84655,
     "LastUpdate": "1792597846",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   },
@@ -316,7 +316,7 @@
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-AutoTripleTriadGrind/releases/latest/download/latest.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DownloadCount": 6676,
+    "DownloadCount": 6677,
     "LastUpdate": "1792657547",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   },
@@ -349,7 +349,7 @@
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-AutoTreasureMaps/releases/latest/download/latest.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DownloadCount": 1140,
+    "DownloadCount": 1141,
     "LastUpdate": "1792641419",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   },
@@ -380,7 +380,7 @@
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-AutoShopper/releases/latest/download/latest.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DownloadCount": 1453,
+    "DownloadCount": 1454,
     "LastUpdate": "1792597978",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   },
@@ -413,7 +413,7 @@
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-AutoGCSupply/releases/latest/download/latest.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DownloadCount": 995,
+    "DownloadCount": 996,
     "LastUpdate": "1792597902",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   },
@@ -445,7 +445,7 @@
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-AutoHouseLottery/releases/latest/download/latest.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DownloadCount": 762,
+    "DownloadCount": 764,
     "LastUpdate": "1792657537",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   },
@@ -477,7 +477,7 @@
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-AutoSeller/releases/latest/download/latest.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DownloadCount": 894,
+    "DownloadCount": 895,
     "LastUpdate": "1792597869",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   },
@@ -485,8 +485,8 @@
     "Author": "XeldarAlz",
     "Name": "Auto Keybound Brawler",
     "InternalName": "AutoKeyboundBrawler",
-    "AssemblyVersion": "1.5.0.0",
-    "TestingAssemblyVersion": "1.5.0.0",
+    "AssemblyVersion": "1.5.1.0",
+    "TestingAssemblyVersion": "1.5.1.0",
     "Description": "Plays Keybound Brawler's typing for you: reads the phrases above the enemies, types the most urgent one into the input bar and presses Enter, with adjustable speed and a humanizer.",
     "Punchline": "Keybound Brawler, typed for you.",
     "RepoUrl": "https://github.com/XeldarAlz/FFXIV-AutoKeyboundBrawler",
@@ -508,7 +508,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "DownloadCount": 2147,
-    "LastUpdate": "1793208146",
+    "LastUpdate": "1793208475",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   }
 ]
