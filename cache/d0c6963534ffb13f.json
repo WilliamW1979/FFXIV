@@ -88,7 +88,7 @@
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-AutoDailyTribes/releases/latest/download/latest.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DownloadCount": 37186,
+    "DownloadCount": 37189,
     "LastUpdate": "1792657527",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   },
@@ -188,7 +188,7 @@
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-Aetherphone/releases/latest/download/latest.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DownloadCount": 555304,
+    "DownloadCount": 555364,
     "LastUpdate": "1793132674",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   },
@@ -284,7 +284,7 @@
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-AutoSightseeingLog/releases/latest/download/latest.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DownloadCount": 6843,
+    "DownloadCount": 6844,
     "LastUpdate": "1792642717",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   },
@@ -445,7 +445,7 @@
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-AutoHouseLottery/releases/latest/download/latest.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DownloadCount": 750,
+    "DownloadCount": 751,
     "LastUpdate": "1792657537",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   },
@@ -477,7 +477,7 @@
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-AutoSeller/releases/latest/download/latest.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DownloadCount": 878,
+    "DownloadCount": 879,
     "LastUpdate": "1792597869",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   },
@@ -485,8 +485,8 @@
     "Author": "XeldarAlz",
     "Name": "Auto Keybound Brawler",
     "InternalName": "AutoKeyboundBrawler",
-    "AssemblyVersion": "1.2.0.0",
-    "TestingAssemblyVersion": "1.2.0.0",
+    "AssemblyVersion": "1.2.1.0",
+    "TestingAssemblyVersion": "1.2.1.0",
     "Description": "Plays Keybound Brawler's typing for you: reads the phrases above the enemies, types the most urgent one into the input bar and presses Enter, with adjustable speed and a humanizer.",
     "Punchline": "Keybound Brawler, typed for you.",
     "RepoUrl": "https://github.com/XeldarAlz/FFXIV-AutoKeyboundBrawler",
@@ -507,8 +507,8 @@
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-AutoKeyboundBrawler/releases/latest/download/latest.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DownloadCount": 117,
-    "LastUpdate": "1793194737",
+    "DownloadCount": 171,
+    "LastUpdate": "1793195359",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   }
 ]
