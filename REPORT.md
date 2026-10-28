@@ -7,8 +7,8 @@
 - **Quarantined**: 1 🚫
 - **Restored This Run**: 0 ♻️
 
-- **Total Plugins Fetched**: 259
-- **Unique Plugins**: 161
+- **Total Plugins Fetched**: 260
+- **Unique Plugins**: 162
 - **Duplicates Removed**: 98
 
 - **Errors**: 0
@@ -154,7 +154,7 @@
 
 ✅ **https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json**  
    - Status: success  
-   - Plugins: 15  
+   - Plugins: 16  
 
 ✅ **https://raw.githubusercontent.com/Eauldane/ElfShelf/refs/heads/main/repo.json**  
    - Status: success  
