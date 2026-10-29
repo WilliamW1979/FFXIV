@@ -7,9 +7,9 @@
 - **Quarantined**: 1 🚫
 - **Restored This Run**: 0 ♻️
 
-- **Total Plugins Fetched**: 260
+- **Total Plugins Fetched**: 261
 - **Unique Plugins**: 162
-- **Duplicates Removed**: 98
+- **Duplicates Removed**: 99
 
 - **Errors**: 0
 - **Warnings**: 3
@@ -166,7 +166,7 @@
 
 ✅ **https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json**  
    - Status: success  
-   - Plugins: 104  
+   - Plugins: 105  
 
 🚫 **https://github.com/huntsffxiv/repo/raw/main/repo.json**  
    - Status: quarantined  
