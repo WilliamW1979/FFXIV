@@ -15,7 +15,7 @@ https://github.com/emyxiv/Dresser/raw/master/repo.json	"439653bdc95ce3f8423cb9e7
 https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json	"bc952c3b733f27c2ac1b2caad1dd845b417cc7041120779ffb9ee6802f81d945"		2026-10-29T06:04:27.5534246Z
 https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json	"7272eb672618c7becadaf0044d603607e3c2a003383b39e05090bfbdfcbcc22a"		2026-10-29T06:04:27.5534246Z
 https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json	"d93d568c1545e35404dd16b2c133714da98628f3f2a66fc6e896612e4d8e39f1"		2026-10-29T06:04:27.5534246Z
-https://raw.githubusercontent.com/Haselnussbomber/MyDalamudPlugins/main/repo.json	"b8430bc9f90abb836566d2e66148253d7d328ebf01b445d0b6399eedae63b673"		2026-10-29T05:00:34.5707062Z
+https://raw.githubusercontent.com/Haselnussbomber/MyDalamudPlugins/main/repo.json	"b8430bc9f90abb836566d2e66148253d7d328ebf01b445d0b6399eedae63b673"		2026-10-29T11:02:20.5798896Z
 https://raw.githubusercontent.com/Ottermandias/Glamourer/main/repo.json	"da84bc2e88b773fbe29d8bf973ce7ecb7f2370fce6806817a0feec4a1e410c51"		2026-10-29T06:04:27.5534246Z
 https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json	"874b3b7177b47837922b910ded86bc4ddfb00588938bc7deb08cf3958b24268f"		2026-10-29T08:26:20.1591077Z
 https://raw.githubusercontent.com/xivdev/Penumbra/master/repo.json	"2a518f3c8bc1313150e73065ca68be62281e80f8fcab8d52e934a0ca8ad35619"		2026-10-29T06:04:27.5534246Z
