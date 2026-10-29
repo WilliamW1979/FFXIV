@@ -25,7 +25,7 @@
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-AutoPVPLimitBreak/releases/latest/download/latest.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DownloadCount": 19560,
+    "DownloadCount": 19598,
     "LastUpdate": "1792657543",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   },
@@ -54,7 +54,7 @@
       "utility"
     ],
     "IconUrl": "https://raw.githubusercontent.com/XeldarAlz/FFXIV-AutoMahjongSolver/main/AutoMahjongSolver/Images/Icon.png",
-    "DownloadCount": 14212,
+    "DownloadCount": 14258,
     "DownloadLinkInstall": "https://github.com/XeldarAlz/FFXIV-AutoMahjongSolver/releases/latest/download/latest.zip",
     "DownloadLinkUpdate": "https://github.com/XeldarAlz/FFXIV-AutoMahjongSolver/releases/latest/download/latest.zip",
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-AutoMahjongSolver/releases/latest/download/latest.zip",
@@ -88,7 +88,7 @@
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-AutoDailyTribes/releases/latest/download/latest.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DownloadCount": 37316,
+    "DownloadCount": 37402,
     "LastUpdate": "1792657527",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   },
@@ -119,7 +119,7 @@
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-AutoFATEGrind/releases/latest/download/latest.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DownloadCount": 84770,
+    "DownloadCount": 84881,
     "LastUpdate": "1792597846",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   },
@@ -153,7 +153,7 @@
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-AutoPVPSeriesGrind/releases/latest/download/latest.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DownloadCount": 24091,
+    "DownloadCount": 24153,
     "LastUpdate": "1792849223",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   },
@@ -188,7 +188,7 @@
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-Aetherphone/releases/latest/download/latest.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DownloadCount": 561304,
+    "DownloadCount": 563032,
     "LastUpdate": "1793205477",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   },
@@ -220,7 +220,7 @@
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-AutoHuntGrinder/releases/latest/download/latest.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DownloadCount": 11393,
+    "DownloadCount": 11427,
     "LastUpdate": "1792597850",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   },
@@ -252,7 +252,7 @@
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-AutoHuntTrain/releases/latest/download/latest.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DownloadCount": 3798,
+    "DownloadCount": 3815,
     "LastUpdate": "1792657534",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   },
@@ -284,7 +284,7 @@
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-AutoSightseeingLog/releases/latest/download/latest.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DownloadCount": 6911,
+    "DownloadCount": 6935,
     "LastUpdate": "1792642717",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   },
@@ -316,7 +316,7 @@
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-AutoTripleTriadGrind/releases/latest/download/latest.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DownloadCount": 6735,
+    "DownloadCount": 6786,
     "LastUpdate": "1792657547",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   },
@@ -349,7 +349,7 @@
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-AutoTreasureMaps/releases/latest/download/latest.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DownloadCount": 1167,
+    "DownloadCount": 1179,
     "LastUpdate": "1792641419",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   },
@@ -380,7 +380,7 @@
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-AutoShopper/releases/latest/download/latest.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DownloadCount": 1478,
+    "DownloadCount": 1487,
     "LastUpdate": "1792597978",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   },
@@ -413,7 +413,7 @@
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-AutoGCSupply/releases/latest/download/latest.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DownloadCount": 1020,
+    "DownloadCount": 1028,
     "LastUpdate": "1792597902",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   },
@@ -445,7 +445,7 @@
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-AutoHouseLottery/releases/latest/download/latest.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DownloadCount": 783,
+    "DownloadCount": 792,
     "LastUpdate": "1792657537",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   },
@@ -477,7 +477,7 @@
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-AutoSeller/releases/latest/download/latest.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DownloadCount": 913,
+    "DownloadCount": 925,
     "LastUpdate": "1792597869",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   },
@@ -507,7 +507,7 @@
     "DownloadLinkTesting": "https://github.com/XeldarAlz/FFXIV-AutoKeyboundBrawler/releases/latest/download/latest.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DownloadCount": 5502,
+    "DownloadCount": 7633,
     "LastUpdate": "1793220520",
     "SourceRepo": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json"
   }
