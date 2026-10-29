@@ -2,8 +2,8 @@
 
 ## Summary
 - **Active Repositories**: 38
-- **Successful**: 38 ✅
-- **Failing**: 0 ❌
+- **Successful**: 37 ✅
+- **Failing**: 1 ❌
 - **Quarantined**: 1 🚫
 - **Restored This Run**: 0 ♻️
 
@@ -11,7 +11,7 @@
 - **Unique Plugins**: 162
 - **Duplicates Removed**: 99
 
-- **Errors**: 0
+- **Errors**: 1
 - **Warnings**: 3
 
 ## Repository Status
@@ -152,9 +152,10 @@
    - Status: success  
    - Plugins: 1  
 
-✅ **https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json**  
-   - Status: success  
+❌ **https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json**  
+   - Status: failed  
    - Plugins: 16  
+   - Error: HTTP 404 Not Found  
 
 ✅ **https://raw.githubusercontent.com/Eauldane/ElfShelf/refs/heads/main/repo.json**  
    - Status: success  
@@ -172,6 +173,10 @@
    - Status: quarantined  
    - Plugins: 0  
    - Error: HTTP 404 Not Found  
+
+## Errors (1)
+
+- https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json has been failing since 2026-10-29 10:08 UTC (0.0 of 72 hours before quarantine): HTTP 404 Not Found - serving cached plugins
 
 ## Warnings (3)
 
