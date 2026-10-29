@@ -180,6 +180,6 @@
 
 ## Warnings (3)
 
-- Marketbuddy is provided by different authors: Chalkos, NightmareXIV, Chalkos
 - Questionable is provided by different authors: the Puni.sh Quest Squad, Liza Carvelli
+- Marketbuddy is provided by different authors: Chalkos, NightmareXIV, Chalkos
 - SkipCutscene is provided by different authors: KangasZ, Windmourn
