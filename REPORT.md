@@ -7,9 +7,9 @@
 - **Quarantined**: 1 🚫
 - **Restored This Run**: 0 ♻️
 
-- **Total Plugins Fetched**: 261
+- **Total Plugins Fetched**: 245
 - **Unique Plugins**: 162
-- **Duplicates Removed**: 99
+- **Duplicates Removed**: 83
 
 - **Errors**: 1
 - **Warnings**: 3
@@ -167,7 +167,7 @@
 
 ✅ **https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json**  
    - Status: success  
-   - Plugins: 105  
+   - Plugins: 89  
 
 🚫 **https://github.com/huntsffxiv/repo/raw/main/repo.json**  
    - Status: quarantined  
@@ -180,6 +180,6 @@
 
 ## Warnings (3)
 
-- Marketbuddy is provided by different authors: Chalkos, NightmareXIV, Chalkos
 - Questionable is provided by different authors: the Puni.sh Quest Squad, Liza Carvelli
+- Marketbuddy is provided by different authors: Chalkos, NightmareXIV, Chalkos
 - SkipCutscene is provided by different authors: KangasZ, Windmourn
