@@ -176,10 +176,10 @@
 
 ## Errors (1)
 
-- https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json has been failing since 2026-10-29 10:08 UTC (28.7 of 72 hours before quarantine): HTTP 404 Not Found - serving cached plugins
+- https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json has been failing since 2026-10-29 10:08 UTC (28.8 of 72 hours before quarantine): HTTP 404 Not Found - serving cached plugins
 
 ## Warnings (3)
 
-- Questionable is provided by different authors: the Puni.sh Quest Squad, Liza Carvelli
 - Marketbuddy is provided by different authors: Chalkos, NightmareXIV, Chalkos
+- Questionable is provided by different authors: the Puni.sh Quest Squad, Liza Carvelli
 - SkipCutscene is provided by different authors: KangasZ, Windmourn
