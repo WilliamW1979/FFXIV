@@ -17,7 +17,7 @@ https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.
 https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json	"d93d568c1545e35404dd16b2c133714da98628f3f2a66fc6e896612e4d8e39f1"		2026-10-30T00:10:32.9431740Z
 https://raw.githubusercontent.com/Haselnussbomber/MyDalamudPlugins/main/repo.json	"7aac1ad3d8a84f3dd3ff56dc90aa5f34781172aef38731ab9eacbeae5749ef4e"		2026-10-30T00:14:15.5835907Z
 https://raw.githubusercontent.com/Ottermandias/Glamourer/main/repo.json	"da84bc2e88b773fbe29d8bf973ce7ecb7f2370fce6806817a0feec4a1e410c51"		2026-10-30T00:10:32.9431740Z
-https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json	"a108be33854916636ddfe25e2dc684ae5a9aefeec01ffbc7659e723174aa4fce"		2026-10-29T21:54:20.4326828Z
+https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json	"a108be33854916636ddfe25e2dc684ae5a9aefeec01ffbc7659e723174aa4fce"		2026-10-30T03:54:22.8640385Z
 https://raw.githubusercontent.com/xivdev/Penumbra/master/repo.json	"2a518f3c8bc1313150e73065ca68be62281e80f8fcab8d52e934a0ca8ad35619"		2026-10-30T00:10:32.9431740Z
 https://raw.githubusercontent.com/jawslouis/MakePlacePlugin/master/MakePlacePlugin.json	"826d03375fa286d1b76b2aa24c5089418915db984d0a58d51a7527a80ecb55e5"		2026-10-30T00:10:32.9431740Z
 https://raw.githubusercontent.com/BardToolbox/BardToolbox-Release/master/pluginmaster.json	"9df8d82d93d9cb167ccf70d2c15a6c230113f74a101473a85546eb1d9b573f7d"		2026-10-30T00:10:32.9431740Z
