@@ -1,28 +1,6 @@
 [
   {
     "Author": "kawaii, NightmareXIV",
-    "Name": "AutoRetainer",
-    "Punchline": "Collect and assign ventures to your retainers from the comfort of your bed.",
-    "Description": "Collect and assign ventures to your retainers from the comfort of your bed.",
-    "Tags": [],
-    "InternalName": "AutoRetainer",
-    "RepoUrl": "https://github.com/PunishXIV/AutoRetainer",
-    "DownloadCount": 2662530,
-    "LastUpdate": 1792368614,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.14/install/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.14/update/latest.zip",
-    "AssemblyVersion": "4.6.2.14",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "15",
-    "Changelog": "- Fixed an issue where Disable Multi Mode on Manual Login and Do not reset Preferred Character on Manual Login options did not work after update",
-    "TestingAssemblyVersion": "4.6.2.15",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.15/install/testing.zip",
-    "TestingDalamudApiLevel": "15",
-    "IconUrl": "https://puni.sh/api/plugins/icon/24",
-    "SourceRepo": "https://love.puni.sh/ment-testing.json"
-  },
-  {
-    "Author": "kawaii, NightmareXIV",
     "Name": "Orbwalker",
     "Punchline": "S P A C E G L I D I N G",
     "Description": "Locks player movement while casting and allows for maximum caster uptime during the course of a fight.",
@@ -38,6 +16,28 @@
     "DalamudApiLevel": "15",
     "Changelog": "- 7.5",
     "IconUrl": "https://puni.sh/api/plugins/icon/12",
+    "SourceRepo": "https://love.puni.sh/ment-testing.json"
+  },
+  {
+    "Author": "kawaii, NightmareXIV",
+    "Name": "AutoRetainer",
+    "Punchline": "Collect and assign ventures to your retainers from the comfort of your bed.",
+    "Description": "Collect and assign ventures to your retainers from the comfort of your bed.",
+    "Tags": [],
+    "InternalName": "AutoRetainer",
+    "RepoUrl": "https://github.com/PunishXIV/AutoRetainer",
+    "DownloadCount": 2662532,
+    "LastUpdate": 1792368614,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.14/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.14/update/latest.zip",
+    "AssemblyVersion": "4.6.2.14",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "- Fixed an issue where Disable Multi Mode on Manual Login and Do not reset Preferred Character on Manual Login options did not work after update",
+    "TestingAssemblyVersion": "4.6.2.15",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.15/install/testing.zip",
+    "TestingDalamudApiLevel": "15",
+    "IconUrl": "https://puni.sh/api/plugins/icon/24",
     "SourceRepo": "https://love.puni.sh/ment-testing.json"
   },
   {
@@ -126,7 +126,7 @@
     ],
     "InternalName": "AutoHook",
     "RepoUrl": "https://github.com/PunishXIV/AutoHook",
-    "DownloadCount": 2888131,
+    "DownloadCount": 2888152,
     "LastUpdate": 1793314139,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.3.0/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.3.0/update/latest.zip",
@@ -138,33 +138,6 @@
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.1.2/install/testing.zip",
     "TestingDalamudApiLevel": "15",
     "IconUrl": "https://puni.sh/api/plugins/icon/47",
-    "SourceRepo": "https://love.puni.sh/ment-testing.json"
-  },
-  {
-    "Author": "the Puni.sh Quest Squad",
-    "Name": "Questionable",
-    "Punchline": "A tiny quest helper plugin.",
-    "Description": "A small quest helper plugin designed to automatically do your quests for you where possible. Utilizes navmesh to automatically travel to all quest waypoints and (attempts to) complete all steps along the way (excluding dungeons, single-player duties and combat).\n\nNot all quests are supported.\n\nRequired Plugins: vnavmesh, TextAdvance, Lifestream",
-    "Tags": [
-      "quest",
-      "msq",
-      "qol",
-      "utility"
-    ],
-    "InternalName": "Questionable",
-    "RepoUrl": "https://github.com/PunishXIV/Questionable",
-    "DownloadCount": 2571915,
-    "LastUpdate": 1793199783,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/94/Questionable/versions/15.756.3.58/install/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/94/Questionable/versions/15.756.3.58/update/latest.zip",
-    "AssemblyVersion": "15.756.3.58",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "15",
-    "Changelog": "- Feature: keybound event -alydev\n- Bug fix: figured out why cbt's auto event quest thing wasn't working, hopefully -alydev\n  - Bug fix: it wasn't showing event quests that didn't have a specified start date, because they had already started when i added it -alydev",
-    "TestingAssemblyVersion": "15.293.1.0",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/94/Questionable/versions/15.293.1.0/install/testing.zip",
-    "TestingDalamudApiLevel": "15",
-    "IconUrl": "https://puni.sh/api/plugins/icon/94",
     "SourceRepo": "https://love.puni.sh/ment-testing.json"
   },
   {
@@ -186,6 +159,33 @@
     "DalamudApiLevel": "15",
     "Changelog": "- 7.5",
     "IconUrl": "https://puni.sh/api/plugins/icon/131",
+    "SourceRepo": "https://love.puni.sh/ment-testing.json"
+  },
+  {
+    "Author": "the Puni.sh Quest Squad",
+    "Name": "Questionable",
+    "Punchline": "A tiny quest helper plugin.",
+    "Description": "A small quest helper plugin designed to automatically do your quests for you where possible. Utilizes navmesh to automatically travel to all quest waypoints and (attempts to) complete all steps along the way (excluding dungeons, single-player duties and combat).\n\nNot all quests are supported.\n\nRequired Plugins: vnavmesh, TextAdvance, Lifestream",
+    "Tags": [
+      "quest",
+      "msq",
+      "qol",
+      "utility"
+    ],
+    "InternalName": "Questionable",
+    "RepoUrl": "https://github.com/PunishXIV/Questionable",
+    "DownloadCount": 2571917,
+    "LastUpdate": 1793199783,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/94/Questionable/versions/15.756.3.58/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/94/Questionable/versions/15.756.3.58/update/latest.zip",
+    "AssemblyVersion": "15.756.3.58",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "- Feature: keybound event -alydev\n- Bug fix: figured out why cbt's auto event quest thing wasn't working, hopefully -alydev\n  - Bug fix: it wasn't showing event quests that didn't have a specified start date, because they had already started when i added it -alydev",
+    "TestingAssemblyVersion": "15.293.1.0",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/94/Questionable/versions/15.293.1.0/install/testing.zip",
+    "TestingDalamudApiLevel": "15",
+    "IconUrl": "https://puni.sh/api/plugins/icon/94",
     "SourceRepo": "https://love.puni.sh/ment-testing.json"
   },
   {
@@ -222,7 +222,7 @@
     ],
     "InternalName": "WrathCombo",
     "RepoUrl": "https://github.com/PunishXIV/WrathCombo",
-    "DownloadCount": 1265698,
+    "DownloadCount": 1265700,
     "LastUpdate": 1792168226,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.4.27/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.4.27/update/latest.zip",
@@ -262,6 +262,29 @@
     "SourceRepo": "https://love.puni.sh/ment-testing.json"
   },
   {
+    "Author": "Taurenkey, Kage, NightmareXIV",
+    "Name": "Saucy",
+    "Punchline": "When working for MGP is too much effort.",
+    "Description": "Automates certain Gold Saucer mini-games.",
+    "Tags": [
+      "gold saucer",
+      "mgp",
+      "automation"
+    ],
+    "InternalName": "Saucy",
+    "RepoUrl": "https://github.com/PunishXIV/Saucy",
+    "DownloadCount": 1208248,
+    "LastUpdate": 1793290579,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/7/Saucy/versions/2.1.2.9/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/7/Saucy/versions/2.1.2.9/update/latest.zip",
+    "AssemblyVersion": "2.1.2.9",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "Brawler:\nAdjusted requeue timings\nA (hopefully) working keyboard yesno fix as I did want to pull my keyboard to test it.\nStop at MGC Cap\nStop after x runs\n\nAlso added:\nGATE Timeline based on https://github.com/rooroodev/ffxivgateschedule\nGATE Runner inspired by https://github.com/NeoGriever/Saru \nMGP and Run stops for other repeatable minigames.",
+    "IconUrl": "https://puni.sh/api/plugins/icon/7",
+    "SourceRepo": "https://love.puni.sh/ment-testing.json"
+  },
+  {
     "Author": "NightmareXIV",
     "Name": "Splatoon",
     "Punchline": "Scriptable overlay engine for drawing mechanics, markers, and indicators in real-time",
@@ -296,7 +319,7 @@
     ],
     "InternalName": "Artisan",
     "RepoUrl": "https://github.com/PunishXIV/Artisan",
-    "DownloadCount": 6113720,
+    "DownloadCount": 6113722,
     "LastUpdate": 1790362692,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.21/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.21/update/latest.zip",
@@ -308,29 +331,6 @@
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.16/install/testing.zip",
     "TestingDalamudApiLevel": "15",
     "IconUrl": "https://puni.sh/api/plugins/icon/6",
-    "SourceRepo": "https://love.puni.sh/ment-testing.json"
-  },
-  {
-    "Author": "Taurenkey, Kage, NightmareXIV",
-    "Name": "Saucy",
-    "Punchline": "When working for MGP is too much effort.",
-    "Description": "Automates certain Gold Saucer mini-games.",
-    "Tags": [
-      "gold saucer",
-      "mgp",
-      "automation"
-    ],
-    "InternalName": "Saucy",
-    "RepoUrl": "https://github.com/PunishXIV/Saucy",
-    "DownloadCount": 1208233,
-    "LastUpdate": 1793290579,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/7/Saucy/versions/2.1.2.9/install/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/7/Saucy/versions/2.1.2.9/update/latest.zip",
-    "AssemblyVersion": "2.1.2.9",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "15",
-    "Changelog": "Brawler:\nAdjusted requeue timings\nA (hopefully) working keyboard yesno fix as I did want to pull my keyboard to test it.\nStop at MGC Cap\nStop after x runs\n\nAlso added:\nGATE Timeline based on https://github.com/rooroodev/ffxivgateschedule\nGATE Runner inspired by https://github.com/NeoGriever/Saru \nMGP and Run stops for other repeatable minigames.",
-    "IconUrl": "https://puni.sh/api/plugins/icon/7",
     "SourceRepo": "https://love.puni.sh/ment-testing.json"
   }
 ]
