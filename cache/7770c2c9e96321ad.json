@@ -3,7 +3,7 @@
     "Author": "Legends of the Game",
     "Name": "Tales of Milestones",
     "InternalName": "TimeMemoriaV3",
-    "AssemblyVersion": "3.10.1.15",
+    "AssemblyVersion": "3.11.0.15",
     "Description": "Quest progression and pacing — a reflective notebook for your story journey, not a scoreboard.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/LegendsOfTheGame/TimeMemoriaV3",
@@ -31,7 +31,7 @@
     "DownloadLinkTesting": "https://github.com/LegendsOfTheGame/TimeMemoriaV3/releases/latest/download/latest.zip",
     "IconUrl": "https://raw.githubusercontent.com/LegendsOfTheGame/TimeMemoriaV3/main/assets/icon.png",
     "DownloadCount": 0,
-    "Changelog": "Tales of Milestones:\n- New name. Time Memoria is now Tales of Milestones. Your settings, quest journal and exports stay where they are, and the `/tm` commands do not change.",
+    "Changelog": "Tales of Milestones:\n- Food from your accepted quests. The /tm food window has a new section, \"From accepted quests\". It lists each quest in your journal that gives food, and the role that each meal suits. A reward that you choose from is under \"Pick one:\".\n- Eye on the quest turn-in window. When a quest reward is food, the turn-in window shows an eye beside \"Reward\". Click the eye to open /tm food before you choose your reward. The eye opens nothing by itself, and it changes nothing in the game window. To turn it off, use the new setting in either Settings window.\n- Text follows your UI theme. The game-styled windows use the text colour of the theme that you selected in the game. Text is now easy to read on the Light, Clear White and Clear Pink themes. Headings are larger. The Bonuses tab shows each food's role as the game's role icon and as a word.\n- Language for dates. A new Language setting in both Settings windows selects English, German, French or Japanese. The default follows Dalamud, then the game. Only dates use it at this time.\n- News feed date. Active Events shows the time and date when the news feed was last updated, with the month as a name.\n- Shorter event names. Active Events shows \"Keybound Brawler\", not the announcement title \"Keybound Brawler Arrives October 28!\".\n- News checks. The plugin checks the news feed on the feed's own 6-hour schedule: every 15 minutes in the hour after an update, otherwise every 30 minutes.\n- Credits. The Credits tab now names skyborn-industries (lodestonenews.com) and aers (FFXIVClientStructs).\n- Fix: a meal with no combat stat no longer shows as DPS food. This includes Bacon Broth, the eight resistance Drops, Kingcake and Tailor-made Eel Pie.\n- Fix: the download is smaller. The plugin zip no longer contains copies of Dalamud's own files, so it went from 12.7 MB to 1.3 MB.",
     "SourceRepo": "https://raw.githubusercontent.com/LegendsOfTheGame/TimeMemoriaV3/main/repo.json"
   }
 ]
