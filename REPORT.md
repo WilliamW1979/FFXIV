@@ -176,7 +176,7 @@
 
 ## Errors (1)
 
-- https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json has been failing since 2026-10-29 10:08 UTC (49.8 of 72 hours before quarantine): HTTP 404 Not Found - serving cached plugins
+- https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json has been failing since 2026-10-29 10:08 UTC (49.9 of 72 hours before quarantine): HTTP 404 Not Found - serving cached plugins
 
 ## Warnings (3)
 
