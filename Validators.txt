@@ -27,6 +27,6 @@ https://raw.githubusercontent.com/dodingdaga/DalamudPlugins/main/PuppetMaster.js
 https://raw.githubusercontent.com/SoyaX/SoyaPlugins/main/repo.json	"b7219390c59bdec3eaaa57e58bdbf649c8775210a9d4dab3a1809df4d4fdad92"		2026-11-01T06:22:16.9926199Z
 https://raw.githubusercontent.com/VariableVixen/MyDalamudPlugins/master/pluginmaster.json	"bdcee941daee65df06acd9de92463c3990f98552aeb8aadeada261d980a7b5b8"		2026-11-01T06:22:16.9926199Z
 https://xiv.starry.blue/plugins/master.json	"bdbf92f285d195453068418131389a6a"		2026-11-01T08:06:20.6482881Z
-https://raw.githubusercontent.com/LegendsOfTheGame/TimeMemoriaV3/main/repo.json	"ef0c29679f0cc5bd927aff018a21d12f2e14da10cbd55a0d9a81d8ed2157a2e6"		2026-11-01T05:32:14.5074646Z
+https://raw.githubusercontent.com/LegendsOfTheGame/TimeMemoriaV3/main/repo.json	"ef0c29679f0cc5bd927aff018a21d12f2e14da10cbd55a0d9a81d8ed2157a2e6"		2026-11-01T11:32:16.6524961Z
 https://raw.githubusercontent.com/Eauldane/ElfShelf/refs/heads/main/repo.json	"4099276f9872252c1669a09bc85f58426dc377020c0f3455e206e84078e0d4c4"		2026-11-01T06:52:35.5094810Z
 https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json	"84baad6f2e7ed75797a1d2162579f72d20531709926ee91821420d4ceb0f298b"		2026-11-01T05:36:25.4326645Z
