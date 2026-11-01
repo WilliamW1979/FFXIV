@@ -4,12 +4,12 @@
 - **Active Repositories**: 38
 - **Successful**: 37 ✅
 - **Failing**: 1 ❌
-- **Quarantined**: 1 🚫
+- **Quarantined**: 2 🚫
 - **Restored This Run**: 0 ♻️
 
-- **Total Plugins Fetched**: 260
-- **Unique Plugins**: 162
-- **Duplicates Removed**: 98
+- **Total Plugins Fetched**: 244
+- **Unique Plugins**: 161
+- **Duplicates Removed**: 83
 
 - **Errors**: 1
 - **Warnings**: 3
@@ -152,9 +152,9 @@
    - Status: success  
    - Plugins: 1  
 
-❌ **https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json**  
-   - Status: failed  
-   - Plugins: 16  
+🚫 **https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json**  
+   - Status: quarantined  
+   - Plugins: 0  
    - Error: HTTP 404 Not Found  
 
 ✅ **https://raw.githubusercontent.com/Eauldane/ElfShelf/refs/heads/main/repo.json**  
@@ -176,10 +176,10 @@
 
 ## Errors (1)
 
-- https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json has been failing since 2026-10-29 10:08 UTC (72.0 of 72 hours before quarantine): HTTP 404 Not Found - serving cached plugins
+- Quarantined https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json after failing continuously since 2026-10-29 10:08 UTC: HTTP 404 Not Found
 
 ## Warnings (3)
 
-- Marketbuddy is provided by different authors: Chalkos, NightmareXIV, Chalkos
 - Questionable is provided by different authors: the Puni.sh Quest Squad, Liza Carvelli
+- Marketbuddy is provided by different authors: Chalkos, NightmareXIV, Chalkos
 - SkipCutscene is provided by different authors: KangasZ, Windmourn
