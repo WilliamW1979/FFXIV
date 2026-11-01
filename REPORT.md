@@ -1,14 +1,14 @@
 # Plugin Repository Merge Report
 
 ## Summary
-- **Active Repositories**: 37
-- **Successful**: 37 ✅
+- **Active Repositories**: 38
+- **Successful**: 38 ✅
 - **Failing**: 0 ❌
 - **Quarantined**: 2 🚫
 - **Restored This Run**: 0 ♻️
 
-- **Total Plugins Fetched**: 244
-- **Unique Plugins**: 161
+- **Total Plugins Fetched**: 245
+- **Unique Plugins**: 162
 - **Duplicates Removed**: 83
 
 - **Errors**: 0
@@ -163,6 +163,10 @@
 ✅ **https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json**  
    - Status: success  
    - Plugins: 104  
+
+✅ **https://raw.githubusercontent.com/cloudesh/kupopop/main/plugin/releases/repo.json**  
+   - Status: success  
+   - Plugins: 1  
 
 🚫 **https://github.com/huntsffxiv/repo/raw/main/repo.json**  
    - Status: quarantined  

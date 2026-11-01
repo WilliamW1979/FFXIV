@@ -1,1 +1,2 @@
 2026-10-24T07:54:01.1751452Z	WilliamW1979	ACCEPTED	https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json
+2026-11-01T23:12:43.1038755Z	cloudesh	ACCEPTED	https://raw.githubusercontent.com/cloudesh/kupopop/main/plugin/releases/repo.json

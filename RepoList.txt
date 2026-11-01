@@ -35,3 +35,4 @@ https://raw.githubusercontent.com/LegendsOfTheGame/TimeMemoriaV3/main/repo.json
 https://raw.githubusercontent.com/Eauldane/ElfShelf/refs/heads/main/repo.json
 https://love.puni.sh/ment-testing.json
 https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json
+https://raw.githubusercontent.com/cloudesh/kupopop/main/plugin/releases/repo.json
