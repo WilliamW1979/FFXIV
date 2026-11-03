@@ -1,3 +1,0 @@
-https://puni.sh/api/repository/herc	2026-11-03T04:51:37.9123057Z	request timed out after 30 seconds
-https://puni.sh/api/repository/croizat	2026-11-03T04:51:37.9123057Z	request timed out after 30 seconds
-https://love.puni.sh/ment-testing.json	2026-11-03T04:51:37.9123057Z	request timed out after 30 seconds
