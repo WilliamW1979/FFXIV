@@ -1,0 +1,5 @@
+https://love.puni.sh/ment.json has been failing since 2026-11-03 04:58 UTC (0.0 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins
+https://puni.sh/api/repository/veyn has been failing since 2026-11-03 04:58 UTC (0.0 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins
+https://puni.sh/api/repository/herc has been failing since 2026-11-03 04:58 UTC (0.0 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins
+https://puni.sh/api/repository/croizat has been failing since 2026-11-03 04:58 UTC (0.0 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins
+https://love.puni.sh/ment-testing.json has been failing since 2026-11-03 04:58 UTC (0.0 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins
