@@ -2,8 +2,8 @@
 
 ## Summary
 - **Active Repositories**: 38
-- **Successful**: 38 ✅
-- **Failing**: 0 ❌
+- **Successful**: 36 ✅
+- **Failing**: 2 ❌
 - **Quarantined**: 2 🚫
 - **Restored This Run**: 0 ♻️
 
@@ -11,14 +11,15 @@
 - **Unique Plugins**: 162
 - **Duplicates Removed**: 83
 
-- **Errors**: 0
+- **Errors**: 2
 - **Warnings**: 3
 
 ## Repository Status
 
-✅ **https://love.puni.sh/ment.json**  
-   - Status: success  
+❌ **https://love.puni.sh/ment.json**  
+   - Status: failed  
    - Plugins: 14  
+   - Error: request timed out after 30 seconds  
 
 ✅ **https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json**  
    - Status: success  
@@ -60,9 +61,10 @@
    - Status: success  
    - Plugins: 3  
 
-✅ **https://puni.sh/api/repository/veyn**  
-   - Status: success  
+❌ **https://puni.sh/api/repository/veyn**  
+   - Status: failed  
    - Plugins: 6  
+   - Error: request timed out after 30 seconds  
 
 ✅ **https://puni.sh/api/repository/herc**  
    - Status: success  
@@ -177,6 +179,11 @@
    - Status: quarantined  
    - Plugins: 0  
    - Error: HTTP 404 Not Found  
+
+## Errors (2)
+
+- https://love.puni.sh/ment.json has been failing since 2026-11-03 04:41 UTC (0.0 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins
+- https://puni.sh/api/repository/veyn has been failing since 2026-11-03 04:41 UTC (0.0 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins
 
 ## Warnings (3)
 
