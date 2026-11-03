@@ -1,1 +1,0 @@
-https://puni.sh/api/repository/herc has been failing since 2026-11-03 03:58 UTC (0.2 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins

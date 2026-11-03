@@ -2,8 +2,8 @@
 
 ## Summary
 - **Active Repositories**: 38
-- **Successful**: 37 ✅
-- **Failing**: 1 ❌
+- **Successful**: 38 ✅
+- **Failing**: 0 ❌
 - **Quarantined**: 2 🚫
 - **Restored This Run**: 0 ♻️
 
@@ -11,7 +11,7 @@
 - **Unique Plugins**: 162
 - **Duplicates Removed**: 83
 
-- **Errors**: 1
+- **Errors**: 0
 - **Warnings**: 3
 
 ## Repository Status
@@ -64,10 +64,9 @@
    - Status: success  
    - Plugins: 6  
 
-❌ **https://puni.sh/api/repository/herc**  
-   - Status: failed  
+✅ **https://puni.sh/api/repository/herc**  
+   - Status: success  
    - Plugins: 1  
-   - Error: request timed out after 30 seconds  
 
 ✅ **https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json**  
    - Status: success  
@@ -178,10 +177,6 @@
    - Status: quarantined  
    - Plugins: 0  
    - Error: HTTP 404 Not Found  
-
-## Errors (1)
-
-- https://puni.sh/api/repository/herc has been failing since 2026-11-03 03:58 UTC (0.2 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins
 
 ## Warnings (3)
 
