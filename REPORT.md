@@ -2,8 +2,8 @@
 
 ## Summary
 - **Active Repositories**: 38
-- **Successful**: 36 ✅
-- **Failing**: 2 ❌
+- **Successful**: 34 ✅
+- **Failing**: 4 ❌
 - **Quarantined**: 2 🚫
 - **Restored This Run**: 0 ♻️
 
@@ -11,7 +11,7 @@
 - **Unique Plugins**: 162
 - **Duplicates Removed**: 83
 
-- **Errors**: 2
+- **Errors**: 4
 - **Warnings**: 3
 
 ## Repository Status
@@ -65,17 +65,19 @@
    - Status: success  
    - Plugins: 6  
 
-✅ **https://puni.sh/api/repository/herc**  
-   - Status: success  
+❌ **https://puni.sh/api/repository/herc**  
+   - Status: failed  
    - Plugins: 1  
+   - Error: request timed out after 30 seconds  
 
 ✅ **https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json**  
    - Status: success  
    - Plugins: 10  
 
-✅ **https://puni.sh/api/repository/croizat**  
-   - Status: success  
+❌ **https://puni.sh/api/repository/croizat**  
+   - Status: failed  
    - Plugins: 3  
+   - Error: request timed out after 30 seconds  
 
 ✅ **https://raw.githubusercontent.com/KangasZ/DalamudPluginRepository/main/plugin_repository.json**  
    - Status: success  
@@ -180,10 +182,12 @@
    - Plugins: 0  
    - Error: HTTP 404 Not Found  
 
-## Errors (2)
+## Errors (4)
 
-- https://love.puni.sh/ment.json has been failing since 2026-11-03 03:44 UTC (0.0 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins
-- https://love.puni.sh/ment-testing.json has been failing since 2026-11-03 03:44 UTC (0.0 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins
+- https://love.puni.sh/ment.json has been failing since 2026-11-03 03:44 UTC (0.1 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins
+- https://puni.sh/api/repository/herc has been failing since 2026-11-03 03:48 UTC (0.0 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins
+- https://puni.sh/api/repository/croizat has been failing since 2026-11-03 03:48 UTC (0.0 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins
+- https://love.puni.sh/ment-testing.json has been failing since 2026-11-03 03:44 UTC (0.1 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins
 
 ## Warnings (3)
 
