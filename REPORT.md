@@ -2,8 +2,8 @@
 
 ## Summary
 - **Active Repositories**: 38
-- **Successful**: 34 ✅
-- **Failing**: 4 ❌
+- **Successful**: 37 ✅
+- **Failing**: 1 ❌
 - **Quarantined**: 2 🚫
 - **Restored This Run**: 0 ♻️
 
@@ -11,15 +11,14 @@
 - **Unique Plugins**: 162
 - **Duplicates Removed**: 83
 
-- **Errors**: 4
+- **Errors**: 1
 - **Warnings**: 3
 
 ## Repository Status
 
-❌ **https://love.puni.sh/ment.json**  
-   - Status: failed  
+✅ **https://love.puni.sh/ment.json**  
+   - Status: success  
    - Plugins: 14  
-   - Error: request timed out after 30 seconds  
 
 ✅ **https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json**  
    - Status: success  
@@ -61,10 +60,9 @@
    - Status: success  
    - Plugins: 3  
 
-❌ **https://puni.sh/api/repository/veyn**  
-   - Status: failed  
+✅ **https://puni.sh/api/repository/veyn**  
+   - Status: success  
    - Plugins: 6  
-   - Error: request timed out after 30 seconds  
 
 ❌ **https://puni.sh/api/repository/herc**  
    - Status: failed  
@@ -75,10 +73,9 @@
    - Status: success  
    - Plugins: 10  
 
-❌ **https://puni.sh/api/repository/croizat**  
-   - Status: failed  
+✅ **https://puni.sh/api/repository/croizat**  
+   - Status: success  
    - Plugins: 3  
-   - Error: request timed out after 30 seconds  
 
 ✅ **https://raw.githubusercontent.com/KangasZ/DalamudPluginRepository/main/plugin_repository.json**  
    - Status: success  
@@ -182,12 +179,9 @@
    - Plugins: 0  
    - Error: HTTP 404 Not Found  
 
-## Errors (4)
+## Errors (1)
 
-- https://love.puni.sh/ment.json has been failing since 2026-11-03 03:58 UTC (0.1 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins
-- https://puni.sh/api/repository/veyn has been failing since 2026-11-03 03:58 UTC (0.1 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins
-- https://puni.sh/api/repository/herc has been failing since 2026-11-03 03:58 UTC (0.1 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins
-- https://puni.sh/api/repository/croizat has been failing since 2026-11-03 03:58 UTC (0.1 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins
+- https://puni.sh/api/repository/herc has been failing since 2026-11-03 03:58 UTC (0.2 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins
 
 ## Warnings (3)
 
