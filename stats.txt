@@ -1,11 +1,11 @@
 total_repos=38
-successful_repos=37
-failed_repos=1
+successful_repos=33
+failed_repos=5
 quarantined_repos=2
 new_quarantined=0
 restored_repos=0
 total_plugins_fetched=245
 unique_plugins=162
 duplicates_removed=83
-errors=1
+errors=5
 warnings=3
