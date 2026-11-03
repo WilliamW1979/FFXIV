@@ -2,8 +2,8 @@
 
 ## Summary
 - **Active Repositories**: 38
-- **Successful**: 33 ✅
-- **Failing**: 5 ❌
+- **Successful**: 38 ✅
+- **Failing**: 0 ❌
 - **Quarantined**: 2 🚫
 - **Restored This Run**: 0 ♻️
 
@@ -11,15 +11,14 @@
 - **Unique Plugins**: 162
 - **Duplicates Removed**: 83
 
-- **Errors**: 5
+- **Errors**: 0
 - **Warnings**: 3
 
 ## Repository Status
 
-❌ **https://love.puni.sh/ment.json**  
-   - Status: failed  
+✅ **https://love.puni.sh/ment.json**  
+   - Status: success  
    - Plugins: 14  
-   - Error: request timed out after 30 seconds  
 
 ✅ **https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json**  
    - Status: success  
@@ -61,24 +60,21 @@
    - Status: success  
    - Plugins: 3  
 
-❌ **https://puni.sh/api/repository/veyn**  
-   - Status: failed  
+✅ **https://puni.sh/api/repository/veyn**  
+   - Status: success  
    - Plugins: 6  
-   - Error: request timed out after 30 seconds  
 
-❌ **https://puni.sh/api/repository/herc**  
-   - Status: failed  
+✅ **https://puni.sh/api/repository/herc**  
+   - Status: success  
    - Plugins: 1  
-   - Error: request timed out after 30 seconds  
 
 ✅ **https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json**  
    - Status: success  
    - Plugins: 10  
 
-❌ **https://puni.sh/api/repository/croizat**  
-   - Status: failed  
+✅ **https://puni.sh/api/repository/croizat**  
+   - Status: success  
    - Plugins: 3  
-   - Error: request timed out after 30 seconds  
 
 ✅ **https://raw.githubusercontent.com/KangasZ/DalamudPluginRepository/main/plugin_repository.json**  
    - Status: success  
@@ -160,10 +156,9 @@
    - Status: success  
    - Plugins: 5  
 
-❌ **https://love.puni.sh/ment-testing.json**  
-   - Status: failed  
+✅ **https://love.puni.sh/ment-testing.json**  
+   - Status: success  
    - Plugins: 14  
-   - Error: request timed out after 30 seconds  
 
 ✅ **https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json**  
    - Status: success  
@@ -183,16 +178,8 @@
    - Plugins: 0  
    - Error: HTTP 404 Not Found  
 
-## Errors (5)
-
-- https://love.puni.sh/ment.json has been failing since 2026-11-03 04:19 UTC (0.1 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins
-- https://puni.sh/api/repository/veyn has been failing since 2026-11-03 04:25 UTC (0.0 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins
-- https://puni.sh/api/repository/herc has been failing since 2026-11-03 04:25 UTC (0.0 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins
-- https://puni.sh/api/repository/croizat has been failing since 2026-11-03 04:25 UTC (0.0 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins
-- https://love.puni.sh/ment-testing.json has been failing since 2026-11-03 04:25 UTC (0.0 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins
-
 ## Warnings (3)
 
-- Questionable is provided by different authors: the Puni.sh Quest Squad, Liza Carvelli
 - Marketbuddy is provided by different authors: Chalkos, NightmareXIV, Chalkos
+- Questionable is provided by different authors: the Puni.sh Quest Squad, Liza Carvelli
 - SkipCutscene is provided by different authors: KangasZ, Windmourn
