@@ -1,2 +1,0 @@
-https://love.puni.sh/ment.json	2026-11-03T04:41:49.2348667Z	request timed out after 30 seconds
-https://puni.sh/api/repository/veyn	2026-11-03T04:41:49.2348667Z	request timed out after 30 seconds
