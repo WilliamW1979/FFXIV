@@ -35,7 +35,7 @@
     ],
     "InternalName": "PandorasBox",
     "RepoUrl": "https://github.com/PunishXIV/PandorasBox",
-    "DownloadCount": 1425893,
+    "DownloadCount": 1425894,
     "LastUpdate": 1791992270,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.6.4.6/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.6.4.6/update/latest.zip",
@@ -61,7 +61,7 @@
     "Tags": [],
     "InternalName": "AutoRetainer",
     "RepoUrl": "https://github.com/PunishXIV/AutoRetainer",
-    "DownloadCount": 2672390,
+    "DownloadCount": 2672424,
     "LastUpdate": 1793510027,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.17/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.17/update/latest.zip",
@@ -146,7 +146,7 @@
     ],
     "InternalName": "AutoHook",
     "RepoUrl": "https://github.com/PunishXIV/AutoHook",
-    "DownloadCount": 2940304,
+    "DownloadCount": 2940327,
     "LastUpdate": 1793700365,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.4.0/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.4.0/update/latest.zip",
@@ -165,6 +165,38 @@
     ]
   },
   {
+    "Author": "the Puni.sh Quest Squad",
+    "Name": "Questionable",
+    "Punchline": "A tiny quest helper plugin.",
+    "Description": "A small quest helper plugin designed to automatically do your quests for you where possible. Utilizes navmesh to automatically travel to all quest waypoints and (attempts to) complete all steps along the way (excluding dungeons, single-player duties and combat).\n\nNot all quests are supported.\n\nRequired Plugins: vnavmesh, TextAdvance, Lifestream",
+    "Tags": [
+      "quest",
+      "msq",
+      "qol",
+      "utility"
+    ],
+    "InternalName": "Questionable",
+    "RepoUrl": "https://github.com/PunishXIV/Questionable",
+    "DownloadCount": 2599260,
+    "LastUpdate": 1793480225,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/94/Questionable/versions/15.756.3.60/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/94/Questionable/versions/15.756.3.60/update/latest.zip",
+    "AssemblyVersion": "15.756.3.60",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "- Change: fix end date of typing event now that we know when evercold is releasing -alydev",
+    "TestingAssemblyVersion": "15.293.1.0",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/94/Questionable/versions/15.293.1.0/install/testing.zip",
+    "TestingDalamudApiLevel": "15",
+    "IconUrl": "https://puni.sh/api/plugins/icon/94",
+    "SourceRepo": "https://love.puni.sh/ment.json",
+    "AlternateSources": [
+      "https://love.puni.sh/ment-testing.json",
+      "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json",
+      "https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json"
+    ]
+  },
+  {
     "Author": "daemitus, croizat",
     "Name": "Yes Already",
     "Punchline": "Clicks Yes in various dialogs you've specified.",
@@ -172,7 +204,7 @@
     "Tags": [],
     "InternalName": "YesAlready",
     "RepoUrl": "https://github.com/PunishXIV/YesAlready",
-    "DownloadCount": 1582603,
+    "DownloadCount": 1582607,
     "LastUpdate": 1793450211,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/26/YesAlready/versions/1.15.7.7/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/26/YesAlready/versions/1.15.7.7/update/latest.zip",
@@ -200,7 +232,7 @@
     ],
     "InternalName": "Marketbuddy",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 24683,
+    "DownloadCount": 24684,
     "LastUpdate": 1777575334,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/131/Marketbuddy/versions/0.2.4.2/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/131/Marketbuddy/versions/0.2.4.2/update/latest.zip",
@@ -214,38 +246,6 @@
       "https://love.puni.sh/ment-testing.json",
       "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json",
       "https://raw.githubusercontent.com/Chalkos/Marketbuddy/main/repo.json"
-    ]
-  },
-  {
-    "Author": "the Puni.sh Quest Squad",
-    "Name": "Questionable",
-    "Punchline": "A tiny quest helper plugin.",
-    "Description": "A small quest helper plugin designed to automatically do your quests for you where possible. Utilizes navmesh to automatically travel to all quest waypoints and (attempts to) complete all steps along the way (excluding dungeons, single-player duties and combat).\n\nNot all quests are supported.\n\nRequired Plugins: vnavmesh, TextAdvance, Lifestream",
-    "Tags": [
-      "quest",
-      "msq",
-      "qol",
-      "utility"
-    ],
-    "InternalName": "Questionable",
-    "RepoUrl": "https://github.com/PunishXIV/Questionable",
-    "DownloadCount": 2599256,
-    "LastUpdate": 1793480225,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/94/Questionable/versions/15.756.3.60/install/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/94/Questionable/versions/15.756.3.60/update/latest.zip",
-    "AssemblyVersion": "15.756.3.60",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "15",
-    "Changelog": "- Change: fix end date of typing event now that we know when evercold is releasing -alydev",
-    "TestingAssemblyVersion": "15.293.1.0",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/94/Questionable/versions/15.293.1.0/install/testing.zip",
-    "TestingDalamudApiLevel": "15",
-    "IconUrl": "https://puni.sh/api/plugins/icon/94",
-    "SourceRepo": "https://love.puni.sh/ment.json",
-    "AlternateSources": [
-      "https://love.puni.sh/ment-testing.json",
-      "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json",
-      "https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json"
     ]
   },
   {
@@ -290,7 +290,7 @@
     ],
     "InternalName": "Saucy",
     "RepoUrl": "https://github.com/PunishXIV/Saucy",
-    "DownloadCount": 1222150,
+    "DownloadCount": 1222153,
     "LastUpdate": 1793290579,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/7/Saucy/versions/2.1.2.9/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/7/Saucy/versions/2.1.2.9/update/latest.zip",
@@ -315,7 +315,7 @@
     ],
     "InternalName": "Artisan",
     "RepoUrl": "https://github.com/PunishXIV/Artisan",
-    "DownloadCount": 6118630,
+    "DownloadCount": 6118632,
     "LastUpdate": 1790362692,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.21/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.21/update/latest.zip",
@@ -1554,7 +1554,7 @@
     "Tags": [],
     "InternalName": "visland",
     "RepoUrl": "https://github.com/awgil/ffxiv_visland",
-    "DownloadCount": 901988,
+    "DownloadCount": 901989,
     "LastUpdate": 1789544765,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/28/visland/versions/0.0.0.151/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/28/visland/versions/0.0.0.151/update/latest.zip",
@@ -1598,7 +1598,7 @@
     "Tags": [],
     "InternalName": "BossMod",
     "RepoUrl": "https://github.com/awgil/ffxiv_bossmod",
-    "DownloadCount": 2808512,
+    "DownloadCount": 2808545,
     "LastUpdate": 1793754281,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/30/BossMod/versions/7.5.7.20/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/30/BossMod/versions/7.5.7.20/update/latest.zip",
@@ -1723,7 +1723,7 @@
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/RotationSolverReborn/releases/download/7.4.1.2/latest.zip",
     "TestingAssemblyVersion": "7.4.1.2",
     "Changelog": "## What's Changed\r\n* Fix for DRK x Phantom job logic, fix for hotbar highlighting and pulse system in pvp by @LTS-FFXIV in https://github.com/FFXIV-CombatReborn/RotationSolverReborn/pull/1417\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/RotationSolverReborn/compare/7.5.7.14...7.5.7.15",
-    "DownloadCount": 3496397,
+    "DownloadCount": 3498176,
     "SourceRepo": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
     "AlternateSources": [
       "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
@@ -1761,7 +1761,7 @@
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/BossmodReborn/releases/download/7.5.7.3/latest.zip",
     "TestingAssemblyVersion": "7.5.7.3",
     "Changelog": "## What's Changed\r\n* feat: shinryu's domain (unreal) module by @Le-Vagabond-gh in https://github.com/FFXIV-CombatReborn/BossmodReborn/pull/1388\r\n\r\n## New Contributors\r\n* @Le-Vagabond-gh made their first contribution in https://github.com/FFXIV-CombatReborn/BossmodReborn/pull/1388\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/BossmodReborn/compare/7.5.7.1...7.5.7.2",
-    "DownloadCount": 3940988,
+    "DownloadCount": 3941102,
     "SourceRepo": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
     "AlternateSources": [
       "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
@@ -1794,7 +1794,7 @@
     "AssemblyVersion": "7.5.7.4",
     "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/ActionTimelineReborn/releases/download/7.5.7.4/ActionTimelineReborn.zip",
     "Changelog": "## What's Changed\r\n* UI feedback thing by @LTS-FFXIV in https://github.com/FFXIV-CombatReborn/ActionTimelineReborn/pull/25\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/ActionTimelineReborn/compare/7.5.7.3...7.5.7.4",
-    "DownloadCount": 42822,
+    "DownloadCount": 42837,
     "SourceRepo": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
     "AlternateSources": [
       "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
@@ -1828,7 +1828,7 @@
     "AssemblyVersion": "7.5.0.3",
     "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/EasyZoomReborn/releases/download/7.5.0.3/EasyZoomReborn.zip",
     "Changelog": "## What's Changed\r\n* Added pr buildtest by @LTS-FFXIV in https://github.com/FFXIV-CombatReborn/EasyZoomReborn/pull/17\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/EasyZoomReborn/compare/7.5.0.2...7.5.0.3",
-    "DownloadCount": 63423,
+    "DownloadCount": 63426,
     "SourceRepo": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
     "AlternateSources": [
       "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
@@ -1871,7 +1871,7 @@
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/releases/download/7.4.5.17/GatherbuddyReborn.zip",
     "TestingAssemblyVersion": "7.4.5.17",
     "Changelog": "## What's Changed\r\n* Autogig fix by @Deathbeyond87 in https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/pull/670\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/compare/7.5.6.0...7.5.6.1",
-    "DownloadCount": 1138393,
+    "DownloadCount": 1138465,
     "SourceRepo": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
     "AlternateSources": [
       "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
@@ -1902,7 +1902,7 @@
     "AssemblyVersion": "7.5.0.0",
     "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/RebornToolbox/releases/download/7.5.0.0/RebornToolbox.zip",
     "Changelog": "## What's Changed\r\n* api15 by @Shiori-Zephyr in https://github.com/FFXIV-CombatReborn/RebornToolbox/pull/16\r\n* API 15 compatibility by @LTS-FFXIV in https://github.com/FFXIV-CombatReborn/RebornToolbox/pull/17\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/RebornToolbox/compare/7.4.5.0...7.5.0.0",
-    "DownloadCount": 31781,
+    "DownloadCount": 31788,
     "SourceRepo": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
     "AlternateSources": [
       "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
@@ -1938,7 +1938,7 @@
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/ZodiacBuddyReborn/releases/download/7.2.5.3/ZodiacBuddyReborn.zip",
     "TestingAssemblyVersion": "7.2.5.3",
     "Changelog": "## What's Changed\r\n* Update AutoDuty IPCs by @Deathbeyond87 in https://github.com/FFXIV-CombatReborn/ZodiacBuddyReborn/pull/12\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/ZodiacBuddyReborn/compare/7.5.6.0...7.5.6.1",
-    "DownloadCount": 26754,
+    "DownloadCount": 26759,
     "SourceRepo": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
     "AlternateSources": [
       "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
@@ -1977,7 +1977,7 @@
     "AssemblyVersion": "7.5.7.1",
     "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/PassportCheckerReborn/releases/download/7.5.7.1/latest.zip",
     "Changelog": "## What's Changed\r\n* Restructured so its not a nightmare to maintain, nuget bump, misc fixes by @LTS-FFXIV in https://github.com/FFXIV-CombatReborn/PassportCheckerReborn/pull/35\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/PassportCheckerReborn/compare/7.5.7.0...7.5.7.1",
-    "DownloadCount": 66896,
+    "DownloadCount": 66942,
     "SourceRepo": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
     "AlternateSources": [
       "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
@@ -2016,7 +2016,7 @@
     "AssemblyVersion": "7.5.5.0",
     "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/NoSillyReborn/releases/download/7.5.5.0/latest.zip",
     "Changelog": "## What's Changed\r\n* Update for 7.55 by @LTS-FFXIV in https://github.com/FFXIV-CombatReborn/NoSillyReborn/pull/5\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/NoSillyReborn/compare/7.5.0.2...7.5.5.0",
-    "DownloadCount": 7918,
+    "DownloadCount": 7921,
     "SourceRepo": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
     "AlternateSources": [
       "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
@@ -2066,7 +2066,7 @@
     "Tags": [],
     "InternalName": "SomethingNeedDoing",
     "RepoUrl": "https://github.com/Jaksuhn/SomethingNeedDoing",
-    "DownloadCount": 835215,
+    "DownloadCount": 835217,
     "LastUpdate": 1793469190,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/15.13/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/15.13/update/latest.zip",
@@ -2089,7 +2089,7 @@
     ],
     "InternalName": "Automaton",
     "RepoUrl": "https://github.com/Jaksuhn/Automaton",
-    "DownloadCount": 1082874,
+    "DownloadCount": 1082881,
     "LastUpdate": 1793704449,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/34/Automaton/versions/69.229/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/34/Automaton/versions/69.229/update/latest.zip",
@@ -2110,7 +2110,7 @@
     ],
     "InternalName": "GlamourLog",
     "RepoUrl": "https://github.com/Jaksuhn/ffxiv_glamourlog",
-    "DownloadCount": 53867,
+    "DownloadCount": 53870,
     "LastUpdate": 1793441814,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/136/GlamourLog/versions/15.76/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/136/GlamourLog/versions/15.76/update/latest.zip",
