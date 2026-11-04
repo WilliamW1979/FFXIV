@@ -7,9 +7,9 @@
 - **Quarantined**: 2 🚫
 - **Restored This Run**: 0 ♻️
 
-- **Total Plugins Fetched**: 245
+- **Total Plugins Fetched**: 246
 - **Unique Plugins**: 162
-- **Duplicates Removed**: 83
+- **Duplicates Removed**: 84
 
 - **Errors**: 0
 - **Warnings**: 3
@@ -162,7 +162,7 @@
 
 ✅ **https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json**  
    - Status: success  
-   - Plugins: 104  
+   - Plugins: 105  
 
 ✅ **https://raw.githubusercontent.com/cloudesh/kupopop/main/plugin/releases/repo.json**  
    - Status: success  
