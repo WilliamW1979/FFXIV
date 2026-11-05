@@ -1,0 +1,1 @@
+https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json	2026-11-05T08:58:20.7252082Z	HTTP 504 Gateway Time-out
