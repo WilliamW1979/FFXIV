@@ -1,2 +1,0 @@
-https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json	2026-11-05T14:34:23.6681664Z	HTTP 504 Gateway Time-out
-https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json	2026-11-05T14:34:23.6681664Z	HTTP 504 Gateway Time-out
