@@ -1,0 +1,1 @@
+https://github.com/emyxiv/Dresser/raw/master/repo.json has been failing since 2026-11-05 15:34 UTC (0.0 of 72 hours before quarantine): HTTP 504 Gateway Time-out - serving cached plugins
