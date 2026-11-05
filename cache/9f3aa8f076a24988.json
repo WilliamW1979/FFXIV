@@ -26,7 +26,7 @@
     "Tags": [],
     "InternalName": "AutoRetainer",
     "RepoUrl": "https://github.com/PunishXIV/AutoRetainer",
-    "DownloadCount": 2691542,
+    "DownloadCount": 2691546,
     "LastUpdate": 1793771225,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.18/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.18/update/latest.zip",
@@ -78,7 +78,7 @@
     ],
     "InternalName": "AutoHook",
     "RepoUrl": "https://github.com/PunishXIV/AutoHook",
-    "DownloadCount": 2954488,
+    "DownloadCount": 2954504,
     "LastUpdate": 1793835693,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.4.2/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.4.2/update/latest.zip",
@@ -196,7 +196,7 @@
     ],
     "InternalName": "Questionable",
     "RepoUrl": "https://github.com/PunishXIV/Questionable",
-    "DownloadCount": 2601103,
+    "DownloadCount": 2601104,
     "LastUpdate": 1793480225,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/94/Questionable/versions/15.756.3.60/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/94/Questionable/versions/15.756.3.60/update/latest.zip",
@@ -261,29 +261,6 @@
     "SourceRepo": "https://love.puni.sh/ment-testing.json"
   },
   {
-    "Author": "Taurenkey, Kage, NightmareXIV",
-    "Name": "Saucy",
-    "Punchline": "When working for MGP is too much effort.",
-    "Description": "Automates certain Gold Saucer mini-games.",
-    "Tags": [
-      "gold saucer",
-      "mgp",
-      "automation"
-    ],
-    "InternalName": "Saucy",
-    "RepoUrl": "https://github.com/PunishXIV/Saucy",
-    "DownloadCount": 1223515,
-    "LastUpdate": 1793290579,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/7/Saucy/versions/2.1.2.9/install/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/7/Saucy/versions/2.1.2.9/update/latest.zip",
-    "AssemblyVersion": "2.1.2.9",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "15",
-    "Changelog": "Brawler:\nAdjusted requeue timings\nA (hopefully) working keyboard yesno fix as I did want to pull my keyboard to test it.\nStop at MGC Cap\nStop after x runs\n\nAlso added:\nGATE Timeline based on https://github.com/rooroodev/ffxivgateschedule\nGATE Runner inspired by https://github.com/NeoGriever/Saru \nMGP and Run stops for other repeatable minigames.",
-    "IconUrl": "https://puni.sh/api/plugins/icon/7",
-    "SourceRepo": "https://love.puni.sh/ment-testing.json"
-  },
-  {
     "Author": "kawaii, Ice",
     "Name": "Palantir",
     "Punchline": "Lost in a deep dungeon with nothing but dry bread and water?",
@@ -331,6 +308,29 @@
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.9.2.33/install/testing.zip",
     "TestingDalamudApiLevel": "15",
     "IconUrl": "https://puni.sh/api/plugins/icon/10",
+    "SourceRepo": "https://love.puni.sh/ment-testing.json"
+  },
+  {
+    "Author": "Taurenkey, Kage, NightmareXIV",
+    "Name": "Saucy",
+    "Punchline": "When working for MGP is too much effort.",
+    "Description": "Automates certain Gold Saucer mini-games.",
+    "Tags": [
+      "gold saucer",
+      "mgp",
+      "automation"
+    ],
+    "InternalName": "Saucy",
+    "RepoUrl": "https://github.com/PunishXIV/Saucy",
+    "DownloadCount": 1223516,
+    "LastUpdate": 1793290579,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/7/Saucy/versions/2.1.2.9/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/7/Saucy/versions/2.1.2.9/update/latest.zip",
+    "AssemblyVersion": "2.1.2.9",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "Brawler:\nAdjusted requeue timings\nA (hopefully) working keyboard yesno fix as I did want to pull my keyboard to test it.\nStop at MGC Cap\nStop after x runs\n\nAlso added:\nGATE Timeline based on https://github.com/rooroodev/ffxivgateschedule\nGATE Runner inspired by https://github.com/NeoGriever/Saru \nMGP and Run stops for other repeatable minigames.",
+    "IconUrl": "https://puni.sh/api/plugins/icon/7",
     "SourceRepo": "https://love.puni.sh/ment-testing.json"
   }
 ]
