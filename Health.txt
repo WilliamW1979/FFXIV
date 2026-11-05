@@ -1,1 +1,0 @@
-https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json	2026-11-05T09:06:22.7524023Z	HTTP 504 Gateway Time-out
