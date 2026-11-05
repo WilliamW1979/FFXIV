@@ -3,7 +3,7 @@
     "Author": "Legends of the Game",
     "Name": "Tales of Milestones",
     "InternalName": "TimeMemoriaV3",
-    "AssemblyVersion": "3.11.1.15",
+    "AssemblyVersion": "3.12.0.15",
     "Description": "Quest progression and pacing — a reflective notebook for your story journey, not a scoreboard.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/LegendsOfTheGame/TimeMemoriaV3",
@@ -31,7 +31,7 @@
     "DownloadLinkTesting": "https://github.com/LegendsOfTheGame/TimeMemoriaV3/releases/latest/download/latest.zip",
     "IconUrl": "https://raw.githubusercontent.com/LegendsOfTheGame/TimeMemoriaV3/main/assets/icon.png",
     "DownloadCount": 0,
-    "Changelog": "Tales of Milestones:\n- Fix: the plugin unloads cleanly again. Since 3.11.0.15, every unload or update showed \"unload error\" in the plugin installer, and a game restart was necessary to load the plugin again.\n- Help text. The Help tab now says where the news comes from: a public file on GitHub, built from the Lodestone news that lodestonenews.com collects. The request sends no character or account data.\n- Third-party notices. The download now includes THIRD-PARTY-NOTICES.txt, with the licences of KamiToolKit and the Microsoft libraries that the plugin uses.\nAdventurer's Ledger (Pandora Lunar):\n- Evercold countdown. The countdown uses the confirmed release date, 23 February 2027.",
+    "Changelog": "Tales of Milestones:\n- Lucis and Resplendent tools in the export. \"Copy collections\" and \"Copy everything\" now include Lucis Tools (Mastercraft, Supra and Lucis) and Resplendent Tools in the relic stages.\n- Doman Enclave in the export. The export now says when you finished Lighting the Way, the quest that ends Doman Enclave Reconstruction.\nAdventurer's Ledger (Pandora Lunar):\n- Fix: the Relics area counts weapons and tools. The Relics overview counted relic quests, so a row could show as complete when you held no weapon from that line. The area now has Weapons and Tools tabs, with one panel for each relic line. Each panel shows the number complete, for example \"1 of 102 Complete\", and opens to a grid of stages and jobs. A held stage also counts the stages before it. The rail meter counts weapons.\n- Relic quests moved. The relic quest counts are now in Story, under Questlines.\n- Lucis and Resplendent tools. The Tools tab has panels for these two lines. To fill them, update Tales of Milestones to this version and import a new export. Until you do this, the two panels show 0.\n- Doman Enclave. After Lighting the Way, the Doman Enclave row shows as optional. The weekly meter and the import's feature count leave it out.\n- Challenges menu. The site bar has a Challenges menu with Apex Legends and a link to request a game.\n- Fix: the aether current total no longer counts retired currents. The total is now 303, not 448.",
     "SourceRepo": "https://raw.githubusercontent.com/LegendsOfTheGame/TimeMemoriaV3/main/repo.json"
   }
 ]
