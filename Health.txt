@@ -1,2 +1,1 @@
-https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json	2026-11-05T15:38:19.2427277Z	HTTP 504 Gateway Time-out
-https://github.com/emyxiv/Dresser/raw/master/repo.json	2026-11-05T15:38:19.2427277Z	HTTP 504 Gateway Time-out
+https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json	2026-11-05T15:40:27.7958411Z	HTTP 504 Gateway Time-out
