@@ -1,2 +1,0 @@
-https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json	2026-11-05T12:22:27.8213442Z	HTTP 504 Gateway Time-out
-https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json	2026-11-05T12:22:27.8213442Z	HTTP 504 Gateway Time-out
