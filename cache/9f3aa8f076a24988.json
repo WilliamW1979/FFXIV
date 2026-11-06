@@ -26,7 +26,7 @@
     "Tags": [],
     "InternalName": "AutoRetainer",
     "RepoUrl": "https://github.com/PunishXIV/AutoRetainer",
-    "DownloadCount": 2699503,
+    "DownloadCount": 2699506,
     "LastUpdate": 1793771225,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.18/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.18/update/latest.zip",
@@ -102,7 +102,7 @@
     ],
     "InternalName": "AutoHook",
     "RepoUrl": "https://github.com/PunishXIV/AutoHook",
-    "DownloadCount": 2978751,
+    "DownloadCount": 2978760,
     "LastUpdate": 1793891165,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.4.3/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.4.3/update/latest.zip",
@@ -141,27 +141,6 @@
     "SourceRepo": "https://love.puni.sh/ment-testing.json"
   },
   {
-    "Author": "Chalkos, NightmareXIV",
-    "Name": "Marketbuddy",
-    "Punchline": "Less clicks, more gil!",
-    "Description": "Helper for your day-to-day market operations.",
-    "Tags": [
-      "marketboard"
-    ],
-    "InternalName": "Marketbuddy",
-    "RepoUrl": "https://love.puni.sh/ment-testing.json",
-    "DownloadCount": 24836,
-    "LastUpdate": 1777575334,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/131/Marketbuddy/versions/0.2.4.2/install/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/131/Marketbuddy/versions/0.2.4.2/update/latest.zip",
-    "AssemblyVersion": "0.2.4.2",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "15",
-    "Changelog": "- 7.5",
-    "IconUrl": "https://puni.sh/api/plugins/icon/131",
-    "SourceRepo": "https://love.puni.sh/ment-testing.json"
-  },
-  {
     "Author": "daemitus, croizat",
     "Name": "Yes Already",
     "Punchline": "Clicks Yes in various dialogs you've specified.",
@@ -181,6 +160,27 @@
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/26/YesAlready/versions/1.10.4.0/install/testing.zip",
     "TestingDalamudApiLevel": "12",
     "IconUrl": "https://puni.sh/api/plugins/icon/26",
+    "SourceRepo": "https://love.puni.sh/ment-testing.json"
+  },
+  {
+    "Author": "Chalkos, NightmareXIV",
+    "Name": "Marketbuddy",
+    "Punchline": "Less clicks, more gil!",
+    "Description": "Helper for your day-to-day market operations.",
+    "Tags": [
+      "marketboard"
+    ],
+    "InternalName": "Marketbuddy",
+    "RepoUrl": "https://love.puni.sh/ment-testing.json",
+    "DownloadCount": 24837,
+    "LastUpdate": 1777575334,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/131/Marketbuddy/versions/0.2.4.2/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/131/Marketbuddy/versions/0.2.4.2/update/latest.zip",
+    "AssemblyVersion": "0.2.4.2",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "- 7.5",
+    "IconUrl": "https://puni.sh/api/plugins/icon/131",
     "SourceRepo": "https://love.puni.sh/ment-testing.json"
   },
   {
@@ -246,7 +246,7 @@
     ],
     "InternalName": "Artisan",
     "RepoUrl": "https://github.com/PunishXIV/Artisan",
-    "DownloadCount": 6135434,
+    "DownloadCount": 6135474,
     "LastUpdate": 1793971872,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.22/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.22/update/latest.zip",
@@ -297,7 +297,7 @@
     ],
     "InternalName": "Saucy",
     "RepoUrl": "https://github.com/PunishXIV/Saucy",
-    "DownloadCount": 1225005,
+    "DownloadCount": 1225007,
     "LastUpdate": 1793290579,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/7/Saucy/versions/2.1.2.9/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/7/Saucy/versions/2.1.2.9/update/latest.zip",
