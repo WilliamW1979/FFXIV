@@ -2,8 +2,8 @@
 
 ## Summary
 - **Active Repositories**: 38
-- **Successful**: 38 ✅
-- **Failing**: 0 ❌
+- **Successful**: 37 ✅
+- **Failing**: 1 ❌
 - **Quarantined**: 2 🚫
 - **Restored This Run**: 0 ♻️
 
@@ -11,14 +11,15 @@
 - **Unique Plugins**: 162
 - **Duplicates Removed**: 84
 
-- **Errors**: 0
+- **Errors**: 1
 - **Warnings**: 3
 
 ## Repository Status
 
-✅ **https://love.puni.sh/ment.json**  
-   - Status: success  
+❌ **https://love.puni.sh/ment.json**  
+   - Status: failed  
    - Plugins: 14  
+   - Error: HTTP 502 Bad Gateway  
 
 ✅ **https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json**  
    - Status: success  
@@ -177,6 +178,10 @@
    - Status: quarantined  
    - Plugins: 0  
    - Error: HTTP 404 Not Found  
+
+## Errors (1)
+
+- https://love.puni.sh/ment.json has been failing since 2026-11-06 01:22 UTC (0.0 of 72 hours before quarantine): HTTP 502 Bad Gateway - serving cached plugins
 
 ## Warnings (3)
 
