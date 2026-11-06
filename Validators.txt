@@ -3,9 +3,9 @@ https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/repo.json	"99acc7c35
 https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json	"8dd9f44f2a994f4a26b6bd895aeda176641af05092837dd3cd6140ccc4e8bca3"		2026-11-05T22:36:35.6602682Z
 https://raw.githubusercontent.com/InitialDet/MyDalamudPlugins/main/pluginmaster.json	"7bc2b8453be289f480b78967c8de0a8fca9b21c6285e97afa626650638f31722"		2026-11-06T04:08:21.2500615Z
 https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/pluginmaster.json	"829a977feaf3ca33b5d26bca8f61fcdb5d42f2bb24f8dc6110fb2a1106afd8c8"		2026-11-06T00:40:44.6212936Z
-https://raw.githubusercontent.com/LeonBlade/DalamudPlugins/main/repo.json	"9a91aa7b36a4f1bb8be293b1d285d7d2f74033f9f349d2d1730ee897b96f6f38"		2026-11-06T01:20:28.2786468Z
+https://raw.githubusercontent.com/LeonBlade/DalamudPlugins/main/repo.json	"1d6f214e5dfd006f8cbb51d19087267e48f03c197aee272111332529aa581b21"		2026-11-06T04:10:37.2962855Z
 https://raw.githubusercontent.com/Chalkos/Marketbuddy/main/repo.json	"5d532322e5712e775364e0010c6aab2c24aac901ec01b470a710827f1cacc53a"		2026-11-06T00:40:44.6212936Z
-https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json	"51e3a39042f165b3bec6f27c293a57f7566cf55ed07a5a08004da91971db4b4f"		2026-11-05T22:10:36.9454785Z
+https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json	"51e3a39042f165b3bec6f27c293a57f7566cf55ed07a5a08004da91971db4b4f"		2026-11-06T04:10:37.2962855Z
 https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json	"b5d53eedcaef1aab49825f77e8f4130c1d75560eb7e109115d9be9b4c3bcdb98"		2026-11-06T00:40:44.6212936Z
 https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json	"56c6118b39bfa9c1bda803369138a0847a89b572ceb6da36317bdeea6b2901a9"		2026-11-06T01:42:16.3463957Z
 https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json	"9d47b22a92cd3972fbbcbda9470c55b86067e713b9e6a385e29ea2440985c1d7"		2026-11-06T00:48:39.2729756Z
