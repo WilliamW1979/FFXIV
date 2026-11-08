@@ -8,7 +8,7 @@ https://raw.githubusercontent.com/Chalkos/Marketbuddy/main/repo.json	"5d532322e5
 https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json	"a58e03ac7860293da4b636175c92db5bc0eddef12d55673646ec220be4df09ac"		2026-11-08T17:26:22.3474857Z
 https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json	"b5d53eedcaef1aab49825f77e8f4130c1d75560eb7e109115d9be9b4c3bcdb98"		2026-11-08T12:54:22.3616651Z
 https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json	"c3d396a8dfa206948435d7f09e83a07602f067860402546644cf545553ee523a"		2026-11-08T17:14:20.8614679Z
-https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json	"8103cf023c18521c42f8ae1b0e7ac4203b76d9844b960446103ab4ddff6b4b30"		2026-11-08T11:44:18.4072504Z
+https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json	"b928a76c7da8be9b0c21c10528635b7332e98b91fcb77f5542ec99650c4ca6d2"		2026-11-08T17:42:24.9018718Z
 https://raw.githubusercontent.com/KangasZ/DalamudPluginRepository/main/plugin_repository.json	"3a727372a4b86874b8e15da93173f6c47ddb34502a6401e271d72bece3e1f80f"		2026-11-08T12:54:22.3616651Z
 https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json	"955ed191f0d9f57be2046f37820e4c9043f200cc0f09ff85854d3119e610ae21"		2026-11-08T12:54:22.3616651Z
 https://github.com/emyxiv/Dresser/raw/master/repo.json	"439653bdc95ce3f8423cb9e741ad5897fe43b98c71c9b409e61a583d4eec101c"		2026-11-08T12:54:22.3616651Z
@@ -29,5 +29,5 @@ https://raw.githubusercontent.com/VariableVixen/MyDalamudPlugins/master/pluginma
 https://xiv.starry.blue/plugins/master.json	"bdbf92f285d195453068418131389a6a"		2026-11-08T14:44:25.9112648Z
 https://raw.githubusercontent.com/LegendsOfTheGame/TimeMemoriaV3/main/repo.json	"b2c3176bc83d780a7bcd683d553ca90e206317d214c374fddf3f7f8b75df97a5"		2026-11-08T16:04:18.4507462Z
 https://raw.githubusercontent.com/Eauldane/ElfShelf/refs/heads/main/repo.json	"4099276f9872252c1669a09bc85f58426dc377020c0f3455e206e84078e0d4c4"		2026-11-08T13:30:31.8199734Z
-https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json	"cbf6c09a264b046a3d0c7276fbced4adb353d85365a563ff1e424e9b9170b918"		2026-11-08T11:40:23.3584094Z
+https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json	"cbf6c09a264b046a3d0c7276fbced4adb353d85365a563ff1e424e9b9170b918"		2026-11-08T17:42:24.9018718Z
 https://raw.githubusercontent.com/cloudesh/kupopop/main/plugin/releases/repo.json	"d231fd4e84adb94ff73c49eb4e21842509b16546fd517970dcb519625e1c09cc"		2026-11-08T16:34:18.6740880Z
