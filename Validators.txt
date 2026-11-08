@@ -17,7 +17,7 @@ https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.
 https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json	"d93d568c1545e35404dd16b2c133714da98628f3f2a66fc6e896612e4d8e39f1"		2026-11-08T12:54:22.3616651Z
 https://raw.githubusercontent.com/Haselnussbomber/MyDalamudPlugins/main/repo.json	"c3d396a8dfa206948435d7f09e83a07602f067860402546644cf545553ee523a"		2026-11-08T11:10:24.7068613Z
 https://raw.githubusercontent.com/Ottermandias/Glamourer/main/repo.json	"da84bc2e88b773fbe29d8bf973ce7ecb7f2370fce6806817a0feec4a1e410c51"		2026-11-08T12:54:22.3616651Z
-https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json	"cd108344be33522cde9eefb598a4198234b5e21193af4b49cf236e4030125d81"		2026-11-08T07:28:19.7485852Z
+https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json	"cd108344be33522cde9eefb598a4198234b5e21193af4b49cf236e4030125d81"		2026-11-08T13:30:31.8199734Z
 https://raw.githubusercontent.com/xivdev/Penumbra/master/repo.json	"2a518f3c8bc1313150e73065ca68be62281e80f8fcab8d52e934a0ca8ad35619"		2026-11-08T12:54:22.3616651Z
 https://raw.githubusercontent.com/jawslouis/MakePlacePlugin/master/MakePlacePlugin.json	"826d03375fa286d1b76b2aa24c5089418915db984d0a58d51a7527a80ecb55e5"		2026-11-08T12:54:22.3616651Z
 https://raw.githubusercontent.com/BardToolbox/BardToolbox-Release/master/pluginmaster.json	"9df8d82d93d9cb167ccf70d2c15a6c230113f74a101473a85546eb1d9b573f7d"		2026-11-08T12:54:22.3616651Z
@@ -28,6 +28,6 @@ https://raw.githubusercontent.com/SoyaX/SoyaPlugins/main/repo.json	"b7219390c59b
 https://raw.githubusercontent.com/VariableVixen/MyDalamudPlugins/master/pluginmaster.json	"bdcee941daee65df06acd9de92463c3990f98552aeb8aadeada261d980a7b5b8"		2026-11-08T12:54:22.3616651Z
 https://xiv.starry.blue/plugins/master.json	"bdbf92f285d195453068418131389a6a"		2026-11-08T08:44:22.2270719Z
 https://raw.githubusercontent.com/LegendsOfTheGame/TimeMemoriaV3/main/repo.json	"b2c3176bc83d780a7bcd683d553ca90e206317d214c374fddf3f7f8b75df97a5"		2026-11-08T10:04:16.4922206Z
-https://raw.githubusercontent.com/Eauldane/ElfShelf/refs/heads/main/repo.json	"4099276f9872252c1669a09bc85f58426dc377020c0f3455e206e84078e0d4c4"		2026-11-08T07:30:28.9017189Z
+https://raw.githubusercontent.com/Eauldane/ElfShelf/refs/heads/main/repo.json	"4099276f9872252c1669a09bc85f58426dc377020c0f3455e206e84078e0d4c4"		2026-11-08T13:30:31.8199734Z
 https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json	"cbf6c09a264b046a3d0c7276fbced4adb353d85365a563ff1e424e9b9170b918"		2026-11-08T11:40:23.3584094Z
 https://raw.githubusercontent.com/cloudesh/kupopop/main/plugin/releases/repo.json	"d231fd4e84adb94ff73c49eb4e21842509b16546fd517970dcb519625e1c09cc"		2026-11-08T10:32:26.0625417Z
