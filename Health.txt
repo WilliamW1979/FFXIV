@@ -1,0 +1,2 @@
+https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json	2026-11-08T11:10:24.7068613Z	request timed out after 30 seconds
+https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json	2026-11-08T11:10:24.7068613Z	request timed out after 30 seconds
