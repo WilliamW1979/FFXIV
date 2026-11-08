@@ -3,9 +3,9 @@ https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/repo.json	"99acc7c35
 https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json	"8dd9f44f2a994f4a26b6bd895aeda176641af05092837dd3cd6140ccc4e8bca3"		2026-11-08T16:50:26.2814227Z
 https://raw.githubusercontent.com/InitialDet/MyDalamudPlugins/main/pluginmaster.json	"7bc2b8453be289f480b78967c8de0a8fca9b21c6285e97afa626650638f31722"		2026-11-08T16:24:22.8816022Z
 https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/pluginmaster.json	"829a977feaf3ca33b5d26bca8f61fcdb5d42f2bb24f8dc6110fb2a1106afd8c8"		2026-11-08T12:54:22.3616651Z
-https://raw.githubusercontent.com/LeonBlade/DalamudPlugins/main/repo.json	"1a471b6e88652686301abb4ad49bbe67b5b0a3c3ff0913fcfad4c96160e89ad2"		2026-11-08T15:20:27.8022711Z
+https://raw.githubusercontent.com/LeonBlade/DalamudPlugins/main/repo.json	"e88a83e7bccf0186a6229ae6a72d6c049420743d562502d42bc56ecaef8e7dbf"		2026-11-08T17:26:22.3474857Z
 https://raw.githubusercontent.com/Chalkos/Marketbuddy/main/repo.json	"5d532322e5712e775364e0010c6aab2c24aac901ec01b470a710827f1cacc53a"		2026-11-08T12:54:22.3616651Z
-https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json	"6b26495c44e0f86423235fd52e25a3683827335d55d736851dac03ff41592876"		2026-11-08T15:34:22.8537257Z
+https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json	"a58e03ac7860293da4b636175c92db5bc0eddef12d55673646ec220be4df09ac"		2026-11-08T17:26:22.3474857Z
 https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json	"b5d53eedcaef1aab49825f77e8f4130c1d75560eb7e109115d9be9b4c3bcdb98"		2026-11-08T12:54:22.3616651Z
 https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json	"c3d396a8dfa206948435d7f09e83a07602f067860402546644cf545553ee523a"		2026-11-08T17:14:20.8614679Z
 https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json	"8103cf023c18521c42f8ae1b0e7ac4203b76d9844b960446103ab4ddff6b4b30"		2026-11-08T11:44:18.4072504Z
