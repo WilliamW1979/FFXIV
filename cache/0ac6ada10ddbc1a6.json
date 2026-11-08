@@ -3,7 +3,7 @@
     "Author": "Cordelia",
     "Name": "Project GagSpeak",
     "InternalName": "ProjectGagSpeak",
-    "AssemblyVersion": "2.2.4.0",
+    "AssemblyVersion": "2.2.5.0",
     "Punchline": "The Only BDSM Plugin You'll Ever Need!",
     "Description": "GagSpeak 2.0 Release. 20+ Modules, 100+ Features, 50+ Configurations. No Paywalls!",
     "ApplicableVersion": "any",
@@ -25,9 +25,9 @@
     "IconUrl": "https://raw.githubusercontent.com/Project-GagSpeak/repo/main/ProjectGagSpeak/images/icon.png",
     "IsHide": "False",
     "IsTestingExclusive": "False",
-    "DownloadLinkInstall": "https://files.kinkporium.studio/releases/gagspeak/2.2.4.0.zip",
-    "DownloadLinkTesting": "https://files.kinkporium.studio/releases/gagspeak/2.2.4.0.zip",
-    "DownloadLinkUpdate": "https://files.kinkporium.studio/releases/gagspeak/2.2.4.0.zip",
+    "DownloadLinkInstall": "https://files.kinkporium.studio/releases/gagspeak/2.2.5.0.zip",
+    "DownloadLinkTesting": "https://files.kinkporium.studio/releases/gagspeak/2.2.5.0.zip",
+    "DownloadLinkUpdate": "https://files.kinkporium.studio/releases/gagspeak/2.2.5.0.zip",
     "SourceRepo": "https://raw.githubusercontent.com/Project-GagSpeak/repo/main/projectgagspeak.json"
   }
 ]
