@@ -2,8 +2,8 @@
 
 ## Summary
 - **Active Repositories**: 38
-- **Successful**: 30 ✅
-- **Failing**: 8 ❌
+- **Successful**: 33 ✅
+- **Failing**: 5 ❌
 - **Quarantined**: 2 🚫
 - **Restored This Run**: 0 ♻️
 
@@ -11,7 +11,7 @@
 - **Unique Plugins**: 163
 - **Duplicates Removed**: 84
 
-- **Errors**: 8
+- **Errors**: 5
 - **Warnings**: 3
 
 ## Repository Status
@@ -53,10 +53,9 @@
    - Status: success  
    - Plugins: 6  
 
-❌ **https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json**  
-   - Status: failed  
+✅ **https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json**  
+   - Status: success  
    - Plugins: 7  
-   - Error: HTTP 504 Gateway Time-out  
 
 ❌ **https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json**  
    - Status: failed  
@@ -88,15 +87,13 @@
    - Plugins: 1  
    - Error: HTTP 504 Gateway Time-out  
 
-❌ **https://github.com/emyxiv/Dresser/raw/master/repo.json**  
-   - Status: failed  
+✅ **https://github.com/emyxiv/Dresser/raw/master/repo.json**  
+   - Status: success  
    - Plugins: 1  
-   - Error: HTTP 504 Gateway Time-out  
 
-❌ **https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json**  
-   - Status: failed  
+✅ **https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json**  
+   - Status: success  
    - Plugins: 6  
-   - Error: HTTP 504 Gateway Time-out  
 
 ❌ **https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json**  
    - Status: failed  
@@ -186,14 +183,11 @@
    - Plugins: 0  
    - Error: HTTP 404 Not Found  
 
-## Errors (8)
+## Errors (5)
 
 - https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json has been failing since 2026-11-08 09:28 UTC (0.5 of 72 hours before quarantine): HTTP 504 Gateway Time-out - serving cached plugins
-- https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json has been failing since 2026-11-08 09:52 UTC (0.1 of 72 hours before quarantine): HTTP 504 Gateway Time-out - serving cached plugins
-- https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json has been failing since 2026-11-08 09:54 UTC (0.0 of 72 hours before quarantine): HTTP 504 Gateway Time-out - serving cached plugins
+- https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json has been failing since 2026-11-08 09:54 UTC (0.1 of 72 hours before quarantine): HTTP 504 Gateway Time-out - serving cached plugins
 - https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json has been failing since 2026-11-08 09:56 UTC (0.0 of 72 hours before quarantine): HTTP 504 Gateway Time-out - serving cached plugins
-- https://github.com/emyxiv/Dresser/raw/master/repo.json has been failing since 2026-11-08 09:54 UTC (0.0 of 72 hours before quarantine): HTTP 504 Gateway Time-out - serving cached plugins
-- https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json has been failing since 2026-11-08 09:56 UTC (0.0 of 72 hours before quarantine): HTTP 504 Gateway Time-out - serving cached plugins
 - https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json has been failing since 2026-11-08 09:56 UTC (0.0 of 72 hours before quarantine): HTTP 504 Gateway Time-out - serving cached plugins
 - https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json has been failing since 2026-11-08 09:56 UTC (0.0 of 72 hours before quarantine): HTTP 504 Gateway Time-out - serving cached plugins
 
