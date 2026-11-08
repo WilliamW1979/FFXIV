@@ -1,0 +1,3 @@
+https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json	2026-11-08T11:30:29.1180688Z	request timed out after 30 seconds
+https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json	2026-11-08T11:30:29.1180688Z	request timed out after 30 seconds
+https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json	2026-11-08T11:30:29.1180688Z	request timed out after 30 seconds
