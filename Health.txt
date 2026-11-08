@@ -1,5 +1,5 @@
 https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json	2026-11-08T09:08:23.8603367Z	HTTP 504 Gateway Time-out
+https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json	2026-11-08T09:12:22.3057825Z	HTTP 504 Gateway Time-out
 https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json	2026-11-08T08:50:23.2242140Z	HTTP 504 Gateway Time-out
 https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json	2026-11-08T09:10:25.7515455Z	HTTP 504 Gateway Time-out
 https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json	2026-11-08T09:10:25.7515455Z	HTTP 504 Gateway Time-out
-https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json	2026-11-08T09:02:20.8549494Z	HTTP 504 Gateway Time-out
