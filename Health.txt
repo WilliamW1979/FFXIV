@@ -1,4 +1,0 @@
-https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json	2026-11-08T11:44:18.4072504Z	request timed out after 30 seconds
-https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json	2026-11-08T11:44:18.4072504Z	request timed out after 30 seconds
-https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json	2026-11-08T11:44:18.4072504Z	request timed out after 30 seconds
-https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json	2026-11-08T11:44:18.4072504Z	request timed out after 30 seconds

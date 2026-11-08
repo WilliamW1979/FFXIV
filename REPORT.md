@@ -2,8 +2,8 @@
 
 ## Summary
 - **Active Repositories**: 38
-- **Successful**: 34 ✅
-- **Failing**: 4 ❌
+- **Successful**: 38 ✅
+- **Failing**: 0 ❌
 - **Quarantined**: 2 🚫
 - **Restored This Run**: 0 ♻️
 
@@ -11,7 +11,7 @@
 - **Unique Plugins**: 163
 - **Duplicates Removed**: 84
 
-- **Errors**: 4
+- **Errors**: 0
 - **Warnings**: 3
 
 ## Repository Status
@@ -20,10 +20,9 @@
    - Status: success  
    - Plugins: 14  
 
-❌ **https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json**  
-   - Status: failed  
+✅ **https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json**  
+   - Status: success  
    - Plugins: 1  
-   - Error: request timed out after 30 seconds  
 
 ✅ **https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/repo.json**  
    - Status: success  
@@ -53,10 +52,9 @@
    - Status: success  
    - Plugins: 6  
 
-❌ **https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json**  
-   - Status: failed  
+✅ **https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json**  
+   - Status: success  
    - Plugins: 7  
-   - Error: request timed out after 30 seconds  
 
 ✅ **https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json**  
    - Status: success  
@@ -82,19 +80,17 @@
    - Status: success  
    - Plugins: 5  
 
-❌ **https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json**  
-   - Status: failed  
+✅ **https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json**  
+   - Status: success  
    - Plugins: 1  
-   - Error: request timed out after 30 seconds  
 
 ✅ **https://github.com/emyxiv/Dresser/raw/master/repo.json**  
    - Status: success  
    - Plugins: 1  
 
-❌ **https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json**  
-   - Status: failed  
+✅ **https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json**  
+   - Status: success  
    - Plugins: 6  
-   - Error: request timed out after 30 seconds  
 
 ✅ **https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json**  
    - Status: success  
@@ -181,13 +177,6 @@
    - Status: quarantined  
    - Plugins: 0  
    - Error: HTTP 404 Not Found  
-
-## Errors (4)
-
-- https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json has been failing since 2026-11-08 11:44 UTC (0.0 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins
-- https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json has been failing since 2026-11-08 11:44 UTC (0.0 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins
-- https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json has been failing since 2026-11-08 11:44 UTC (0.0 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins
-- https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json has been failing since 2026-11-08 11:44 UTC (0.0 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins
 
 ## Warnings (3)
 
