@@ -1,1 +1,0 @@
-https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json	2026-11-08T11:06:22.3790721Z	HTTP 502 Bad Gateway

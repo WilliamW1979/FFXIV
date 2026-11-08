@@ -1,1 +1,0 @@
-https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json has been failing since 2026-11-08 11:06 UTC (0.0 of 72 hours before quarantine): HTTP 502 Bad Gateway - serving cached plugins
