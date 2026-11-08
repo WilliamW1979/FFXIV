@@ -23,6 +23,37 @@
     ]
   },
   {
+    "Author": "Taurenkey, NightmareXIV, croizat",
+    "Name": "Pandora's Box",
+    "Punchline": "Do you dare to open Pandora's Box?",
+    "Description": "Pandora's Box is a collection of major QoL tweaks and adjustments.\n\nOpen the box with /pandora",
+    "Tags": [
+      "qol",
+      "tweaks",
+      "automation",
+      "convenience"
+    ],
+    "InternalName": "PandorasBox",
+    "RepoUrl": "https://github.com/PunishXIV/PandorasBox",
+    "DownloadCount": 1427662,
+    "LastUpdate": 1791992270,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.6.4.6/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.6.4.6/update/latest.zip",
+    "AssemblyVersion": "1.6.4.6",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "- Update macro mount skip to include mount roulettes.\n- Fix Action Targeting soft target override issue",
+    "TestingAssemblyVersion": "1.6.4.2",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.6.4.2/install/testing.zip",
+    "TestingDalamudApiLevel": "15",
+    "IconUrl": "https://puni.sh/api/plugins/icon/8",
+    "SourceRepo": "https://love.puni.sh/ment.json",
+    "AlternateSources": [
+      "https://love.puni.sh/ment-testing.json",
+      "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
+    ]
+  },
+  {
     "Author": "kawaii, NightmareXIV",
     "Name": "AutoRetainer",
     "Punchline": "Collect and assign ventures to your retainers from the comfort of your bed.",
@@ -30,7 +61,7 @@
     "Tags": [],
     "InternalName": "AutoRetainer",
     "RepoUrl": "https://github.com/PunishXIV/AutoRetainer",
-    "DownloadCount": 2704218,
+    "DownloadCount": 2704220,
     "LastUpdate": 1793771225,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.18/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.18/update/latest.zip",
@@ -49,30 +80,28 @@
     ]
   },
   {
-    "Author": "Taurenkey, NightmareXIV, croizat",
-    "Name": "Pandora's Box",
-    "Punchline": "Do you dare to open Pandora's Box?",
-    "Description": "Pandora's Box is a collection of major QoL tweaks and adjustments.\n\nOpen the box with /pandora",
+    "Author": "Det, croizat",
+    "Name": "AutoHook",
+    "Punchline": "Makes fishing less (or more) boring",
+    "Description": "It hooks the fish for you, can you believe it?",
     "Tags": [
-      "qol",
-      "tweaks",
-      "automation",
-      "convenience"
+      "Gathering",
+      "Fishing"
     ],
-    "InternalName": "PandorasBox",
-    "RepoUrl": "https://github.com/PunishXIV/PandorasBox",
-    "DownloadCount": 1427661,
-    "LastUpdate": 1791992270,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.6.4.6/install/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.6.4.6/update/latest.zip",
-    "AssemblyVersion": "1.6.4.6",
+    "InternalName": "AutoHook",
+    "RepoUrl": "https://github.com/PunishXIV/AutoHook",
+    "DownloadCount": 2985506,
+    "LastUpdate": 1793891165,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.4.3/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.4.3/update/latest.zip",
+    "AssemblyVersion": "6.0.4.3",
     "ApplicableVersion": "any",
     "DalamudApiLevel": "15",
-    "Changelog": "- Update macro mount skip to include mount roulettes.\n- Fix Action Targeting soft target override issue",
-    "TestingAssemblyVersion": "1.6.4.2",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.6.4.2/install/testing.zip",
+    "Changelog": "",
+    "TestingAssemblyVersion": "6.0.1.2",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.1.2/install/testing.zip",
     "TestingDalamudApiLevel": "15",
-    "IconUrl": "https://puni.sh/api/plugins/icon/8",
+    "IconUrl": "https://puni.sh/api/plugins/icon/47",
     "SourceRepo": "https://love.puni.sh/ment.json",
     "AlternateSources": [
       "https://love.puni.sh/ment-testing.json",
@@ -101,35 +130,6 @@
     "DalamudApiLevel": "15",
     "Changelog": "- 7.5",
     "IconUrl": "https://puni.sh/api/plugins/icon/9",
-    "SourceRepo": "https://love.puni.sh/ment.json",
-    "AlternateSources": [
-      "https://love.puni.sh/ment-testing.json",
-      "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
-    ]
-  },
-  {
-    "Author": "Det, croizat",
-    "Name": "AutoHook",
-    "Punchline": "Makes fishing less (or more) boring",
-    "Description": "It hooks the fish for you, can you believe it?",
-    "Tags": [
-      "Gathering",
-      "Fishing"
-    ],
-    "InternalName": "AutoHook",
-    "RepoUrl": "https://github.com/PunishXIV/AutoHook",
-    "DownloadCount": 2985502,
-    "LastUpdate": 1793891165,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.4.3/install/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.4.3/update/latest.zip",
-    "AssemblyVersion": "6.0.4.3",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "15",
-    "Changelog": "",
-    "TestingAssemblyVersion": "6.0.1.2",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.1.2/install/testing.zip",
-    "TestingDalamudApiLevel": "15",
-    "IconUrl": "https://puni.sh/api/plugins/icon/47",
     "SourceRepo": "https://love.puni.sh/ment.json",
     "AlternateSources": [
       "https://love.puni.sh/ment-testing.json",
@@ -191,6 +191,32 @@
     ]
   },
   {
+    "Author": "daemitus, croizat",
+    "Name": "Yes Already",
+    "Punchline": "Clicks Yes in various dialogs you've specified.",
+    "Description": "Tired of clicking yes in Praetorium? Can't stand using keys in dungeons? Well do I have the plugin for you! Yes Already is specifically designed to click all the annoying dialogs you've grown accustomed facerolling. Just enter the dialog text, and you'll never see it again! Also works with /regex/ and has several built-in modules for dialogs that aren't quite yes/no prompts but act like it (like desynth).",
+    "Tags": [],
+    "InternalName": "YesAlready",
+    "RepoUrl": "https://github.com/PunishXIV/YesAlready",
+    "DownloadCount": 1593363,
+    "LastUpdate": 1794093578,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/26/YesAlready/versions/1.15.7.8/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/26/YesAlready/versions/1.15.7.8/update/latest.zip",
+    "AssemblyVersion": "1.15.7.8",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "",
+    "TestingAssemblyVersion": "1.10.4.0",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/26/YesAlready/versions/1.10.4.0/install/testing.zip",
+    "TestingDalamudApiLevel": "12",
+    "IconUrl": "https://puni.sh/api/plugins/icon/26",
+    "SourceRepo": "https://love.puni.sh/ment.json",
+    "AlternateSources": [
+      "https://love.puni.sh/ment-testing.json",
+      "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
+    ]
+  },
+  {
     "Author": "the Puni.sh Quest Squad",
     "Name": "Questionable",
     "Punchline": "A tiny quest helper plugin.",
@@ -203,7 +229,7 @@
     ],
     "InternalName": "Questionable",
     "RepoUrl": "https://github.com/PunishXIV/Questionable",
-    "DownloadCount": 2604385,
+    "DownloadCount": 2604386,
     "LastUpdate": 1793480225,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/94/Questionable/versions/15.756.3.60/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/94/Questionable/versions/15.756.3.60/update/latest.zip",
@@ -220,32 +246,6 @@
       "https://love.puni.sh/ment-testing.json",
       "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json",
       "https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json"
-    ]
-  },
-  {
-    "Author": "daemitus, croizat",
-    "Name": "Yes Already",
-    "Punchline": "Clicks Yes in various dialogs you've specified.",
-    "Description": "Tired of clicking yes in Praetorium? Can't stand using keys in dungeons? Well do I have the plugin for you! Yes Already is specifically designed to click all the annoying dialogs you've grown accustomed facerolling. Just enter the dialog text, and you'll never see it again! Also works with /regex/ and has several built-in modules for dialogs that aren't quite yes/no prompts but act like it (like desynth).",
-    "Tags": [],
-    "InternalName": "YesAlready",
-    "RepoUrl": "https://github.com/PunishXIV/YesAlready",
-    "DownloadCount": 1593347,
-    "LastUpdate": 1794093578,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/26/YesAlready/versions/1.15.7.8/install/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/26/YesAlready/versions/1.15.7.8/update/latest.zip",
-    "AssemblyVersion": "1.15.7.8",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "15",
-    "Changelog": "",
-    "TestingAssemblyVersion": "1.10.4.0",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/26/YesAlready/versions/1.10.4.0/install/testing.zip",
-    "TestingDalamudApiLevel": "12",
-    "IconUrl": "https://puni.sh/api/plugins/icon/26",
-    "SourceRepo": "https://love.puni.sh/ment.json",
-    "AlternateSources": [
-      "https://love.puni.sh/ment-testing.json",
-      "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
     ]
   },
   {
@@ -306,34 +306,6 @@
     ]
   },
   {
-    "Author": "Taurenkey, kawaii, NightmareXIV",
-    "Name": "Artisan",
-    "Punchline": "A 'simple' crafting plugin.",
-    "Description": "The all-in-one crafting plugin. Perfect for people with next to no knowledge about crafting rotations. No need for a library of different macros, the solvers will work dynamically to try and complete your crafts. Also provides convenient ways to craft lists of items or grind out a specific item repeatedly.",
-    "Tags": [
-      "crafting"
-    ],
-    "InternalName": "Artisan",
-    "RepoUrl": "https://github.com/PunishXIV/Artisan",
-    "DownloadCount": 6168735,
-    "LastUpdate": 1794042180,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.23/install/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.23/update/latest.zip",
-    "AssemblyVersion": "4.0.5.23",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "15",
-    "Changelog": "- Restore Gatherbuddy integration.",
-    "TestingAssemblyVersion": "4.0.5.16",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.16/install/testing.zip",
-    "TestingDalamudApiLevel": "15",
-    "IconUrl": "https://puni.sh/api/plugins/icon/6",
-    "SourceRepo": "https://love.puni.sh/ment.json",
-    "AlternateSources": [
-      "https://love.puni.sh/ment-testing.json",
-      "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
-    ]
-  },
-  {
     "Author": "NightmareXIV",
     "Name": "Splatoon",
     "Punchline": "Scriptable overlay engine for drawing mechanics, markers, and indicators in real-time",
@@ -363,6 +335,34 @@
     ]
   },
   {
+    "Author": "Taurenkey, kawaii, NightmareXIV",
+    "Name": "Artisan",
+    "Punchline": "A 'simple' crafting plugin.",
+    "Description": "The all-in-one crafting plugin. Perfect for people with next to no knowledge about crafting rotations. No need for a library of different macros, the solvers will work dynamically to try and complete your crafts. Also provides convenient ways to craft lists of items or grind out a specific item repeatedly.",
+    "Tags": [
+      "crafting"
+    ],
+    "InternalName": "Artisan",
+    "RepoUrl": "https://github.com/PunishXIV/Artisan",
+    "DownloadCount": 6168751,
+    "LastUpdate": 1794042180,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.23/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.23/update/latest.zip",
+    "AssemblyVersion": "4.0.5.23",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "- Restore Gatherbuddy integration.",
+    "TestingAssemblyVersion": "4.0.5.16",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.16/install/testing.zip",
+    "TestingDalamudApiLevel": "15",
+    "IconUrl": "https://puni.sh/api/plugins/icon/6",
+    "SourceRepo": "https://love.puni.sh/ment.json",
+    "AlternateSources": [
+      "https://love.puni.sh/ment-testing.json",
+      "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
+    ]
+  },
+  {
     "Author": "kawaii, Ice",
     "Name": "Palantir",
     "Punchline": "Lost in a deep dungeon with nothing but dry bread and water?",
@@ -376,7 +376,7 @@
     ],
     "InternalName": "Palantir",
     "RepoUrl": "https://github.com/PunishXIV/Palantir",
-    "DownloadCount": 20109,
+    "DownloadCount": 20112,
     "LastUpdate": 1794057617,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/169/Palantir/versions/0.0.0.10/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/169/Palantir/versions/0.0.0.10/update/latest.zip",
@@ -1598,7 +1598,7 @@
     "Tags": [],
     "InternalName": "BossMod",
     "RepoUrl": "https://github.com/awgil/ffxiv_bossmod",
-    "DownloadCount": 2830204,
+    "DownloadCount": 2830206,
     "LastUpdate": 1793754281,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/30/BossMod/versions/7.5.7.20/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/30/BossMod/versions/7.5.7.20/update/latest.zip",
@@ -1650,7 +1650,7 @@
     "Tags": [],
     "InternalName": "vnavmesh",
     "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 1951681,
+    "DownloadCount": 1951683,
     "LastUpdate": 1793814366,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/1.2.3.15/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/1.2.3.15/update/latest.zip",
@@ -2089,7 +2089,7 @@
     ],
     "InternalName": "Automaton",
     "RepoUrl": "https://github.com/Jaksuhn/Automaton",
-    "DownloadCount": 1093512,
+    "DownloadCount": 1093520,
     "LastUpdate": 1794088505,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/34/Automaton/versions/69.230/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/34/Automaton/versions/69.230/update/latest.zip",
