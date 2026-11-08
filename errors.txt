@@ -1,5 +1,6 @@
-https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json has been failing since 2026-11-08 08:54 UTC (0.0 of 72 hours before quarantine): HTTP 504 Gateway Time-out - serving cached plugins
+https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json has been failing since 2026-11-08 08:56 UTC (0.0 of 72 hours before quarantine): HTTP 504 Gateway Time-out - serving cached plugins
 https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json has been failing since 2026-11-08 08:50 UTC (0.1 of 72 hours before quarantine): HTTP 504 Gateway Time-out - serving cached plugins
+https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json has been failing since 2026-11-08 08:56 UTC (0.0 of 72 hours before quarantine): HTTP 504 Gateway Time-out - serving cached plugins
 https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json has been failing since 2026-11-08 08:50 UTC (0.1 of 72 hours before quarantine): HTTP 504 Gateway Time-out - serving cached plugins
 https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json has been failing since 2026-11-08 08:44 UTC (0.2 of 72 hours before quarantine): HTTP 504 Gateway Time-out - serving cached plugins
 https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json has been failing since 2026-11-08 08:54 UTC (0.0 of 72 hours before quarantine): HTTP 504 Gateway Time-out - serving cached plugins
