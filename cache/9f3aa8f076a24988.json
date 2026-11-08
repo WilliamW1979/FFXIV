@@ -53,7 +53,7 @@
     "Tags": [],
     "InternalName": "AutoRetainer",
     "RepoUrl": "https://github.com/PunishXIV/AutoRetainer",
-    "DownloadCount": 2703316,
+    "DownloadCount": 2703320,
     "LastUpdate": 1793771225,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.18/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.18/update/latest.zip",
@@ -78,7 +78,7 @@
     ],
     "InternalName": "AutoHook",
     "RepoUrl": "https://github.com/PunishXIV/AutoHook",
-    "DownloadCount": 2984222,
+    "DownloadCount": 2984232,
     "LastUpdate": 1793891165,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.4.3/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.4.3/update/latest.zip",
@@ -141,27 +141,6 @@
     "SourceRepo": "https://love.puni.sh/ment-testing.json"
   },
   {
-    "Author": "Chalkos, NightmareXIV",
-    "Name": "Marketbuddy",
-    "Punchline": "Less clicks, more gil!",
-    "Description": "Helper for your day-to-day market operations.",
-    "Tags": [
-      "marketboard"
-    ],
-    "InternalName": "Marketbuddy",
-    "RepoUrl": "https://love.puni.sh/ment-testing.json",
-    "DownloadCount": 24906,
-    "LastUpdate": 1777575334,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/131/Marketbuddy/versions/0.2.4.2/install/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/131/Marketbuddy/versions/0.2.4.2/update/latest.zip",
-    "AssemblyVersion": "0.2.4.2",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "15",
-    "Changelog": "- 7.5",
-    "IconUrl": "https://puni.sh/api/plugins/icon/131",
-    "SourceRepo": "https://love.puni.sh/ment-testing.json"
-  },
-  {
     "Author": "daemitus, croizat",
     "Name": "Yes Already",
     "Punchline": "Clicks Yes in various dialogs you've specified.",
@@ -169,7 +148,7 @@
     "Tags": [],
     "InternalName": "YesAlready",
     "RepoUrl": "https://github.com/PunishXIV/YesAlready",
-    "DownloadCount": 1588602,
+    "DownloadCount": 1588639,
     "LastUpdate": 1794093578,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/26/YesAlready/versions/1.15.7.8/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/26/YesAlready/versions/1.15.7.8/update/latest.zip",
@@ -196,7 +175,7 @@
     ],
     "InternalName": "Questionable",
     "RepoUrl": "https://github.com/PunishXIV/Questionable",
-    "DownloadCount": 2604072,
+    "DownloadCount": 2604073,
     "LastUpdate": 1793480225,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/94/Questionable/versions/15.756.3.60/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/94/Questionable/versions/15.756.3.60/update/latest.zip",
@@ -211,6 +190,27 @@
     "SourceRepo": "https://love.puni.sh/ment-testing.json"
   },
   {
+    "Author": "Chalkos, NightmareXIV",
+    "Name": "Marketbuddy",
+    "Punchline": "Less clicks, more gil!",
+    "Description": "Helper for your day-to-day market operations.",
+    "Tags": [
+      "marketboard"
+    ],
+    "InternalName": "Marketbuddy",
+    "RepoUrl": "https://love.puni.sh/ment-testing.json",
+    "DownloadCount": 24906,
+    "LastUpdate": 1777575334,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/131/Marketbuddy/versions/0.2.4.2/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/131/Marketbuddy/versions/0.2.4.2/update/latest.zip",
+    "AssemblyVersion": "0.2.4.2",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "- 7.5",
+    "IconUrl": "https://puni.sh/api/plugins/icon/131",
+    "SourceRepo": "https://love.puni.sh/ment-testing.json"
+  },
+  {
     "Author": "Team Wrath",
     "Name": "Wrath Combo",
     "Punchline": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
@@ -222,7 +222,7 @@
     ],
     "InternalName": "WrathCombo",
     "RepoUrl": "https://github.com/PunishXIV/WrathCombo",
-    "DownloadCount": 1270587,
+    "DownloadCount": 1270588,
     "LastUpdate": 1792168226,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.4.27/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.4.27/update/latest.zip",
@@ -237,6 +237,31 @@
     "SourceRepo": "https://love.puni.sh/ment-testing.json"
   },
   {
+    "Author": "kawaii, Ice",
+    "Name": "Palantir",
+    "Punchline": "Lost in a deep dungeon with nothing but dry bread and water?",
+    "Description": "Palantir is a spiritual successor to PalacePal, the popular deep dungeon trap ESP plugin created by Liza Carvelli. It reveals the locations of previously recorded traps and Accursed Hoards from a crowdsourced database.",
+    "Tags": [
+      "deep dungeon",
+      "palace of the dead",
+      "heaven-on-high",
+      "eureka orthos",
+      "pilgrim's traverse"
+    ],
+    "InternalName": "Palantir",
+    "RepoUrl": "https://github.com/PunishXIV/Palantir",
+    "DownloadCount": 19382,
+    "LastUpdate": 1794057617,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/169/Palantir/versions/0.0.0.10/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/169/Palantir/versions/0.0.0.10/update/latest.zip",
+    "AssemblyVersion": "0.0.0.10",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "IPC for bossmod",
+    "IconUrl": "https://puni.sh/api/plugins/icon/169",
+    "SourceRepo": "https://love.puni.sh/ment-testing.json"
+  },
+  {
     "Author": "Taurenkey, kawaii, NightmareXIV",
     "Name": "Artisan",
     "Punchline": "A 'simple' crafting plugin.",
@@ -246,7 +271,7 @@
     ],
     "InternalName": "Artisan",
     "RepoUrl": "https://github.com/PunishXIV/Artisan",
-    "DownloadCount": 6163179,
+    "DownloadCount": 6163218,
     "LastUpdate": 1794042180,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.23/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.23/update/latest.zip",
@@ -283,31 +308,6 @@
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.9.2.33/install/testing.zip",
     "TestingDalamudApiLevel": "15",
     "IconUrl": "https://puni.sh/api/plugins/icon/10",
-    "SourceRepo": "https://love.puni.sh/ment-testing.json"
-  },
-  {
-    "Author": "kawaii, Ice",
-    "Name": "Palantir",
-    "Punchline": "Lost in a deep dungeon with nothing but dry bread and water?",
-    "Description": "Palantir is a spiritual successor to PalacePal, the popular deep dungeon trap ESP plugin created by Liza Carvelli. It reveals the locations of previously recorded traps and Accursed Hoards from a crowdsourced database.",
-    "Tags": [
-      "deep dungeon",
-      "palace of the dead",
-      "heaven-on-high",
-      "eureka orthos",
-      "pilgrim's traverse"
-    ],
-    "InternalName": "Palantir",
-    "RepoUrl": "https://github.com/PunishXIV/Palantir",
-    "DownloadCount": 19377,
-    "LastUpdate": 1794057617,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/169/Palantir/versions/0.0.0.10/install/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/169/Palantir/versions/0.0.0.10/update/latest.zip",
-    "AssemblyVersion": "0.0.0.10",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "15",
-    "Changelog": "IPC for bossmod",
-    "IconUrl": "https://puni.sh/api/plugins/icon/169",
     "SourceRepo": "https://love.puni.sh/ment-testing.json"
   },
   {
