@@ -1,1 +1,0 @@
-https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json has been failing since 2026-11-09 06:30 UTC (0.0 of 72 hours before quarantine): HTTP 502 Bad Gateway or Proxy Error - serving cached plugins
