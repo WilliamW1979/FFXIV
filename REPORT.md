@@ -2,8 +2,8 @@
 
 ## Summary
 - **Active Repositories**: 38
-- **Successful**: 37 ✅
-- **Failing**: 1 ❌
+- **Successful**: 36 ✅
+- **Failing**: 2 ❌
 - **Quarantined**: 2 🚫
 - **Restored This Run**: 0 ♻️
 
@@ -11,7 +11,7 @@
 - **Unique Plugins**: 163
 - **Duplicates Removed**: 84
 
-- **Errors**: 1
+- **Errors**: 2
 - **Warnings**: 3
 
 ## Repository Status
@@ -20,9 +20,10 @@
    - Status: success  
    - Plugins: 14  
 
-✅ **https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json**  
-   - Status: success  
+❌ **https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json**  
+   - Status: failed  
    - Plugins: 1  
+   - Error: HTTP 504 Gateway Time-out  
 
 ✅ **https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/repo.json**  
    - Status: success  
@@ -179,12 +180,13 @@
    - Plugins: 0  
    - Error: HTTP 404 Not Found  
 
-## Errors (1)
+## Errors (2)
 
+- https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json has been failing since 2026-11-09 06:06 UTC (0.0 of 72 hours before quarantine): HTTP 504 Gateway Time-out - serving cached plugins
 - https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json has been failing since 2026-11-09 06:04 UTC (0.0 of 72 hours before quarantine): HTTP 504 Gateway Time-out - serving cached plugins
 
 ## Warnings (3)
 
-- Questionable is provided by different authors: the Puni.sh Quest Squad, Liza Carvelli
 - Marketbuddy is provided by different authors: Chalkos, NightmareXIV, Chalkos
+- Questionable is provided by different authors: the Puni.sh Quest Squad, Liza Carvelli
 - SkipCutscene is provided by different authors: KangasZ, Windmourn
