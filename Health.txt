@@ -1,2 +1,1 @@
-https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json	2026-11-09T07:24:15.2468028Z	HTTP 504 Gateway Time-out
-https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json	2026-11-09T07:24:15.2468028Z	HTTP 504 Gateway Time-out
+https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json	2026-11-09T07:26:21.9310511Z	HTTP 504 Gateway Time-out
