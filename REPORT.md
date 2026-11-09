@@ -2,8 +2,8 @@
 
 ## Summary
 - **Active Repositories**: 38
-- **Successful**: 38 ✅
-- **Failing**: 0 ❌
+- **Successful**: 37 ✅
+- **Failing**: 1 ❌
 - **Quarantined**: 2 🚫
 - **Restored This Run**: 0 ♻️
 
@@ -11,7 +11,7 @@
 - **Unique Plugins**: 163
 - **Duplicates Removed**: 84
 
-- **Errors**: 0
+- **Errors**: 1
 - **Warnings**: 3
 
 ## Repository Status
@@ -52,9 +52,10 @@
    - Status: success  
    - Plugins: 6  
 
-✅ **https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json**  
-   - Status: success  
+❌ **https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json**  
+   - Status: failed  
    - Plugins: 7  
+   - Error: HTTP 502 Bad Gateway or Proxy Error  
 
 ✅ **https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json**  
    - Status: success  
@@ -177,6 +178,10 @@
    - Status: quarantined  
    - Plugins: 0  
    - Error: HTTP 404 Not Found  
+
+## Errors (1)
+
+- https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json has been failing since 2026-11-09 06:30 UTC (0.0 of 72 hours before quarantine): HTTP 502 Bad Gateway or Proxy Error - serving cached plugins
 
 ## Warnings (3)
 
