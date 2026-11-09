@@ -183,7 +183,7 @@
 ## Errors (2)
 
 - https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json has been failing since 2026-11-09 05:24 UTC (0.1 of 72 hours before quarantine): HTTP 504 Gateway Time-out - serving cached plugins
-- https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json has been failing since 2026-11-09 05:28 UTC (0.0 of 72 hours before quarantine): HTTP 504 Gateway Time-out - serving cached plugins
+- https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json has been failing since 2026-11-09 05:28 UTC (0.1 of 72 hours before quarantine): HTTP 504 Gateway Time-out - serving cached plugins
 
 ## Warnings (3)
 
