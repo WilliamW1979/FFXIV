@@ -1,0 +1,4 @@
+https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json	2026-11-09T05:58:16.7154175Z	HTTP 504 Gateway Time-out
+https://github.com/emyxiv/Dresser/raw/master/repo.json	2026-11-09T05:58:16.7154175Z	HTTP 504 Gateway Time-out
+https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json	2026-11-09T05:58:16.7154175Z	HTTP 504 Gateway Time-out
+https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json	2026-11-09T05:58:16.7154175Z	HTTP 504 Gateway Time-out
