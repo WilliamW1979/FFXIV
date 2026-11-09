@@ -2,8 +2,8 @@
 
 ## Summary
 - **Active Repositories**: 38
-- **Successful**: 38 ✅
-- **Failing**: 0 ❌
+- **Successful**: 37 ✅
+- **Failing**: 1 ❌
 - **Quarantined**: 2 🚫
 - **Restored This Run**: 0 ♻️
 
@@ -11,7 +11,7 @@
 - **Unique Plugins**: 163
 - **Duplicates Removed**: 84
 
-- **Errors**: 0
+- **Errors**: 1
 - **Warnings**: 3
 
 ## Repository Status
@@ -80,9 +80,10 @@
    - Status: success  
    - Plugins: 5  
 
-✅ **https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json**  
-   - Status: success  
+❌ **https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json**  
+   - Status: failed  
    - Plugins: 1  
+   - Error: HTTP 504 Gateway Time-out  
 
 ✅ **https://github.com/emyxiv/Dresser/raw/master/repo.json**  
    - Status: success  
@@ -177,6 +178,10 @@
    - Status: quarantined  
    - Plugins: 0  
    - Error: HTTP 404 Not Found  
+
+## Errors (1)
+
+- https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json has been failing since 2026-11-09 06:16 UTC (0.0 of 72 hours before quarantine): HTTP 504 Gateway Time-out - serving cached plugins
 
 ## Warnings (3)
 
