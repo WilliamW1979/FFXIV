@@ -1,6 +1,6 @@
 https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json	"ee03db8681f856c7205156a6daf3c2204dd31424a09335bea035af3cc5f79873"		2026-11-09T19:00:31.1862342Z
 https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/repo.json	"99acc7c35b2916efee66009c710d296555ef63741f811dce4782312a6ecb1776"		2026-11-09T19:00:31.1862342Z
-https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json	"8dd9f44f2a994f4a26b6bd895aeda176641af05092837dd3cd6140ccc4e8bca3"		2026-11-09T16:56:31.3586458Z
+https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json	"8dd9f44f2a994f4a26b6bd895aeda176641af05092837dd3cd6140ccc4e8bca3"		2026-11-09T22:58:24.5522188Z
 https://raw.githubusercontent.com/InitialDet/MyDalamudPlugins/main/pluginmaster.json	"7bc2b8453be289f480b78967c8de0a8fca9b21c6285e97afa626650638f31722"		2026-11-09T22:28:16.4180225Z
 https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/pluginmaster.json	"829a977feaf3ca33b5d26bca8f61fcdb5d42f2bb24f8dc6110fb2a1106afd8c8"		2026-11-09T19:00:31.1862342Z
 https://raw.githubusercontent.com/LeonBlade/DalamudPlugins/main/repo.json	"e7d01a063e8ab9db39b932cd5c24263f9e987a80c3e2eb804a23f30906dd4656"		2026-11-09T21:46:21.6067658Z
