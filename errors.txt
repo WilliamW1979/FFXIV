@@ -1,2 +1,0 @@
-https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json has been failing since 2026-11-09 08:12 UTC (0.0 of 72 hours before quarantine): HTTP 504 Gateway Time-out - serving cached plugins
-https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json has been failing since 2026-11-09 08:10 UTC (0.1 of 72 hours before quarantine): HTTP 504 Gateway Time-out - serving cached plugins
