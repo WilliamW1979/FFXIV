@@ -20,10 +20,9 @@
    - Status: success  
    - Plugins: 14  
 
-❌ **https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json**  
-   - Status: failed  
+✅ **https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json**  
+   - Status: success  
    - Plugins: 1  
-   - Error: HTTP 504 Gateway Time-out  
 
 ✅ **https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/repo.json**  
    - Status: success  
@@ -53,14 +52,14 @@
    - Status: success  
    - Plugins: 6  
 
-❌ **https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json**  
-   - Status: failed  
-   - Plugins: 7  
-   - Error: HTTP 504 Gateway Time-out  
-
-✅ **https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json**  
+✅ **https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json**  
    - Status: success  
+   - Plugins: 7  
+
+❌ **https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json**  
+   - Status: failed  
    - Plugins: 3  
+   - Error: HTTP 504 Gateway Time-out  
 
 ✅ **https://puni.sh/api/repository/veyn**  
    - Status: success  
@@ -90,9 +89,10 @@
    - Status: success  
    - Plugins: 1  
 
-✅ **https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json**  
-   - Status: success  
+❌ **https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json**  
+   - Status: failed  
    - Plugins: 6  
+   - Error: HTTP 504 Gateway Time-out  
 
 ✅ **https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json**  
    - Status: success  
@@ -182,11 +182,11 @@
 
 ## Errors (2)
 
-- https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json has been failing since 2026-11-09 06:06 UTC (0.0 of 72 hours before quarantine): HTTP 504 Gateway Time-out - serving cached plugins
-- https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json has been failing since 2026-11-09 06:04 UTC (0.0 of 72 hours before quarantine): HTTP 504 Gateway Time-out - serving cached plugins
+- https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json has been failing since 2026-11-09 06:08 UTC (0.0 of 72 hours before quarantine): HTTP 504 Gateway Time-out - serving cached plugins
+- https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json has been failing since 2026-11-09 06:08 UTC (0.0 of 72 hours before quarantine): HTTP 504 Gateway Time-out - serving cached plugins
 
 ## Warnings (3)
 
-- Marketbuddy is provided by different authors: Chalkos, NightmareXIV, Chalkos
 - Questionable is provided by different authors: the Puni.sh Quest Squad, Liza Carvelli
+- Marketbuddy is provided by different authors: Chalkos, NightmareXIV, Chalkos
 - SkipCutscene is provided by different authors: KangasZ, Windmourn
