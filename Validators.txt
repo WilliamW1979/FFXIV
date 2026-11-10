@@ -3,7 +3,7 @@ https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/repo.json	"99acc7c35
 https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json	"c812340f5740169c968e5094d27616083e4b50dbf99b0064e29057b2f874bf36"		2026-11-10T16:10:28.9519387Z
 https://raw.githubusercontent.com/InitialDet/MyDalamudPlugins/main/pluginmaster.json	"7bc2b8453be289f480b78967c8de0a8fca9b21c6285e97afa626650638f31722"		2026-11-10T16:28:25.0864719Z
 https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/pluginmaster.json	"829a977feaf3ca33b5d26bca8f61fcdb5d42f2bb24f8dc6110fb2a1106afd8c8"		2026-11-10T13:04:24.8299202Z
-https://raw.githubusercontent.com/LeonBlade/DalamudPlugins/main/repo.json	"e26345541aacbb160254e7ae08112ef038d23d8e06a7073a98ab76a4d736a32d"		2026-11-10T11:12:16.2564740Z
+https://raw.githubusercontent.com/LeonBlade/DalamudPlugins/main/repo.json	"e26345541aacbb160254e7ae08112ef038d23d8e06a7073a98ab76a4d736a32d"		2026-11-10T17:12:21.9119804Z
 https://raw.githubusercontent.com/Chalkos/Marketbuddy/main/repo.json	"5d532322e5712e775364e0010c6aab2c24aac901ec01b470a710827f1cacc53a"		2026-11-10T13:04:24.8299202Z
 https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json	"7e652e021229a19d5a460f15470b606c994eb2f676fdfeda41df1162b9ad2009"		2026-11-10T15:52:20.4986116Z
 https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json	"b5d53eedcaef1aab49825f77e8f4130c1d75560eb7e109115d9be9b4c3bcdb98"		2026-11-10T13:04:24.8299202Z
