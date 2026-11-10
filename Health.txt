@@ -1,0 +1,1 @@
+https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json	2026-11-10T10:24:24.7454933Z	HTTP 504 Gateway Time-out
