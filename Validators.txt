@@ -22,7 +22,7 @@ https://raw.githubusercontent.com/xivdev/Penumbra/master/repo.json	"2a518f3c8bc1
 https://raw.githubusercontent.com/jawslouis/MakePlacePlugin/master/MakePlacePlugin.json	"826d03375fa286d1b76b2aa24c5089418915db984d0a58d51a7527a80ecb55e5"		2026-11-11T01:06:23.2155715Z
 https://raw.githubusercontent.com/BardToolbox/BardToolbox-Release/master/pluginmaster.json	"9df8d82d93d9cb167ccf70d2c15a6c230113f74a101473a85546eb1d9b573f7d"		2026-11-11T01:06:23.2155715Z
 https://raw.githubusercontent.com/Etheirys/Brio/main/repo.json	"ab2509e62ede5319ce3e5666ac5c9198bf7a2904c2a49992a5f6915a49252a14"		2026-11-11T02:08:24.4211303Z
-https://raw.githubusercontent.com/Project-GagSpeak/repo/main/projectgagspeak.json	"81c25dbca10e0e944507849ad0252c7d2e5daaf16c01c335276e549f22151886"		2026-11-11T00:32:26.6523935Z
+https://raw.githubusercontent.com/Project-GagSpeak/repo/main/projectgagspeak.json	"81c25dbca10e0e944507849ad0252c7d2e5daaf16c01c335276e549f22151886"		2026-11-11T06:34:23.6432939Z
 https://raw.githubusercontent.com/dodingdaga/DalamudPlugins/main/PuppetMaster.json	"3ec0701be84a08123e423295923a1228fdd086c58e405acada5c77e7b6ae56d6"		2026-11-11T01:06:23.2155715Z
 https://raw.githubusercontent.com/SoyaX/SoyaPlugins/main/repo.json	"b7219390c59bdec3eaaa57e58bdbf649c8775210a9d4dab3a1809df4d4fdad92"		2026-11-11T01:06:23.2155715Z
 https://raw.githubusercontent.com/VariableVixen/MyDalamudPlugins/master/pluginmaster.json	"bdcee941daee65df06acd9de92463c3990f98552aeb8aadeada261d980a7b5b8"		2026-11-11T01:06:23.2155715Z
