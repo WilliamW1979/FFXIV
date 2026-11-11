@@ -8,7 +8,7 @@ https://raw.githubusercontent.com/Chalkos/Marketbuddy/main/repo.json	"5d532322e5
 https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json	"5c2e10217b815eaa0b3ee192dbeeb359b43a7f4ff4f57a040655ba24c5379785"		2026-11-11T09:52:22.3956529Z
 https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json	"b5d53eedcaef1aab49825f77e8f4130c1d75560eb7e109115d9be9b4c3bcdb98"		2026-11-11T13:08:23.1315912Z
 https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json	"6785bb189ab6e3f624bed6c08bb22cbb4ba718b6659cffe4f34528b1c162d627"		2026-11-11T11:20:24.9217591Z
-https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json	"6f2e9bd72d7be0f8cdef5fd10bd55f0bd90e10f3d3da5f2f16cec4cdbb59437e"		2026-11-11T08:54:24.4472103Z
+https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json	"6f2e9bd72d7be0f8cdef5fd10bd55f0bd90e10f3d3da5f2f16cec4cdbb59437e"		2026-11-11T14:54:26.3780437Z
 https://raw.githubusercontent.com/KangasZ/DalamudPluginRepository/main/plugin_repository.json	"3a727372a4b86874b8e15da93173f6c47ddb34502a6401e271d72bece3e1f80f"		2026-11-11T13:08:23.1315912Z
 https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json	"955ed191f0d9f57be2046f37820e4c9043f200cc0f09ff85854d3119e610ae21"		2026-11-11T13:08:23.1315912Z
 https://github.com/emyxiv/Dresser/raw/master/repo.json	"439653bdc95ce3f8423cb9e741ad5897fe43b98c71c9b409e61a583d4eec101c"		2026-11-11T13:08:23.1315912Z
@@ -26,7 +26,7 @@ https://raw.githubusercontent.com/Project-GagSpeak/repo/main/projectgagspeak.jso
 https://raw.githubusercontent.com/dodingdaga/DalamudPlugins/main/PuppetMaster.json	"3ec0701be84a08123e423295923a1228fdd086c58e405acada5c77e7b6ae56d6"		2026-11-11T13:08:23.1315912Z
 https://raw.githubusercontent.com/SoyaX/SoyaPlugins/main/repo.json	"b7219390c59bdec3eaaa57e58bdbf649c8775210a9d4dab3a1809df4d4fdad92"		2026-11-11T13:08:23.1315912Z
 https://raw.githubusercontent.com/VariableVixen/MyDalamudPlugins/master/pluginmaster.json	"bdcee941daee65df06acd9de92463c3990f98552aeb8aadeada261d980a7b5b8"		2026-11-11T13:08:23.1315912Z
-https://xiv.starry.blue/plugins/master.json	"bdbf92f285d195453068418131389a6a"		2026-11-11T08:52:22.9193324Z
+https://xiv.starry.blue/plugins/master.json	"bdbf92f285d195453068418131389a6a"		2026-11-11T14:54:26.3780437Z
 https://raw.githubusercontent.com/LegendsOfTheGame/TimeMemoriaV3/main/repo.json	"b2c3176bc83d780a7bcd683d553ca90e206317d214c374fddf3f7f8b75df97a5"		2026-11-11T10:18:23.2966089Z
 https://raw.githubusercontent.com/Eauldane/ElfShelf/refs/heads/main/repo.json	"dc7febcfbb54cf29685bc34293a905ab6682c8542fd8e914173f6467a623ba59"		2026-11-11T13:44:20.7333097Z
 https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json	"b471e42191b953ef6ac2c5b70391c2116a83b11edd6ea3138c9ab56dac0fb74a"		2026-11-11T11:46:23.7686156Z
