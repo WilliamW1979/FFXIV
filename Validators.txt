@@ -30,4 +30,4 @@ https://xiv.starry.blue/plugins/master.json	"bdbf92f285d195453068418131389a6a"		
 https://raw.githubusercontent.com/LegendsOfTheGame/TimeMemoriaV3/main/repo.json	"b2c3176bc83d780a7bcd683d553ca90e206317d214c374fddf3f7f8b75df97a5"		2026-11-11T04:16:25.3033302Z
 https://raw.githubusercontent.com/Eauldane/ElfShelf/refs/heads/main/repo.json	"dc7febcfbb54cf29685bc34293a905ab6682c8542fd8e914173f6467a623ba59"		2026-11-11T01:40:26.0024170Z
 https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json	"92dabb7b6311167991559f5fa55bfe377b5c2bb91f84a7aef5bf3c0705e430f1"		2026-11-11T00:58:21.5622736Z
-https://raw.githubusercontent.com/cloudesh/kupopop/main/plugin/releases/repo.json	"d231fd4e84adb94ff73c49eb4e21842509b16546fd517970dcb519625e1c09cc"		2026-11-10T22:48:22.2889470Z
+https://raw.githubusercontent.com/cloudesh/kupopop/main/plugin/releases/repo.json	"d231fd4e84adb94ff73c49eb4e21842509b16546fd517970dcb519625e1c09cc"		2026-11-11T04:50:25.9104710Z
