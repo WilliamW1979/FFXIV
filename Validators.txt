@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/LeonBlade/DalamudPlugins/main/repo.json	"0131b
 https://raw.githubusercontent.com/Chalkos/Marketbuddy/main/repo.json	"5d532322e5712e775364e0010c6aab2c24aac901ec01b470a710827f1cacc53a"		2026-11-11T01:06:23.2155715Z
 https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json	"5bab938ee4ae6736dd5da9c65db722166a2af42667d6426c8ce3d242c6ab898d"		2026-11-11T01:06:23.2155715Z
 https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json	"b5d53eedcaef1aab49825f77e8f4130c1d75560eb7e109115d9be9b4c3bcdb98"		2026-11-11T01:06:23.2155715Z
-https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json	"a853e40ca99dcf96d67de067f6fbcd53e849fd32906d826252d2b1be5e7aa98d"		2026-11-10T19:30:31.6616649Z
+https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json	"a853e40ca99dcf96d67de067f6fbcd53e849fd32906d826252d2b1be5e7aa98d"		2026-11-11T01:30:32.4550290Z
 https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json	"dc8384d657929f6e204a0dd51fa344521725cb74dc8238a3bc615f862b2c6e5e"		2026-11-11T01:04:23.0675289Z
 https://raw.githubusercontent.com/KangasZ/DalamudPluginRepository/main/plugin_repository.json	"3a727372a4b86874b8e15da93173f6c47ddb34502a6401e271d72bece3e1f80f"		2026-11-11T01:06:23.2155715Z
 https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json	"955ed191f0d9f57be2046f37820e4c9043f200cc0f09ff85854d3119e610ae21"		2026-11-11T01:06:23.2155715Z
@@ -15,7 +15,7 @@ https://github.com/emyxiv/Dresser/raw/master/repo.json	"439653bdc95ce3f8423cb9e7
 https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json	"bc952c3b733f27c2ac1b2caad1dd845b417cc7041120779ffb9ee6802f81d945"		2026-11-11T01:06:23.2155715Z
 https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json	"7272eb672618c7becadaf0044d603607e3c2a003383b39e05090bfbdfcbcc22a"		2026-11-11T01:06:23.2155715Z
 https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json	"d93d568c1545e35404dd16b2c133714da98628f3f2a66fc6e896612e4d8e39f1"		2026-11-11T01:06:23.2155715Z
-https://raw.githubusercontent.com/Haselnussbomber/MyDalamudPlugins/main/repo.json	"a853e40ca99dcf96d67de067f6fbcd53e849fd32906d826252d2b1be5e7aa98d"		2026-11-10T19:30:31.6616649Z
+https://raw.githubusercontent.com/Haselnussbomber/MyDalamudPlugins/main/repo.json	"a853e40ca99dcf96d67de067f6fbcd53e849fd32906d826252d2b1be5e7aa98d"		2026-11-11T01:30:32.4550290Z
 https://raw.githubusercontent.com/Ottermandias/Glamourer/main/repo.json	"da84bc2e88b773fbe29d8bf973ce7ecb7f2370fce6806817a0feec4a1e410c51"		2026-11-11T01:06:23.2155715Z
 https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json	"f757a7c3219789a8f9f6ea40d4996092a7638fba2a2c9c31400fced363cc3a68"		2026-11-10T23:22:21.0183730Z
 https://raw.githubusercontent.com/xivdev/Penumbra/master/repo.json	"2a518f3c8bc1313150e73065ca68be62281e80f8fcab8d52e934a0ca8ad35619"		2026-11-11T01:06:23.2155715Z
