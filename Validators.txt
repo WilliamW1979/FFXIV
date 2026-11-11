@@ -28,6 +28,6 @@ https://raw.githubusercontent.com/SoyaX/SoyaPlugins/main/repo.json	"b7219390c59b
 https://raw.githubusercontent.com/VariableVixen/MyDalamudPlugins/master/pluginmaster.json	"bdcee941daee65df06acd9de92463c3990f98552aeb8aadeada261d980a7b5b8"		2026-11-11T01:06:23.2155715Z
 https://xiv.starry.blue/plugins/master.json	"bdbf92f285d195453068418131389a6a"		2026-11-10T20:52:21.9979099Z
 https://raw.githubusercontent.com/LegendsOfTheGame/TimeMemoriaV3/main/repo.json	"b2c3176bc83d780a7bcd683d553ca90e206317d214c374fddf3f7f8b75df97a5"		2026-11-10T22:16:22.8248608Z
-https://raw.githubusercontent.com/Eauldane/ElfShelf/refs/heads/main/repo.json	"dc7febcfbb54cf29685bc34293a905ab6682c8542fd8e914173f6467a623ba59"		2026-11-10T19:38:24.0685129Z
+https://raw.githubusercontent.com/Eauldane/ElfShelf/refs/heads/main/repo.json	"dc7febcfbb54cf29685bc34293a905ab6682c8542fd8e914173f6467a623ba59"		2026-11-11T01:40:26.0024170Z
 https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json	"92dabb7b6311167991559f5fa55bfe377b5c2bb91f84a7aef5bf3c0705e430f1"		2026-11-11T00:58:21.5622736Z
 https://raw.githubusercontent.com/cloudesh/kupopop/main/plugin/releases/repo.json	"d231fd4e84adb94ff73c49eb4e21842509b16546fd517970dcb519625e1c09cc"		2026-11-10T22:48:22.2889470Z
