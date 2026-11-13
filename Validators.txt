@@ -26,7 +26,7 @@ https://raw.githubusercontent.com/Project-GagSpeak/repo/main/projectgagspeak.jso
 https://raw.githubusercontent.com/dodingdaga/DalamudPlugins/main/PuppetMaster.json	"3ec0701be84a08123e423295923a1228fdd086c58e405acada5c77e7b6ae56d6"		2026-11-13T07:18:23.5122452Z
 https://raw.githubusercontent.com/SoyaX/SoyaPlugins/main/repo.json	"b7219390c59bdec3eaaa57e58bdbf649c8775210a9d4dab3a1809df4d4fdad92"		2026-11-13T07:18:23.5122452Z
 https://raw.githubusercontent.com/VariableVixen/MyDalamudPlugins/master/pluginmaster.json	"bdcee941daee65df06acd9de92463c3990f98552aeb8aadeada261d980a7b5b8"		2026-11-13T07:18:23.5122452Z
-https://xiv.starry.blue/plugins/master.json	"2107e3fccb6a56f091bee1a48dbb7aa8"		2026-11-13T11:34:21.6389032Z
+https://xiv.starry.blue/plugins/master.json	"1f30e1623a24dbeeee393886f13e8b80"		2026-11-13T11:50:29.9961967Z
 https://raw.githubusercontent.com/LegendsOfTheGame/TimeMemoriaV3/main/repo.json	"b2c3176bc83d780a7bcd683d553ca90e206317d214c374fddf3f7f8b75df97a5"		2026-11-13T10:32:22.9954605Z
 https://raw.githubusercontent.com/Eauldane/ElfShelf/refs/heads/main/repo.json	"dc7febcfbb54cf29685bc34293a905ab6682c8542fd8e914173f6467a623ba59"		2026-11-13T07:52:25.0080154Z
 https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json	"7aed59227e9dbad09cfa6d650dbcdbf51ebd506858e70fb00e596d5d9322c464"		2026-11-13T06:08:21.2682663Z
