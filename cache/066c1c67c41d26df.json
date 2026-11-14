@@ -31,8 +31,8 @@
     "Author": "Eauldane",
     "Name": "BigMac",
     "InternalName": "BigMac",
-    "AssemblyVersion": "1.2.0.0",
-    "TestingAssemblyVersion": "1.2.0.0",
+    "AssemblyVersion": "1.1.1.0",
+    "TestingAssemblyVersion": "1.1.1.0",
     "Description": "Extends macro capabilities with conditionals, extra functions, and a few other nice things.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Eauldane/BigMac",
@@ -48,9 +48,9 @@
     "IsHide": false,
     "IsTestingExclusive": false,
     "CanUnloadAsync": true,
-    "DownloadLinkInstall": "https://github.com/Eauldane/BigMac/releases/download/1.2.0.0/latest.zip",
-    "DownloadLinkTesting": "https://github.com/Eauldane/BigMac/releases/download/1.2.0.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Eauldane/BigMac/releases/download/1.2.0.0/latest.zip",
+    "DownloadLinkInstall": "https://github.com/Eauldane/BigMac/releases/download/1.1.1.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/Eauldane/BigMac/releases/download/1.1.1.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Eauldane/BigMac/releases/download/1.1.1.0/latest.zip",
     "SourceRepo": "https://raw.githubusercontent.com/Eauldane/ElfShelf/refs/heads/main/repo.json"
   },
   {
