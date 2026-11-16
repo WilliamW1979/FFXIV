@@ -19,33 +19,6 @@
     "SourceRepo": "https://love.puni.sh/ment-testing.json"
   },
   {
-    "Author": "Taurenkey, NightmareXIV, croizat",
-    "Name": "Pandora's Box",
-    "Punchline": "Do you dare to open Pandora's Box?",
-    "Description": "Pandora's Box is a collection of major QoL tweaks and adjustments.\n\nOpen the box with /pandora",
-    "Tags": [
-      "qol",
-      "tweaks",
-      "automation",
-      "convenience"
-    ],
-    "InternalName": "PandorasBox",
-    "RepoUrl": "https://github.com/PunishXIV/PandorasBox",
-    "DownloadCount": 1430568,
-    "LastUpdate": 1791992270,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.6.4.6/install/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.6.4.6/update/latest.zip",
-    "AssemblyVersion": "1.6.4.6",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "15",
-    "Changelog": "- Update macro mount skip to include mount roulettes.\n- Fix Action Targeting soft target override issue",
-    "TestingAssemblyVersion": "1.6.4.2",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.6.4.2/install/testing.zip",
-    "TestingDalamudApiLevel": "15",
-    "IconUrl": "https://puni.sh/api/plugins/icon/8",
-    "SourceRepo": "https://love.puni.sh/ment-testing.json"
-  },
-  {
     "Author": "kawaii, NightmareXIV",
     "Name": "AutoRetainer",
     "Punchline": "Collect and assign ventures to your retainers from the comfort of your bed.",
@@ -53,7 +26,7 @@
     "Tags": [],
     "InternalName": "AutoRetainer",
     "RepoUrl": "https://github.com/PunishXIV/AutoRetainer",
-    "DownloadCount": 2757811,
+    "DownloadCount": 2757822,
     "LastUpdate": 1794503590,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.22/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.22/update/latest.zip",
@@ -68,27 +41,30 @@
     "SourceRepo": "https://love.puni.sh/ment-testing.json"
   },
   {
-    "Author": "kawaii, NightmareXIV",
-    "Name": "Avarice",
-    "Punchline": "Positional feedback with pixel perfect rear/flank tracking, range indicators, and more.",
-    "Description": "Positional feedback with pixel perfect rear/flank tracking, range indicators, and more.",
+    "Author": "Taurenkey, NightmareXIV, croizat",
+    "Name": "Pandora's Box",
+    "Punchline": "Do you dare to open Pandora's Box?",
+    "Description": "Pandora's Box is a collection of major QoL tweaks and adjustments.\n\nOpen the box with /pandora",
     "Tags": [
-      "combat"
+      "qol",
+      "tweaks",
+      "automation",
+      "convenience"
     ],
-    "InternalName": "Avarice",
-    "RepoUrl": "https://github.com/PunishXIV/Avarice",
-    "DownloadCount": 405283,
-    "LastUpdate": 1785546003,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/11/Avarice/versions/2.2.0.13/install/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/11/Avarice/versions/2.2.0.13/update/latest.zip",
-    "AssemblyVersion": "2.2.0.13",
+    "InternalName": "PandorasBox",
+    "RepoUrl": "https://github.com/PunishXIV/PandorasBox",
+    "DownloadCount": 1430569,
+    "LastUpdate": 1791992270,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.6.4.6/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.6.4.6/update/latest.zip",
+    "AssemblyVersion": "1.6.4.6",
     "ApplicableVersion": "any",
     "DalamudApiLevel": "15",
-    "Changelog": "- Update RSR IPC",
-    "TestingAssemblyVersion": "2.2.0.15",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/11/Avarice/versions/2.2.0.15/install/testing.zip",
+    "Changelog": "- Update macro mount skip to include mount roulettes.\n- Fix Action Targeting soft target override issue",
+    "TestingAssemblyVersion": "1.6.4.2",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.6.4.2/install/testing.zip",
     "TestingDalamudApiLevel": "15",
-    "IconUrl": "https://puni.sh/api/plugins/icon/11",
+    "IconUrl": "https://puni.sh/api/plugins/icon/8",
     "SourceRepo": "https://love.puni.sh/ment-testing.json"
   },
   {
@@ -114,6 +90,30 @@
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.1.2/install/testing.zip",
     "TestingDalamudApiLevel": "15",
     "IconUrl": "https://puni.sh/api/plugins/icon/47",
+    "SourceRepo": "https://love.puni.sh/ment-testing.json"
+  },
+  {
+    "Author": "kawaii, NightmareXIV",
+    "Name": "Avarice",
+    "Punchline": "Positional feedback with pixel perfect rear/flank tracking, range indicators, and more.",
+    "Description": "Positional feedback with pixel perfect rear/flank tracking, range indicators, and more.",
+    "Tags": [
+      "combat"
+    ],
+    "InternalName": "Avarice",
+    "RepoUrl": "https://github.com/PunishXIV/Avarice",
+    "DownloadCount": 405284,
+    "LastUpdate": 1785546003,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/11/Avarice/versions/2.2.0.13/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/11/Avarice/versions/2.2.0.13/update/latest.zip",
+    "AssemblyVersion": "2.2.0.13",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "- Update RSR IPC",
+    "TestingAssemblyVersion": "2.2.0.15",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/11/Avarice/versions/2.2.0.15/install/testing.zip",
+    "TestingDalamudApiLevel": "15",
+    "IconUrl": "https://puni.sh/api/plugins/icon/11",
     "SourceRepo": "https://love.puni.sh/ment-testing.json"
   },
   {
@@ -222,7 +222,7 @@
     ],
     "InternalName": "WrathCombo",
     "RepoUrl": "https://github.com/PunishXIV/WrathCombo",
-    "DownloadCount": 1273731,
+    "DownloadCount": 1273732,
     "LastUpdate": 1792168226,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.4.27/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.4.27/update/latest.zip",
@@ -262,30 +262,6 @@
     "SourceRepo": "https://love.puni.sh/ment-testing.json"
   },
   {
-    "Author": "Taurenkey, kawaii, NightmareXIV",
-    "Name": "Artisan",
-    "Punchline": "A 'simple' crafting plugin.",
-    "Description": "The all-in-one crafting plugin. Perfect for people with next to no knowledge about crafting rotations. No need for a library of different macros, the solvers will work dynamically to try and complete your crafts. Also provides convenient ways to craft lists of items or grind out a specific item repeatedly.",
-    "Tags": [
-      "crafting"
-    ],
-    "InternalName": "Artisan",
-    "RepoUrl": "https://github.com/PunishXIV/Artisan",
-    "DownloadCount": 6211579,
-    "LastUpdate": 1794042180,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.23/install/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.23/update/latest.zip",
-    "AssemblyVersion": "4.0.5.23",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "15",
-    "Changelog": "- Restore Gatherbuddy integration.",
-    "TestingAssemblyVersion": "4.0.5.16",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.16/install/testing.zip",
-    "TestingDalamudApiLevel": "15",
-    "IconUrl": "https://puni.sh/api/plugins/icon/6",
-    "SourceRepo": "https://love.puni.sh/ment-testing.json"
-  },
-  {
     "Author": "NightmareXIV",
     "Name": "Splatoon",
     "Punchline": "Scriptable overlay engine for drawing mechanics, markers, and indicators in real-time",
@@ -308,6 +284,30 @@
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.9.2.34/install/testing.zip",
     "TestingDalamudApiLevel": "15",
     "IconUrl": "https://puni.sh/api/plugins/icon/10",
+    "SourceRepo": "https://love.puni.sh/ment-testing.json"
+  },
+  {
+    "Author": "Taurenkey, kawaii, NightmareXIV",
+    "Name": "Artisan",
+    "Punchline": "A 'simple' crafting plugin.",
+    "Description": "The all-in-one crafting plugin. Perfect for people with next to no knowledge about crafting rotations. No need for a library of different macros, the solvers will work dynamically to try and complete your crafts. Also provides convenient ways to craft lists of items or grind out a specific item repeatedly.",
+    "Tags": [
+      "crafting"
+    ],
+    "InternalName": "Artisan",
+    "RepoUrl": "https://github.com/PunishXIV/Artisan",
+    "DownloadCount": 6211582,
+    "LastUpdate": 1794042180,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.23/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.23/update/latest.zip",
+    "AssemblyVersion": "4.0.5.23",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "- Restore Gatherbuddy integration.",
+    "TestingAssemblyVersion": "4.0.5.16",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.16/install/testing.zip",
+    "TestingDalamudApiLevel": "15",
+    "IconUrl": "https://puni.sh/api/plugins/icon/6",
     "SourceRepo": "https://love.puni.sh/ment-testing.json"
   },
   {
