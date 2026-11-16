@@ -7,12 +7,12 @@
 - **Quarantined**: 2 🚫
 - **Restored This Run**: 0 ♻️
 
-- **Total Plugins Fetched**: 247
-- **Unique Plugins**: 163
-- **Duplicates Removed**: 84
+- **Total Plugins Fetched**: 309
+- **Unique Plugins**: 219
+- **Duplicates Removed**: 90
 
 - **Errors**: 0
-- **Warnings**: 3
+- **Warnings**: 6
 
 ## Repository Status
 
@@ -162,7 +162,7 @@
 
 ✅ **https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json**  
    - Status: success  
-   - Plugins: 106  
+   - Plugins: 168  
 
 ✅ **https://raw.githubusercontent.com/cloudesh/kupopop/main/plugin/releases/repo.json**  
    - Status: success  
@@ -178,8 +178,11 @@
    - Plugins: 0  
    - Error: HTTP 404 Not Found  
 
-## Warnings (3)
+## Warnings (6)
 
 - Marketbuddy is provided by different authors: Chalkos, NightmareXIV, Chalkos
 - Questionable is provided by different authors: the Puni.sh Quest Squad, Liza Carvelli
+- ARControl is provided by different authors: Liza Carvelli, zbee, Liza Carvelli
+- Squadronista is provided by different authors: Liza Carvelli, vera.lyn
+- Gearsetter is provided by different authors: Liza Carvelli, vera.lyn
 - SkipCutscene is provided by different authors: KangasZ, Windmourn
