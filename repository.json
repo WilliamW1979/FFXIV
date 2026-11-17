@@ -61,7 +61,7 @@
     "Tags": [],
     "InternalName": "AutoRetainer",
     "RepoUrl": "https://github.com/PunishXIV/AutoRetainer",
-    "DownloadCount": 2763163,
+    "DownloadCount": 2763170,
     "LastUpdate": 1794503590,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.22/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.22/update/latest.zip",
@@ -108,6 +108,35 @@
     ]
   },
   {
+    "Author": "Det, croizat",
+    "Name": "AutoHook",
+    "Punchline": "Makes fishing less (or more) boring",
+    "Description": "It hooks the fish for you, can you believe it?",
+    "Tags": [
+      "Gathering",
+      "Fishing"
+    ],
+    "InternalName": "AutoHook",
+    "RepoUrl": "https://github.com/PunishXIV/AutoHook",
+    "DownloadCount": 3003349,
+    "LastUpdate": 1793891165,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.4.3/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.4.3/update/latest.zip",
+    "AssemblyVersion": "6.0.4.3",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "",
+    "TestingAssemblyVersion": "6.0.1.2",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.1.2/install/testing.zip",
+    "TestingDalamudApiLevel": "15",
+    "IconUrl": "https://puni.sh/api/plugins/icon/47",
+    "SourceRepo": "https://love.puni.sh/ment.json",
+    "AlternateSources": [
+      "https://love.puni.sh/ment-testing.json",
+      "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
+    ]
+  },
+  {
     "Author": "kawaii, NightmareXIV",
     "Name": "Avarice",
     "Punchline": "Positional feedback with pixel perfect rear/flank tracking, range indicators, and more.",
@@ -129,35 +158,6 @@
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/11/Avarice/versions/2.2.0.15/install/testing.zip",
     "TestingDalamudApiLevel": "15",
     "IconUrl": "https://puni.sh/api/plugins/icon/11",
-    "SourceRepo": "https://love.puni.sh/ment.json",
-    "AlternateSources": [
-      "https://love.puni.sh/ment-testing.json",
-      "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
-    ]
-  },
-  {
-    "Author": "Det, croizat",
-    "Name": "AutoHook",
-    "Punchline": "Makes fishing less (or more) boring",
-    "Description": "It hooks the fish for you, can you believe it?",
-    "Tags": [
-      "Gathering",
-      "Fishing"
-    ],
-    "InternalName": "AutoHook",
-    "RepoUrl": "https://github.com/PunishXIV/AutoHook",
-    "DownloadCount": 3003347,
-    "LastUpdate": 1793891165,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.4.3/install/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.4.3/update/latest.zip",
-    "AssemblyVersion": "6.0.4.3",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "15",
-    "Changelog": "",
-    "TestingAssemblyVersion": "6.0.1.2",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.1.2/install/testing.zip",
-    "TestingDalamudApiLevel": "15",
-    "IconUrl": "https://puni.sh/api/plugins/icon/47",
     "SourceRepo": "https://love.puni.sh/ment.json",
     "AlternateSources": [
       "https://love.puni.sh/ment-testing.json",
@@ -260,7 +260,7 @@
     ],
     "InternalName": "WrathCombo",
     "RepoUrl": "https://github.com/PunishXIV/WrathCombo",
-    "DownloadCount": 1274097,
+    "DownloadCount": 1274098,
     "LastUpdate": 1792168226,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.4.27/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.4.27/update/latest.zip",
@@ -306,34 +306,6 @@
     ]
   },
   {
-    "Author": "Taurenkey, kawaii, NightmareXIV",
-    "Name": "Artisan",
-    "Punchline": "A 'simple' crafting plugin.",
-    "Description": "The all-in-one crafting plugin. Perfect for people with next to no knowledge about crafting rotations. No need for a library of different macros, the solvers will work dynamically to try and complete your crafts. Also provides convenient ways to craft lists of items or grind out a specific item repeatedly.",
-    "Tags": [
-      "crafting"
-    ],
-    "InternalName": "Artisan",
-    "RepoUrl": "https://github.com/PunishXIV/Artisan",
-    "DownloadCount": 6232172,
-    "LastUpdate": 1794845057,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.24/install/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.24/update/latest.zip",
-    "AssemblyVersion": "4.0.5.24",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "15",
-    "Changelog": "- Add restocking to base UI.",
-    "TestingAssemblyVersion": "4.0.5.16",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.16/install/testing.zip",
-    "TestingDalamudApiLevel": "15",
-    "IconUrl": "https://puni.sh/api/plugins/icon/6",
-    "SourceRepo": "https://love.puni.sh/ment.json",
-    "AlternateSources": [
-      "https://love.puni.sh/ment-testing.json",
-      "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
-    ]
-  },
-  {
     "Author": "kawaii, Ice",
     "Name": "Palantir",
     "Punchline": "Lost in a deep dungeon with nothing but dry bread and water?",
@@ -347,7 +319,7 @@
     ],
     "InternalName": "Palantir",
     "RepoUrl": "https://github.com/PunishXIV/Palantir",
-    "DownloadCount": 24028,
+    "DownloadCount": 24029,
     "LastUpdate": 1794057617,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/169/Palantir/versions/0.0.0.10/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/169/Palantir/versions/0.0.0.10/update/latest.zip",
@@ -373,7 +345,7 @@
     ],
     "InternalName": "Splatoon",
     "RepoUrl": "https://github.com/PunishXIV/Splatoon",
-    "DownloadCount": 2383069,
+    "DownloadCount": 2383071,
     "LastUpdate": 1793070912,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.9.2.33/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.9.2.33/update/latest.zip",
@@ -385,6 +357,34 @@
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.9.2.34/install/testing.zip",
     "TestingDalamudApiLevel": "15",
     "IconUrl": "https://puni.sh/api/plugins/icon/10",
+    "SourceRepo": "https://love.puni.sh/ment.json",
+    "AlternateSources": [
+      "https://love.puni.sh/ment-testing.json",
+      "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
+    ]
+  },
+  {
+    "Author": "Taurenkey, kawaii, NightmareXIV",
+    "Name": "Artisan",
+    "Punchline": "A 'simple' crafting plugin.",
+    "Description": "The all-in-one crafting plugin. Perfect for people with next to no knowledge about crafting rotations. No need for a library of different macros, the solvers will work dynamically to try and complete your crafts. Also provides convenient ways to craft lists of items or grind out a specific item repeatedly.",
+    "Tags": [
+      "crafting"
+    ],
+    "InternalName": "Artisan",
+    "RepoUrl": "https://github.com/PunishXIV/Artisan",
+    "DownloadCount": 6232198,
+    "LastUpdate": 1794845057,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.24/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.24/update/latest.zip",
+    "AssemblyVersion": "4.0.5.24",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "- Add restocking to base UI.",
+    "TestingAssemblyVersion": "4.0.5.16",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.16/install/testing.zip",
+    "TestingDalamudApiLevel": "15",
+    "IconUrl": "https://puni.sh/api/plugins/icon/6",
     "SourceRepo": "https://love.puni.sh/ment.json",
     "AlternateSources": [
       "https://love.puni.sh/ment-testing.json",
@@ -1556,7 +1556,7 @@
     "Tags": [],
     "InternalName": "visland",
     "RepoUrl": "https://github.com/awgil/ffxiv_visland",
-    "DownloadCount": 933536,
+    "DownloadCount": 933539,
     "LastUpdate": 1794757512,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/28/visland/versions/0.0.0.153/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/28/visland/versions/0.0.0.153/update/latest.zip",
@@ -1600,7 +1600,7 @@
     "Tags": [],
     "InternalName": "BossMod",
     "RepoUrl": "https://github.com/awgil/ffxiv_bossmod",
-    "DownloadCount": 2898715,
+    "DownloadCount": 2898722,
     "LastUpdate": 1794789369,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/30/BossMod/versions/7.5.8.4/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/30/BossMod/versions/7.5.8.4/update/latest.zip",
@@ -1652,7 +1652,7 @@
     "Tags": [],
     "InternalName": "vnavmesh",
     "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 1970190,
+    "DownloadCount": 1970192,
     "LastUpdate": 1793814366,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/1.2.3.15/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/1.2.3.15/update/latest.zip",
@@ -2094,7 +2094,7 @@
     ],
     "InternalName": "Automaton",
     "RepoUrl": "https://github.com/Jaksuhn/Automaton",
-    "DownloadCount": 1128991,
+    "DownloadCount": 1128994,
     "LastUpdate": 1794661872,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/34/Automaton/versions/69.234/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/34/Automaton/versions/69.234/update/latest.zip",
