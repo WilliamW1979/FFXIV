@@ -1,2 +1,2 @@
 https://github.com/huntsffxiv/repo/raw/main/repo.json	2026-10-24T05:47:43.9709177Z	HTTP 404 Not Found	2026-11-17T07:18:29.5072866Z
-https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json	2026-10-29T10:08:24.6021126Z	HTTP 404 Not Found	2026-11-17T05:36:23.0794010Z
+https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json	2026-10-29T10:08:24.6021126Z	HTTP 404 Not Found	2026-11-17T11:38:23.2979073Z
