@@ -23,6 +23,32 @@
     ]
   },
   {
+    "Author": "kawaii, NightmareXIV",
+    "Name": "AutoRetainer",
+    "Punchline": "Collect and assign ventures to your retainers from the comfort of your bed.",
+    "Description": "Collect and assign ventures to your retainers from the comfort of your bed.",
+    "Tags": [],
+    "InternalName": "AutoRetainer",
+    "RepoUrl": "https://github.com/PunishXIV/AutoRetainer",
+    "DownloadCount": 2768857,
+    "LastUpdate": 1794503590,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.22/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.22/update/latest.zip",
+    "AssemblyVersion": "4.6.2.22",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "- More reliable retainer list closing",
+    "TestingAssemblyVersion": "4.6.2.24",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.24/install/testing.zip",
+    "TestingDalamudApiLevel": "15",
+    "IconUrl": "https://puni.sh/api/plugins/icon/24",
+    "SourceRepo": "https://love.puni.sh/ment.json",
+    "AlternateSources": [
+      "https://love.puni.sh/ment-testing.json",
+      "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
+    ]
+  },
+  {
     "Author": "Taurenkey, NightmareXIV, croizat",
     "Name": "Pandora's Box",
     "Punchline": "Do you dare to open Pandora's Box?",
@@ -47,32 +73,6 @@
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.6.4.2/install/testing.zip",
     "TestingDalamudApiLevel": "15",
     "IconUrl": "https://puni.sh/api/plugins/icon/8",
-    "SourceRepo": "https://love.puni.sh/ment.json",
-    "AlternateSources": [
-      "https://love.puni.sh/ment-testing.json",
-      "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
-    ]
-  },
-  {
-    "Author": "kawaii, NightmareXIV",
-    "Name": "AutoRetainer",
-    "Punchline": "Collect and assign ventures to your retainers from the comfort of your bed.",
-    "Description": "Collect and assign ventures to your retainers from the comfort of your bed.",
-    "Tags": [],
-    "InternalName": "AutoRetainer",
-    "RepoUrl": "https://github.com/PunishXIV/AutoRetainer",
-    "DownloadCount": 2768853,
-    "LastUpdate": 1794503590,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.22/install/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.22/update/latest.zip",
-    "AssemblyVersion": "4.6.2.22",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "15",
-    "Changelog": "- More reliable retainer list closing",
-    "TestingAssemblyVersion": "4.6.2.24",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.24/install/testing.zip",
-    "TestingDalamudApiLevel": "15",
-    "IconUrl": "https://puni.sh/api/plugins/icon/24",
     "SourceRepo": "https://love.puni.sh/ment.json",
     "AlternateSources": [
       "https://love.puni.sh/ment-testing.json",
@@ -108,6 +108,35 @@
     ]
   },
   {
+    "Author": "Det, croizat",
+    "Name": "AutoHook",
+    "Punchline": "Makes fishing less (or more) boring",
+    "Description": "It hooks the fish for you, can you believe it?",
+    "Tags": [
+      "Gathering",
+      "Fishing"
+    ],
+    "InternalName": "AutoHook",
+    "RepoUrl": "https://github.com/PunishXIV/AutoHook",
+    "DownloadCount": 3006857,
+    "LastUpdate": 1795026685,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.1.0.0/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.1.0.0/update/latest.zip",
+    "AssemblyVersion": "6.1.0.0",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "",
+    "TestingAssemblyVersion": "6.0.1.2",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.1.2/install/testing.zip",
+    "TestingDalamudApiLevel": "15",
+    "IconUrl": "https://puni.sh/api/plugins/icon/47",
+    "SourceRepo": "https://love.puni.sh/ment.json",
+    "AlternateSources": [
+      "https://love.puni.sh/ment-testing.json",
+      "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
+    ]
+  },
+  {
     "Author": "Taurenkey, Gid, NightmareXIV",
     "Name": "LazyLoot",
     "Punchline": "Dungeon Loot but Lazy.",
@@ -129,35 +158,6 @@
     "DalamudApiLevel": "15",
     "Changelog": "- 7.5",
     "IconUrl": "https://puni.sh/api/plugins/icon/9",
-    "SourceRepo": "https://love.puni.sh/ment.json",
-    "AlternateSources": [
-      "https://love.puni.sh/ment-testing.json",
-      "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
-    ]
-  },
-  {
-    "Author": "Det, croizat",
-    "Name": "AutoHook",
-    "Punchline": "Makes fishing less (or more) boring",
-    "Description": "It hooks the fish for you, can you believe it?",
-    "Tags": [
-      "Gathering",
-      "Fishing"
-    ],
-    "InternalName": "AutoHook",
-    "RepoUrl": "https://github.com/PunishXIV/AutoHook",
-    "DownloadCount": 3006813,
-    "LastUpdate": 1795026685,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.1.0.0/install/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.1.0.0/update/latest.zip",
-    "AssemblyVersion": "6.1.0.0",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "15",
-    "Changelog": "",
-    "TestingAssemblyVersion": "6.0.1.2",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.1.2/install/testing.zip",
-    "TestingDalamudApiLevel": "15",
-    "IconUrl": "https://puni.sh/api/plugins/icon/47",
     "SourceRepo": "https://love.puni.sh/ment.json",
     "AlternateSources": [
       "https://love.puni.sh/ment-testing.json",
@@ -288,7 +288,7 @@
     ],
     "InternalName": "Artisan",
     "RepoUrl": "https://github.com/PunishXIV/Artisan",
-    "DownloadCount": 6267387,
+    "DownloadCount": 6267442,
     "LastUpdate": 1795018851,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.27/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.27/update/latest.zip",
@@ -347,7 +347,7 @@
     ],
     "InternalName": "Saucy",
     "RepoUrl": "https://github.com/PunishXIV/Saucy",
-    "DownloadCount": 1231955,
+    "DownloadCount": 1231956,
     "LastUpdate": 1793290579,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/7/Saucy/versions/2.1.2.9/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/7/Saucy/versions/2.1.2.9/update/latest.zip",
@@ -373,7 +373,7 @@
     ],
     "InternalName": "Splatoon",
     "RepoUrl": "https://github.com/PunishXIV/Splatoon",
-    "DownloadCount": 2384789,
+    "DownloadCount": 2384790,
     "LastUpdate": 1793070912,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.9.2.33/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.9.2.33/update/latest.zip",
@@ -1029,7 +1029,7 @@
     "IsHide": "False",
     "IsTestingExclusive": "False",
     "LastUpdated": 1791948307,
-    "DownloadCount": 57156,
+    "DownloadCount": 57369,
     "DownloadLinkInstall": "https://github.com/LeonBlade/BDTHPlugin/releases/download/1.7.4.2/BDTHPlugin.zip",
     "DownloadLinkTesting": "https://github.com/LeonBlade/BDTHPlugin/releases/download/1.7.4.2/BDTHPlugin.zip",
     "DownloadLinkUpdate": "https://github.com/LeonBlade/BDTHPlugin/releases/download/1.7.4.2/BDTHPlugin.zip",
@@ -1040,26 +1040,29 @@
   },
   {
     "Author": "UnknownX",
-    "Name": "Fractionality",
-    "Punchline": "DEPRECATED",
-    "Description": "This plugin is available as an option in ReAction now.",
-    "InternalName": "Fractionality",
-    "AssemblyVersion": "1.0.1.5",
-    "RepoUrl": "https://github.com/UnknownX7/Fractionality",
+    "Name": "ReAction",
+    "Punchline": "QoL for the battle system.",
+    "Description": "Improves aspects of the battle system with action stacks (like MOAction) and various QoL settings.",
+    "Changelog": "Added a blacklist for turbo hotbar keybinds",
+    "InternalName": "ReAction",
+    "AssemblyVersion": "1.3.5.1",
+    "RepoUrl": "https://github.com/UnknownX7/ReAction",
     "ApplicableVersion": "any",
-    "CategoryTags": [],
-    "DalamudApiLevel": 8,
+    "CategoryTags": [
+      "jobs"
+    ],
+    "DalamudApiLevel": 15,
     "IconUrl": "",
     "ImageUrls": [
       ""
     ],
-    "DownloadLinkInstall": "https://github.com/UnknownX7/Fractionality/releases/download/v1.0.1.5/latest.zip",
+    "DownloadLinkInstall": "https://github.com/UnknownX7/ReAction/releases/download/v1.3.5.1/latest.zip",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkTesting": "https://github.com/UnknownX7/Fractionality/releases/download/v1.0.1.5/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/UnknownX7/Fractionality/releases/download/v1.0.1.5/latest.zip",
-    "DownloadCount": 1032,
-    "LastUpdate": "1680237651",
+    "DownloadLinkTesting": "https://github.com/UnknownX7/ReAction/releases/download/v1.3.5.1/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/UnknownX7/ReAction/releases/download/v1.3.5.1/latest.zip",
+    "DownloadCount": 0,
+    "LastUpdate": "1777513055",
     "SourceRepo": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json"
   },
   {
@@ -1085,8 +1088,86 @@
     "IsTestingExclusive": false,
     "DownloadLinkTesting": "https://github.com/UnknownX7/Cammy/releases/download/v2.1.1.2/latest.zip",
     "DownloadLinkUpdate": "https://github.com/UnknownX7/Cammy/releases/download/v2.1.1.2/latest.zip",
-    "DownloadCount": 61658,
+    "DownloadCount": 0,
     "LastUpdate": "1777904465",
+    "SourceRepo": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json"
+  },
+  {
+    "Author": "UnknownX",
+    "Name": "OOBlugin",
+    "Punchline": "oob oob",
+    "Description": "oob oob",
+    "Changelog": "",
+    "InternalName": "OOBlugin",
+    "AssemblyVersion": "1.1.2.11",
+    "RepoUrl": "https://github.com/UnknownX7/OOBlugin",
+    "ApplicableVersion": "any",
+    "CategoryTags": [
+      "utility"
+    ],
+    "DalamudApiLevel": 9,
+    "IconUrl": "",
+    "ImageUrls": [
+      ""
+    ],
+    "DownloadLinkInstall": "https://github.com/UnknownX7/OOBlugin/releases/download/v1.1.2.11/latest.zip",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadLinkTesting": "https://github.com/UnknownX7/OOBlugin/releases/download/v1.1.2.11/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/UnknownX7/OOBlugin/releases/download/v1.1.2.11/latest.zip",
+    "DownloadCount": 0,
+    "LastUpdate": "1696378706",
+    "SourceRepo": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json"
+  },
+  {
+    "Author": "UnknownX",
+    "Name": "DalamudRepoBrowser",
+    "Punchline": "Browse and add third party repositories in an instant",
+    "Description": "An interface for browsing and managing third party repositories.",
+    "Changelog": "",
+    "InternalName": "DalamudRepoBrowser",
+    "AssemblyVersion": "2.0.3.3",
+    "RepoUrl": "https://github.com/UnknownX7/DalamudRepoBrowser",
+    "ApplicableVersion": "any",
+    "CategoryTags": [
+      "other"
+    ],
+    "DalamudApiLevel": 9,
+    "IconUrl": "",
+    "ImageUrls": [
+      ""
+    ],
+    "DownloadLinkInstall": "https://github.com/UnknownX7/DalamudRepoBrowser/releases/download/v2.0.3.3/latest.zip",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadLinkTesting": "https://github.com/UnknownX7/DalamudRepoBrowser/releases/download/v2.0.3.3/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/UnknownX7/DalamudRepoBrowser/releases/download/v2.0.3.3/latest.zip",
+    "DownloadCount": 0,
+    "LastUpdate": "1700166956",
+    "SourceRepo": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json"
+  },
+  {
+    "Author": "UnknownX",
+    "Name": "Fractionality",
+    "Punchline": "DEPRECATED",
+    "Description": "This plugin is available as an option in ReAction now.",
+    "InternalName": "Fractionality",
+    "AssemblyVersion": "1.0.1.5",
+    "RepoUrl": "https://github.com/UnknownX7/Fractionality",
+    "ApplicableVersion": "any",
+    "CategoryTags": [],
+    "DalamudApiLevel": 8,
+    "IconUrl": "",
+    "ImageUrls": [
+      ""
+    ],
+    "DownloadLinkInstall": "https://github.com/UnknownX7/Fractionality/releases/download/v1.0.1.5/latest.zip",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadLinkTesting": "https://github.com/UnknownX7/Fractionality/releases/download/v1.0.1.5/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/UnknownX7/Fractionality/releases/download/v1.0.1.5/latest.zip",
+    "DownloadCount": 0,
+    "LastUpdate": "1680237651",
     "SourceRepo": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json"
   },
   {
@@ -1113,89 +1194,8 @@
     "IsTestingExclusive": false,
     "DownloadLinkTesting": "https://github.com/UnknownX7/NoClippy/releases/download/v0.5.0.24/latest.zip",
     "DownloadLinkUpdate": "https://github.com/UnknownX7/NoClippy/releases/download/v0.5.0.24/latest.zip",
-    "DownloadCount": 91542,
+    "DownloadCount": 0,
     "LastUpdate": "1777510404",
-    "SourceRepo": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json"
-  },
-  {
-    "Author": "UnknownX",
-    "Name": "DalamudRepoBrowser",
-    "Punchline": "Browse and add third party repositories in an instant",
-    "Description": "An interface for browsing and managing third party repositories.",
-    "Changelog": "",
-    "InternalName": "DalamudRepoBrowser",
-    "AssemblyVersion": "2.0.3.3",
-    "RepoUrl": "https://github.com/UnknownX7/DalamudRepoBrowser",
-    "ApplicableVersion": "any",
-    "CategoryTags": [
-      "other"
-    ],
-    "DalamudApiLevel": 9,
-    "IconUrl": "",
-    "ImageUrls": [
-      ""
-    ],
-    "DownloadLinkInstall": "https://github.com/UnknownX7/DalamudRepoBrowser/releases/download/v2.0.3.3/latest.zip",
-    "IsHide": false,
-    "IsTestingExclusive": false,
-    "DownloadLinkTesting": "https://github.com/UnknownX7/DalamudRepoBrowser/releases/download/v2.0.3.3/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/UnknownX7/DalamudRepoBrowser/releases/download/v2.0.3.3/latest.zip",
-    "DownloadCount": 16379,
-    "LastUpdate": "1700166956",
-    "SourceRepo": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json"
-  },
-  {
-    "Author": "UnknownX",
-    "Name": "ReAction",
-    "Punchline": "QoL for the battle system.",
-    "Description": "Improves aspects of the battle system with action stacks (like MOAction) and various QoL settings.",
-    "Changelog": "Added a blacklist for turbo hotbar keybinds",
-    "InternalName": "ReAction",
-    "AssemblyVersion": "1.3.5.1",
-    "RepoUrl": "https://github.com/UnknownX7/ReAction",
-    "ApplicableVersion": "any",
-    "CategoryTags": [
-      "jobs"
-    ],
-    "DalamudApiLevel": 15,
-    "IconUrl": "",
-    "ImageUrls": [
-      ""
-    ],
-    "DownloadLinkInstall": "https://github.com/UnknownX7/ReAction/releases/download/v1.3.5.1/latest.zip",
-    "IsHide": false,
-    "IsTestingExclusive": false,
-    "DownloadLinkTesting": "https://github.com/UnknownX7/ReAction/releases/download/v1.3.5.1/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/UnknownX7/ReAction/releases/download/v1.3.5.1/latest.zip",
-    "DownloadCount": 26474,
-    "LastUpdate": "1777513055",
-    "SourceRepo": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json"
-  },
-  {
-    "Author": "UnknownX",
-    "Name": "OOBlugin",
-    "Punchline": "oob oob",
-    "Description": "oob oob",
-    "Changelog": "",
-    "InternalName": "OOBlugin",
-    "AssemblyVersion": "1.1.2.11",
-    "RepoUrl": "https://github.com/UnknownX7/OOBlugin",
-    "ApplicableVersion": "any",
-    "CategoryTags": [
-      "utility"
-    ],
-    "DalamudApiLevel": 9,
-    "IconUrl": "",
-    "ImageUrls": [
-      ""
-    ],
-    "DownloadLinkInstall": "https://github.com/UnknownX7/OOBlugin/releases/download/v1.1.2.11/latest.zip",
-    "IsHide": false,
-    "IsTestingExclusive": false,
-    "DownloadLinkTesting": "https://github.com/UnknownX7/OOBlugin/releases/download/v1.1.2.11/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/UnknownX7/OOBlugin/releases/download/v1.1.2.11/latest.zip",
-    "DownloadCount": 10671,
-    "LastUpdate": "1696378706",
     "SourceRepo": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json"
   },
   {
@@ -1534,7 +1534,7 @@
     "Tags": [],
     "InternalName": "vsatisfy",
     "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 189560,
+    "DownloadCount": 189562,
     "LastUpdate": 1794948268,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/58/vsatisfy/versions/0.0.0.50/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/58/vsatisfy/versions/0.0.0.50/update/latest.zip",
@@ -1651,7 +1651,7 @@
     "Tags": [],
     "InternalName": "vnavmesh",
     "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 1972613,
+    "DownloadCount": 1972615,
     "LastUpdate": 1793814366,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/1.2.3.15/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/1.2.3.15/update/latest.zip",
@@ -2067,7 +2067,7 @@
     "Tags": [],
     "InternalName": "SomethingNeedDoing",
     "RepoUrl": "https://github.com/Jaksuhn/SomethingNeedDoing",
-    "DownloadCount": 839490,
+    "DownloadCount": 839498,
     "LastUpdate": 1795022362,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/15.14/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/15.14/update/latest.zip",
@@ -2093,7 +2093,7 @@
     ],
     "InternalName": "Automaton",
     "RepoUrl": "https://github.com/Jaksuhn/Automaton",
-    "DownloadCount": 1130959,
+    "DownloadCount": 1130961,
     "LastUpdate": 1794661872,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/34/Automaton/versions/69.234/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/34/Automaton/versions/69.234/update/latest.zip",
