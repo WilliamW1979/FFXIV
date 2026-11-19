@@ -57,8 +57,8 @@
     "Author": "Eauldane",
     "Name": "Ledger",
     "InternalName": "Ledger",
-    "AssemblyVersion": "1.1.0",
-    "TestingAssemblyVersion": "1.1.0",
+    "AssemblyVersion": "2.0.0.0",
+    "TestingAssemblyVersion": "2.0.0.0",
     "Description": "Shows collection progress for achievements, titles, mounts, minions, orchestrion rolls, and more.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Eauldane/Ledger",
@@ -78,9 +78,9 @@
     "IsHide": false,
     "IsTestingExclusive": false,
     "CanUnloadAsync": true,
-    "DownloadLinkInstall": "https://github.com/Eauldane/Ledger/releases/download/1.1.0/latest.zip",
-    "DownloadLinkTesting": "https://github.com/Eauldane/Ledger/releases/download/1.1.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Eauldane/Ledger/releases/download/1.1.0/latest.zip",
+    "DownloadLinkInstall": "https://github.com/Eauldane/Ledger/releases/download/2.0.0.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/Eauldane/Ledger/releases/download/2.0.0.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Eauldane/Ledger/releases/download/2.0.0.0/latest.zip",
     "SourceRepo": "https://raw.githubusercontent.com/Eauldane/ElfShelf/refs/heads/main/repo.json"
   },
   {
