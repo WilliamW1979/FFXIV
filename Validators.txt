@@ -8,7 +8,7 @@ https://raw.githubusercontent.com/Chalkos/Marketbuddy/main/repo.json	"5d532322e5
 https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json	"a5ad2a577fa46f532c49cd96a472e70b1a27956b678581957918ae0b67ea986f"		2026-11-19T01:46:25.9081042Z
 https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json	"b5d53eedcaef1aab49825f77e8f4130c1d75560eb7e109115d9be9b4c3bcdb98"		2026-11-19T01:40:34.5778214Z
 https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json	"3b54e18aebb4e5309ec7f67e70f799c62c153d479452b7e65bc9d1efdf398434"		2026-11-19T02:14:42.7498313Z
-https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json	"298b038e300e47b495cb4b2a590ae17861358490217f5027ec97e903f56f5433"		2026-11-19T06:08:20.5923226Z
+https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json	"31f5f2a5c891a8d73c3e1bbdc4a0ec6d9cf150796de3d7e47e0078caa6827607"		2026-11-19T06:24:39.2994689Z
 https://raw.githubusercontent.com/KangasZ/DalamudPluginRepository/main/plugin_repository.json	"3a727372a4b86874b8e15da93173f6c47ddb34502a6401e271d72bece3e1f80f"		2026-11-19T01:40:34.5778214Z
 https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json	"955ed191f0d9f57be2046f37820e4c9043f200cc0f09ff85854d3119e610ae21"		2026-11-19T01:40:34.5778214Z
 https://github.com/emyxiv/Dresser/raw/master/repo.json	"439653bdc95ce3f8423cb9e741ad5897fe43b98c71c9b409e61a583d4eec101c"		2026-11-19T01:40:34.5778214Z
