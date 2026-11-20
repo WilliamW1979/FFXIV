@@ -2,8 +2,8 @@
 
 ## Summary
 - **Active Repositories**: 38
-- **Successful**: 37 ✅
-- **Failing**: 1 ❌
+- **Successful**: 38 ✅
+- **Failing**: 0 ❌
 - **Quarantined**: 2 🚫
 - **Restored This Run**: 0 ♻️
 
@@ -11,7 +11,7 @@
 - **Unique Plugins**: 219
 - **Duplicates Removed**: 90
 
-- **Errors**: 1
+- **Errors**: 0
 - **Warnings**: 6
 
 ## Repository Status
@@ -156,10 +156,9 @@
    - Status: success  
    - Plugins: 5  
 
-❌ **https://love.puni.sh/ment-testing.json**  
-   - Status: failed  
+✅ **https://love.puni.sh/ment-testing.json**  
+   - Status: success  
    - Plugins: 14  
-   - Error: Connection reset by peer  
 
 ✅ **https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json**  
    - Status: success  
@@ -178,10 +177,6 @@
    - Status: quarantined  
    - Plugins: 0  
    - Error: HTTP 404 Not Found  
-
-## Errors (1)
-
-- https://love.puni.sh/ment-testing.json has been failing since 2026-11-20 15:28 UTC (0.0 of 72 hours before quarantine): Connection reset by peer - serving cached plugins
 
 ## Warnings (6)
 
