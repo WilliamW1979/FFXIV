@@ -31,7 +31,7 @@
     ],
     "InternalName": "PandorasBox",
     "RepoUrl": "https://github.com/PunishXIV/PandorasBox",
-    "DownloadCount": 1432211,
+    "DownloadCount": 1432255,
     "LastUpdate": 1795174003,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.6.4.7/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.6.4.7/update/latest.zip",
@@ -53,7 +53,7 @@
     "Tags": [],
     "InternalName": "AutoRetainer",
     "RepoUrl": "https://github.com/PunishXIV/AutoRetainer",
-    "DownloadCount": 2787044,
+    "DownloadCount": 2787051,
     "LastUpdate": 1794857231,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.24/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.24/update/latest.zip",
@@ -92,30 +92,6 @@
     "SourceRepo": "https://love.puni.sh/ment.json"
   },
   {
-    "Author": "kawaii, NightmareXIV",
-    "Name": "Avarice",
-    "Punchline": "Positional feedback with pixel perfect rear/flank tracking, range indicators, and more.",
-    "Description": "Positional feedback with pixel perfect rear/flank tracking, range indicators, and more.",
-    "Tags": [
-      "combat"
-    ],
-    "InternalName": "Avarice",
-    "RepoUrl": "https://github.com/PunishXIV/Avarice",
-    "DownloadCount": 406056,
-    "LastUpdate": 1785546003,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/11/Avarice/versions/2.2.0.13/install/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/11/Avarice/versions/2.2.0.13/update/latest.zip",
-    "AssemblyVersion": "2.2.0.13",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "15",
-    "Changelog": "- Update RSR IPC",
-    "TestingAssemblyVersion": "2.2.0.15",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/11/Avarice/versions/2.2.0.15/install/testing.zip",
-    "TestingDalamudApiLevel": "15",
-    "IconUrl": "https://puni.sh/api/plugins/icon/11",
-    "SourceRepo": "https://love.puni.sh/ment.json"
-  },
-  {
     "Author": "Det, croizat",
     "Name": "AutoHook",
     "Punchline": "Makes fishing less (or more) boring",
@@ -126,7 +102,7 @@
     ],
     "InternalName": "AutoHook",
     "RepoUrl": "https://github.com/PunishXIV/AutoHook",
-    "DownloadCount": 3038069,
+    "DownloadCount": 3038089,
     "LastUpdate": 1795104756,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.1.0.3/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.1.0.3/update/latest.zip",
@@ -141,6 +117,30 @@
     "SourceRepo": "https://love.puni.sh/ment.json"
   },
   {
+    "Author": "kawaii, NightmareXIV",
+    "Name": "Avarice",
+    "Punchline": "Positional feedback with pixel perfect rear/flank tracking, range indicators, and more.",
+    "Description": "Positional feedback with pixel perfect rear/flank tracking, range indicators, and more.",
+    "Tags": [
+      "combat"
+    ],
+    "InternalName": "Avarice",
+    "RepoUrl": "https://github.com/PunishXIV/Avarice",
+    "DownloadCount": 406057,
+    "LastUpdate": 1785546003,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/11/Avarice/versions/2.2.0.13/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/11/Avarice/versions/2.2.0.13/update/latest.zip",
+    "AssemblyVersion": "2.2.0.13",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "- Update RSR IPC",
+    "TestingAssemblyVersion": "2.2.0.15",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/11/Avarice/versions/2.2.0.15/install/testing.zip",
+    "TestingDalamudApiLevel": "15",
+    "IconUrl": "https://puni.sh/api/plugins/icon/11",
+    "SourceRepo": "https://love.puni.sh/ment.json"
+  },
+  {
     "Author": "daemitus, croizat",
     "Name": "Yes Already",
     "Punchline": "Clicks Yes in various dialogs you've specified.",
@@ -148,7 +148,7 @@
     "Tags": [],
     "InternalName": "YesAlready",
     "RepoUrl": "https://github.com/PunishXIV/YesAlready",
-    "DownloadCount": 1617561,
+    "DownloadCount": 1617563,
     "LastUpdate": 1794093578,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/26/YesAlready/versions/1.15.7.8/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/26/YesAlready/versions/1.15.7.8/update/latest.zip",
@@ -160,6 +160,33 @@
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/26/YesAlready/versions/1.10.4.0/install/testing.zip",
     "TestingDalamudApiLevel": "12",
     "IconUrl": "https://puni.sh/api/plugins/icon/26",
+    "SourceRepo": "https://love.puni.sh/ment.json"
+  },
+  {
+    "Author": "the Puni.sh Quest Squad",
+    "Name": "Questionable",
+    "Punchline": "A tiny quest helper plugin.",
+    "Description": "A small quest helper plugin designed to automatically do your quests for you where possible. Utilizes navmesh to automatically travel to all quest waypoints and (attempts to) complete all steps along the way (excluding dungeons, single-player duties and combat).\n\nNot all quests are supported.\n\nRequired Plugins: vnavmesh, TextAdvance, Lifestream",
+    "Tags": [
+      "quest",
+      "msq",
+      "qol",
+      "utility"
+    ],
+    "InternalName": "Questionable",
+    "RepoUrl": "https://github.com/PunishXIV/Questionable",
+    "DownloadCount": 2618997,
+    "LastUpdate": 1795128078,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/94/Questionable/versions/15.756.3.63/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/94/Questionable/versions/15.756.3.63/update/latest.zip",
+    "AssemblyVersion": "15.756.3.63",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "- Fix solo duty accept hanging - Kage",
+    "TestingAssemblyVersion": "15.293.1.0",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/94/Questionable/versions/15.293.1.0/install/testing.zip",
+    "TestingDalamudApiLevel": "15",
+    "IconUrl": "https://puni.sh/api/plugins/icon/94",
     "SourceRepo": "https://love.puni.sh/ment.json"
   },
   {
@@ -184,33 +211,6 @@
     "SourceRepo": "https://love.puni.sh/ment.json"
   },
   {
-    "Author": "the Puni.sh Quest Squad",
-    "Name": "Questionable",
-    "Punchline": "A tiny quest helper plugin.",
-    "Description": "A small quest helper plugin designed to automatically do your quests for you where possible. Utilizes navmesh to automatically travel to all quest waypoints and (attempts to) complete all steps along the way (excluding dungeons, single-player duties and combat).\n\nNot all quests are supported.\n\nRequired Plugins: vnavmesh, TextAdvance, Lifestream",
-    "Tags": [
-      "quest",
-      "msq",
-      "qol",
-      "utility"
-    ],
-    "InternalName": "Questionable",
-    "RepoUrl": "https://github.com/PunishXIV/Questionable",
-    "DownloadCount": 2618973,
-    "LastUpdate": 1795128078,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/94/Questionable/versions/15.756.3.63/install/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/94/Questionable/versions/15.756.3.63/update/latest.zip",
-    "AssemblyVersion": "15.756.3.63",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "15",
-    "Changelog": "- Fix solo duty accept hanging - Kage",
-    "TestingAssemblyVersion": "15.293.1.0",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/94/Questionable/versions/15.293.1.0/install/testing.zip",
-    "TestingDalamudApiLevel": "15",
-    "IconUrl": "https://puni.sh/api/plugins/icon/94",
-    "SourceRepo": "https://love.puni.sh/ment.json"
-  },
-  {
     "Author": "Team Wrath",
     "Name": "Wrath Combo",
     "Punchline": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
@@ -222,7 +222,7 @@
     ],
     "InternalName": "WrathCombo",
     "RepoUrl": "https://github.com/PunishXIV/WrathCombo",
-    "DownloadCount": 1275302,
+    "DownloadCount": 1275303,
     "LastUpdate": 1792168226,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.4.27/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.4.27/update/latest.zip",
@@ -234,6 +234,30 @@
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/60/WrathCombo/versions/1.0.4.21/install/testing.zip",
     "TestingDalamudApiLevel": "15",
     "IconUrl": "https://puni.sh/api/plugins/icon/60",
+    "SourceRepo": "https://love.puni.sh/ment.json"
+  },
+  {
+    "Author": "Taurenkey, kawaii, NightmareXIV",
+    "Name": "Artisan",
+    "Punchline": "A 'simple' crafting plugin.",
+    "Description": "The all-in-one crafting plugin. Perfect for people with next to no knowledge about crafting rotations. No need for a library of different macros, the solvers will work dynamically to try and complete your crafts. Also provides convenient ways to craft lists of items or grind out a specific item repeatedly.",
+    "Tags": [
+      "crafting"
+    ],
+    "InternalName": "Artisan",
+    "RepoUrl": "https://github.com/PunishXIV/Artisan",
+    "DownloadCount": 6296156,
+    "LastUpdate": 1795018851,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.27/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.27/update/latest.zip",
+    "AssemblyVersion": "4.0.5.27",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "- Make base UI elements easier to read.",
+    "TestingAssemblyVersion": "4.0.5.16",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.16/install/testing.zip",
+    "TestingDalamudApiLevel": "15",
+    "IconUrl": "https://puni.sh/api/plugins/icon/6",
     "SourceRepo": "https://love.puni.sh/ment.json"
   },
   {
@@ -282,30 +306,6 @@
     "DalamudApiLevel": "15",
     "Changelog": "Brawler:\nAdjusted requeue timings\nA (hopefully) working keyboard yesno fix as I did want to pull my keyboard to test it.\nStop at MGC Cap\nStop after x runs\n\nAlso added:\nGATE Timeline based on https://github.com/rooroodev/ffxivgateschedule\nGATE Runner inspired by https://github.com/NeoGriever/Saru \nMGP and Run stops for other repeatable minigames.",
     "IconUrl": "https://puni.sh/api/plugins/icon/7",
-    "SourceRepo": "https://love.puni.sh/ment.json"
-  },
-  {
-    "Author": "Taurenkey, kawaii, NightmareXIV",
-    "Name": "Artisan",
-    "Punchline": "A 'simple' crafting plugin.",
-    "Description": "The all-in-one crafting plugin. Perfect for people with next to no knowledge about crafting rotations. No need for a library of different macros, the solvers will work dynamically to try and complete your crafts. Also provides convenient ways to craft lists of items or grind out a specific item repeatedly.",
-    "Tags": [
-      "crafting"
-    ],
-    "InternalName": "Artisan",
-    "RepoUrl": "https://github.com/PunishXIV/Artisan",
-    "DownloadCount": 6296141,
-    "LastUpdate": 1795018851,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.27/install/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.27/update/latest.zip",
-    "AssemblyVersion": "4.0.5.27",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "15",
-    "Changelog": "- Make base UI elements easier to read.",
-    "TestingAssemblyVersion": "4.0.5.16",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.16/install/testing.zip",
-    "TestingDalamudApiLevel": "15",
-    "IconUrl": "https://puni.sh/api/plugins/icon/6",
     "SourceRepo": "https://love.puni.sh/ment.json"
   },
   {
