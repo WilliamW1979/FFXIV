@@ -8,4 +8,4 @@ total_plugins_fetched=309
 unique_plugins=219
 duplicates_removed=90
 errors=0
-warnings=7
+warnings=6

@@ -12,7 +12,7 @@
 - **Duplicates Removed**: 90
 
 - **Errors**: 0
-- **Warnings**: 7
+- **Warnings**: 6
 
 ## Repository Status
 
@@ -178,12 +178,11 @@
    - Plugins: 0  
    - Error: HTTP 404 Not Found  
 
-## Warnings (7)
+## Warnings (6)
 
-- Questionable is provided by different authors: the Puni.sh Quest Squad, Liza Carvelli
 - Marketbuddy is provided by different authors: Chalkos, NightmareXIV, Chalkos
+- Questionable is provided by different authors: the Puni.sh Quest Squad, Liza Carvelli
 - ARControl is provided by different authors: Liza Carvelli, zbee, Liza Carvelli
 - Squadronista is provided by different authors: Liza Carvelli, vera.lyn
 - Gearsetter is provided by different authors: Liza Carvelli, vera.lyn
-- BossMod is provided by different authors: veyn, xan_0, veyn
 - SkipCutscene is provided by different authors: KangasZ, Windmourn
