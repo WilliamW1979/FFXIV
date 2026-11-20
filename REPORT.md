@@ -180,8 +180,8 @@
 
 ## Warnings (7)
 
-- Marketbuddy is provided by different authors: Chalkos, NightmareXIV, Chalkos
 - Questionable is provided by different authors: the Puni.sh Quest Squad, Liza Carvelli
+- Marketbuddy is provided by different authors: Chalkos, NightmareXIV, Chalkos
 - ARControl is provided by different authors: Liza Carvelli, zbee, Liza Carvelli
 - Squadronista is provided by different authors: Liza Carvelli, vera.lyn
 - Gearsetter is provided by different authors: Liza Carvelli, vera.lyn
