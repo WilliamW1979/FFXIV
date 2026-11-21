@@ -1,0 +1,2 @@
+https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json	2026-11-21T20:28:27.9323972Z	HTTP 503 Backend.max_conn reached
+https://raw.githubusercontent.com/dodingdaga/DalamudPlugins/main/PuppetMaster.json	2026-11-21T20:28:27.9323972Z	HTTP 503 Backend.max_conn reached

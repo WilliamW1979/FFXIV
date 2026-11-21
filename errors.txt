@@ -1,0 +1,2 @@
+https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json has been failing since 2026-11-21 20:28 UTC (0.0 of 72 hours before quarantine): HTTP 503 Backend.max_conn reached - serving cached plugins
+https://raw.githubusercontent.com/dodingdaga/DalamudPlugins/main/PuppetMaster.json has been failing since 2026-11-21 20:28 UTC (0.0 of 72 hours before quarantine): HTTP 503 Backend.max_conn reached - serving cached plugins

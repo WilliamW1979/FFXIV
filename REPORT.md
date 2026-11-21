@@ -2,8 +2,8 @@
 
 ## Summary
 - **Active Repositories**: 38
-- **Successful**: 38 ✅
-- **Failing**: 0 ❌
+- **Successful**: 36 ✅
+- **Failing**: 2 ❌
 - **Quarantined**: 2 🚫
 - **Restored This Run**: 0 ♻️
 
@@ -11,7 +11,7 @@
 - **Unique Plugins**: 219
 - **Duplicates Removed**: 90
 
-- **Errors**: 0
+- **Errors**: 2
 - **Warnings**: 6
 
 ## Repository Status
@@ -92,9 +92,10 @@
    - Status: success  
    - Plugins: 6  
 
-✅ **https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json**  
-   - Status: success  
+❌ **https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json**  
+   - Status: failed  
    - Plugins: 1  
+   - Error: HTTP 503 Backend.max_conn reached  
 
 ✅ **https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json**  
    - Status: success  
@@ -132,9 +133,10 @@
    - Status: success  
    - Plugins: 1  
 
-✅ **https://raw.githubusercontent.com/dodingdaga/DalamudPlugins/main/PuppetMaster.json**  
-   - Status: success  
+❌ **https://raw.githubusercontent.com/dodingdaga/DalamudPlugins/main/PuppetMaster.json**  
+   - Status: failed  
    - Plugins: 2  
+   - Error: HTTP 503 Backend.max_conn reached  
 
 ✅ **https://raw.githubusercontent.com/SoyaX/SoyaPlugins/main/repo.json**  
    - Status: success  
@@ -177,6 +179,11 @@
    - Status: quarantined  
    - Plugins: 0  
    - Error: HTTP 404 Not Found  
+
+## Errors (2)
+
+- https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json has been failing since 2026-11-21 20:28 UTC (0.0 of 72 hours before quarantine): HTTP 503 Backend.max_conn reached - serving cached plugins
+- https://raw.githubusercontent.com/dodingdaga/DalamudPlugins/main/PuppetMaster.json has been failing since 2026-11-21 20:28 UTC (0.0 of 72 hours before quarantine): HTTP 503 Backend.max_conn reached - serving cached plugins
 
 ## Warnings (6)
 
