@@ -1,0 +1,2 @@
+https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json has been failing since 2026-11-21 17:42 UTC (0.0 of 72 hours before quarantine): HTTP 503 Backend.max_conn reached - serving cached plugins
+https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json has been failing since 2026-11-21 17:42 UTC (0.0 of 72 hours before quarantine): HTTP 503 Backend.max_conn reached - serving cached plugins

@@ -1,0 +1,2 @@
+https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json	2026-11-21T17:42:24.5987026Z	HTTP 503 Backend.max_conn reached
+https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json	2026-11-21T17:42:24.5987026Z	HTTP 503 Backend.max_conn reached
