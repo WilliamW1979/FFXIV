@@ -1,0 +1,8 @@
+https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json	2026-11-23T12:56:24.5607536Z	HTTP 503 Backend.max_conn reached
+https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/pluginmaster.json	2026-11-23T12:56:24.5607536Z	HTTP 503 Backend.max_conn reached
+https://raw.githubusercontent.com/LeonBlade/DalamudPlugins/main/repo.json	2026-11-23T12:56:24.5607536Z	HTTP 503 Backend.max_conn reached
+https://raw.githubusercontent.com/Chalkos/Marketbuddy/main/repo.json	2026-11-23T12:56:24.5607536Z	HTTP 503 Backend.max_conn reached
+https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json	2026-11-23T12:56:24.5607536Z	HTTP 503 Backend.max_conn reached
+https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json	2026-11-23T12:56:24.5607536Z	HTTP 503 Backend.max_conn reached
+https://raw.githubusercontent.com/Ottermandias/Glamourer/main/repo.json	2026-11-23T12:56:24.5607536Z	HTTP 503 Backend.max_conn reached
+https://raw.githubusercontent.com/Eauldane/ElfShelf/refs/heads/main/repo.json	2026-11-23T12:56:24.5607536Z	HTTP 503 Backend.max_conn reached

@@ -1,0 +1,8 @@
+https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json has been failing since 2026-11-23 12:56 UTC (0.0 of 72 hours before quarantine): HTTP 503 Backend.max_conn reached - serving cached plugins
+https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/pluginmaster.json has been failing since 2026-11-23 12:56 UTC (0.0 of 72 hours before quarantine): HTTP 503 Backend.max_conn reached - serving cached plugins
+https://raw.githubusercontent.com/LeonBlade/DalamudPlugins/main/repo.json has been failing since 2026-11-23 12:56 UTC (0.0 of 72 hours before quarantine): HTTP 503 Backend.max_conn reached - serving cached plugins
+https://raw.githubusercontent.com/Chalkos/Marketbuddy/main/repo.json has been failing since 2026-11-23 12:56 UTC (0.0 of 72 hours before quarantine): HTTP 503 Backend.max_conn reached - serving cached plugins
+https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json has been failing since 2026-11-23 12:56 UTC (0.0 of 72 hours before quarantine): HTTP 503 Backend.max_conn reached - serving cached plugins
+https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json has been failing since 2026-11-23 12:56 UTC (0.0 of 72 hours before quarantine): HTTP 503 Backend.max_conn reached - serving cached plugins
+https://raw.githubusercontent.com/Ottermandias/Glamourer/main/repo.json has been failing since 2026-11-23 12:56 UTC (0.0 of 72 hours before quarantine): HTTP 503 Backend.max_conn reached - serving cached plugins
+https://raw.githubusercontent.com/Eauldane/ElfShelf/refs/heads/main/repo.json has been failing since 2026-11-23 12:56 UTC (0.0 of 72 hours before quarantine): HTTP 503 Backend.max_conn reached - serving cached plugins
