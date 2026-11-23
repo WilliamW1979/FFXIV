@@ -30,7 +30,7 @@
     "Tags": [],
     "InternalName": "AutoRetainer",
     "RepoUrl": "https://github.com/PunishXIV/AutoRetainer",
-    "DownloadCount": 2797964,
+    "DownloadCount": 2797966,
     "LastUpdate": 1794857231,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.24/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.24/update/latest.zip",
@@ -89,7 +89,7 @@
     ],
     "InternalName": "Avarice",
     "RepoUrl": "https://github.com/PunishXIV/Avarice",
-    "DownloadCount": 406553,
+    "DownloadCount": 406554,
     "LastUpdate": 1785546003,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/11/Avarice/versions/2.2.0.13/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/11/Avarice/versions/2.2.0.13/update/latest.zip",
@@ -101,6 +101,35 @@
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/11/Avarice/versions/2.2.0.15/install/testing.zip",
     "TestingDalamudApiLevel": "15",
     "IconUrl": "https://puni.sh/api/plugins/icon/11",
+    "SourceRepo": "https://love.puni.sh/ment.json",
+    "AlternateSources": [
+      "https://love.puni.sh/ment-testing.json",
+      "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
+    ]
+  },
+  {
+    "Author": "Det, croizat",
+    "Name": "AutoHook",
+    "Punchline": "Makes fishing less (or more) boring",
+    "Description": "It hooks the fish for you, can you believe it?",
+    "Tags": [
+      "Gathering",
+      "Fishing"
+    ],
+    "InternalName": "AutoHook",
+    "RepoUrl": "https://github.com/PunishXIV/AutoHook",
+    "DownloadCount": 3074914,
+    "LastUpdate": 1795303738,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.1.1.2/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.1.1.2/update/latest.zip",
+    "AssemblyVersion": "6.1.1.2",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "",
+    "TestingAssemblyVersion": "6.0.1.2",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.1.2/install/testing.zip",
+    "TestingDalamudApiLevel": "15",
+    "IconUrl": "https://puni.sh/api/plugins/icon/47",
     "SourceRepo": "https://love.puni.sh/ment.json",
     "AlternateSources": [
       "https://love.puni.sh/ment-testing.json",
@@ -136,35 +165,6 @@
     ]
   },
   {
-    "Author": "Det, croizat",
-    "Name": "AutoHook",
-    "Punchline": "Makes fishing less (or more) boring",
-    "Description": "It hooks the fish for you, can you believe it?",
-    "Tags": [
-      "Gathering",
-      "Fishing"
-    ],
-    "InternalName": "AutoHook",
-    "RepoUrl": "https://github.com/PunishXIV/AutoHook",
-    "DownloadCount": 3074909,
-    "LastUpdate": 1795303738,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.1.1.2/install/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.1.1.2/update/latest.zip",
-    "AssemblyVersion": "6.1.1.2",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "15",
-    "Changelog": "",
-    "TestingAssemblyVersion": "6.0.1.2",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.1.2/install/testing.zip",
-    "TestingDalamudApiLevel": "15",
-    "IconUrl": "https://puni.sh/api/plugins/icon/47",
-    "SourceRepo": "https://love.puni.sh/ment.json",
-    "AlternateSources": [
-      "https://love.puni.sh/ment-testing.json",
-      "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
-    ]
-  },
-  {
     "Author": "Chalkos, NightmareXIV",
     "Name": "Marketbuddy",
     "Punchline": "Less clicks, more gil!",
@@ -174,7 +174,7 @@
     ],
     "InternalName": "Marketbuddy",
     "RepoUrl": "https://love.puni.sh/ment.json",
-    "DownloadCount": 25771,
+    "DownloadCount": 25772,
     "LastUpdate": 1777575334,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/131/Marketbuddy/versions/0.2.4.2/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/131/Marketbuddy/versions/0.2.4.2/update/latest.zip",
@@ -203,7 +203,7 @@
     ],
     "InternalName": "Questionable",
     "RepoUrl": "https://github.com/PunishXIV/Questionable",
-    "DownloadCount": 2636772,
+    "DownloadCount": 2636773,
     "LastUpdate": 1795215779,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/94/Questionable/versions/15.756.3.64/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/94/Questionable/versions/15.756.3.64/update/latest.zip",
@@ -305,34 +305,6 @@
     ]
   },
   {
-    "Author": "Taurenkey, kawaii, NightmareXIV",
-    "Name": "Artisan",
-    "Punchline": "A 'simple' crafting plugin.",
-    "Description": "The all-in-one crafting plugin. Perfect for people with next to no knowledge about crafting rotations. No need for a library of different macros, the solvers will work dynamically to try and complete your crafts. Also provides convenient ways to craft lists of items or grind out a specific item repeatedly.",
-    "Tags": [
-      "crafting"
-    ],
-    "InternalName": "Artisan",
-    "RepoUrl": "https://github.com/PunishXIV/Artisan",
-    "DownloadCount": 6312650,
-    "LastUpdate": 1795018851,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.27/install/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.27/update/latest.zip",
-    "AssemblyVersion": "4.0.5.27",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "15",
-    "Changelog": "- Make base UI elements easier to read.",
-    "TestingAssemblyVersion": "4.0.5.16",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.16/install/testing.zip",
-    "TestingDalamudApiLevel": "15",
-    "IconUrl": "https://puni.sh/api/plugins/icon/6",
-    "SourceRepo": "https://love.puni.sh/ment.json",
-    "AlternateSources": [
-      "https://love.puni.sh/ment-testing.json",
-      "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
-    ]
-  },
-  {
     "Author": "Taurenkey, Kage, NightmareXIV",
     "Name": "Saucy",
     "Punchline": "When working for MGP is too much effort.",
@@ -353,6 +325,34 @@
     "DalamudApiLevel": "15",
     "Changelog": "Brawler:\nAdjusted requeue timings\nA (hopefully) working keyboard yesno fix as I did want to pull my keyboard to test it.\nStop at MGC Cap\nStop after x runs\n\nAlso added:\nGATE Timeline based on https://github.com/rooroodev/ffxivgateschedule\nGATE Runner inspired by https://github.com/NeoGriever/Saru \nMGP and Run stops for other repeatable minigames.",
     "IconUrl": "https://puni.sh/api/plugins/icon/7",
+    "SourceRepo": "https://love.puni.sh/ment.json",
+    "AlternateSources": [
+      "https://love.puni.sh/ment-testing.json",
+      "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
+    ]
+  },
+  {
+    "Author": "Taurenkey, kawaii, NightmareXIV",
+    "Name": "Artisan",
+    "Punchline": "A 'simple' crafting plugin.",
+    "Description": "The all-in-one crafting plugin. Perfect for people with next to no knowledge about crafting rotations. No need for a library of different macros, the solvers will work dynamically to try and complete your crafts. Also provides convenient ways to craft lists of items or grind out a specific item repeatedly.",
+    "Tags": [
+      "crafting"
+    ],
+    "InternalName": "Artisan",
+    "RepoUrl": "https://github.com/PunishXIV/Artisan",
+    "DownloadCount": 6312651,
+    "LastUpdate": 1795018851,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.27/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.27/update/latest.zip",
+    "AssemblyVersion": "4.0.5.27",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "- Make base UI elements easier to read.",
+    "TestingAssemblyVersion": "4.0.5.16",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.16/install/testing.zip",
+    "TestingDalamudApiLevel": "15",
+    "IconUrl": "https://puni.sh/api/plugins/icon/6",
     "SourceRepo": "https://love.puni.sh/ment.json",
     "AlternateSources": [
       "https://love.puni.sh/ment-testing.json",
@@ -1597,7 +1597,7 @@
     "Tags": [],
     "InternalName": "BossMod",
     "RepoUrl": "https://github.com/awgil/ffxiv_bossmod",
-    "DownloadCount": 2928425,
+    "DownloadCount": 2928429,
     "LastUpdate": 1795102570,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/30/BossMod/versions/7.5.8.5/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/30/BossMod/versions/7.5.8.5/update/latest.zip",
@@ -1649,7 +1649,7 @@
     "Tags": [],
     "InternalName": "vnavmesh",
     "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 1977347,
+    "DownloadCount": 1977349,
     "LastUpdate": 1793814366,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/1.2.3.15/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/1.2.3.15/update/latest.zip",
@@ -2091,7 +2091,7 @@
     ],
     "InternalName": "Automaton",
     "RepoUrl": "https://github.com/Jaksuhn/Automaton",
-    "DownloadCount": 1149610,
+    "DownloadCount": 1149611,
     "LastUpdate": 1795307446,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/34/Automaton/versions/69.237/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/34/Automaton/versions/69.237/update/latest.zip",
@@ -2115,7 +2115,7 @@
     ],
     "InternalName": "GlamourLog",
     "RepoUrl": "https://github.com/Jaksuhn/ffxiv_glamourlog",
-    "DownloadCount": 66005,
+    "DownloadCount": 66006,
     "LastUpdate": 1795285442,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/136/GlamourLog/versions/15.81/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/136/GlamourLog/versions/15.81/update/latest.zip",
