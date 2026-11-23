@@ -1,8 +1,0 @@
-https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json	2026-11-23T11:48:33.6528811Z	HTTP 403 Forbidden
-https://github.com/LiangYuxuan/dalamud-plugin-cn-fetcher/raw/master/store/carvel/pluginmaster.json	2026-11-23T11:48:33.6528811Z	HTTP 403 Forbidden
-https://github.com/Haselnussbomber/MyDalamudPlugins/raw/main/repo.json	2026-11-23T11:48:33.6528811Z	HTTP 403 Forbidden
-https://github.com/Athavar/Athavar.FFXIV.DalaRepo/raw/master/pluginmaster.json	2026-11-23T11:48:33.6528811Z	HTTP 403 Forbidden
-https://github.com/emyxiv/Dresser/raw/master/repo.json	2026-11-23T11:48:33.6528811Z	HTTP 403 Forbidden
-https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json	2026-11-23T11:48:33.6528811Z	HTTP 403 Forbidden
-https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json	2026-11-23T11:48:33.6528811Z	HTTP 403 Forbidden
-https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json	2026-11-23T11:48:33.6528811Z	HTTP 403 Forbidden
