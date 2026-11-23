@@ -2,8 +2,8 @@
 
 ## Summary
 - **Active Repositories**: 38
-- **Successful**: 30 ✅
-- **Failing**: 8 ❌
+- **Successful**: 38 ✅
+- **Failing**: 0 ❌
 - **Quarantined**: 2 🚫
 - **Restored This Run**: 0 ♻️
 
@@ -11,7 +11,7 @@
 - **Unique Plugins**: 219
 - **Duplicates Removed**: 90
 
-- **Errors**: 8
+- **Errors**: 0
 - **Warnings**: 6
 
 ## Repository Status
@@ -20,10 +20,9 @@
    - Status: success  
    - Plugins: 14  
 
-❌ **https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json**  
-   - Status: failed  
+✅ **https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json**  
+   - Status: success  
    - Plugins: 1  
-   - Error: HTTP 503 Backend.max_conn reached  
 
 ✅ **https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/repo.json**  
    - Status: success  
@@ -37,20 +36,17 @@
    - Status: success  
    - Plugins: 1  
 
-❌ **https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/pluginmaster.json**  
-   - Status: failed  
+✅ **https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/pluginmaster.json**  
+   - Status: success  
    - Plugins: 1  
-   - Error: HTTP 503 Backend.max_conn reached  
 
-❌ **https://raw.githubusercontent.com/LeonBlade/DalamudPlugins/main/repo.json**  
-   - Status: failed  
+✅ **https://raw.githubusercontent.com/LeonBlade/DalamudPlugins/main/repo.json**  
+   - Status: success  
    - Plugins: 1  
-   - Error: HTTP 503 Backend.max_conn reached  
 
-❌ **https://raw.githubusercontent.com/Chalkos/Marketbuddy/main/repo.json**  
-   - Status: failed  
+✅ **https://raw.githubusercontent.com/Chalkos/Marketbuddy/main/repo.json**  
+   - Status: success  
    - Plugins: 1  
-   - Error: HTTP 503 Backend.max_conn reached  
 
 ✅ **https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json**  
    - Status: success  
@@ -72,10 +68,9 @@
    - Status: success  
    - Plugins: 1  
 
-❌ **https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json**  
-   - Status: failed  
+✅ **https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json**  
+   - Status: success  
    - Plugins: 10  
-   - Error: HTTP 503 Backend.max_conn reached  
 
 ✅ **https://puni.sh/api/repository/croizat**  
    - Status: success  
@@ -93,10 +88,9 @@
    - Status: success  
    - Plugins: 1  
 
-❌ **https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json**  
-   - Status: failed  
+✅ **https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json**  
+   - Status: success  
    - Plugins: 6  
-   - Error: HTTP 503 Backend.max_conn reached  
 
 ✅ **https://github.com/GiR-Zippo/Hypnotoad-Plugin/raw/master/PluginDir/pluginmaster.json**  
    - Status: success  
@@ -110,10 +104,9 @@
    - Status: success  
    - Plugins: 3  
 
-❌ **https://raw.githubusercontent.com/Ottermandias/Glamourer/main/repo.json**  
-   - Status: failed  
+✅ **https://raw.githubusercontent.com/Ottermandias/Glamourer/main/repo.json**  
+   - Status: success  
    - Plugins: 1  
-   - Error: HTTP 503 Backend.max_conn reached  
 
 ✅ **https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json**  
    - Status: success  
@@ -159,10 +152,9 @@
    - Status: success  
    - Plugins: 1  
 
-❌ **https://raw.githubusercontent.com/Eauldane/ElfShelf/refs/heads/main/repo.json**  
-   - Status: failed  
+✅ **https://raw.githubusercontent.com/Eauldane/ElfShelf/refs/heads/main/repo.json**  
+   - Status: success  
    - Plugins: 5  
-   - Error: HTTP 503 Backend.max_conn reached  
 
 ✅ **https://love.puni.sh/ment-testing.json**  
    - Status: success  
@@ -185,17 +177,6 @@
    - Status: quarantined  
    - Plugins: 0  
    - Error: HTTP 404 Not Found  
-
-## Errors (8)
-
-- https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json has been failing since 2026-11-23 12:56 UTC (0.0 of 72 hours before quarantine): HTTP 503 Backend.max_conn reached - serving cached plugins
-- https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/pluginmaster.json has been failing since 2026-11-23 12:56 UTC (0.0 of 72 hours before quarantine): HTTP 503 Backend.max_conn reached - serving cached plugins
-- https://raw.githubusercontent.com/LeonBlade/DalamudPlugins/main/repo.json has been failing since 2026-11-23 12:56 UTC (0.0 of 72 hours before quarantine): HTTP 503 Backend.max_conn reached - serving cached plugins
-- https://raw.githubusercontent.com/Chalkos/Marketbuddy/main/repo.json has been failing since 2026-11-23 12:56 UTC (0.0 of 72 hours before quarantine): HTTP 503 Backend.max_conn reached - serving cached plugins
-- https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json has been failing since 2026-11-23 12:56 UTC (0.0 of 72 hours before quarantine): HTTP 503 Backend.max_conn reached - serving cached plugins
-- https://github.com/Bluefissure/DalamudPlugins/raw/Bluefissure/pluginmaster.json has been failing since 2026-11-23 12:56 UTC (0.0 of 72 hours before quarantine): HTTP 503 Backend.max_conn reached - serving cached plugins
-- https://raw.githubusercontent.com/Ottermandias/Glamourer/main/repo.json has been failing since 2026-11-23 12:56 UTC (0.0 of 72 hours before quarantine): HTTP 503 Backend.max_conn reached - serving cached plugins
-- https://raw.githubusercontent.com/Eauldane/ElfShelf/refs/heads/main/repo.json has been failing since 2026-11-23 12:56 UTC (0.0 of 72 hours before quarantine): HTTP 503 Backend.max_conn reached - serving cached plugins
 
 ## Warnings (6)
 
