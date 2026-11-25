@@ -30,7 +30,7 @@
     "Tags": [],
     "InternalName": "AutoRetainer",
     "RepoUrl": "https://github.com/PunishXIV/AutoRetainer",
-    "DownloadCount": 2801613,
+    "DownloadCount": 2801615,
     "LastUpdate": 1794857231,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.24/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/4.6.2.24/update/latest.zip",
@@ -61,7 +61,7 @@
     ],
     "InternalName": "PandorasBox",
     "RepoUrl": "https://github.com/PunishXIV/PandorasBox",
-    "DownloadCount": 1464422,
+    "DownloadCount": 1464434,
     "LastUpdate": 1795533310,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.6.4.8/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/1.6.4.8/update/latest.zip",
@@ -108,6 +108,35 @@
     ]
   },
   {
+    "Author": "Det, croizat",
+    "Name": "AutoHook",
+    "Punchline": "Makes fishing less (or more) boring",
+    "Description": "It hooks the fish for you, can you believe it?",
+    "Tags": [
+      "Gathering",
+      "Fishing"
+    ],
+    "InternalName": "AutoHook",
+    "RepoUrl": "https://github.com/PunishXIV/AutoHook",
+    "DownloadCount": 3083123,
+    "LastUpdate": 1795303738,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.1.1.2/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.1.1.2/update/latest.zip",
+    "AssemblyVersion": "6.1.1.2",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "",
+    "TestingAssemblyVersion": "6.0.1.2",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.1.2/install/testing.zip",
+    "TestingDalamudApiLevel": "15",
+    "IconUrl": "https://puni.sh/api/plugins/icon/47",
+    "SourceRepo": "https://love.puni.sh/ment.json",
+    "AlternateSources": [
+      "https://love.puni.sh/ment-testing.json",
+      "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
+    ]
+  },
+  {
     "Author": "Taurenkey, Gid, NightmareXIV",
     "Name": "LazyLoot",
     "Punchline": "Dungeon Loot but Lazy.",
@@ -129,35 +158,6 @@
     "DalamudApiLevel": "15",
     "Changelog": "- 7.5",
     "IconUrl": "https://puni.sh/api/plugins/icon/9",
-    "SourceRepo": "https://love.puni.sh/ment.json",
-    "AlternateSources": [
-      "https://love.puni.sh/ment-testing.json",
-      "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
-    ]
-  },
-  {
-    "Author": "Det, croizat",
-    "Name": "AutoHook",
-    "Punchline": "Makes fishing less (or more) boring",
-    "Description": "It hooks the fish for you, can you believe it?",
-    "Tags": [
-      "Gathering",
-      "Fishing"
-    ],
-    "InternalName": "AutoHook",
-    "RepoUrl": "https://github.com/PunishXIV/AutoHook",
-    "DownloadCount": 3083119,
-    "LastUpdate": 1795303738,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.1.1.2/install/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.1.1.2/update/latest.zip",
-    "AssemblyVersion": "6.1.1.2",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "15",
-    "Changelog": "",
-    "TestingAssemblyVersion": "6.0.1.2",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/47/AutoHook/versions/6.0.1.2/install/testing.zip",
-    "TestingDalamudApiLevel": "15",
-    "IconUrl": "https://puni.sh/api/plugins/icon/47",
     "SourceRepo": "https://love.puni.sh/ment.json",
     "AlternateSources": [
       "https://love.puni.sh/ment-testing.json",
@@ -276,35 +276,6 @@
     ]
   },
   {
-    "Author": "kawaii, Ice",
-    "Name": "Palantir",
-    "Punchline": "Lost in a deep dungeon with nothing but dry bread and water?",
-    "Description": "Palantir is a spiritual successor to PalacePal, the popular deep dungeon trap ESP plugin created by Liza Carvelli. It reveals the locations of previously recorded traps and Accursed Hoards from a crowdsourced database.",
-    "Tags": [
-      "deep dungeon",
-      "palace of the dead",
-      "heaven-on-high",
-      "eureka orthos",
-      "pilgrim's traverse"
-    ],
-    "InternalName": "Palantir",
-    "RepoUrl": "https://github.com/PunishXIV/Palantir",
-    "DownloadCount": 25387,
-    "LastUpdate": 1794057617,
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/169/Palantir/versions/0.0.0.10/install/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/169/Palantir/versions/0.0.0.10/update/latest.zip",
-    "AssemblyVersion": "0.0.0.10",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": "15",
-    "Changelog": "IPC for bossmod",
-    "IconUrl": "https://puni.sh/api/plugins/icon/169",
-    "SourceRepo": "https://love.puni.sh/ment.json",
-    "AlternateSources": [
-      "https://love.puni.sh/ment-testing.json",
-      "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
-    ]
-  },
-  {
     "Author": "Taurenkey, Kage, NightmareXIV",
     "Name": "Saucy",
     "Punchline": "When working for MGP is too much effort.",
@@ -341,7 +312,7 @@
     ],
     "InternalName": "Artisan",
     "RepoUrl": "https://github.com/PunishXIV/Artisan",
-    "DownloadCount": 6318867,
+    "DownloadCount": 6318873,
     "LastUpdate": 1795018851,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.27/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/6/Artisan/versions/4.0.5.27/update/latest.zip",
@@ -360,6 +331,35 @@
     ]
   },
   {
+    "Author": "kawaii, Ice",
+    "Name": "Palantir",
+    "Punchline": "Lost in a deep dungeon with nothing but dry bread and water?",
+    "Description": "Palantir is a spiritual successor to PalacePal, the popular deep dungeon trap ESP plugin created by Liza Carvelli. It reveals the locations of previously recorded traps and Accursed Hoards from a crowdsourced database.",
+    "Tags": [
+      "deep dungeon",
+      "palace of the dead",
+      "heaven-on-high",
+      "eureka orthos",
+      "pilgrim's traverse"
+    ],
+    "InternalName": "Palantir",
+    "RepoUrl": "https://github.com/PunishXIV/Palantir",
+    "DownloadCount": 25388,
+    "LastUpdate": 1794057617,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/169/Palantir/versions/0.0.0.10/install/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/169/Palantir/versions/0.0.0.10/update/latest.zip",
+    "AssemblyVersion": "0.0.0.10",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "15",
+    "Changelog": "IPC for bossmod",
+    "IconUrl": "https://puni.sh/api/plugins/icon/169",
+    "SourceRepo": "https://love.puni.sh/ment.json",
+    "AlternateSources": [
+      "https://love.puni.sh/ment-testing.json",
+      "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json"
+    ]
+  },
+  {
     "Author": "NightmareXIV",
     "Name": "Splatoon",
     "Punchline": "Scriptable overlay engine for drawing mechanics, markers, and indicators in real-time",
@@ -370,7 +370,7 @@
     ],
     "InternalName": "Splatoon",
     "RepoUrl": "https://github.com/PunishXIV/Splatoon",
-    "DownloadCount": 2388720,
+    "DownloadCount": 2388723,
     "LastUpdate": 1793070912,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.9.2.33/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/10/Splatoon/versions/3.9.2.33/update/latest.zip",
@@ -1597,7 +1597,7 @@
     "Tags": [],
     "InternalName": "BossMod",
     "RepoUrl": "https://github.com/awgil/ffxiv_bossmod",
-    "DownloadCount": 2933138,
+    "DownloadCount": 2933139,
     "LastUpdate": 1795102570,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/30/BossMod/versions/7.5.8.5/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/30/BossMod/versions/7.5.8.5/update/latest.zip",
@@ -1649,7 +1649,7 @@
     "Tags": [],
     "InternalName": "vnavmesh",
     "RepoUrl": "https://puni.sh/api/repository/veyn",
-    "DownloadCount": 1978962,
+    "DownloadCount": 1978963,
     "LastUpdate": 1793814366,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/1.2.3.15/install/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/1.2.3.15/update/latest.zip",
