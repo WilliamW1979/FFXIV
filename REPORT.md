@@ -2,8 +2,8 @@
 
 ## Summary
 - **Active Repositories**: 38
-- **Successful**: 37 ✅
-- **Failing**: 1 ❌
+- **Successful**: 38 ✅
+- **Failing**: 0 ❌
 - **Quarantined**: 2 🚫
 - **Restored This Run**: 0 ♻️
 
@@ -11,7 +11,7 @@
 - **Unique Plugins**: 219
 - **Duplicates Removed**: 90
 
-- **Errors**: 1
+- **Errors**: 0
 - **Warnings**: 6
 
 ## Repository Status
@@ -20,10 +20,9 @@
    - Status: success  
    - Plugins: 14  
 
-❌ **https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json**  
-   - Status: failed  
+✅ **https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json**  
+   - Status: success  
    - Plugins: 1  
-   - Error: request timed out after 30 seconds  
 
 ✅ **https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/repo.json**  
    - Status: success  
@@ -178,10 +177,6 @@
    - Status: quarantined  
    - Plugins: 0  
    - Error: HTTP 404 Not Found  
-
-## Errors (1)
-
-- https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json has been failing since 2026-11-25 02:38 UTC (0.0 of 72 hours before quarantine): request timed out after 30 seconds - serving cached plugins
 
 ## Warnings (6)
 
