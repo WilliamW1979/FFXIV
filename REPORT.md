@@ -7,8 +7,8 @@
 - **Quarantined**: 2 🚫
 - **Restored This Run**: 0 ♻️
 
-- **Total Plugins Fetched**: 311
-- **Unique Plugins**: 221
+- **Total Plugins Fetched**: 312
+- **Unique Plugins**: 222
 - **Duplicates Removed**: 90
 
 - **Errors**: 0
@@ -70,7 +70,7 @@
 
 ✅ **https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json**  
    - Status: success  
-   - Plugins: 10  
+   - Plugins: 11  
 
 ✅ **https://puni.sh/api/repository/croizat**  
    - Status: success  
