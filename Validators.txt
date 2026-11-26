@@ -1,5 +1,5 @@
 https://github.com/daemitus/MyDalamudPlugins/raw/master/pluginmaster.json	"ee03db8681f856c7205156a6daf3c2204dd31424a09335bea035af3cc5f79873"		2026-11-26T02:20:29.2703520Z
-https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/repo.json	"4e10029c119aa52179497116bbef33f01d712bd8b032b3f28f25b17a1fe287bf"		2026-11-26T01:50:29.7451489Z
+https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/repo.json	"4e10029c119aa52179497116bbef33f01d712bd8b032b3f28f25b17a1fe287bf"		2026-11-26T07:52:28.0109809Z
 https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json	"c812340f5740169c968e5094d27616083e4b50dbf99b0064e29057b2f874bf36"		2026-11-26T05:24:23.0434936Z
 https://raw.githubusercontent.com/InitialDet/MyDalamudPlugins/main/pluginmaster.json	"7bc2b8453be289f480b78967c8de0a8fca9b21c6285e97afa626650638f31722"		2026-11-26T05:28:28.9692495Z
 https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/pluginmaster.json	"829a977feaf3ca33b5d26bca8f61fcdb5d42f2bb24f8dc6110fb2a1106afd8c8"		2026-11-26T02:20:29.2703520Z
@@ -29,5 +29,5 @@ https://raw.githubusercontent.com/VariableVixen/MyDalamudPlugins/master/pluginma
 https://xiv.starry.blue/plugins/master.json	"1cf4bc5a32856786ab769447e53c4933"		2026-11-26T04:46:29.1257280Z
 https://raw.githubusercontent.com/LegendsOfTheGame/TimeMemoriaV3/main/repo.json	"733f4a145d9055962fb5c8aba21707e2f57ec4b8a0e4c1bf9ae965b9739af311"		2026-11-26T03:40:31.2622239Z
 https://raw.githubusercontent.com/Eauldane/ElfShelf/refs/heads/main/repo.json	"752c64304c1e835395c5b43fab649032cdea50d998d23b7901c97dca710fad37"		2026-11-26T04:38:24.6718569Z
-https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json	"ab8f9945def0169e803eebdb1296df385ae7a98d77a635ce6e72265ae578db74"		2026-11-26T02:04:23.9884049Z
+https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json	"e12ddd823f1132985b26b0a44d4461c07b87045a995119e7464b9e36be5465f9"		2026-11-26T07:52:28.0109809Z
 https://raw.githubusercontent.com/cloudesh/kupopop/main/plugin/releases/repo.json	"d231fd4e84adb94ff73c49eb4e21842509b16546fd517970dcb519625e1c09cc"		2026-11-26T06:08:22.7735696Z
