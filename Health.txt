@@ -1,0 +1,1 @@
+https://github.com/TheRedheadedWitch/FFXIVRepository/raw/main/repo.json	2026-11-27T08:40:24.3382629Z	HTTP 504 Gateway Time-out
