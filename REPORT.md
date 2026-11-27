@@ -7,9 +7,9 @@
 - **Quarantined**: 2 🚫
 - **Restored This Run**: 0 ♻️
 
-- **Total Plugins Fetched**: 312
+- **Total Plugins Fetched**: 313
 - **Unique Plugins**: 222
-- **Duplicates Removed**: 90
+- **Duplicates Removed**: 91
 
 - **Errors**: 0
 - **Warnings**: 6
@@ -162,7 +162,7 @@
 
 ✅ **https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/all-repo.json**  
    - Status: success  
-   - Plugins: 170  
+   - Plugins: 171  
 
 ✅ **https://raw.githubusercontent.com/cloudesh/kupopop/main/plugin/releases/repo.json**  
    - Status: success  
@@ -180,8 +180,8 @@
 
 ## Warnings (6)
 
-- Questionable is provided by different authors: the Puni.sh Quest Squad, Liza Carvelli
 - Marketbuddy is provided by different authors: Chalkos, NightmareXIV, Chalkos
+- Questionable is provided by different authors: the Puni.sh Quest Squad, Liza Carvelli
 - ARControl is provided by different authors: Liza Carvelli, zbee, Liza Carvelli
 - Squadronista is provided by different authors: Liza Carvelli, vera.lyn
 - Gearsetter is provided by different authors: Liza Carvelli, vera.lyn
